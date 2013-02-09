@@ -1,0 +1,139 @@
+#	$Id: Makefile.in,v 1.32 2010/04/11 15:01:04 ragge Exp $
+#
+# Makefile.in for ccom
+#
+
+srcdir=.
+top_srcdir=../..
+builddir=.
+top_builddir=../..
+XFL=-DPCC_DEBUG
+CC = gcc
+EXEEXT = 
+CC_FOR_BUILD = gcc
+_CFLAGS = -g -O2
+CFLAGS = $(_CFLAGS)  -Wall -Wmissing-prototypes -Wstrict-prototypes -Wshadow -Wsign-compare
+CPPFLAGS =  -DGCC_COMPAT ${XFL} -Dos_${TARGOS} -Dmach_${TARGMACH} \
+	-D_ISOC99_SOURCE \
+	-I${srcdir} -I${builddir} -I${top_builddir} -I${MIPDIR} -I${MDIR} \
+	-I${top_srcdir}/os/${TARGOS} 
+LIBS = 
+LDFLAGS = 
+LEX = flex
+YACC = bison -y
+TARGOS = linux
+TARGMACH = i386
+prefix = /usr/local
+exec_prefix = ${prefix}
+libexecdir = ${exec_prefix}/libexec
+datarootdir = ${prefix}/share
+mandir = ${datarootdir}/man
+strip = yes
+INSTALL = /usr/bin/install -c
+INSTALL_PROGRAM = ${INSTALL}
+
+MDIR=$(top_srcdir)/arch/$(TARGMACH)
+MIPDIR=$(top_srcdir)/mip
+
+OBJS1=optim.o pftn.o scan.o trees.o cgram.o inline.o symtabs.o \
+	gcc_compat.o init.o local.o code.o stabs.o builtins.o
+
+OBJS2=match.o reader.o optim2.o regs.o local2.o order.o table.o
+
+OBJS=$(OBJS1) $(OBJS2) compat.o common.o main.o external.o
+
+DEST=ccom$(EXEEXT)
+
+all: ${DEST}
+
+${DEST}: $(OBJS)
+	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) -o $@
+
+.c.o:
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $<
+
+local.o: $(MDIR)/local.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/local.c
+
+local2.o: $(MDIR)/local2.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/local2.c
+
+code.o: $(MDIR)/code.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/code.c
+
+order.o: $(MDIR)/order.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/order.c
+
+table.o: $(MDIR)/table.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/table.c
+
+match.o: $(MIPDIR)/match.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/match.c
+
+reader.o: $(MIPDIR)/reader.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/reader.c
+
+optim2.o: $(MIPDIR)/optim2.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/optim2.c
+
+regs.o: $(MIPDIR)/regs.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/regs.c
+
+cgram.o: cgram.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(_CFLAGS) -c -o $@ cgram.c
+
+scan.o: scan.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(_CFLAGS) -c -o $@ scan.c
+
+common.o: $(MIPDIR)/common.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/common.c
+
+compat.o: $(MIPDIR)/compat.c external.h
+	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/compat.c
+
+external.h external.c: ${MIPDIR}/mkext.c $(MDIR)/table.c
+	$(CC_FOR_BUILD) $(DEFS) $(CPPFLAGS) $(CFLAGS) -DMKEXT -o mkext \
+	${MIPDIR}/mkext.c $(MDIR)/table.c ${MIPDIR}/common.c
+	./mkext
+
+trees.c: ../../mip/pass2.h external.h
+
+inline.c: external.h
+init.c: external.h
+pftn.c: external.h
+gcc_compat.c: external.h
+symtabs.c: external.h
+stabs.c: external.h
+main.c: external.h
+
+pass1.h: external.h
+pass2.h: external.h
+
+cgram.c: cgram.y
+	$(YACC) $(YFLAGS) -d $<
+	mv y.tab.c cgram.c
+	mv y.tab.h cgram.h
+
+scan.c: scan.l cgram.c
+	$(LEX) $(LFLAGS) $<
+	mv lex.yy.c scan.c
+
+optim2.o reader.o optim.o : external.h
+
+pftn.o: cgram.c # creates cgram.h also
+
+install:
+	test -z "${DESTDIR}$(libexecdir)" || mkdir -p "${DESTDIR}$(libexecdir)"
+	${INSTALL_PROGRAM} ${DEST} ${DESTDIR}${libexecdir}
+	@if [ ${strip} = yes ]; then			\
+		strip ${DESTDIR}${libexecdir}/${DEST} ;		\
+		echo strip ${DESTDIR}${libexecdir}/${DEST} ;	\
+	fi
+	test -z "${DESTDIR}$(mandir)/man1" || mkdir -p "${DESTDIR}$(mandir)/man1"       
+	${INSTALL} $(srcdir)/ccom.1 ${DESTDIR}${mandir}/man1/$(DEST).1
+
+clean:
+	/bin/rm -f $(OBJS) $(DEST) scan.c cgram.[ch] mkext external.[ch]
+
+distclean: clean
+	/bin/rm -f Makefile

@@ -1,0 +1,2159 @@
+# DO NOT DELETE
+
+alloc.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+alloc.o: ../../../lib/c/include/libarch/types.h
+alloc.o: ../../../lib/c/include/libarch/common.h
+alloc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+alloc.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+alloc.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+alloc.o: ../../../lib/c/include/abi/klog.h /usr/include/limits.h
+alloc.o: /usr/include/features.h /usr/include/bits/predefs.h
+alloc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+alloc.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+alloc.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+alloc.o: /usr/include/bits/posix2_lim.h ../../../lib/c/include/setjmp.h
+alloc.o: ../../../lib/c/include/libarch/fibril.h /usr/include/signal.h
+alloc.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+alloc.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+alloc.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+alloc.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+alloc.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+alloc.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h lisp.h
+alloc.o: ../../../lib/c/include/inttypes.h
+alloc.o: ../../../lib/c/include/libarch/inttypes.h process.h
+alloc.o: ../../../lib/c/include/unistd.h
+alloc.o: ../../../lib/c/include/libarch/config.h intervals.h dispextern.h
+alloc.o: composite.h puresize.h buffer.h window.h keyboard.h systime.h
+alloc.o: coding.h frame.h blockinput.h atimer.h character.h syssignal.h
+alloc.o: termhooks.h ../../../lib/c/include/fcntl.h
+doprnt.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+doprnt.o: ../../../lib/c/include/libarch/types.h
+doprnt.o: ../../../lib/c/include/libarch/common.h
+doprnt.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+doprnt.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+doprnt.o: ../../../lib/c/include/abi/bool.h
+doprnt.o: ../../../lib/c/include/io/verify.h
+doprnt.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ctype.h
+doprnt.o: ../../../lib/c/include/setjmp.h
+doprnt.o: ../../../lib/c/include/libarch/fibril.h
+doprnt.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+doprnt.o: ../../../lib/c/include/sys/time.h
+doprnt.o: ../../../lib/c/include/libarch/config.h /usr/include/limits.h
+doprnt.o: /usr/include/features.h /usr/include/bits/predefs.h
+doprnt.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+doprnt.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+doprnt.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+doprnt.o: /usr/include/bits/posix2_lim.h lisp.h
+doprnt.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+doprnt.o: ../../../lib/c/include/libarch/inttypes.h character.h
+intervals.o: ../../../lib/c/include/setjmp.h
+intervals.o: ../../../lib/c/include/libarch/fibril.h
+intervals.o: ../../../lib/c/include/sys/types.h
+intervals.o: ../../../lib/c/include/libarch/types.h
+intervals.o: ../../../lib/c/include/libarch/common.h lisp.h
+intervals.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+intervals.o: ../../../lib/c/include/inttypes.h
+intervals.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+intervals.o: /usr/include/features.h /usr/include/bits/predefs.h
+intervals.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+intervals.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+intervals.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+intervals.o: /usr/include/bits/posix2_lim.h intervals.h dispextern.h
+intervals.o: composite.h buffer.h puresize.h keyboard.h systime.h
+intervals.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+intervals.o: coding.h keymap.h
+termcap.o: ../../../lib/c/include/setjmp.h
+termcap.o: ../../../lib/c/include/libarch/fibril.h
+termcap.o: ../../../lib/c/include/sys/types.h
+termcap.o: ../../../lib/c/include/libarch/types.h
+termcap.o: ../../../lib/c/include/libarch/common.h /usr/include/sys/file.h
+termcap.o: /usr/include/features.h /usr/include/bits/predefs.h
+termcap.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+termcap.o: /usr/include/gnu/stubs.h ../../../lib/c/include/fcntl.h
+termcap.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+termcap.o: ../../../lib/c/include/sys/time.h
+termcap.o: ../../../lib/c/include/libarch/config.h lisp.h
+termcap.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+termcap.o: ../../../lib/c/include/inttypes.h
+termcap.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+termcap.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+termcap.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+termcap.o: tparam.h
+w32proc.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+w32proc.o: ../../../lib/c/include/libarch/types.h
+w32proc.o: ../../../lib/c/include/libarch/common.h
+w32proc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+w32proc.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+w32proc.o: ../../../lib/c/include/abi/bool.h
+w32proc.o: ../../../lib/c/include/io/verify.h
+w32proc.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/stdlib.h
+w32proc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+w32proc.o: ../../../lib/c/include/sys/time.h
+w32proc.o: ../../../lib/c/include/libarch/config.h
+w32proc.o: ../../../lib/c/include/malloc.h
+w32proc.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/errno.h
+w32proc.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/fcntl.h
+w32proc.o: /usr/include/signal.h /usr/include/features.h
+w32proc.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32proc.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32proc.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+w32proc.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+w32proc.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+w32proc.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+w32proc.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+w32proc.o: /usr/include/sys/file.h ../../../lib/c/include/setjmp.h
+w32proc.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32proc.o: ../../../lib/c/include/inttypes.h
+w32proc.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32proc.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32proc.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h w32.h
+w32proc.o: w32heap.h systime.h syswait.h process.h syssignal.h w32term.h
+w32proc.o: w32gui.h dispextern.h coding.h composite.h
+atimer.o: /usr/include/signal.h /usr/include/features.h
+atimer.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+atimer.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+atimer.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+atimer.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+atimer.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+atimer.o: ../../../lib/c/include/sys/types.h
+atimer.o: ../../../lib/c/include/libarch/types.h
+atimer.o: ../../../lib/c/include/libarch/common.h /usr/include/bits/siginfo.h
+atimer.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+atimer.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+atimer.o: /usr/include/sys/ucontext.h ../../../lib/c/include/stdio.h
+atimer.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+atimer.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+atimer.o: ../../../lib/c/include/abi/bool.h
+atimer.o: ../../../lib/c/include/io/verify.h
+atimer.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+atimer.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+atimer.o: ../../../lib/c/include/inttypes.h
+atimer.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+atimer.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+atimer.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+atimer.o: syssignal.h systime.h blockinput.h atimer.h
+atimer.o: ../../../lib/c/include/unistd.h
+atimer.o: ../../../lib/c/include/libarch/config.h
+keyboard.o: /usr/include/signal.h /usr/include/features.h
+keyboard.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+keyboard.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+keyboard.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+keyboard.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+keyboard.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+keyboard.o: ../../../lib/c/include/sys/types.h
+keyboard.o: ../../../lib/c/include/libarch/types.h
+keyboard.o: ../../../lib/c/include/libarch/common.h
+keyboard.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+keyboard.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+keyboard.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+keyboard.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+keyboard.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+keyboard.o: ../../../lib/c/include/stdbool.h
+keyboard.o: ../../../lib/c/include/abi/bool.h
+keyboard.o: ../../../lib/c/include/io/verify.h
+keyboard.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+keyboard.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+keyboard.o: ../../../lib/c/include/inttypes.h
+keyboard.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+keyboard.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+keyboard.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+keyboard.o: termchar.h termopts.h frame.h dispextern.h termhooks.h systime.h
+keyboard.o: macros.h keyboard.h coding.h composite.h window.h commands.h
+keyboard.o: buffer.h character.h disptab.h syntax.h intervals.h keymap.h
+keyboard.o: blockinput.h atimer.h puresize.h process.h
+keyboard.o: ../../../lib/c/include/unistd.h
+keyboard.o: ../../../lib/c/include/libarch/config.h
+keyboard.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+keyboard.o: /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h
+keyboard.o: /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h
+keyboard.o: /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h
+keyboard.o: /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h
+keyboard.o: /usr/include/sys/ttydefaults.h syssignal.h
+keyboard.o: ../../../lib/c/include/fcntl.h
+terminal.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+terminal.o: ../../../lib/c/include/libarch/types.h
+terminal.o: ../../../lib/c/include/libarch/common.h
+terminal.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+terminal.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+terminal.o: ../../../lib/c/include/abi/bool.h
+terminal.o: ../../../lib/c/include/io/verify.h
+terminal.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+terminal.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+terminal.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+terminal.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+terminal.o: /usr/include/features.h /usr/include/bits/predefs.h
+terminal.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+terminal.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+terminal.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+terminal.o: /usr/include/bits/posix2_lim.h frame.h dispextern.h termchar.h
+terminal.o: termhooks.h systime.h ../../../lib/c/include/time.h
+terminal.o: ../../../lib/c/include/sys/time.h charset.h coding.h composite.h
+terminal.o: keyboard.h
+w32reg.o: ../../../lib/c/include/setjmp.h
+w32reg.o: ../../../lib/c/include/libarch/fibril.h
+w32reg.o: ../../../lib/c/include/sys/types.h
+w32reg.o: ../../../lib/c/include/libarch/types.h
+w32reg.o: ../../../lib/c/include/libarch/common.h lisp.h
+w32reg.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+w32reg.o: ../../../lib/c/include/inttypes.h
+w32reg.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32reg.o: /usr/include/features.h /usr/include/bits/predefs.h
+w32reg.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+w32reg.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+w32reg.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+w32reg.o: /usr/include/bits/posix2_lim.h w32term.h w32gui.h systime.h
+w32reg.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32reg.o: blockinput.h atimer.h ../../../lib/c/include/stdio.h
+w32reg.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+w32reg.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+w32reg.o: ../../../lib/c/include/io/verify.h
+w32reg.o: ../../../lib/c/include/abi/klog.h
+bidi.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+bidi.o: ../../../lib/c/include/libarch/types.h
+bidi.o: ../../../lib/c/include/libarch/common.h
+bidi.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+bidi.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+bidi.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+bidi.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+bidi.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+bidi.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+bidi.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+bidi.o: /usr/include/features.h /usr/include/bits/predefs.h
+bidi.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+bidi.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+bidi.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+bidi.o: /usr/include/bits/posix2_lim.h buffer.h character.h dispextern.h
+editfns.o: ../../../lib/c/include/sys/types.h
+editfns.o: ../../../lib/c/include/libarch/types.h
+editfns.o: ../../../lib/c/include/libarch/common.h
+editfns.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+editfns.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+editfns.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+editfns.o: ../../../lib/c/include/io/verify.h
+editfns.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+editfns.o: ../../../lib/c/include/libarch/fibril.h
+editfns.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+editfns.o: ../../../lib/c/include/sys/time.h
+editfns.o: ../../../lib/c/include/libarch/config.h lisp.h
+editfns.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+editfns.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+editfns.o: /usr/include/features.h /usr/include/bits/predefs.h
+editfns.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+editfns.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+editfns.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+editfns.o: /usr/include/bits/posix2_lim.h systime.h
+editfns.o: ../../../lib/c/include/ctype.h intervals.h dispextern.h
+editfns.o: composite.h buffer.h character.h coding.h frame.h window.h
+editfns.o: blockinput.h atimer.h
+keymap.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+keymap.o: ../../../lib/c/include/libarch/types.h
+keymap.o: ../../../lib/c/include/libarch/common.h
+keymap.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+keymap.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+keymap.o: ../../../lib/c/include/abi/bool.h
+keymap.o: ../../../lib/c/include/io/verify.h
+keymap.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+keymap.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+keymap.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+keymap.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+keymap.o: /usr/include/features.h /usr/include/bits/predefs.h
+keymap.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+keymap.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+keymap.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+keymap.o: /usr/include/bits/posix2_lim.h commands.h buffer.h character.h
+keymap.o: charset.h keyboard.h systime.h ../../../lib/c/include/time.h
+keymap.o: ../../../lib/c/include/sys/time.h coding.h composite.h frame.h
+keymap.o: dispextern.h termhooks.h blockinput.h atimer.h puresize.h
+keymap.o: intervals.h keymap.h window.h
+terminfo.o: tparam.h ../../../lib/c/include/setjmp.h
+terminfo.o: ../../../lib/c/include/libarch/fibril.h
+terminfo.o: ../../../lib/c/include/sys/types.h
+terminfo.o: ../../../lib/c/include/libarch/types.h
+terminfo.o: ../../../lib/c/include/libarch/common.h lisp.h
+terminfo.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+terminfo.o: ../../../lib/c/include/inttypes.h
+terminfo.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+terminfo.o: /usr/include/features.h /usr/include/bits/predefs.h
+terminfo.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+terminfo.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+terminfo.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+terminfo.o: /usr/include/bits/posix2_lim.h
+w32select.o: ../../../lib/c/include/setjmp.h
+w32select.o: ../../../lib/c/include/libarch/fibril.h
+w32select.o: ../../../lib/c/include/sys/types.h
+w32select.o: ../../../lib/c/include/libarch/types.h
+w32select.o: ../../../lib/c/include/libarch/common.h lisp.h
+w32select.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+w32select.o: ../../../lib/c/include/inttypes.h
+w32select.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32select.o: /usr/include/features.h /usr/include/bits/predefs.h
+w32select.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+w32select.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+w32select.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+w32select.o: /usr/include/bits/posix2_lim.h w32term.h w32gui.h systime.h
+w32select.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32select.o: w32heap.h blockinput.h atimer.h charset.h coding.h composite.h
+buffer.o: ../../../lib/c/include/sys/types.h
+buffer.o: ../../../lib/c/include/libarch/types.h
+buffer.o: ../../../lib/c/include/libarch/common.h
+buffer.o: ../../../lib/c/include/sys/stat.h ../../../lib/c/include/stdbool.h
+buffer.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/ipc/vfs.h
+buffer.o: ../../../lib/c/include/ipc/common.h
+buffer.o: ../../../lib/c/include/abi/ipc/ipc.h
+buffer.o: ../../../lib/c/include/atomic.h
+buffer.o: ../../../lib/c/include/libarch/atomic.h
+buffer.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+buffer.o: ../../../lib/c/include/task.h
+buffer.o: ../../../lib/c/include/abi/proc/task.h
+buffer.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/ipc/loc.h
+buffer.o: /usr/include/sys/param.h /usr/include/limits.h
+buffer.o: /usr/include/features.h /usr/include/bits/predefs.h
+buffer.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+buffer.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+buffer.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+buffer.o: /usr/include/bits/posix2_lim.h /usr/include/linux/param.h
+buffer.o: /usr/include/asm/param.h /usr/include/asm-generic/param.h
+buffer.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+buffer.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+buffer.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+buffer.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+buffer.o: ../../../lib/c/include/libarch/fibril.h
+buffer.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+buffer.o: ../../../lib/c/include/sys/time.h
+buffer.o: ../../../lib/c/include/libarch/config.h lisp.h
+buffer.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+buffer.o: ../../../lib/c/include/libarch/inttypes.h intervals.h dispextern.h
+buffer.o: composite.h window.h commands.h buffer.h character.h region-cache.h
+buffer.o: indent.h blockinput.h atimer.h systime.h keyboard.h coding.h
+buffer.o: keymap.h frame.h
+textprop.o: ../../../lib/c/include/setjmp.h
+textprop.o: ../../../lib/c/include/libarch/fibril.h
+textprop.o: ../../../lib/c/include/sys/types.h
+textprop.o: ../../../lib/c/include/libarch/types.h
+textprop.o: ../../../lib/c/include/libarch/common.h lisp.h
+textprop.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+textprop.o: ../../../lib/c/include/inttypes.h
+textprop.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+textprop.o: /usr/include/features.h /usr/include/bits/predefs.h
+textprop.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+textprop.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+textprop.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+textprop.o: /usr/include/bits/posix2_lim.h intervals.h dispextern.h
+textprop.o: composite.h buffer.h window.h
+w32term.o: /usr/include/signal.h /usr/include/features.h
+w32term.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32term.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32term.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+w32term.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+w32term.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32term.o: ../../../lib/c/include/sys/types.h
+w32term.o: ../../../lib/c/include/libarch/types.h
+w32term.o: ../../../lib/c/include/libarch/common.h
+w32term.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+w32term.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+w32term.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+w32term.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+w32term.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+w32term.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+w32term.o: ../../../lib/c/include/io/verify.h
+w32term.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+w32term.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32term.o: ../../../lib/c/include/inttypes.h
+w32term.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32term.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32term.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32term.o: blockinput.h atimer.h systime.h w32term.h w32gui.h systty.h
+w32term.o: /usr/include/termio.h /usr/include/termios.h
+w32term.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+w32term.o: /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h
+w32term.o: /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h
+w32term.o: /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h
+w32term.o: /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h
+w32term.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/unistd.h
+w32term.o: ../../../lib/c/include/libarch/config.h
+w32term.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/errno.h
+w32term.o: ../../../lib/c/include/abi/errno.h
+w32term.o: ../../../lib/c/include/sys/stat.h ../../../lib/c/include/ipc/vfs.h
+w32term.o: ../../../lib/c/include/ipc/common.h
+w32term.o: ../../../lib/c/include/abi/ipc/ipc.h
+w32term.o: ../../../lib/c/include/atomic.h
+w32term.o: ../../../lib/c/include/libarch/atomic.h
+w32term.o: ../../../lib/c/include/atomicdflt.h
+w32term.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+w32term.o: ../../../lib/c/include/abi/proc/task.h
+w32term.o: ../../../lib/c/include/ipc/loc.h charset.h character.h coding.h
+w32term.o: composite.h ccl.h frame.h dispextern.h fontset.h termhooks.h
+w32term.o: termopts.h termchar.h disptab.h buffer.h window.h keyboard.h
+w32term.o: intervals.h process.h keymap.h w32heap.h font.h w32font.h
+bytecode.o: ../../../lib/c/include/setjmp.h
+bytecode.o: ../../../lib/c/include/libarch/fibril.h
+bytecode.o: ../../../lib/c/include/sys/types.h
+bytecode.o: ../../../lib/c/include/libarch/types.h
+bytecode.o: ../../../lib/c/include/libarch/common.h lisp.h
+bytecode.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+bytecode.o: ../../../lib/c/include/inttypes.h
+bytecode.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+bytecode.o: /usr/include/features.h /usr/include/bits/predefs.h
+bytecode.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+bytecode.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+bytecode.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+bytecode.o: /usr/include/bits/posix2_lim.h buffer.h character.h syntax.h
+bytecode.o: window.h dispextern.h
+emacsgtkfixed.o: emacsgtkfixed.h /usr/include/signal.h
+emacsgtkfixed.o: /usr/include/features.h /usr/include/bits/predefs.h
+emacsgtkfixed.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+emacsgtkfixed.o: /usr/include/gnu/stubs.h /usr/include/bits/sigset.h
+emacsgtkfixed.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+emacsgtkfixed.o: /usr/include/bits/signum.h ../../../lib/c/include/time.h
+emacsgtkfixed.o: ../../../lib/c/include/sys/time.h
+emacsgtkfixed.o: ../../../lib/c/include/sys/types.h
+emacsgtkfixed.o: ../../../lib/c/include/libarch/types.h
+emacsgtkfixed.o: ../../../lib/c/include/libarch/common.h
+emacsgtkfixed.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+emacsgtkfixed.o: /usr/include/bits/sigcontext.h
+emacsgtkfixed.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+emacsgtkfixed.o: /usr/include/sys/ucontext.h ../../../lib/c/include/stdio.h
+emacsgtkfixed.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+emacsgtkfixed.o: ../../../lib/c/include/mem.h
+emacsgtkfixed.o: ../../../lib/c/include/stdbool.h
+emacsgtkfixed.o: ../../../lib/c/include/abi/bool.h
+emacsgtkfixed.o: ../../../lib/c/include/io/verify.h
+emacsgtkfixed.o: ../../../lib/c/include/abi/klog.h
+emacsgtkfixed.o: ../../../lib/c/include/setjmp.h
+emacsgtkfixed.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+emacsgtkfixed.o: ../../../lib/c/include/inttypes.h
+emacsgtkfixed.o: ../../../lib/c/include/libarch/inttypes.h
+emacsgtkfixed.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+emacsgtkfixed.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+emacsgtkfixed.o: /usr/include/bits/posix2_lim.h frame.h dispextern.h xterm.h
+lread.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+lread.o: ../../../lib/c/include/libarch/types.h
+lread.o: ../../../lib/c/include/libarch/common.h
+lread.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+lread.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+lread.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+lread.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/sys/stat.h
+lread.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/c/include/ipc/common.h
+lread.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+lread.o: ../../../lib/c/include/libarch/atomic.h
+lread.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+lread.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+lread.o: ../../../lib/c/include/ipc/loc.h /usr/include/sys/file.h
+lread.o: /usr/include/features.h /usr/include/bits/predefs.h
+lread.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+lread.o: /usr/include/gnu/stubs.h ../../../lib/c/include/fcntl.h
+lread.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+lread.o: /usr/include/limits.h /usr/include/bits/posix1_lim.h
+lread.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+lread.o: /usr/include/bits/posix2_lim.h ../../../lib/c/include/setjmp.h
+lread.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+lread.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+lread.o: ../../../lib/c/include/libarch/inttypes.h intervals.h dispextern.h
+lread.o: composite.h buffer.h character.h charset.h coding.h commands.h
+lread.o: keyboard.h systime.h ../../../lib/c/include/time.h
+lread.o: ../../../lib/c/include/sys/time.h frame.h termhooks.h blockinput.h
+lread.o: atimer.h ../../../lib/c/include/unistd.h
+lread.o: ../../../lib/c/include/libarch/config.h /usr/include/math.h
+lread.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+lread.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+lread.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+lread.o: /usr/include/bits/mathcalls.h
+tparam.o: ../../../lib/c/include/setjmp.h
+tparam.o: ../../../lib/c/include/libarch/fibril.h
+tparam.o: ../../../lib/c/include/sys/types.h
+tparam.o: ../../../lib/c/include/libarch/types.h
+tparam.o: ../../../lib/c/include/libarch/common.h lisp.h
+tparam.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+tparam.o: ../../../lib/c/include/inttypes.h
+tparam.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+tparam.o: /usr/include/features.h /usr/include/bits/predefs.h
+tparam.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+tparam.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+tparam.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+tparam.o: /usr/include/bits/posix2_lim.h tparam.h
+w32uniscribe.o: ../../../lib/c/include/setjmp.h
+w32uniscribe.o: ../../../lib/c/include/libarch/fibril.h
+w32uniscribe.o: ../../../lib/c/include/sys/types.h
+w32uniscribe.o: ../../../lib/c/include/libarch/types.h
+w32uniscribe.o: ../../../lib/c/include/libarch/common.h lisp.h
+w32uniscribe.o: ../../../lib/c/include/stdarg.h
+w32uniscribe.o: ../../../lib/c/include/stddef.h
+w32uniscribe.o: ../../../lib/c/include/inttypes.h
+w32uniscribe.o: ../../../lib/c/include/libarch/inttypes.h
+w32uniscribe.o: /usr/include/limits.h /usr/include/features.h
+w32uniscribe.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32uniscribe.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32uniscribe.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32uniscribe.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32uniscribe.o: w32term.h w32gui.h systime.h ../../../lib/c/include/time.h
+w32uniscribe.o: ../../../lib/c/include/sys/time.h frame.h dispextern.h
+w32uniscribe.o: character.h charset.h composite.h fontset.h font.h ccl.h
+w32uniscribe.o: w32font.h
+callint.o: ../../../lib/c/include/setjmp.h
+callint.o: ../../../lib/c/include/libarch/fibril.h
+callint.o: ../../../lib/c/include/sys/types.h
+callint.o: ../../../lib/c/include/libarch/types.h
+callint.o: ../../../lib/c/include/libarch/common.h lisp.h
+callint.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+callint.o: ../../../lib/c/include/inttypes.h
+callint.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+callint.o: /usr/include/features.h /usr/include/bits/predefs.h
+callint.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+callint.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+callint.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+callint.o: /usr/include/bits/posix2_lim.h buffer.h commands.h keyboard.h
+callint.o: systime.h ../../../lib/c/include/time.h
+callint.o: ../../../lib/c/include/sys/time.h coding.h composite.h window.h
+callint.o: dispextern.h keymap.h character.h
+eval.o: /usr/include/limits.h /usr/include/features.h
+eval.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+eval.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+eval.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+eval.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+eval.o: ../../../lib/c/include/setjmp.h
+eval.o: ../../../lib/c/include/libarch/fibril.h
+eval.o: ../../../lib/c/include/sys/types.h
+eval.o: ../../../lib/c/include/libarch/types.h
+eval.o: ../../../lib/c/include/libarch/common.h
+eval.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+eval.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+eval.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+eval.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+eval.o: lisp.h ../../../lib/c/include/stddef.h
+eval.o: ../../../lib/c/include/inttypes.h
+eval.o: ../../../lib/c/include/libarch/inttypes.h blockinput.h atimer.h
+eval.o: systime.h ../../../lib/c/include/time.h
+eval.o: ../../../lib/c/include/sys/time.h commands.h keyboard.h coding.h
+eval.o: composite.h dispextern.h frame.h
+macros.o: ../../../lib/c/include/setjmp.h
+macros.o: ../../../lib/c/include/libarch/fibril.h
+macros.o: ../../../lib/c/include/sys/types.h
+macros.o: ../../../lib/c/include/libarch/types.h
+macros.o: ../../../lib/c/include/libarch/common.h lisp.h
+macros.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+macros.o: ../../../lib/c/include/inttypes.h
+macros.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+macros.o: /usr/include/features.h /usr/include/bits/predefs.h
+macros.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+macros.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+macros.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+macros.o: /usr/include/bits/posix2_lim.h macros.h commands.h buffer.h
+macros.o: window.h dispextern.h keyboard.h systime.h
+macros.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+macros.o: coding.h composite.h
+undo.o: ../../../lib/c/include/setjmp.h
+undo.o: ../../../lib/c/include/libarch/fibril.h
+undo.o: ../../../lib/c/include/sys/types.h
+undo.o: ../../../lib/c/include/libarch/types.h
+undo.o: ../../../lib/c/include/libarch/common.h lisp.h
+undo.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+undo.o: ../../../lib/c/include/inttypes.h
+undo.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+undo.o: /usr/include/features.h /usr/include/bits/predefs.h
+undo.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+undo.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+undo.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+undo.o: /usr/include/bits/posix2_lim.h buffer.h commands.h window.h
+undo.o: dispextern.h
+w32xfns.o: /usr/include/signal.h /usr/include/features.h
+w32xfns.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32xfns.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32xfns.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+w32xfns.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+w32xfns.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32xfns.o: ../../../lib/c/include/sys/types.h
+w32xfns.o: ../../../lib/c/include/libarch/types.h
+w32xfns.o: ../../../lib/c/include/libarch/common.h
+w32xfns.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+w32xfns.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+w32xfns.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+w32xfns.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+w32xfns.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+w32xfns.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+w32xfns.o: ../../../lib/c/include/io/verify.h
+w32xfns.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+w32xfns.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32xfns.o: ../../../lib/c/include/inttypes.h
+w32xfns.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32xfns.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32xfns.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32xfns.o: keyboard.h systime.h coding.h composite.h frame.h dispextern.h
+w32xfns.o: charset.h fontset.h blockinput.h atimer.h w32term.h w32gui.h
+callproc.o: /usr/include/signal.h /usr/include/features.h
+callproc.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+callproc.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+callproc.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+callproc.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+callproc.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+callproc.o: ../../../lib/c/include/sys/types.h
+callproc.o: ../../../lib/c/include/libarch/types.h
+callproc.o: ../../../lib/c/include/libarch/common.h
+callproc.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+callproc.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+callproc.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+callproc.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+callproc.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+callproc.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+callproc.o: ../../../lib/c/include/stdbool.h
+callproc.o: ../../../lib/c/include/abi/bool.h
+callproc.o: ../../../lib/c/include/io/verify.h
+callproc.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+callproc.o: ../../../lib/c/include/libarch/fibril.h
+callproc.o: ../../../lib/c/include/unistd.h
+callproc.o: ../../../lib/c/include/libarch/config.h /usr/include/sys/file.h
+callproc.o: ../../../lib/c/include/fcntl.h lisp.h
+callproc.o: ../../../lib/c/include/inttypes.h
+callproc.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+callproc.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+callproc.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+callproc.o: commands.h buffer.h character.h ccl.h coding.h composite.h
+callproc.o: process.h syssignal.h systty.h /usr/include/termio.h
+callproc.o: /usr/include/termios.h /usr/include/bits/termios.h
+callproc.o: /usr/include/sys/ttydefaults.h /usr/include/sys/ioctl.h
+callproc.o: /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h
+callproc.o: /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h
+callproc.o: /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h
+callproc.o: /usr/include/bits/ioctl-types.h blockinput.h atimer.h systime.h
+callproc.o: frame.h dispextern.h termhooks.h
+fileio.o: /usr/include/limits.h /usr/include/features.h
+fileio.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+fileio.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+fileio.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+fileio.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+fileio.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/stdio.h
+fileio.o: ../../../lib/c/include/sys/types.h
+fileio.o: ../../../lib/c/include/libarch/types.h
+fileio.o: ../../../lib/c/include/libarch/common.h
+fileio.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+fileio.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+fileio.o: ../../../lib/c/include/abi/bool.h
+fileio.o: ../../../lib/c/include/io/verify.h
+fileio.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/sys/stat.h
+fileio.o: ../../../lib/c/include/ipc/vfs.h
+fileio.o: ../../../lib/c/include/ipc/common.h
+fileio.o: ../../../lib/c/include/abi/ipc/ipc.h
+fileio.o: ../../../lib/c/include/atomic.h
+fileio.o: ../../../lib/c/include/libarch/atomic.h
+fileio.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+fileio.o: ../../../lib/c/include/task.h
+fileio.o: ../../../lib/c/include/abi/proc/task.h
+fileio.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/setjmp.h
+fileio.o: ../../../lib/c/include/libarch/fibril.h
+fileio.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+fileio.o: ../../../lib/c/include/sys/time.h
+fileio.o: ../../../lib/c/include/libarch/config.h
+fileio.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/errno.h
+fileio.o: ../../../lib/c/include/abi/errno.h lisp.h
+fileio.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+fileio.o: ../../../lib/c/include/libarch/inttypes.h intervals.h dispextern.h
+fileio.o: composite.h buffer.h character.h coding.h window.h blockinput.h
+fileio.o: atimer.h systime.h frame.h commands.h
+marker.o: ../../../lib/c/include/setjmp.h
+marker.o: ../../../lib/c/include/libarch/fibril.h
+marker.o: ../../../lib/c/include/sys/types.h
+marker.o: ../../../lib/c/include/libarch/types.h
+marker.o: ../../../lib/c/include/libarch/common.h lisp.h
+marker.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+marker.o: ../../../lib/c/include/inttypes.h
+marker.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+marker.o: /usr/include/features.h /usr/include/bits/predefs.h
+marker.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+marker.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+marker.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+marker.o: /usr/include/bits/posix2_lim.h buffer.h character.h
+unexaix.o: unexec.h /usr/include/a.out.h /usr/include/bits/a.out.h
+unexaix.o: /usr/include/bits/wordsize.h getpagesize.h
+unexaix.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+unexaix.o: ../../../lib/c/include/libarch/types.h
+unexaix.o: ../../../lib/c/include/libarch/common.h
+unexaix.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+unexaix.o: ../../../lib/c/include/libarch/config.h
+unexaix.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+unexaix.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+unexaix.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+unexaix.o: ../../../lib/c/include/io/verify.h
+unexaix.o: ../../../lib/c/include/abi/klog.h
+unexaix.o: ../../../lib/c/include/sys/stat.h ../../../lib/c/include/ipc/vfs.h
+unexaix.o: ../../../lib/c/include/ipc/common.h
+unexaix.o: ../../../lib/c/include/abi/ipc/ipc.h
+unexaix.o: ../../../lib/c/include/atomic.h
+unexaix.o: ../../../lib/c/include/libarch/atomic.h
+unexaix.o: ../../../lib/c/include/atomicdflt.h
+unexaix.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+unexaix.o: ../../../lib/c/include/abi/proc/task.h
+unexaix.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/errno.h
+unexaix.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/fcntl.h
+unexaix.o: ../../../lib/c/include/setjmp.h
+unexaix.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+unexaix.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+unexaix.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+unexaix.o: /usr/include/features.h /usr/include/bits/predefs.h
+unexaix.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+unexaix.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+unexaix.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+widget.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+widget.o: ../../../lib/c/include/libarch/types.h
+widget.o: ../../../lib/c/include/libarch/common.h
+widget.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+widget.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+widget.o: ../../../lib/c/include/abi/bool.h
+widget.o: ../../../lib/c/include/io/verify.h
+widget.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+widget.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+widget.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+widget.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+widget.o: /usr/include/features.h /usr/include/bits/predefs.h
+widget.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+widget.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+widget.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+widget.o: /usr/include/bits/posix2_lim.h xterm.h keyboard.h systime.h
+widget.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+widget.o: coding.h composite.h frame.h dispextern.h window.h blockinput.h
+widget.o: atimer.h widgetprv.h widget.h ../lwlib/lwlib.h
+widget.o: /usr/include/signal.h /usr/include/bits/sigset.h
+widget.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+widget.o: /usr/include/bits/signum.h /usr/include/bits/siginfo.h
+widget.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+widget.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+widget.o: syssignal.h character.h font.h ccl.h
+casefiddle.o: ../../../lib/c/include/setjmp.h
+casefiddle.o: ../../../lib/c/include/libarch/fibril.h
+casefiddle.o: ../../../lib/c/include/sys/types.h
+casefiddle.o: ../../../lib/c/include/libarch/types.h
+casefiddle.o: ../../../lib/c/include/libarch/common.h lisp.h
+casefiddle.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+casefiddle.o: ../../../lib/c/include/inttypes.h
+casefiddle.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+casefiddle.o: /usr/include/features.h /usr/include/bits/predefs.h
+casefiddle.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+casefiddle.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+casefiddle.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+casefiddle.o: /usr/include/bits/posix2_lim.h buffer.h character.h commands.h
+casefiddle.o: syntax.h composite.h keymap.h
+filelock.o: ../../../lib/c/include/sys/types.h
+filelock.o: ../../../lib/c/include/libarch/types.h
+filelock.o: ../../../lib/c/include/libarch/common.h
+filelock.o: ../../../lib/c/include/sys/stat.h
+filelock.o: ../../../lib/c/include/stdbool.h
+filelock.o: ../../../lib/c/include/abi/bool.h
+filelock.o: ../../../lib/c/include/ipc/vfs.h
+filelock.o: ../../../lib/c/include/ipc/common.h
+filelock.o: ../../../lib/c/include/abi/ipc/ipc.h
+filelock.o: ../../../lib/c/include/atomic.h
+filelock.o: ../../../lib/c/include/libarch/atomic.h
+filelock.o: ../../../lib/c/include/atomicdflt.h
+filelock.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+filelock.o: ../../../lib/c/include/abi/proc/task.h
+filelock.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/ipc/loc.h
+filelock.o: /usr/include/signal.h /usr/include/features.h
+filelock.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+filelock.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+filelock.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+filelock.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+filelock.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+filelock.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+filelock.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+filelock.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+filelock.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+filelock.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+filelock.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+filelock.o: ../../../lib/c/include/libarch/fibril.h /usr/include/sys/file.h
+filelock.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/unistd.h
+filelock.o: ../../../lib/c/include/libarch/config.h
+filelock.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+filelock.o: lisp.h ../../../lib/c/include/inttypes.h
+filelock.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+filelock.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+filelock.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+filelock.o: buffer.h character.h coding.h composite.h systime.h
+menu.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+menu.o: ../../../lib/c/include/libarch/types.h
+menu.o: ../../../lib/c/include/libarch/common.h
+menu.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+menu.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+menu.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+menu.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+menu.o: ../../../lib/c/include/libarch/fibril.h /usr/include/limits.h
+menu.o: /usr/include/features.h /usr/include/bits/predefs.h
+menu.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+menu.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+menu.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+menu.o: /usr/include/bits/posix2_lim.h lisp.h ../../../lib/c/include/stddef.h
+menu.o: ../../../lib/c/include/inttypes.h
+menu.o: ../../../lib/c/include/libarch/inttypes.h keyboard.h systime.h
+menu.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+menu.o: coding.h composite.h keymap.h frame.h dispextern.h window.h
+menu.o: termhooks.h blockinput.h atimer.h menu.h
+unexcoff.o: unexec.h /usr/include/a.out.h /usr/include/bits/a.out.h
+unexcoff.o: /usr/include/bits/wordsize.h getpagesize.h
+unexcoff.o: ../../../lib/c/include/unistd.h
+unexcoff.o: ../../../lib/c/include/sys/types.h
+unexcoff.o: ../../../lib/c/include/libarch/types.h
+unexcoff.o: ../../../lib/c/include/libarch/common.h
+unexcoff.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+unexcoff.o: ../../../lib/c/include/libarch/config.h
+unexcoff.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+unexcoff.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+unexcoff.o: ../../../lib/c/include/stdbool.h
+unexcoff.o: ../../../lib/c/include/abi/bool.h
+unexcoff.o: ../../../lib/c/include/io/verify.h
+unexcoff.o: ../../../lib/c/include/abi/klog.h
+unexcoff.o: ../../../lib/c/include/sys/stat.h
+unexcoff.o: ../../../lib/c/include/ipc/vfs.h
+unexcoff.o: ../../../lib/c/include/ipc/common.h
+unexcoff.o: ../../../lib/c/include/abi/ipc/ipc.h
+unexcoff.o: ../../../lib/c/include/atomic.h
+unexcoff.o: ../../../lib/c/include/libarch/atomic.h
+unexcoff.o: ../../../lib/c/include/atomicdflt.h
+unexcoff.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+unexcoff.o: ../../../lib/c/include/abi/proc/task.h
+unexcoff.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/errno.h
+unexcoff.o: ../../../lib/c/include/abi/errno.h /usr/include/sys/file.h
+unexcoff.o: /usr/include/features.h /usr/include/bits/predefs.h
+unexcoff.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
+unexcoff.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/setjmp.h
+unexcoff.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+unexcoff.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+unexcoff.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+unexcoff.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+unexcoff.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+window.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+window.o: ../../../lib/c/include/libarch/types.h
+window.o: ../../../lib/c/include/libarch/common.h
+window.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+window.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+window.o: ../../../lib/c/include/abi/bool.h
+window.o: ../../../lib/c/include/io/verify.h
+window.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+window.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+window.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+window.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+window.o: /usr/include/features.h /usr/include/bits/predefs.h
+window.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+window.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+window.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+window.o: /usr/include/bits/posix2_lim.h buffer.h keyboard.h systime.h
+window.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+window.o: coding.h composite.h keymap.h frame.h dispextern.h window.h
+window.o: commands.h indent.h termchar.h disptab.h blockinput.h atimer.h
+window.o: intervals.h termhooks.h
+casetab.o: ../../../lib/c/include/setjmp.h
+casetab.o: ../../../lib/c/include/libarch/fibril.h
+casetab.o: ../../../lib/c/include/sys/types.h
+casetab.o: ../../../lib/c/include/libarch/types.h
+casetab.o: ../../../lib/c/include/libarch/common.h lisp.h
+casetab.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+casetab.o: ../../../lib/c/include/inttypes.h
+casetab.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+casetab.o: /usr/include/features.h /usr/include/bits/predefs.h
+casetab.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+casetab.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+casetab.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+casetab.o: /usr/include/bits/posix2_lim.h buffer.h character.h
+minibuf.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+minibuf.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+minibuf.o: ../../../lib/c/include/libarch/types.h
+minibuf.o: ../../../lib/c/include/libarch/common.h
+minibuf.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+minibuf.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+minibuf.o: ../../../lib/c/include/abi/bool.h
+minibuf.o: ../../../lib/c/include/io/verify.h
+minibuf.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+minibuf.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+minibuf.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+minibuf.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+minibuf.o: /usr/include/features.h /usr/include/bits/predefs.h
+minibuf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+minibuf.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+minibuf.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+minibuf.o: /usr/include/bits/posix2_lim.h commands.h buffer.h dispextern.h
+minibuf.o: keyboard.h systime.h ../../../lib/c/include/time.h
+minibuf.o: ../../../lib/c/include/sys/time.h coding.h composite.h frame.h
+minibuf.o: window.h syntax.h intervals.h keymap.h termhooks.h
+unexcw.o: unexec.h ../../../lib/c/include/setjmp.h
+unexcw.o: ../../../lib/c/include/libarch/fibril.h
+unexcw.o: ../../../lib/c/include/sys/types.h
+unexcw.o: ../../../lib/c/include/libarch/types.h
+unexcw.o: ../../../lib/c/include/libarch/common.h lisp.h
+unexcw.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+unexcw.o: ../../../lib/c/include/inttypes.h
+unexcw.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+unexcw.o: /usr/include/features.h /usr/include/bits/predefs.h
+unexcw.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+unexcw.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+unexcw.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+unexcw.o: /usr/include/bits/posix2_lim.h ../../../lib/c/include/stdio.h
+unexcw.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+unexcw.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+unexcw.o: ../../../lib/c/include/io/verify.h
+unexcw.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/fcntl.h
+unexcw.o: /usr/include/a.out.h /usr/include/bits/a.out.h
+unexcw.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+unexcw.o: ../../../lib/c/include/sys/time.h
+unexcw.o: ../../../lib/c/include/libarch/config.h
+unexcw.o: ../../../lib/c/include/assert.h
+xdisp.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xdisp.o: ../../../lib/c/include/libarch/types.h
+xdisp.o: ../../../lib/c/include/libarch/common.h
+xdisp.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xdisp.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xdisp.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+xdisp.o: ../../../lib/c/include/abi/klog.h /usr/include/limits.h
+xdisp.o: /usr/include/features.h /usr/include/bits/predefs.h
+xdisp.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xdisp.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xdisp.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xdisp.o: /usr/include/bits/posix2_lim.h ../../../lib/c/include/setjmp.h
+xdisp.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+xdisp.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xdisp.o: ../../../lib/c/include/libarch/inttypes.h keyboard.h systime.h
+xdisp.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+xdisp.o: coding.h composite.h frame.h dispextern.h window.h termchar.h
+xdisp.o: buffer.h character.h charset.h indent.h commands.h keymap.h macros.h
+xdisp.o: disptab.h termhooks.h termopts.h intervals.h process.h
+xdisp.o: ../../../lib/c/include/unistd.h
+xdisp.o: ../../../lib/c/include/libarch/config.h region-cache.h font.h ccl.h
+xdisp.o: fontset.h blockinput.h atimer.h
+category.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/setjmp.h
+category.o: ../../../lib/c/include/libarch/fibril.h
+category.o: ../../../lib/c/include/sys/types.h
+category.o: ../../../lib/c/include/libarch/types.h
+category.o: ../../../lib/c/include/libarch/common.h lisp.h
+category.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+category.o: ../../../lib/c/include/inttypes.h
+category.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+category.o: /usr/include/features.h /usr/include/bits/predefs.h
+category.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+category.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+category.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+category.o: /usr/include/bits/posix2_lim.h buffer.h character.h charset.h
+category.o: category.h keymap.h
+floatfns.o: /usr/include/signal.h /usr/include/features.h
+floatfns.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+floatfns.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+floatfns.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+floatfns.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+floatfns.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+floatfns.o: ../../../lib/c/include/sys/types.h
+floatfns.o: ../../../lib/c/include/libarch/types.h
+floatfns.o: ../../../lib/c/include/libarch/common.h
+floatfns.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+floatfns.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+floatfns.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+floatfns.o: ../../../lib/c/include/setjmp.h
+floatfns.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+floatfns.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/inttypes.h
+floatfns.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+floatfns.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+floatfns.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+floatfns.o: syssignal.h /usr/include/math.h /usr/include/bits/huge_val.h
+floatfns.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+floatfns.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+floatfns.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+floatfns.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+unexelf.o: unexec.h ../../../lib/c/include/sys/types.h
+unexelf.o: ../../../lib/c/include/libarch/types.h
+unexelf.o: ../../../lib/c/include/libarch/common.h
+unexelf.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdio.h
+unexelf.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+unexelf.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+unexelf.o: ../../../lib/c/include/abi/bool.h
+unexelf.o: ../../../lib/c/include/io/verify.h
+unexelf.o: ../../../lib/c/include/abi/klog.h
+unexelf.o: ../../../lib/c/include/sys/stat.h ../../../lib/c/include/ipc/vfs.h
+unexelf.o: ../../../lib/c/include/ipc/common.h
+unexelf.o: ../../../lib/c/include/abi/ipc/ipc.h
+unexelf.o: ../../../lib/c/include/atomic.h
+unexelf.o: ../../../lib/c/include/libarch/atomic.h
+unexelf.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+unexelf.o: ../../../lib/c/include/abi/proc/task.h
+unexelf.o: ../../../lib/c/include/ipc/loc.h /usr/include/memory.h
+unexelf.o: /usr/include/features.h /usr/include/bits/predefs.h
+unexelf.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+unexelf.o: /usr/include/gnu/stubs.h /usr/include/string.h
+unexelf.o: ../../../lib/c/include/stddef.h /usr/include/xlocale.h
+unexelf.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+unexelf.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+unexelf.o: ../../../lib/c/include/sys/time.h
+unexelf.o: ../../../lib/c/include/libarch/config.h
+unexelf.o: ../../../lib/c/include/fcntl.h /usr/include/elf.h
+unexelf.o: ../../../lib/c/include/sys/mman.h ../../../lib/c/include/as.h
+unexelf.o: ../../../lib/c/include/abi/mm/as.h /usr/include/link.h
+unexelf.o: ../../../lib/c/include/dlfcn.h /usr/include/bits/elfclass.h
+unexelf.o: /usr/include/bits/link.h
+xfaces.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xfaces.o: ../../../lib/c/include/libarch/types.h
+xfaces.o: ../../../lib/c/include/libarch/common.h
+xfaces.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xfaces.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xfaces.o: ../../../lib/c/include/abi/bool.h
+xfaces.o: ../../../lib/c/include/io/verify.h
+xfaces.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/sys/stat.h
+xfaces.o: ../../../lib/c/include/ipc/vfs.h
+xfaces.o: ../../../lib/c/include/ipc/common.h
+xfaces.o: ../../../lib/c/include/abi/ipc/ipc.h
+xfaces.o: ../../../lib/c/include/atomic.h
+xfaces.o: ../../../lib/c/include/libarch/atomic.h
+xfaces.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+xfaces.o: ../../../lib/c/include/task.h
+xfaces.o: ../../../lib/c/include/abi/proc/task.h
+xfaces.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/setjmp.h
+xfaces.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+xfaces.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xfaces.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xfaces.o: /usr/include/features.h /usr/include/bits/predefs.h
+xfaces.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xfaces.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xfaces.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xfaces.o: /usr/include/bits/posix2_lim.h character.h charset.h keyboard.h
+xfaces.o: systime.h ../../../lib/c/include/time.h
+xfaces.o: ../../../lib/c/include/sys/time.h coding.h composite.h frame.h
+xfaces.o: dispextern.h termhooks.h buffer.h blockinput.h atimer.h window.h
+xfaces.o: intervals.h termchar.h font.h ccl.h ../../../lib/c/include/ctype.h
+ccl.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+ccl.o: ../../../lib/c/include/libarch/types.h
+ccl.o: ../../../lib/c/include/libarch/common.h
+ccl.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+ccl.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+ccl.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+ccl.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+ccl.o: ../../../lib/c/include/libarch/fibril.h /usr/include/limits.h
+ccl.o: /usr/include/features.h /usr/include/bits/predefs.h
+ccl.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ccl.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+ccl.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ccl.o: /usr/include/bits/posix2_lim.h lisp.h ../../../lib/c/include/stddef.h
+ccl.o: ../../../lib/c/include/inttypes.h
+ccl.o: ../../../lib/c/include/libarch/inttypes.h character.h charset.h ccl.h
+ccl.o: coding.h composite.h
+fns.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+fns.o: ../../../lib/c/include/libarch/types.h
+fns.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/time.h
+fns.o: ../../../lib/c/include/sys/time.h
+fns.o: ../../../lib/c/include/libarch/config.h
+fns.o: ../../../lib/c/include/setjmp.h
+fns.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+fns.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+fns.o: ../../../lib/c/include/inttypes.h
+fns.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+fns.o: /usr/include/features.h /usr/include/bits/predefs.h
+fns.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fns.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+fns.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+fns.o: /usr/include/bits/posix2_lim.h commands.h character.h coding.h
+fns.o: composite.h buffer.h keyboard.h systime.h keymap.h intervals.h
+fns.o: dispextern.h frame.h window.h blockinput.h atimer.h
+unexhp9k800.o: unexec.h ../../../lib/c/include/stdio.h
+unexhp9k800.o: ../../../lib/c/include/sys/types.h
+unexhp9k800.o: ../../../lib/c/include/libarch/types.h
+unexhp9k800.o: ../../../lib/c/include/libarch/common.h
+unexhp9k800.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+unexhp9k800.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+unexhp9k800.o: ../../../lib/c/include/abi/bool.h
+unexhp9k800.o: ../../../lib/c/include/io/verify.h
+unexhp9k800.o: ../../../lib/c/include/abi/klog.h
+unexhp9k800.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/errno.h
+unexhp9k800.o: ../../../lib/c/include/abi/errno.h /usr/include/a.out.h
+unexhp9k800.o: /usr/include/bits/a.out.h /usr/include/bits/wordsize.h
+xfns.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xfns.o: ../../../lib/c/include/libarch/types.h
+xfns.o: ../../../lib/c/include/libarch/common.h
+xfns.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xfns.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xfns.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+xfns.o: ../../../lib/c/include/abi/klog.h /usr/include/math.h
+xfns.o: /usr/include/features.h /usr/include/bits/predefs.h
+xfns.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xfns.o: /usr/include/gnu/stubs.h /usr/include/bits/huge_val.h
+xfns.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+xfns.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+xfns.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+xfns.o: ../../../lib/c/include/setjmp.h
+xfns.o: ../../../lib/c/include/libarch/fibril.h
+xfns.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/unistd.h
+xfns.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+xfns.o: ../../../lib/c/include/libarch/config.h lisp.h
+xfns.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xfns.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xfns.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+xfns.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h xterm.h
+xfns.o: frame.h dispextern.h window.h buffer.h intervals.h composite.h
+xfns.o: keyboard.h systime.h coding.h blockinput.h atimer.h character.h
+xfns.o: charset.h fontset.h termhooks.h termchar.h font.h ccl.h
+character.o: ../../../lib/c/include/stdio.h
+character.o: ../../../lib/c/include/sys/types.h
+character.o: ../../../lib/c/include/libarch/types.h
+character.o: ../../../lib/c/include/libarch/common.h
+character.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+character.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+character.o: ../../../lib/c/include/abi/bool.h
+character.o: ../../../lib/c/include/io/verify.h
+character.o: ../../../lib/c/include/abi/klog.h
+font.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+font.o: ../../../lib/c/include/libarch/types.h
+font.o: ../../../lib/c/include/libarch/common.h
+font.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+font.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+font.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+font.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ctype.h
+font.o: ../../../lib/c/include/setjmp.h
+font.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+font.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+font.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+font.o: /usr/include/features.h /usr/include/bits/predefs.h
+font.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+font.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+font.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+font.o: /usr/include/bits/posix2_lim.h buffer.h frame.h dispextern.h window.h
+font.o: charset.h character.h composite.h fontset.h font.h ccl.h
+print.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+print.o: ../../../lib/c/include/libarch/types.h
+print.o: ../../../lib/c/include/libarch/common.h
+print.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+print.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+print.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+print.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+print.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+print.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+print.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+print.o: /usr/include/features.h /usr/include/bits/predefs.h
+print.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+print.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+print.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+print.o: /usr/include/bits/posix2_lim.h buffer.h character.h charset.h
+print.o: keyboard.h systime.h ../../../lib/c/include/time.h
+print.o: ../../../lib/c/include/sys/time.h coding.h composite.h frame.h
+print.o: dispextern.h window.h process.h ../../../lib/c/include/unistd.h
+print.o: ../../../lib/c/include/libarch/config.h termchar.h intervals.h
+print.o: blockinput.h atimer.h termhooks.h font.h ccl.h /usr/include/math.h
+print.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+print.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+print.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+print.o: /usr/include/bits/mathcalls.h
+unexmacosx.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+unexmacosx.o: ../../../lib/c/include/sys/types.h
+unexmacosx.o: ../../../lib/c/include/libarch/types.h
+unexmacosx.o: ../../../lib/c/include/libarch/common.h
+unexmacosx.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+unexmacosx.o: ../../../lib/c/include/libarch/config.h
+unexmacosx.o: ../../../lib/c/include/malloc.h
+unexmacosx.o: ../../../lib/c/include/stacktrace.h
+unexmacosx.o: ../../../lib/c/include/stdbool.h
+unexmacosx.o: ../../../lib/c/include/abi/bool.h unexec.h
+unexmacosx.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+unexmacosx.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+unexmacosx.o: ../../../lib/c/include/io/verify.h
+unexmacosx.o: ../../../lib/c/include/abi/klog.h
+unexmacosx.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/assert.h
+xfont.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xfont.o: ../../../lib/c/include/libarch/types.h
+xfont.o: ../../../lib/c/include/libarch/common.h
+xfont.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xfont.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xfont.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+xfont.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+xfont.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+xfont.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xfont.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xfont.o: /usr/include/features.h /usr/include/bits/predefs.h
+xfont.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xfont.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xfont.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xfont.o: /usr/include/bits/posix2_lim.h dispextern.h xterm.h frame.h
+xfont.o: blockinput.h atimer.h systime.h ../../../lib/c/include/time.h
+xfont.o: ../../../lib/c/include/sys/time.h character.h charset.h fontset.h
+xfont.o: font.h ccl.h
+charset.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+charset.o: ../../../lib/c/include/libarch/types.h
+charset.o: ../../../lib/c/include/libarch/common.h
+charset.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+charset.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+charset.o: ../../../lib/c/include/abi/bool.h
+charset.o: ../../../lib/c/include/io/verify.h
+charset.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/unistd.h
+charset.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+charset.o: ../../../lib/c/include/libarch/config.h
+charset.o: ../../../lib/c/include/ctype.h /usr/include/limits.h
+charset.o: /usr/include/features.h /usr/include/bits/predefs.h
+charset.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+charset.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+charset.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+charset.o: /usr/include/bits/posix2_lim.h ../../../lib/c/include/setjmp.h
+charset.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+charset.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+charset.o: ../../../lib/c/include/libarch/inttypes.h character.h charset.h
+charset.o: coding.h composite.h disptab.h buffer.h
+fontset.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+fontset.o: ../../../lib/c/include/libarch/types.h
+fontset.o: ../../../lib/c/include/libarch/common.h
+fontset.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+fontset.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+fontset.o: ../../../lib/c/include/abi/bool.h
+fontset.o: ../../../lib/c/include/io/verify.h
+fontset.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+fontset.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+fontset.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+fontset.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+fontset.o: /usr/include/features.h /usr/include/bits/predefs.h
+fontset.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fontset.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+fontset.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+fontset.o: /usr/include/bits/posix2_lim.h blockinput.h atimer.h systime.h
+fontset.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+fontset.o: buffer.h character.h charset.h ccl.h keyboard.h coding.h
+fontset.o: composite.h frame.h dispextern.h intervals.h fontset.h window.h
+fontset.o: termhooks.h font.h
+process.o: /usr/include/signal.h /usr/include/features.h
+process.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+process.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+process.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+process.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+process.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+process.o: ../../../lib/c/include/sys/types.h
+process.o: ../../../lib/c/include/libarch/types.h
+process.o: ../../../lib/c/include/libarch/common.h
+process.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+process.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+process.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+process.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+process.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+process.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+process.o: ../../../lib/c/include/io/verify.h
+process.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+process.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/setjmp.h
+process.o: ../../../lib/c/include/libarch/fibril.h /usr/include/sys/file.h
+process.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/sys/stat.h
+process.o: ../../../lib/c/include/ipc/vfs.h
+process.o: ../../../lib/c/include/ipc/common.h
+process.o: ../../../lib/c/include/abi/ipc/ipc.h
+process.o: ../../../lib/c/include/atomic.h
+process.o: ../../../lib/c/include/libarch/atomic.h
+process.o: ../../../lib/c/include/atomicdflt.h
+process.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+process.o: ../../../lib/c/include/abi/proc/task.h
+process.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/unistd.h
+process.o: ../../../lib/c/include/libarch/config.h lisp.h
+process.o: ../../../lib/c/include/inttypes.h
+process.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+process.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+process.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+process.o: systime.h systty.h /usr/include/termio.h /usr/include/termios.h
+process.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+process.o: /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h
+process.o: /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h
+process.o: /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h
+process.o: /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h
+process.o: window.h dispextern.h buffer.h character.h coding.h composite.h
+process.o: process.h frame.h termhooks.h termopts.h commands.h keyboard.h
+process.o: blockinput.h atimer.h sysselect.h syssignal.h syswait.h
+unexsol.o: unexec.h ../../../lib/c/include/dlfcn.h
+unexsol.o: ../../../lib/c/include/setjmp.h
+unexsol.o: ../../../lib/c/include/libarch/fibril.h
+unexsol.o: ../../../lib/c/include/sys/types.h
+unexsol.o: ../../../lib/c/include/libarch/types.h
+unexsol.o: ../../../lib/c/include/libarch/common.h lisp.h
+unexsol.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+unexsol.o: ../../../lib/c/include/inttypes.h
+unexsol.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+unexsol.o: /usr/include/features.h /usr/include/bits/predefs.h
+unexsol.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+unexsol.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+unexsol.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+unexsol.o: /usr/include/bits/posix2_lim.h buffer.h charset.h coding.h
+unexsol.o: composite.h
+xftfont.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xftfont.o: ../../../lib/c/include/libarch/types.h
+xftfont.o: ../../../lib/c/include/libarch/common.h
+xftfont.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xftfont.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xftfont.o: ../../../lib/c/include/abi/bool.h
+xftfont.o: ../../../lib/c/include/io/verify.h
+xftfont.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+xftfont.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+xftfont.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xftfont.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xftfont.o: /usr/include/features.h /usr/include/bits/predefs.h
+xftfont.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xftfont.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xftfont.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xftfont.o: /usr/include/bits/posix2_lim.h dispextern.h xterm.h frame.h
+xftfont.o: blockinput.h atimer.h systime.h ../../../lib/c/include/time.h
+xftfont.o: ../../../lib/c/include/sys/time.h character.h charset.h
+xftfont.o: composite.h fontset.h font.h ccl.h ftfont.h
+chartab.o: ../../../lib/c/include/setjmp.h
+chartab.o: ../../../lib/c/include/libarch/fibril.h
+chartab.o: ../../../lib/c/include/sys/types.h
+chartab.o: ../../../lib/c/include/libarch/types.h
+chartab.o: ../../../lib/c/include/libarch/common.h lisp.h
+chartab.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+chartab.o: ../../../lib/c/include/inttypes.h
+chartab.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+chartab.o: /usr/include/features.h /usr/include/bits/predefs.h
+chartab.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+chartab.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+chartab.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+chartab.o: /usr/include/bits/posix2_lim.h character.h charset.h ccl.h
+frame.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+frame.o: ../../../lib/c/include/libarch/types.h
+frame.o: ../../../lib/c/include/libarch/common.h
+frame.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+frame.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+frame.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+frame.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ctype.h
+frame.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+frame.o: /usr/include/limits.h /usr/include/features.h
+frame.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+frame.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+frame.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+frame.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+frame.o: ../../../lib/c/include/setjmp.h
+frame.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+frame.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+frame.o: ../../../lib/c/include/libarch/inttypes.h character.h buffer.h
+frame.o: commands.h keyboard.h systime.h ../../../lib/c/include/time.h
+frame.o: ../../../lib/c/include/sys/time.h coding.h composite.h frame.h
+frame.o: dispextern.h blockinput.h atimer.h termchar.h termhooks.h window.h
+frame.o: font.h ccl.h
+ralloc.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/sys/types.h
+ralloc.o: ../../../lib/c/include/libarch/types.h
+ralloc.o: ../../../lib/c/include/libarch/common.h
+ralloc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ralloc.o: ../../../lib/c/include/sys/time.h
+ralloc.o: ../../../lib/c/include/libarch/config.h
+ralloc.o: ../../../lib/c/include/malloc.h getpagesize.h
+unexw32.o: unexec.h ../../../lib/c/include/stdio.h
+unexw32.o: ../../../lib/c/include/sys/types.h
+unexw32.o: ../../../lib/c/include/libarch/types.h
+unexw32.o: ../../../lib/c/include/libarch/common.h
+unexw32.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+unexw32.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+unexw32.o: ../../../lib/c/include/abi/bool.h
+unexw32.o: ../../../lib/c/include/io/verify.h
+unexw32.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/fcntl.h
+unexw32.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+unexw32.o: w32heap.h
+xgselect.o: ../../../lib/c/include/setjmp.h
+xgselect.o: ../../../lib/c/include/libarch/fibril.h
+xgselect.o: ../../../lib/c/include/sys/types.h
+xgselect.o: ../../../lib/c/include/libarch/types.h
+xgselect.o: ../../../lib/c/include/libarch/common.h xgselect.h lisp.h
+xgselect.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+xgselect.o: ../../../lib/c/include/inttypes.h
+xgselect.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xgselect.o: /usr/include/features.h /usr/include/bits/predefs.h
+xgselect.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xgselect.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xgselect.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xgselect.o: /usr/include/bits/posix2_lim.h systime.h
+xgselect.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+xgselect.o: sysselect.h
+cm.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+cm.o: ../../../lib/c/include/libarch/types.h
+cm.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/stdarg.h
+cm.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+cm.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+cm.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+cm.o: ../../../lib/c/include/setjmp.h ../../../lib/c/include/libarch/fibril.h
+cm.o: lisp.h ../../../lib/c/include/stddef.h
+cm.o: ../../../lib/c/include/inttypes.h
+cm.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+cm.o: /usr/include/features.h /usr/include/bits/predefs.h
+cm.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+cm.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+cm.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+cm.o: /usr/include/bits/posix2_lim.h frame.h dispextern.h cm.h termhooks.h
+cm.o: systime.h ../../../lib/c/include/time.h
+cm.o: ../../../lib/c/include/sys/time.h termchar.h tparam.h
+fringe.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+fringe.o: ../../../lib/c/include/libarch/types.h
+fringe.o: ../../../lib/c/include/libarch/common.h
+fringe.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+fringe.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+fringe.o: ../../../lib/c/include/abi/bool.h
+fringe.o: ../../../lib/c/include/io/verify.h
+fringe.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+fringe.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+fringe.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+fringe.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+fringe.o: /usr/include/features.h /usr/include/bits/predefs.h
+fringe.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+fringe.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+fringe.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+fringe.o: /usr/include/bits/posix2_lim.h frame.h dispextern.h window.h
+fringe.o: buffer.h blockinput.h atimer.h systime.h
+fringe.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+fringe.o: termhooks.h
+regex.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/sys/types.h
+regex.o: ../../../lib/c/include/libarch/types.h
+regex.o: ../../../lib/c/include/libarch/common.h
+regex.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+regex.o: ../../../lib/c/include/sys/time.h
+regex.o: ../../../lib/c/include/libarch/config.h /usr/include/string.h
+regex.o: /usr/include/features.h /usr/include/bits/predefs.h
+regex.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+regex.o: /usr/include/gnu/stubs.h /usr/include/xlocale.h regex.h
+regex.o: ../../../lib/c/include/ctype.h
+vm-limit.o: ../../../lib/c/include/setjmp.h
+vm-limit.o: ../../../lib/c/include/libarch/fibril.h
+vm-limit.o: ../../../lib/c/include/sys/types.h
+vm-limit.o: ../../../lib/c/include/libarch/types.h
+vm-limit.o: ../../../lib/c/include/libarch/common.h lisp.h
+vm-limit.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+vm-limit.o: ../../../lib/c/include/inttypes.h
+vm-limit.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+vm-limit.o: /usr/include/features.h /usr/include/bits/predefs.h
+vm-limit.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+vm-limit.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+vm-limit.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+vm-limit.o: /usr/include/bits/posix2_lim.h mem-limits.h
+xmenu.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xmenu.o: ../../../lib/c/include/libarch/types.h
+xmenu.o: ../../../lib/c/include/libarch/common.h
+xmenu.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xmenu.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xmenu.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+xmenu.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+xmenu.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+xmenu.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xmenu.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xmenu.o: /usr/include/features.h /usr/include/bits/predefs.h
+xmenu.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xmenu.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xmenu.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xmenu.o: /usr/include/bits/posix2_lim.h keyboard.h systime.h
+xmenu.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+xmenu.o: coding.h composite.h keymap.h frame.h dispextern.h termhooks.h
+xmenu.o: window.h blockinput.h atimer.h buffer.h charset.h sysselect.h menu.h
+cmds.o: ../../../lib/c/include/setjmp.h
+cmds.o: ../../../lib/c/include/libarch/fibril.h
+cmds.o: ../../../lib/c/include/sys/types.h
+cmds.o: ../../../lib/c/include/libarch/types.h
+cmds.o: ../../../lib/c/include/libarch/common.h lisp.h
+cmds.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+cmds.o: ../../../lib/c/include/inttypes.h
+cmds.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+cmds.o: /usr/include/features.h /usr/include/bits/predefs.h
+cmds.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+cmds.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+cmds.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+cmds.o: /usr/include/bits/posix2_lim.h commands.h buffer.h character.h
+cmds.o: syntax.h window.h dispextern.h keyboard.h systime.h
+cmds.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+cmds.o: coding.h composite.h keymap.h frame.h
+ftfont.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+ftfont.o: ../../../lib/c/include/libarch/types.h
+ftfont.o: ../../../lib/c/include/libarch/common.h
+ftfont.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+ftfont.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+ftfont.o: ../../../lib/c/include/abi/bool.h
+ftfont.o: ../../../lib/c/include/io/verify.h
+ftfont.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+ftfont.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+ftfont.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+ftfont.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+ftfont.o: /usr/include/features.h /usr/include/bits/predefs.h
+ftfont.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ftfont.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+ftfont.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ftfont.o: /usr/include/bits/posix2_lim.h dispextern.h frame.h blockinput.h
+ftfont.o: atimer.h systime.h ../../../lib/c/include/time.h
+ftfont.o: ../../../lib/c/include/sys/time.h character.h charset.h coding.h
+ftfont.o: composite.h fontset.h font.h ccl.h ftfont.h
+region-cache.o: ../../../lib/c/include/stdio.h
+region-cache.o: ../../../lib/c/include/sys/types.h
+region-cache.o: ../../../lib/c/include/libarch/types.h
+region-cache.o: ../../../lib/c/include/libarch/common.h
+region-cache.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+region-cache.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+region-cache.o: ../../../lib/c/include/abi/bool.h
+region-cache.o: ../../../lib/c/include/io/verify.h
+region-cache.o: ../../../lib/c/include/abi/klog.h
+region-cache.o: ../../../lib/c/include/setjmp.h
+region-cache.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+region-cache.o: ../../../lib/c/include/stddef.h
+region-cache.o: ../../../lib/c/include/inttypes.h
+region-cache.o: ../../../lib/c/include/libarch/inttypes.h
+region-cache.o: /usr/include/limits.h /usr/include/features.h
+region-cache.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+region-cache.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+region-cache.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+region-cache.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+region-cache.o: buffer.h region-cache.h
+coding.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+coding.o: ../../../lib/c/include/libarch/types.h
+coding.o: ../../../lib/c/include/libarch/common.h
+coding.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+coding.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+coding.o: ../../../lib/c/include/abi/bool.h
+coding.o: ../../../lib/c/include/io/verify.h
+coding.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+coding.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+coding.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+coding.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+coding.o: /usr/include/features.h /usr/include/bits/predefs.h
+coding.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+coding.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+coding.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+coding.o: /usr/include/bits/posix2_lim.h buffer.h character.h charset.h ccl.h
+coding.o: composite.h coding.h window.h dispextern.h frame.h termhooks.h
+coding.o: systime.h ../../../lib/c/include/time.h
+coding.o: ../../../lib/c/include/sys/time.h
+ftxfont.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+ftxfont.o: ../../../lib/c/include/libarch/types.h
+ftxfont.o: ../../../lib/c/include/libarch/common.h
+ftxfont.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+ftxfont.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+ftxfont.o: ../../../lib/c/include/abi/bool.h
+ftxfont.o: ../../../lib/c/include/io/verify.h
+ftxfont.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+ftxfont.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+ftxfont.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+ftxfont.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+ftxfont.o: /usr/include/features.h /usr/include/bits/predefs.h
+ftxfont.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+ftxfont.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+ftxfont.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+ftxfont.o: /usr/include/bits/posix2_lim.h dispextern.h xterm.h frame.h
+ftxfont.o: blockinput.h atimer.h systime.h ../../../lib/c/include/time.h
+ftxfont.o: ../../../lib/c/include/sys/time.h character.h charset.h fontset.h
+ftxfont.o: font.h ccl.h
+scroll.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+scroll.o: ../../../lib/c/include/libarch/types.h
+scroll.o: ../../../lib/c/include/libarch/common.h
+scroll.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+scroll.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+scroll.o: ../../../lib/c/include/abi/bool.h
+scroll.o: ../../../lib/c/include/io/verify.h
+scroll.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+scroll.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+scroll.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+scroll.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+scroll.o: /usr/include/features.h /usr/include/bits/predefs.h
+scroll.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+scroll.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+scroll.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+scroll.o: /usr/include/bits/posix2_lim.h termchar.h dispextern.h keyboard.h
+scroll.o: systime.h ../../../lib/c/include/time.h
+scroll.o: ../../../lib/c/include/sys/time.h coding.h composite.h frame.h
+scroll.o: window.h termhooks.h
+w32.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/sys/types.h
+w32.o: ../../../lib/c/include/libarch/types.h
+w32.o: ../../../lib/c/include/libarch/common.h
+w32.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+w32.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32.o: ../../../lib/c/include/libarch/config.h
+w32.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+w32.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+w32.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+w32.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+w32.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+w32.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+w32.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/ctype.h
+w32.o: /usr/include/signal.h /usr/include/features.h
+w32.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+w32.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+w32.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+w32.o: /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h
+w32.o: /usr/include/sys/ucontext.h /usr/include/sys/file.h
+w32.o: /usr/include/math.h /usr/include/bits/huge_val.h
+w32.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+w32.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+w32.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+w32.o: ../../../lib/c/include/setjmp.h
+w32.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32.o: ../../../lib/c/include/inttypes.h
+w32.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32.o: /usr/include/pwd.h /usr/include/grp.h /usr/include/sys/socket.h
+w32.o: /usr/include/sys/uio.h /usr/include/bits/uio.h
+w32.o: /usr/include/bits/socket.h /usr/include/bits/sockaddr.h
+w32.o: /usr/include/asm/socket.h /usr/include/asm-generic/socket.h
+w32.o: /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h w32.h
+w32.o: ndir.h w32heap.h systime.h dispextern.h coding.h composite.h process.h
+w32.o: /usr/include/sys/timeb.h
+xrdb.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+xrdb.o: ../../../lib/c/include/libarch/types.h
+xrdb.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/time.h
+xrdb.o: ../../../lib/c/include/sys/time.h
+xrdb.o: ../../../lib/c/include/libarch/config.h
+xrdb.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+xrdb.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+xrdb.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+xrdb.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+xrdb.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+xrdb.o: ../../../lib/c/include/setjmp.h
+xrdb.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+xrdb.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xrdb.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+xrdb.o: /usr/include/features.h /usr/include/bits/predefs.h
+xrdb.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+xrdb.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+xrdb.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+xrdb.o: /usr/include/bits/posix2_lim.h xterm.h
+xrdb.o: ../../../lib/c/include/sys/stat.h ../../../lib/c/include/ipc/vfs.h
+xrdb.o: ../../../lib/c/include/ipc/common.h
+xrdb.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+xrdb.o: ../../../lib/c/include/libarch/atomic.h
+xrdb.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+xrdb.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+xrdb.o: ../../../lib/c/include/ipc/loc.h
+composite.o: ../../../lib/c/include/setjmp.h
+composite.o: ../../../lib/c/include/libarch/fibril.h
+composite.o: ../../../lib/c/include/sys/types.h
+composite.o: ../../../lib/c/include/libarch/types.h
+composite.o: ../../../lib/c/include/libarch/common.h lisp.h
+composite.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+composite.o: ../../../lib/c/include/inttypes.h
+composite.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+composite.o: /usr/include/features.h /usr/include/bits/predefs.h
+composite.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+composite.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+composite.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+composite.o: /usr/include/bits/posix2_lim.h buffer.h character.h coding.h
+composite.o: composite.h intervals.h dispextern.h window.h frame.h font.h
+composite.o: ccl.h termhooks.h systime.h ../../../lib/c/include/time.h
+composite.o: ../../../lib/c/include/sys/time.h
+gmalloc.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/sys/types.h
+gmalloc.o: ../../../lib/c/include/libarch/types.h
+gmalloc.o: ../../../lib/c/include/libarch/common.h
+gmalloc.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/errno.h
+gmalloc.o: ../../../lib/c/include/abi/errno.h getpagesize.h
+gmalloc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+gmalloc.o: ../../../lib/c/include/sys/time.h
+gmalloc.o: ../../../lib/c/include/libarch/config.h
+search.o: ../../../lib/c/include/setjmp.h
+search.o: ../../../lib/c/include/libarch/fibril.h
+search.o: ../../../lib/c/include/sys/types.h
+search.o: ../../../lib/c/include/libarch/types.h
+search.o: ../../../lib/c/include/libarch/common.h lisp.h
+search.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+search.o: ../../../lib/c/include/inttypes.h
+search.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+search.o: /usr/include/features.h /usr/include/bits/predefs.h
+search.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+search.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+search.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+search.o: /usr/include/bits/posix2_lim.h syntax.h category.h buffer.h
+search.o: character.h charset.h region-cache.h commands.h blockinput.h
+search.o: atimer.h systime.h ../../../lib/c/include/time.h
+search.o: ../../../lib/c/include/sys/time.h intervals.h dispextern.h
+search.o: composite.h regex.h
+w32console.o: ../../../lib/c/include/stdio.h
+w32console.o: ../../../lib/c/include/sys/types.h
+w32console.o: ../../../lib/c/include/libarch/types.h
+w32console.o: ../../../lib/c/include/libarch/common.h
+w32console.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+w32console.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+w32console.o: ../../../lib/c/include/abi/bool.h
+w32console.o: ../../../lib/c/include/io/verify.h
+w32console.o: ../../../lib/c/include/abi/klog.h
+w32console.o: ../../../lib/c/include/setjmp.h
+w32console.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32console.o: ../../../lib/c/include/stddef.h
+w32console.o: ../../../lib/c/include/inttypes.h
+w32console.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32console.o: /usr/include/features.h /usr/include/bits/predefs.h
+w32console.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+w32console.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+w32console.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+w32console.o: /usr/include/bits/posix2_lim.h character.h coding.h composite.h
+w32console.o: disptab.h frame.h dispextern.h termhooks.h systime.h
+w32console.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32console.o: termchar.h w32inevt.h
+xselect.o: /usr/include/limits.h /usr/include/features.h
+xselect.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+xselect.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xselect.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+xselect.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+xselect.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+xselect.o: ../../../lib/c/include/libarch/types.h
+xselect.o: ../../../lib/c/include/libarch/common.h
+xselect.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xselect.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xselect.o: ../../../lib/c/include/abi/bool.h
+xselect.o: ../../../lib/c/include/io/verify.h
+xselect.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+xselect.o: ../../../lib/c/include/libarch/fibril.h
+xselect.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+xselect.o: ../../../lib/c/include/sys/time.h
+xselect.o: ../../../lib/c/include/libarch/config.h lisp.h
+xselect.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+xselect.o: ../../../lib/c/include/libarch/inttypes.h xterm.h dispextern.h
+xselect.o: frame.h blockinput.h atimer.h systime.h buffer.h process.h
+xselect.o: termhooks.h keyboard.h coding.h composite.h character.h
+data.o: /usr/include/signal.h /usr/include/features.h
+data.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+data.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+data.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+data.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+data.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+data.o: ../../../lib/c/include/sys/types.h
+data.o: ../../../lib/c/include/libarch/types.h
+data.o: ../../../lib/c/include/libarch/common.h /usr/include/bits/siginfo.h
+data.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+data.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+data.o: /usr/include/sys/ucontext.h ../../../lib/c/include/stdio.h
+data.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+data.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+data.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+data.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+data.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+data.o: ../../../lib/c/include/inttypes.h
+data.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+data.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+data.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h puresize.h
+data.o: character.h buffer.h keyboard.h systime.h coding.h composite.h
+data.o: frame.h dispextern.h syssignal.h termhooks.h font.h ccl.h
+data.o: /usr/include/math.h /usr/include/bits/huge_val.h
+data.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+data.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+data.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+gnutls.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+gnutls.o: ../../../lib/c/include/setjmp.h
+gnutls.o: ../../../lib/c/include/libarch/fibril.h
+gnutls.o: ../../../lib/c/include/sys/types.h
+gnutls.o: ../../../lib/c/include/libarch/types.h
+gnutls.o: ../../../lib/c/include/libarch/common.h lisp.h
+gnutls.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+gnutls.o: ../../../lib/c/include/inttypes.h
+gnutls.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+gnutls.o: /usr/include/features.h /usr/include/bits/predefs.h
+gnutls.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+gnutls.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+gnutls.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+gnutls.o: /usr/include/bits/posix2_lim.h process.h
+gnutls.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+gnutls.o: ../../../lib/c/include/sys/time.h
+gnutls.o: ../../../lib/c/include/libarch/config.h
+sheap.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+sheap.o: ../../../lib/c/include/libarch/types.h
+sheap.o: ../../../lib/c/include/libarch/common.h
+sheap.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+sheap.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+sheap.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+sheap.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+sheap.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+sheap.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+sheap.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+sheap.o: /usr/include/features.h /usr/include/bits/predefs.h
+sheap.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sheap.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+sheap.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+sheap.o: /usr/include/bits/posix2_lim.h ../../../lib/c/include/unistd.h
+sheap.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+sheap.o: ../../../lib/c/include/libarch/config.h
+w32fns.o: /usr/include/signal.h /usr/include/features.h
+w32fns.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32fns.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32fns.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+w32fns.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+w32fns.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32fns.o: ../../../lib/c/include/sys/types.h
+w32fns.o: ../../../lib/c/include/libarch/types.h
+w32fns.o: ../../../lib/c/include/libarch/common.h /usr/include/bits/siginfo.h
+w32fns.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+w32fns.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+w32fns.o: /usr/include/sys/ucontext.h ../../../lib/c/include/stdio.h
+w32fns.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+w32fns.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+w32fns.o: ../../../lib/c/include/abi/bool.h
+w32fns.o: ../../../lib/c/include/io/verify.h
+w32fns.o: ../../../lib/c/include/abi/klog.h /usr/include/limits.h
+w32fns.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32fns.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32fns.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+w32fns.o: /usr/include/math.h /usr/include/bits/huge_val.h
+w32fns.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+w32fns.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+w32fns.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+w32fns.o: ../../../lib/c/include/setjmp.h
+w32fns.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32fns.o: ../../../lib/c/include/inttypes.h
+w32fns.o: ../../../lib/c/include/libarch/inttypes.h w32term.h w32gui.h
+w32fns.o: systime.h frame.h dispextern.h window.h buffer.h intervals.h
+w32fns.o: composite.h keyboard.h coding.h blockinput.h atimer.h character.h
+w32fns.o: charset.h ccl.h fontset.h termhooks.h w32heap.h w32.h
+w32fns.o: bitmaps/gray.xbm ../../../lib/c/include/ctype.h font.h w32font.h
+xsettings.o: /usr/include/limits.h /usr/include/features.h
+xsettings.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+xsettings.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xsettings.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+xsettings.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+xsettings.o: ../../../lib/c/include/setjmp.h
+xsettings.o: ../../../lib/c/include/libarch/fibril.h
+xsettings.o: ../../../lib/c/include/sys/types.h
+xsettings.o: ../../../lib/c/include/libarch/types.h
+xsettings.o: ../../../lib/c/include/libarch/common.h
+xsettings.o: ../../../lib/c/include/fcntl.h lisp.h
+xsettings.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+xsettings.o: ../../../lib/c/include/inttypes.h
+xsettings.o: ../../../lib/c/include/libarch/inttypes.h xterm.h xsettings.h
+xsettings.o: frame.h dispextern.h keyboard.h systime.h
+xsettings.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+xsettings.o: coding.h composite.h blockinput.h atimer.h termhooks.h
+xsettings.o: termopts.h
+w32font.o: /usr/include/math.h /usr/include/features.h
+w32font.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32font.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32font.o: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h
+w32font.o: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h
+w32font.o: /usr/include/bits/nan.h /usr/include/bits/mathdef.h
+w32font.o: /usr/include/bits/mathcalls.h ../../../lib/c/include/ctype.h
+w32font.o: ../../../lib/c/include/setjmp.h
+w32font.o: ../../../lib/c/include/libarch/fibril.h
+w32font.o: ../../../lib/c/include/sys/types.h
+w32font.o: ../../../lib/c/include/libarch/types.h
+w32font.o: ../../../lib/c/include/libarch/common.h lisp.h
+w32font.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+w32font.o: ../../../lib/c/include/inttypes.h
+w32font.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32font.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32font.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32font.o: w32term.h w32gui.h systime.h ../../../lib/c/include/time.h
+w32font.o: ../../../lib/c/include/sys/time.h frame.h dispextern.h character.h
+w32font.o: charset.h coding.h composite.h fontset.h font.h ccl.h w32font.h
+dired.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+dired.o: ../../../lib/c/include/libarch/types.h
+dired.o: ../../../lib/c/include/libarch/common.h
+dired.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+dired.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+dired.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+dired.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/sys/stat.h
+dired.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/c/include/ipc/common.h
+dired.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+dired.o: ../../../lib/c/include/libarch/atomic.h
+dired.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+dired.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+dired.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/setjmp.h
+dired.o: ../../../lib/c/include/libarch/fibril.h /usr/include/grp.h
+dired.o: /usr/include/features.h /usr/include/bits/predefs.h
+dired.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+dired.o: /usr/include/gnu/stubs.h /usr/include/bits/types.h
+dired.o: /usr/include/bits/typesizes.h ../../../lib/c/include/stddef.h
+dired.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+dired.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+dired.o: ../../../lib/c/include/sys/time.h
+dired.o: ../../../lib/c/include/libarch/config.h /usr/include/sys/dir.h
+dired.o: ../../../lib/c/include/dirent.h lisp.h
+dired.o: ../../../lib/c/include/inttypes.h
+dired.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+dired.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+dired.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h systime.h
+dired.o: buffer.h commands.h character.h charset.h coding.h composite.h
+dired.o: regex.h blockinput.h atimer.h
+image.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+image.o: ../../../lib/c/include/libarch/types.h
+image.o: ../../../lib/c/include/libarch/common.h
+image.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+image.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+image.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+image.o: ../../../lib/c/include/abi/klog.h /usr/include/math.h
+image.o: /usr/include/features.h /usr/include/bits/predefs.h
+image.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+image.o: /usr/include/gnu/stubs.h /usr/include/bits/huge_val.h
+image.o: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h
+image.o: /usr/include/bits/inf.h /usr/include/bits/nan.h
+image.o: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h
+image.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/unistd.h
+image.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+image.o: ../../../lib/c/include/libarch/config.h
+image.o: ../../../lib/c/include/setjmp.h
+image.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+image.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+image.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+image.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+image.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h frame.h
+image.o: dispextern.h window.h blockinput.h atimer.h systime.h character.h
+image.o: coding.h composite.h termhooks.h font.h ccl.h
+syntax.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/sys/types.h
+syntax.o: ../../../lib/c/include/libarch/types.h
+syntax.o: ../../../lib/c/include/libarch/common.h
+syntax.o: ../../../lib/c/include/setjmp.h
+syntax.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+syntax.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+syntax.o: ../../../lib/c/include/inttypes.h
+syntax.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+syntax.o: /usr/include/features.h /usr/include/bits/predefs.h
+syntax.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+syntax.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+syntax.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+syntax.o: /usr/include/bits/posix2_lim.h commands.h buffer.h character.h
+syntax.o: keymap.h regex.h syntax.h intervals.h dispextern.h composite.h
+syntax.o: category.h
+w32heap.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+w32heap.o: ../../../lib/c/include/libarch/types.h
+w32heap.o: ../../../lib/c/include/libarch/common.h
+w32heap.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+w32heap.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+w32heap.o: ../../../lib/c/include/abi/bool.h
+w32heap.o: ../../../lib/c/include/io/verify.h
+w32heap.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+w32heap.o: ../../../lib/c/include/libarch/fibril.h w32heap.h lisp.h
+w32heap.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+w32heap.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32heap.o: /usr/include/features.h /usr/include/bits/predefs.h
+w32heap.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+w32heap.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+w32heap.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+w32heap.o: /usr/include/bits/posix2_lim.h
+xterm.o: /usr/include/signal.h /usr/include/features.h
+xterm.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+xterm.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+xterm.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+xterm.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+xterm.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+xterm.o: ../../../lib/c/include/sys/types.h
+xterm.o: ../../../lib/c/include/libarch/types.h
+xterm.o: ../../../lib/c/include/libarch/common.h /usr/include/bits/siginfo.h
+xterm.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+xterm.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+xterm.o: /usr/include/sys/ucontext.h ../../../lib/c/include/stdio.h
+xterm.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+xterm.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+xterm.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+xterm.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+xterm.o: ../../../lib/c/include/libarch/fibril.h
+dispnew.o: /usr/include/signal.h /usr/include/features.h
+dispnew.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+dispnew.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+dispnew.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+dispnew.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+dispnew.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+dispnew.o: ../../../lib/c/include/sys/types.h
+dispnew.o: ../../../lib/c/include/libarch/types.h
+dispnew.o: ../../../lib/c/include/libarch/common.h
+dispnew.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+dispnew.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+dispnew.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+dispnew.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+dispnew.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+dispnew.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+dispnew.o: ../../../lib/c/include/io/verify.h
+dispnew.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ctype.h
+dispnew.o: ../../../lib/c/include/setjmp.h
+dispnew.o: ../../../lib/c/include/libarch/fibril.h
+dispnew.o: ../../../lib/c/include/unistd.h
+dispnew.o: ../../../lib/c/include/libarch/config.h lisp.h
+dispnew.o: ../../../lib/c/include/inttypes.h
+dispnew.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+dispnew.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+dispnew.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+dispnew.o: termchar.h termopts.h dispextern.h cm.h buffer.h character.h
+dispnew.o: keyboard.h systime.h coding.h composite.h frame.h termhooks.h
+dispnew.o: window.h commands.h disptab.h indent.h intervals.h blockinput.h
+dispnew.o: atimer.h process.h syssignal.h ../../../lib/c/include/errno.h
+dispnew.o: ../../../lib/c/include/abi/errno.h
+indent.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+indent.o: ../../../lib/c/include/libarch/types.h
+indent.o: ../../../lib/c/include/libarch/common.h
+indent.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+indent.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+indent.o: ../../../lib/c/include/abi/bool.h
+indent.o: ../../../lib/c/include/io/verify.h
+indent.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+indent.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+indent.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+indent.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+indent.o: /usr/include/features.h /usr/include/bits/predefs.h
+indent.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+indent.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+indent.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+indent.o: /usr/include/bits/posix2_lim.h buffer.h character.h category.h
+indent.o: composite.h indent.h keyboard.h systime.h
+indent.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+indent.o: coding.h frame.h dispextern.h window.h termchar.h termopts.h
+indent.o: disptab.h intervals.h region-cache.h
+sysdep.o: ../../../lib/c/include/ctype.h /usr/include/signal.h
+sysdep.o: /usr/include/features.h /usr/include/bits/predefs.h
+sysdep.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+sysdep.o: /usr/include/gnu/stubs.h /usr/include/bits/sigset.h
+sysdep.o: /usr/include/bits/types.h /usr/include/bits/typesizes.h
+sysdep.o: /usr/include/bits/signum.h ../../../lib/c/include/time.h
+sysdep.o: ../../../lib/c/include/sys/time.h
+sysdep.o: ../../../lib/c/include/sys/types.h
+sysdep.o: ../../../lib/c/include/libarch/types.h
+sysdep.o: ../../../lib/c/include/libarch/common.h /usr/include/bits/siginfo.h
+sysdep.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+sysdep.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+sysdep.o: /usr/include/sys/ucontext.h ../../../lib/c/include/stdio.h
+sysdep.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+sysdep.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+sysdep.o: ../../../lib/c/include/abi/bool.h
+sysdep.o: ../../../lib/c/include/io/verify.h
+sysdep.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+sysdep.o: ../../../lib/c/include/libarch/fibril.h /usr/include/limits.h
+sysdep.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+sysdep.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+sysdep.o: ../../../lib/c/include/unistd.h
+sysdep.o: ../../../lib/c/include/libarch/config.h lisp.h
+sysdep.o: ../../../lib/c/include/inttypes.h
+sysdep.o: ../../../lib/c/include/libarch/inttypes.h sysselect.h blockinput.h
+sysdep.o: atimer.h systime.h ../../../lib/c/include/sys/stat.h
+sysdep.o: ../../../lib/c/include/ipc/vfs.h
+sysdep.o: ../../../lib/c/include/ipc/common.h
+sysdep.o: ../../../lib/c/include/abi/ipc/ipc.h
+sysdep.o: ../../../lib/c/include/atomic.h
+sysdep.o: ../../../lib/c/include/libarch/atomic.h
+sysdep.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+sysdep.o: ../../../lib/c/include/task.h
+sysdep.o: ../../../lib/c/include/abi/proc/task.h
+sysdep.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/errno.h
+sysdep.o: ../../../lib/c/include/abi/errno.h /usr/include/sys/file.h
+sysdep.o: ../../../lib/c/include/fcntl.h systty.h /usr/include/termio.h
+sysdep.o: /usr/include/termios.h /usr/include/bits/termios.h
+sysdep.o: /usr/include/sys/ttydefaults.h /usr/include/sys/ioctl.h
+sysdep.o: /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h
+sysdep.o: /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h
+sysdep.o: /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h
+sysdep.o: /usr/include/bits/ioctl-types.h syswait.h keyboard.h coding.h
+sysdep.o: composite.h frame.h dispextern.h window.h termhooks.h termchar.h
+sysdep.o: termopts.h process.h cm.h syssignal.h
+w32inevt.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+w32inevt.o: ../../../lib/c/include/libarch/types.h
+w32inevt.o: ../../../lib/c/include/libarch/common.h
+w32inevt.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+w32inevt.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+w32inevt.o: ../../../lib/c/include/abi/bool.h
+w32inevt.o: ../../../lib/c/include/io/verify.h
+w32inevt.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+w32inevt.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32inevt.o: ../../../lib/c/include/stddef.h ../../../lib/c/include/inttypes.h
+w32inevt.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32inevt.o: /usr/include/features.h /usr/include/bits/predefs.h
+w32inevt.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+w32inevt.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+w32inevt.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+w32inevt.o: /usr/include/bits/posix2_lim.h keyboard.h systime.h
+w32inevt.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32inevt.o: coding.h composite.h frame.h dispextern.h blockinput.h atimer.h
+w32inevt.o: termhooks.h w32heap.h w32term.h w32gui.h
+doc.o: ../../../lib/c/include/sys/types.h
+doc.o: ../../../lib/c/include/libarch/types.h
+doc.o: ../../../lib/c/include/libarch/common.h /usr/include/sys/file.h
+doc.o: /usr/include/features.h /usr/include/bits/predefs.h
+doc.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+doc.o: /usr/include/gnu/stubs.h ../../../lib/c/include/fcntl.h
+doc.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/setjmp.h
+doc.o: ../../../lib/c/include/libarch/fibril.h
+doc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+doc.o: ../../../lib/c/include/sys/time.h
+doc.o: ../../../lib/c/include/libarch/config.h lisp.h
+doc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+doc.o: ../../../lib/c/include/inttypes.h
+doc.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+doc.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+doc.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h buffer.h
+doc.o: keyboard.h systime.h coding.h composite.h character.h keymap.h
+insdel.o: ../../../lib/c/include/setjmp.h
+insdel.o: ../../../lib/c/include/libarch/fibril.h
+insdel.o: ../../../lib/c/include/sys/types.h
+insdel.o: ../../../lib/c/include/libarch/types.h
+insdel.o: ../../../lib/c/include/libarch/common.h lisp.h
+insdel.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/stddef.h
+insdel.o: ../../../lib/c/include/inttypes.h
+insdel.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+insdel.o: /usr/include/features.h /usr/include/bits/predefs.h
+insdel.o: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h
+insdel.o: /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h
+insdel.o: /usr/include/bits/local_lim.h /usr/include/linux/limits.h
+insdel.o: /usr/include/bits/posix2_lim.h intervals.h dispextern.h composite.h
+insdel.o: buffer.h character.h window.h blockinput.h atimer.h systime.h
+insdel.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+insdel.o: region-cache.h
+term.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+term.o: ../../../lib/c/include/libarch/types.h
+term.o: ../../../lib/c/include/libarch/common.h
+term.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+term.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+term.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+term.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ctype.h
+term.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+term.o: /usr/include/sys/file.h /usr/include/features.h
+term.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+term.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+term.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/unistd.h
+term.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+term.o: ../../../lib/c/include/libarch/config.h /usr/include/signal.h
+term.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+term.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+term.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+term.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+term.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+term.o: ../../../lib/c/include/setjmp.h
+term.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+term.o: ../../../lib/c/include/inttypes.h
+term.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+term.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+term.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h termchar.h
+term.o: termopts.h tparam.h buffer.h character.h charset.h coding.h
+term.o: composite.h keyboard.h systime.h frame.h dispextern.h disptab.h
+term.o: termhooks.h window.h keymap.h blockinput.h atimer.h syssignal.h
+term.o: systty.h /usr/include/termio.h /usr/include/termios.h
+term.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+term.o: /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h
+term.o: /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h
+term.o: /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h
+term.o: /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h
+term.o: intervals.h cm.h
+w32menu.o: /usr/include/signal.h /usr/include/features.h
+w32menu.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+w32menu.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+w32menu.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+w32menu.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+w32menu.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+w32menu.o: ../../../lib/c/include/sys/types.h
+w32menu.o: ../../../lib/c/include/libarch/types.h
+w32menu.o: ../../../lib/c/include/libarch/common.h
+w32menu.o: /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h
+w32menu.o: /usr/include/bits/sigcontext.h ../../../lib/c/include/stddef.h
+w32menu.o: /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h
+w32menu.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+w32menu.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+w32menu.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+w32menu.o: ../../../lib/c/include/io/verify.h
+w32menu.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/setjmp.h
+w32menu.o: ../../../lib/c/include/libarch/fibril.h lisp.h
+w32menu.o: ../../../lib/c/include/inttypes.h
+w32menu.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+w32menu.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+w32menu.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+w32menu.o: keyboard.h systime.h coding.h composite.h keymap.h frame.h
+w32menu.o: dispextern.h termhooks.h window.h blockinput.h atimer.h buffer.h
+w32menu.o: charset.h menu.h w32term.h w32gui.h w32heap.h
+emacs.o: /usr/include/signal.h /usr/include/features.h
+emacs.o: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h
+emacs.o: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h
+emacs.o: /usr/include/bits/sigset.h /usr/include/bits/types.h
+emacs.o: /usr/include/bits/typesizes.h /usr/include/bits/signum.h
+emacs.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+emacs.o: ../../../lib/c/include/sys/types.h
+emacs.o: ../../../lib/c/include/libarch/types.h
+emacs.o: ../../../lib/c/include/libarch/common.h /usr/include/bits/siginfo.h
+emacs.o: /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h
+emacs.o: ../../../lib/c/include/stddef.h /usr/include/bits/sigstack.h
+emacs.o: /usr/include/sys/ucontext.h ../../../lib/c/include/errno.h
+emacs.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/stdio.h
+emacs.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+emacs.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+emacs.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+emacs.o: ../../../lib/c/include/abi/klog.h /usr/include/sys/file.h
+emacs.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/setjmp.h
+emacs.o: ../../../lib/c/include/libarch/fibril.h
+emacs.o: ../../../lib/c/include/unistd.h
+emacs.o: ../../../lib/c/include/libarch/config.h lisp.h
+emacs.o: ../../../lib/c/include/inttypes.h
+emacs.o: ../../../lib/c/include/libarch/inttypes.h /usr/include/limits.h
+emacs.o: /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h
+emacs.o: /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h
+emacs.o: commands.h intervals.h dispextern.h composite.h buffer.h window.h
+emacs.o: systty.h /usr/include/termio.h /usr/include/termios.h
+emacs.o: /usr/include/bits/termios.h /usr/include/sys/ttydefaults.h
+emacs.o: /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h
+emacs.o: /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h
+emacs.o: /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h
+emacs.o: /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h
+emacs.o: blockinput.h atimer.h systime.h syssignal.h process.h frame.h
+emacs.o: termhooks.h keyboard.h coding.h keymap.h unexec.h

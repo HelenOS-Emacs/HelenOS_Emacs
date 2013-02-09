@@ -1,0 +1,3 @@
+#! /bin/bash
+echo '/usr/local/cross/ia32/bin/i686-pc-linux-gnu-objdump' "$@"
+/usr/local/cross/ia32/bin/i686-pc-linux-gnu-objdump $@
