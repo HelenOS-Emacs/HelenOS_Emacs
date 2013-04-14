@@ -1,0 +1,46 @@
+# DO NOT DELETE
+
+e1k.o: ../../../lib/c/include/assert.h ../../../lib/c/include/stdio.h
+e1k.o: ../../../lib/c/include/sys/types.h
+e1k.o: ../../../lib/c/include/libarch/types.h
+e1k.o: ../../../lib/c/include/libarch/common.h
+e1k.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+e1k.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+e1k.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+e1k.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+e1k.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/adt/list.h
+e1k.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+e1k.o: ../../../lib/c/include/sys/time.h
+e1k.o: ../../../lib/c/include/libarch/config.h ../../../lib/c/include/align.h
+e1k.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+e1k.o: ../../../lib/c/include/sysinfo.h ../../../lib/c/include/abi/sysinfo.h
+e1k.o: ../../../lib/c/include/abi/proc/task.h
+e1k.o: ../../../lib/c/include/abi/proc/thread.h
+e1k.o: ../../../lib/c/include/ipc/irc.h ../../../lib/c/include/ipc/common.h
+e1k.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+e1k.o: ../../../lib/c/include/libarch/atomic.h
+e1k.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+e1k.o: ../../../lib/c/include/ipc/ns.h ../../../lib/c/include/ddi.h
+e1k.o: ../../../lib/c/include/abi/ddi/irq.h ../../../lib/c/include/as.h
+e1k.o: ../../../lib/c/include/abi/mm/as.h ../../../lib/drv/include/ddf/log.h
+e1k.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+e1k.o: ../../../lib/c/include/libarch/inttypes.h
+e1k.o: ../../../lib/drv/include/ddf/interrupt.h
+e1k.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/fibril.h
+e1k.o: ../../../lib/c/include/libarch/fibril.h
+e1k.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+e1k.o: ../../../lib/c/include/abi/syscall.h
+e1k.o: ../../../lib/c/include/libarch/syscall.h
+e1k.o: ../../../lib/drv/include/ddf/driver.h ../../../lib/c/include/async.h
+e1k.o: ../../../lib/c/include/ipc/devman.h ../../../lib/c/include/malloc.h
+e1k.o: ../../../lib/c/include/ipc/dev_iface.h
+e1k.o: ../../../lib/drv/include/dev_iface.h
+e1k.o: ../../../lib/c/include/device/hw_res_parsed.h
+e1k.o: ../../../lib/c/include/device/hw_res.h
+e1k.o: ../../../lib/c/include/device/pci.h ../../../lib/nic/include/nic.h
+e1k.o: ../../../lib/c/include/adt/hash_table.h
+e1k.o: ../../../lib/c/include/macros.h ../../../lib/drv/include/ddf/driver.h
+e1k.o: ../../../lib/drv/include/ops/nic.h
+e1k.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+e1k.o: ../../../lib/c/include/nic/nic.h ../../../lib/c/include/nic/eth_phys.h
+e1k.o: ../../../lib/drv/include/ddf/driver.h e1k.h

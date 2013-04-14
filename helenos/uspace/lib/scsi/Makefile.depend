@@ -1,0 +1,10 @@
+# DO NOT DELETE
+
+src/spc.o: ../../lib/c/include/stdint.h ../../lib/c/include/libarch/types.h
+src/spc.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdlib.h
+src/spc.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+src/spc.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/spc.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+src/spc.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/stdbool.h
+src/spc.o: ../../lib/c/include/abi/bool.h include/scsi/spc.h
+src/spc.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h

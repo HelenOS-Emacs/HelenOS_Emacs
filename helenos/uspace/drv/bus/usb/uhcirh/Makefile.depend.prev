@@ -1,0 +1,152 @@
+# DO NOT DELETE
+
+main.o: ../../../../lib/drv/include/ddf/driver.h
+main.o: ../../../../lib/c/include/async.h
+main.o: ../../../../lib/c/include/ipc/common.h
+main.o: ../../../../lib/c/include/sys/types.h
+main.o: ../../../../lib/c/include/libarch/types.h
+main.o: ../../../../lib/c/include/libarch/common.h
+main.o: ../../../../lib/c/include/abi/ipc/ipc.h
+main.o: ../../../../lib/c/include/atomic.h
+main.o: ../../../../lib/c/include/libarch/atomic.h
+main.o: ../../../../lib/c/include/atomicdflt.h
+main.o: ../../../../lib/c/include/stdint.h
+main.o: ../../../../lib/c/include/stdbool.h
+main.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+main.o: ../../../../lib/c/include/abi/proc/task.h
+main.o: ../../../../lib/c/include/stdarg.h ../../../../lib/c/include/fibril.h
+main.o: ../../../../lib/c/include/libarch/fibril.h
+main.o: ../../../../lib/c/include/adt/list.h
+main.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+main.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+main.o: ../../../../lib/c/include/libarch/config.h
+main.o: ../../../../lib/c/include/libarch/tls.h
+main.o: ../../../../lib/c/include/libc.h
+main.o: ../../../../lib/c/include/abi/syscall.h
+main.o: ../../../../lib/c/include/libarch/syscall.h
+main.o: ../../../../lib/c/include/ipc/devman.h
+main.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+main.o: ../../../../lib/c/include/ipc/dev_iface.h
+main.o: ../../../../lib/drv/include/dev_iface.h
+main.o: ../../../../lib/c/include/devman.h
+main.o: ../../../../lib/c/include/ipc/loc.h
+main.o: ../../../../lib/c/include/device/hw_res_parsed.h
+main.o: ../../../../lib/c/include/device/hw_res.h
+main.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/errno.h
+main.o: ../../../../lib/c/include/abi/errno.h
+main.o: ../../../../lib/c/include/str_error.h
+main.o: ../../../../lib/drv/include/usb_iface.h
+main.o: ../../../../lib/usb/include/usb/usb.h
+main.o: ../../../../lib/c/include/byteorder.h
+main.o: ../../../../lib/usb/include/usb/ddfiface.h
+main.o: ../../../../lib/usb/include/usb/debug.h
+main.o: ../../../../lib/c/include/stdio.h
+main.o: ../../../../lib/c/include/io/verify.h
+main.o: ../../../../lib/c/include/abi/klog.h
+main.o: ../../../../lib/c/include/inttypes.h
+main.o: ../../../../lib/c/include/libarch/inttypes.h
+main.o: ../../../../lib/c/include/io/log.h root_hub.h port.h
+main.o: ../../../../lib/usb/include/usb/hc.h
+main.o: ../../../../lib/c/include/fibril_synch.h
+main.o: ../../../../lib/usbdev/include/usb/dev/hub.h
+port.o: ../../../../lib/c/include/ddi.h ../../../../lib/c/include/stdbool.h
+port.o: ../../../../lib/c/include/libarch/types.h
+port.o: ../../../../lib/c/include/libarch/common.h
+port.o: ../../../../lib/c/include/abi/bool.h
+port.o: ../../../../lib/c/include/sys/types.h
+port.o: ../../../../lib/c/include/sys/time.h
+port.o: ../../../../lib/c/include/abi/ddi/irq.h
+port.o: ../../../../lib/c/include/task.h
+port.o: ../../../../lib/c/include/abi/proc/task.h
+port.o: ../../../../lib/c/include/stdarg.h
+port.o: ../../../../lib/c/include/fibril_synch.h
+port.o: ../../../../lib/c/include/fibril.h
+port.o: ../../../../lib/c/include/libarch/fibril.h
+port.o: ../../../../lib/c/include/adt/list.h
+port.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+port.o: ../../../../lib/c/include/time.h
+port.o: ../../../../lib/c/include/libarch/config.h
+port.o: ../../../../lib/c/include/libarch/tls.h
+port.o: ../../../../lib/c/include/libc.h
+port.o: ../../../../lib/c/include/abi/syscall.h
+port.o: ../../../../lib/c/include/libarch/syscall.h
+port.o: ../../../../lib/c/include/errno.h
+port.o: ../../../../lib/c/include/abi/errno.h
+port.o: ../../../../lib/c/include/str_error.h
+port.o: ../../../../lib/c/include/async.h
+port.o: ../../../../lib/c/include/ipc/common.h
+port.o: ../../../../lib/c/include/abi/ipc/ipc.h
+port.o: ../../../../lib/c/include/atomic.h
+port.o: ../../../../lib/c/include/libarch/atomic.h
+port.o: ../../../../lib/c/include/atomicdflt.h
+port.o: ../../../../lib/c/include/stdint.h
+port.o: ../../../../lib/usb/include/usb/usb.h
+port.o: ../../../../lib/c/include/byteorder.h
+port.o: ../../../../lib/usb/include/usb/debug.h
+port.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+port.o: ../../../../lib/c/include/mem.h ../../../../lib/c/include/io/verify.h
+port.o: ../../../../lib/c/include/abi/klog.h
+port.o: ../../../../lib/c/include/inttypes.h
+port.o: ../../../../lib/c/include/libarch/inttypes.h
+port.o: ../../../../lib/c/include/io/log.h port.h
+port.o: ../../../../lib/drv/include/ddf/driver.h
+port.o: ../../../../lib/c/include/ipc/devman.h
+port.o: ../../../../lib/c/include/malloc.h
+port.o: ../../../../lib/c/include/ipc/dev_iface.h
+port.o: ../../../../lib/drv/include/dev_iface.h
+port.o: ../../../../lib/usb/include/usb/hc.h
+port.o: ../../../../lib/c/include/devman.h
+port.o: ../../../../lib/c/include/ipc/loc.h
+port.o: ../../../../lib/usbdev/include/usb/dev/hub.h
+root_hub.o: ../../../../lib/c/include/errno.h
+root_hub.o: ../../../../lib/c/include/abi/errno.h
+root_hub.o: ../../../../lib/c/include/str_error.h
+root_hub.o: ../../../../lib/c/include/ddi.h
+root_hub.o: ../../../../lib/c/include/stdbool.h
+root_hub.o: ../../../../lib/c/include/libarch/types.h
+root_hub.o: ../../../../lib/c/include/libarch/common.h
+root_hub.o: ../../../../lib/c/include/abi/bool.h
+root_hub.o: ../../../../lib/c/include/sys/types.h
+root_hub.o: ../../../../lib/c/include/sys/time.h
+root_hub.o: ../../../../lib/c/include/abi/ddi/irq.h
+root_hub.o: ../../../../lib/c/include/task.h
+root_hub.o: ../../../../lib/c/include/abi/proc/task.h
+root_hub.o: ../../../../lib/c/include/stdarg.h
+root_hub.o: ../../../../lib/usb/include/usb/debug.h
+root_hub.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+root_hub.o: ../../../../lib/c/include/mem.h
+root_hub.o: ../../../../lib/c/include/io/verify.h
+root_hub.o: ../../../../lib/c/include/abi/klog.h
+root_hub.o: ../../../../lib/c/include/inttypes.h
+root_hub.o: ../../../../lib/c/include/libarch/inttypes.h
+root_hub.o: ../../../../lib/usb/include/usb/usb.h
+root_hub.o: ../../../../lib/c/include/byteorder.h
+root_hub.o: ../../../../lib/c/include/stdint.h
+root_hub.o: ../../../../lib/c/include/io/log.h
+root_hub.o: ../../../../lib/c/include/assert.h root_hub.h
+root_hub.o: ../../../../lib/drv/include/ddf/driver.h
+root_hub.o: ../../../../lib/c/include/async.h
+root_hub.o: ../../../../lib/c/include/ipc/common.h
+root_hub.o: ../../../../lib/c/include/abi/ipc/ipc.h
+root_hub.o: ../../../../lib/c/include/atomic.h
+root_hub.o: ../../../../lib/c/include/libarch/atomic.h
+root_hub.o: ../../../../lib/c/include/atomicdflt.h
+root_hub.o: ../../../../lib/c/include/fibril.h
+root_hub.o: ../../../../lib/c/include/libarch/fibril.h
+root_hub.o: ../../../../lib/c/include/adt/list.h
+root_hub.o: ../../../../lib/c/include/unistd.h
+root_hub.o: ../../../../lib/c/include/time.h
+root_hub.o: ../../../../lib/c/include/libarch/config.h
+root_hub.o: ../../../../lib/c/include/libarch/tls.h
+root_hub.o: ../../../../lib/c/include/libc.h
+root_hub.o: ../../../../lib/c/include/abi/syscall.h
+root_hub.o: ../../../../lib/c/include/libarch/syscall.h
+root_hub.o: ../../../../lib/c/include/ipc/devman.h
+root_hub.o: ../../../../lib/c/include/malloc.h
+root_hub.o: ../../../../lib/c/include/ipc/dev_iface.h
+root_hub.o: ../../../../lib/drv/include/dev_iface.h port.h
+root_hub.o: ../../../../lib/usb/include/usb/hc.h
+root_hub.o: ../../../../lib/c/include/devman.h
+root_hub.o: ../../../../lib/c/include/ipc/loc.h
+root_hub.o: ../../../../lib/c/include/fibril_synch.h
+root_hub.o: ../../../../lib/usbdev/include/usb/dev/hub.h

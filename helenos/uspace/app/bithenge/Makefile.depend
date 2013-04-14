@@ -1,0 +1,25 @@
+# DO NOT DELETE
+
+test.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+test.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+test.o: ../../lib/c/include/libarch/types.h
+test.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+test.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+test.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+test.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+test.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+test.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+test.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+test.o: ../../lib/c/include/stacktrace.h
+test.o: ../../lib/bithenge/include/bithenge/blob.h
+test.o: ../../lib/bithenge/include/bithenge/tree.h
+test.o: ../../lib/c/include/assert.h ../../lib/bithenge/include/bithenge/os.h
+test.o: ../../lib/bithenge/include/bithenge/source.h
+test.o: ../../lib/bithenge/include/bithenge/print.h
+test.o: ../../lib/bithenge/include/bithenge/script.h
+test.o: ../../lib/bithenge/include/bithenge/transform.h
+test.o: ../../lib/bithenge/include/bithenge/blob.h
+test.o: ../../lib/bithenge/include/bithenge/transform.h
+test.o: ../../lib/bithenge/include/bithenge/tree.h
+test.o: ../../lib/bithenge/include/bithenge/os.h
+test.o: ../../lib/c/include/str_error.h

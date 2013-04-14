@@ -1,0 +1,808 @@
+# DO NOT DELETE
+
+layout/cz.o: ../../../lib/c/include/errno.h
+layout/cz.o: ../../../lib/c/include/abi/errno.h
+layout/cz.o: ../../../lib/c/include/io/console.h
+layout/cz.o: ../../../lib/c/include/sys/time.h
+layout/cz.o: ../../../lib/c/include/sys/types.h
+layout/cz.o: ../../../lib/c/include/libarch/types.h
+layout/cz.o: ../../../lib/c/include/libarch/common.h
+layout/cz.o: ../../../lib/c/include/io/concaps.h
+layout/cz.o: ../../../lib/c/include/io/kbd_event.h
+layout/cz.o: ../../../lib/c/include/adt/list.h
+layout/cz.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+layout/cz.o: ../../../lib/c/include/time.h
+layout/cz.o: ../../../lib/c/include/libarch/config.h
+layout/cz.o: ../../../lib/c/include/io/keycode.h
+layout/cz.o: ../../../lib/c/include/async.h
+layout/cz.o: ../../../lib/c/include/ipc/common.h
+layout/cz.o: ../../../lib/c/include/abi/ipc/ipc.h
+layout/cz.o: ../../../lib/c/include/atomic.h
+layout/cz.o: ../../../lib/c/include/libarch/atomic.h
+layout/cz.o: ../../../lib/c/include/atomicdflt.h
+layout/cz.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+layout/cz.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+layout/cz.o: ../../../lib/c/include/abi/proc/task.h
+layout/cz.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+layout/cz.o: ../../../lib/c/include/libarch/fibril.h
+layout/cz.o: ../../../lib/c/include/libarch/tls.h
+layout/cz.o: ../../../lib/c/include/libc.h
+layout/cz.o: ../../../lib/c/include/abi/syscall.h
+layout/cz.o: ../../../lib/c/include/libarch/syscall.h
+layout/cz.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+layout/cz.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+layout/cz.o: ../../../lib/c/include/abi/klog.h
+layout/cz.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+layout/cz.o: ../../../lib/c/include/stacktrace.h input.h layout.h
+layout/us_qwerty.o: ../../../lib/c/include/errno.h
+layout/us_qwerty.o: ../../../lib/c/include/abi/errno.h
+layout/us_qwerty.o: ../../../lib/c/include/io/console.h
+layout/us_qwerty.o: ../../../lib/c/include/sys/time.h
+layout/us_qwerty.o: ../../../lib/c/include/sys/types.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/types.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/common.h
+layout/us_qwerty.o: ../../../lib/c/include/io/concaps.h
+layout/us_qwerty.o: ../../../lib/c/include/io/kbd_event.h
+layout/us_qwerty.o: ../../../lib/c/include/adt/list.h
+layout/us_qwerty.o: ../../../lib/c/include/assert.h
+layout/us_qwerty.o: ../../../lib/c/include/unistd.h
+layout/us_qwerty.o: ../../../lib/c/include/time.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/config.h
+layout/us_qwerty.o: ../../../lib/c/include/io/keycode.h
+layout/us_qwerty.o: ../../../lib/c/include/async.h
+layout/us_qwerty.o: ../../../lib/c/include/ipc/common.h
+layout/us_qwerty.o: ../../../lib/c/include/abi/ipc/ipc.h
+layout/us_qwerty.o: ../../../lib/c/include/atomic.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/atomic.h
+layout/us_qwerty.o: ../../../lib/c/include/atomicdflt.h
+layout/us_qwerty.o: ../../../lib/c/include/stdint.h
+layout/us_qwerty.o: ../../../lib/c/include/stdbool.h
+layout/us_qwerty.o: ../../../lib/c/include/abi/bool.h
+layout/us_qwerty.o: ../../../lib/c/include/task.h
+layout/us_qwerty.o: ../../../lib/c/include/abi/proc/task.h
+layout/us_qwerty.o: ../../../lib/c/include/stdarg.h
+layout/us_qwerty.o: ../../../lib/c/include/fibril.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/fibril.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/tls.h
+layout/us_qwerty.o: ../../../lib/c/include/libc.h
+layout/us_qwerty.o: ../../../lib/c/include/abi/syscall.h
+layout/us_qwerty.o: ../../../lib/c/include/libarch/syscall.h
+layout/us_qwerty.o: ../../../lib/c/include/stdio.h
+layout/us_qwerty.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+layout/us_qwerty.o: ../../../lib/c/include/io/verify.h
+layout/us_qwerty.o: ../../../lib/c/include/abi/klog.h layout.h kbd.h
+layout/us_qwerty.o: ../../../lib/c/include/ipc/loc.h
+layout/us_dvorak.o: ../../../lib/c/include/errno.h
+layout/us_dvorak.o: ../../../lib/c/include/abi/errno.h
+layout/us_dvorak.o: ../../../lib/c/include/io/console.h
+layout/us_dvorak.o: ../../../lib/c/include/sys/time.h
+layout/us_dvorak.o: ../../../lib/c/include/sys/types.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/types.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/common.h
+layout/us_dvorak.o: ../../../lib/c/include/io/concaps.h
+layout/us_dvorak.o: ../../../lib/c/include/io/kbd_event.h
+layout/us_dvorak.o: ../../../lib/c/include/adt/list.h
+layout/us_dvorak.o: ../../../lib/c/include/assert.h
+layout/us_dvorak.o: ../../../lib/c/include/unistd.h
+layout/us_dvorak.o: ../../../lib/c/include/time.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/config.h
+layout/us_dvorak.o: ../../../lib/c/include/io/keycode.h
+layout/us_dvorak.o: ../../../lib/c/include/async.h
+layout/us_dvorak.o: ../../../lib/c/include/ipc/common.h
+layout/us_dvorak.o: ../../../lib/c/include/abi/ipc/ipc.h
+layout/us_dvorak.o: ../../../lib/c/include/atomic.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/atomic.h
+layout/us_dvorak.o: ../../../lib/c/include/atomicdflt.h
+layout/us_dvorak.o: ../../../lib/c/include/stdint.h
+layout/us_dvorak.o: ../../../lib/c/include/stdbool.h
+layout/us_dvorak.o: ../../../lib/c/include/abi/bool.h
+layout/us_dvorak.o: ../../../lib/c/include/task.h
+layout/us_dvorak.o: ../../../lib/c/include/abi/proc/task.h
+layout/us_dvorak.o: ../../../lib/c/include/stdarg.h
+layout/us_dvorak.o: ../../../lib/c/include/fibril.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/fibril.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/tls.h
+layout/us_dvorak.o: ../../../lib/c/include/libc.h
+layout/us_dvorak.o: ../../../lib/c/include/abi/syscall.h
+layout/us_dvorak.o: ../../../lib/c/include/libarch/syscall.h
+layout/us_dvorak.o: ../../../lib/c/include/stdio.h
+layout/us_dvorak.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+layout/us_dvorak.o: ../../../lib/c/include/io/verify.h
+layout/us_dvorak.o: ../../../lib/c/include/abi/klog.h layout.h kbd.h
+layout/us_dvorak.o: ../../../lib/c/include/ipc/loc.h
+layout/ar.o: ../../../lib/c/include/errno.h
+layout/ar.o: ../../../lib/c/include/abi/errno.h
+layout/ar.o: ../../../lib/c/include/io/console.h
+layout/ar.o: ../../../lib/c/include/sys/time.h
+layout/ar.o: ../../../lib/c/include/sys/types.h
+layout/ar.o: ../../../lib/c/include/libarch/types.h
+layout/ar.o: ../../../lib/c/include/libarch/common.h
+layout/ar.o: ../../../lib/c/include/io/concaps.h
+layout/ar.o: ../../../lib/c/include/io/kbd_event.h
+layout/ar.o: ../../../lib/c/include/adt/list.h
+layout/ar.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+layout/ar.o: ../../../lib/c/include/time.h
+layout/ar.o: ../../../lib/c/include/libarch/config.h
+layout/ar.o: ../../../lib/c/include/io/keycode.h
+layout/ar.o: ../../../lib/c/include/async.h
+layout/ar.o: ../../../lib/c/include/ipc/common.h
+layout/ar.o: ../../../lib/c/include/abi/ipc/ipc.h
+layout/ar.o: ../../../lib/c/include/atomic.h
+layout/ar.o: ../../../lib/c/include/libarch/atomic.h
+layout/ar.o: ../../../lib/c/include/atomicdflt.h
+layout/ar.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+layout/ar.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+layout/ar.o: ../../../lib/c/include/abi/proc/task.h
+layout/ar.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+layout/ar.o: ../../../lib/c/include/libarch/fibril.h
+layout/ar.o: ../../../lib/c/include/libarch/tls.h
+layout/ar.o: ../../../lib/c/include/libc.h
+layout/ar.o: ../../../lib/c/include/abi/syscall.h
+layout/ar.o: ../../../lib/c/include/libarch/syscall.h
+layout/ar.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+layout/ar.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+layout/ar.o: ../../../lib/c/include/abi/klog.h layout.h kbd.h
+layout/ar.o: ../../../lib/c/include/ipc/loc.h
+port/adb.o: ../../../lib/c/include/ipc/adb.h
+port/adb.o: ../../../lib/c/include/ipc/common.h
+port/adb.o: ../../../lib/c/include/sys/types.h
+port/adb.o: ../../../lib/c/include/libarch/types.h
+port/adb.o: ../../../lib/c/include/libarch/common.h
+port/adb.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/adb.o: ../../../lib/c/include/atomic.h
+port/adb.o: ../../../lib/c/include/libarch/atomic.h
+port/adb.o: ../../../lib/c/include/atomicdflt.h
+port/adb.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+port/adb.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+port/adb.o: ../../../lib/c/include/abi/proc/task.h
+port/adb.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+port/adb.o: ../../../lib/c/include/fibril.h
+port/adb.o: ../../../lib/c/include/libarch/fibril.h
+port/adb.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+port/adb.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port/adb.o: ../../../lib/c/include/sys/time.h
+port/adb.o: ../../../lib/c/include/libarch/config.h
+port/adb.o: ../../../lib/c/include/libarch/tls.h
+port/adb.o: ../../../lib/c/include/libc.h
+port/adb.o: ../../../lib/c/include/abi/syscall.h
+port/adb.o: ../../../lib/c/include/libarch/syscall.h
+port/adb.o: ../../../lib/c/include/vfs/vfs.h ../../../lib/c/include/ipc/vfs.h
+port/adb.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdio.h
+port/adb.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+port/adb.o: ../../../lib/c/include/io/verify.h
+port/adb.o: ../../../lib/c/include/abi/klog.h
+port/adb.o: ../../../lib/c/include/vfs/vfs_mtab.h
+port/adb.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/errno.h
+port/adb.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/loc.h
+port/adb.o: input.h kbd_port.h kbd.h
+port/adb_mouse.o: ../../../lib/c/include/ipc/adb.h
+port/adb_mouse.o: ../../../lib/c/include/ipc/common.h
+port/adb_mouse.o: ../../../lib/c/include/sys/types.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/types.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/common.h
+port/adb_mouse.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/adb_mouse.o: ../../../lib/c/include/atomic.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/atomic.h
+port/adb_mouse.o: ../../../lib/c/include/atomicdflt.h
+port/adb_mouse.o: ../../../lib/c/include/stdint.h
+port/adb_mouse.o: ../../../lib/c/include/stdbool.h
+port/adb_mouse.o: ../../../lib/c/include/abi/bool.h
+port/adb_mouse.o: ../../../lib/c/include/task.h
+port/adb_mouse.o: ../../../lib/c/include/abi/proc/task.h
+port/adb_mouse.o: ../../../lib/c/include/stdarg.h
+port/adb_mouse.o: ../../../lib/c/include/async.h
+port/adb_mouse.o: ../../../lib/c/include/fibril.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/fibril.h
+port/adb_mouse.o: ../../../lib/c/include/adt/list.h
+port/adb_mouse.o: ../../../lib/c/include/assert.h
+port/adb_mouse.o: ../../../lib/c/include/unistd.h
+port/adb_mouse.o: ../../../lib/c/include/time.h
+port/adb_mouse.o: ../../../lib/c/include/sys/time.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/config.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/tls.h
+port/adb_mouse.o: ../../../lib/c/include/libc.h
+port/adb_mouse.o: ../../../lib/c/include/abi/syscall.h
+port/adb_mouse.o: ../../../lib/c/include/libarch/syscall.h
+port/adb_mouse.o: ../../../lib/c/include/errno.h
+port/adb_mouse.o: ../../../lib/c/include/abi/errno.h
+port/adb_mouse.o: ../../../lib/c/include/loc.h
+port/adb_mouse.o: ../../../lib/c/include/ipc/loc.h
+port/adb_mouse.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+port/adb_mouse.o: ../../../lib/c/include/mem.h
+port/adb_mouse.o: ../../../lib/c/include/io/verify.h
+port/adb_mouse.o: ../../../lib/c/include/abi/klog.h mouse.h mouse_port.h
+port/adb_mouse.o: input.h
+port/chardev.o: ../../../lib/c/include/ipc/char.h
+port/chardev.o: ../../../lib/c/include/ipc/common.h
+port/chardev.o: ../../../lib/c/include/sys/types.h
+port/chardev.o: ../../../lib/c/include/libarch/types.h
+port/chardev.o: ../../../lib/c/include/libarch/common.h
+port/chardev.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/chardev.o: ../../../lib/c/include/atomic.h
+port/chardev.o: ../../../lib/c/include/libarch/atomic.h
+port/chardev.o: ../../../lib/c/include/atomicdflt.h
+port/chardev.o: ../../../lib/c/include/stdint.h
+port/chardev.o: ../../../lib/c/include/stdbool.h
+port/chardev.o: ../../../lib/c/include/abi/bool.h
+port/chardev.o: ../../../lib/c/include/task.h
+port/chardev.o: ../../../lib/c/include/abi/proc/task.h
+port/chardev.o: ../../../lib/c/include/stdarg.h
+port/chardev.o: ../../../lib/c/include/async.h
+port/chardev.o: ../../../lib/c/include/fibril.h
+port/chardev.o: ../../../lib/c/include/libarch/fibril.h
+port/chardev.o: ../../../lib/c/include/adt/list.h
+port/chardev.o: ../../../lib/c/include/assert.h
+port/chardev.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port/chardev.o: ../../../lib/c/include/sys/time.h
+port/chardev.o: ../../../lib/c/include/libarch/config.h
+port/chardev.o: ../../../lib/c/include/libarch/tls.h
+port/chardev.o: ../../../lib/c/include/libc.h
+port/chardev.o: ../../../lib/c/include/abi/syscall.h
+port/chardev.o: ../../../lib/c/include/libarch/syscall.h
+port/chardev.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+port/chardev.o: ../../../lib/c/include/errno.h
+port/chardev.o: ../../../lib/c/include/abi/errno.h
+port/chardev.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+port/chardev.o: ../../../lib/c/include/mem.h
+port/chardev.o: ../../../lib/c/include/io/verify.h
+port/chardev.o: ../../../lib/c/include/abi/klog.h input.h kbd_port.h kbd.h
+port/gxemul.o: ../../../lib/c/include/async.h
+port/gxemul.o: ../../../lib/c/include/ipc/common.h
+port/gxemul.o: ../../../lib/c/include/sys/types.h
+port/gxemul.o: ../../../lib/c/include/libarch/types.h
+port/gxemul.o: ../../../lib/c/include/libarch/common.h
+port/gxemul.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/gxemul.o: ../../../lib/c/include/atomic.h
+port/gxemul.o: ../../../lib/c/include/libarch/atomic.h
+port/gxemul.o: ../../../lib/c/include/atomicdflt.h
+port/gxemul.o: ../../../lib/c/include/stdint.h
+port/gxemul.o: ../../../lib/c/include/stdbool.h
+port/gxemul.o: ../../../lib/c/include/abi/bool.h
+port/gxemul.o: ../../../lib/c/include/task.h
+port/gxemul.o: ../../../lib/c/include/abi/proc/task.h
+port/gxemul.o: ../../../lib/c/include/stdarg.h
+port/gxemul.o: ../../../lib/c/include/fibril.h
+port/gxemul.o: ../../../lib/c/include/libarch/fibril.h
+port/gxemul.o: ../../../lib/c/include/adt/list.h
+port/gxemul.o: ../../../lib/c/include/assert.h
+port/gxemul.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port/gxemul.o: ../../../lib/c/include/sys/time.h
+port/gxemul.o: ../../../lib/c/include/libarch/config.h
+port/gxemul.o: ../../../lib/c/include/libarch/tls.h
+port/gxemul.o: ../../../lib/c/include/libc.h
+port/gxemul.o: ../../../lib/c/include/abi/syscall.h
+port/gxemul.o: ../../../lib/c/include/libarch/syscall.h
+port/gxemul.o: ../../../lib/c/include/sysinfo.h
+port/gxemul.o: ../../../lib/c/include/abi/sysinfo.h
+port/gxemul.o: ../../../lib/c/include/abi/proc/thread.h
+port/gxemul.o: ../../../lib/c/include/ddi.h
+port/gxemul.o: ../../../lib/c/include/abi/ddi/irq.h
+port/gxemul.o: ../../../lib/c/include/errno.h
+port/gxemul.o: ../../../lib/c/include/abi/errno.h kbd_port.h kbd.h
+port/gxemul.o: ../../../lib/c/include/ipc/loc.h
+port/msim.o: ../../../lib/c/include/async.h
+port/msim.o: ../../../lib/c/include/ipc/common.h
+port/msim.o: ../../../lib/c/include/sys/types.h
+port/msim.o: ../../../lib/c/include/libarch/types.h
+port/msim.o: ../../../lib/c/include/libarch/common.h
+port/msim.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/msim.o: ../../../lib/c/include/atomic.h
+port/msim.o: ../../../lib/c/include/libarch/atomic.h
+port/msim.o: ../../../lib/c/include/atomicdflt.h
+port/msim.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+port/msim.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+port/msim.o: ../../../lib/c/include/abi/proc/task.h
+port/msim.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+port/msim.o: ../../../lib/c/include/libarch/fibril.h
+port/msim.o: ../../../lib/c/include/adt/list.h
+port/msim.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+port/msim.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+port/msim.o: ../../../lib/c/include/libarch/config.h
+port/msim.o: ../../../lib/c/include/libarch/tls.h
+port/msim.o: ../../../lib/c/include/libc.h
+port/msim.o: ../../../lib/c/include/abi/syscall.h
+port/msim.o: ../../../lib/c/include/libarch/syscall.h
+port/msim.o: ../../../lib/c/include/sysinfo.h
+port/msim.o: ../../../lib/c/include/abi/sysinfo.h
+port/msim.o: ../../../lib/c/include/abi/proc/thread.h
+port/msim.o: ../../../lib/c/include/ddi.h
+port/msim.o: ../../../lib/c/include/abi/ddi/irq.h
+port/msim.o: ../../../lib/c/include/errno.h
+port/msim.o: ../../../lib/c/include/abi/errno.h kbd_port.h kbd.h
+port/msim.o: ../../../lib/c/include/ipc/loc.h
+port/niagara.o: ../../../lib/c/include/as.h
+port/niagara.o: ../../../lib/c/include/sys/types.h
+port/niagara.o: ../../../lib/c/include/libarch/types.h
+port/niagara.o: ../../../lib/c/include/libarch/common.h
+port/niagara.o: ../../../lib/c/include/abi/mm/as.h
+port/niagara.o: ../../../lib/c/include/task.h
+port/niagara.o: ../../../lib/c/include/abi/proc/task.h
+port/niagara.o: ../../../lib/c/include/stdarg.h
+port/niagara.o: ../../../lib/c/include/libarch/config.h
+port/niagara.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/stdbool.h
+port/niagara.o: ../../../lib/c/include/abi/bool.h
+port/niagara.o: ../../../lib/c/include/sys/time.h
+port/niagara.o: ../../../lib/c/include/abi/ddi/irq.h
+port/niagara.o: ../../../lib/c/include/async.h
+port/niagara.o: ../../../lib/c/include/ipc/common.h
+port/niagara.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/niagara.o: ../../../lib/c/include/atomic.h
+port/niagara.o: ../../../lib/c/include/libarch/atomic.h
+port/niagara.o: ../../../lib/c/include/atomicdflt.h
+port/niagara.o: ../../../lib/c/include/stdint.h
+port/niagara.o: ../../../lib/c/include/fibril.h
+port/niagara.o: ../../../lib/c/include/libarch/fibril.h
+port/niagara.o: ../../../lib/c/include/adt/list.h
+port/niagara.o: ../../../lib/c/include/assert.h
+port/niagara.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port/niagara.o: ../../../lib/c/include/libarch/tls.h
+port/niagara.o: ../../../lib/c/include/libc.h
+port/niagara.o: ../../../lib/c/include/abi/syscall.h
+port/niagara.o: ../../../lib/c/include/libarch/syscall.h
+port/niagara.o: ../../../lib/c/include/sysinfo.h
+port/niagara.o: ../../../lib/c/include/abi/sysinfo.h
+port/niagara.o: ../../../lib/c/include/abi/proc/thread.h
+port/niagara.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+port/niagara.o: ../../../lib/c/include/mem.h
+port/niagara.o: ../../../lib/c/include/io/verify.h
+port/niagara.o: ../../../lib/c/include/abi/klog.h
+port/niagara.o: ../../../lib/c/include/thread.h
+port/niagara.o: ../../../lib/c/include/libarch/thread.h
+port/niagara.o: ../../../lib/c/include/errno.h
+port/niagara.o: ../../../lib/c/include/abi/errno.h kbd_port.h kbd.h
+port/niagara.o: ../../../lib/c/include/ipc/loc.h
+port/ns16550.o: ../../../lib/c/include/ipc/irc.h
+port/ns16550.o: ../../../lib/c/include/ipc/common.h
+port/ns16550.o: ../../../lib/c/include/sys/types.h
+port/ns16550.o: ../../../lib/c/include/libarch/types.h
+port/ns16550.o: ../../../lib/c/include/libarch/common.h
+port/ns16550.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/ns16550.o: ../../../lib/c/include/atomic.h
+port/ns16550.o: ../../../lib/c/include/libarch/atomic.h
+port/ns16550.o: ../../../lib/c/include/atomicdflt.h
+port/ns16550.o: ../../../lib/c/include/stdint.h
+port/ns16550.o: ../../../lib/c/include/stdbool.h
+port/ns16550.o: ../../../lib/c/include/abi/bool.h
+port/ns16550.o: ../../../lib/c/include/task.h
+port/ns16550.o: ../../../lib/c/include/abi/proc/task.h
+port/ns16550.o: ../../../lib/c/include/stdarg.h
+port/ns16550.o: ../../../lib/c/include/async.h
+port/ns16550.o: ../../../lib/c/include/fibril.h
+port/ns16550.o: ../../../lib/c/include/libarch/fibril.h
+port/ns16550.o: ../../../lib/c/include/adt/list.h
+port/ns16550.o: ../../../lib/c/include/assert.h
+port/ns16550.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port/ns16550.o: ../../../lib/c/include/sys/time.h
+port/ns16550.o: ../../../lib/c/include/libarch/config.h
+port/ns16550.o: ../../../lib/c/include/libarch/tls.h
+port/ns16550.o: ../../../lib/c/include/libc.h
+port/ns16550.o: ../../../lib/c/include/abi/syscall.h
+port/ns16550.o: ../../../lib/c/include/libarch/syscall.h
+port/ns16550.o: ../../../lib/c/include/sysinfo.h
+port/ns16550.o: ../../../lib/c/include/abi/sysinfo.h
+port/ns16550.o: ../../../lib/c/include/abi/proc/thread.h
+port/ns16550.o: ../../../lib/c/include/ddi.h
+port/ns16550.o: ../../../lib/c/include/abi/ddi/irq.h
+port/ns16550.o: ../../../lib/c/include/errno.h
+port/ns16550.o: ../../../lib/c/include/abi/errno.h input.h kbd_port.h kbd.h
+port/ns16550.o: ../../../lib/c/include/ipc/loc.h
+port/pl050.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/stdbool.h
+port/pl050.o: ../../../lib/c/include/libarch/types.h
+port/pl050.o: ../../../lib/c/include/libarch/common.h
+port/pl050.o: ../../../lib/c/include/abi/bool.h
+port/pl050.o: ../../../lib/c/include/sys/types.h
+port/pl050.o: ../../../lib/c/include/sys/time.h
+port/pl050.o: ../../../lib/c/include/abi/ddi/irq.h
+port/pl050.o: ../../../lib/c/include/task.h
+port/pl050.o: ../../../lib/c/include/abi/proc/task.h
+port/pl050.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+port/pl050.o: ../../../lib/c/include/ipc/common.h
+port/pl050.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/pl050.o: ../../../lib/c/include/atomic.h
+port/pl050.o: ../../../lib/c/include/libarch/atomic.h
+port/pl050.o: ../../../lib/c/include/atomicdflt.h
+port/pl050.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/fibril.h
+port/pl050.o: ../../../lib/c/include/libarch/fibril.h
+port/pl050.o: ../../../lib/c/include/adt/list.h
+port/pl050.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+port/pl050.o: ../../../lib/c/include/time.h
+port/pl050.o: ../../../lib/c/include/libarch/config.h
+port/pl050.o: ../../../lib/c/include/libarch/tls.h
+port/pl050.o: ../../../lib/c/include/libc.h
+port/pl050.o: ../../../lib/c/include/abi/syscall.h
+port/pl050.o: ../../../lib/c/include/libarch/syscall.h
+port/pl050.o: ../../../lib/c/include/sysinfo.h
+port/pl050.o: ../../../lib/c/include/abi/sysinfo.h
+port/pl050.o: ../../../lib/c/include/abi/proc/thread.h
+port/pl050.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+port/pl050.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+port/pl050.o: ../../../lib/c/include/abi/klog.h
+port/pl050.o: ../../../lib/c/include/errno.h
+port/pl050.o: ../../../lib/c/include/abi/errno.h kbd_port.h kbd.h
+port/pl050.o: ../../../lib/c/include/ipc/loc.h
+port/ski.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+port/ski.o: ../../../lib/c/include/sys/types.h
+port/ski.o: ../../../lib/c/include/libarch/types.h
+port/ski.o: ../../../lib/c/include/libarch/common.h
+port/ski.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+port/ski.o: ../../../lib/c/include/libarch/config.h
+port/ski.o: ../../../lib/c/include/malloc.h
+port/ski.o: ../../../lib/c/include/stacktrace.h
+port/ski.o: ../../../lib/c/include/stdbool.h
+port/ski.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/thread.h
+port/ski.o: ../../../lib/c/include/libarch/thread.h
+port/ski.o: ../../../lib/c/include/abi/proc/thread.h kbd_port.h kbd.h
+port/ski.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+port/ski.o: ../../../lib/c/include/ipc/loc.h
+port/ski.o: ../../../lib/c/include/ipc/common.h
+port/ski.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/ski.o: ../../../lib/c/include/atomic.h
+port/ski.o: ../../../lib/c/include/libarch/atomic.h
+port/ski.o: ../../../lib/c/include/atomicdflt.h
+port/ski.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+port/ski.o: ../../../lib/c/include/abi/proc/task.h
+port/ski.o: ../../../lib/c/include/stdarg.h
+proto/adb.o: ../../../lib/c/include/stdbool.h
+proto/adb.o: ../../../lib/c/include/libarch/types.h
+proto/adb.o: ../../../lib/c/include/libarch/common.h
+proto/adb.o: ../../../lib/c/include/abi/bool.h mouse.h
+proto/adb.o: ../../../lib/c/include/adt/list.h
+proto/adb.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+proto/adb.o: ../../../lib/c/include/sys/types.h ../../../lib/c/include/time.h
+proto/adb.o: ../../../lib/c/include/sys/time.h
+proto/adb.o: ../../../lib/c/include/libarch/config.h
+proto/adb.o: ../../../lib/c/include/ipc/loc.h
+proto/adb.o: ../../../lib/c/include/ipc/common.h
+proto/adb.o: ../../../lib/c/include/abi/ipc/ipc.h
+proto/adb.o: ../../../lib/c/include/atomic.h
+proto/adb.o: ../../../lib/c/include/libarch/atomic.h
+proto/adb.o: ../../../lib/c/include/atomicdflt.h
+proto/adb.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+proto/adb.o: ../../../lib/c/include/abi/proc/task.h
+proto/adb.o: ../../../lib/c/include/stdarg.h mouse_port.h mouse_proto.h
+proto/adb.o: mouse_port.h
+proto/mousedev.o: ../../../lib/c/include/stdio.h
+proto/mousedev.o: ../../../lib/c/include/sys/types.h
+proto/mousedev.o: ../../../lib/c/include/libarch/types.h
+proto/mousedev.o: ../../../lib/c/include/libarch/common.h
+proto/mousedev.o: ../../../lib/c/include/stdarg.h
+proto/mousedev.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+proto/mousedev.o: ../../../lib/c/include/stdbool.h
+proto/mousedev.o: ../../../lib/c/include/abi/bool.h
+proto/mousedev.o: ../../../lib/c/include/io/verify.h
+proto/mousedev.o: ../../../lib/c/include/abi/klog.h
+proto/mousedev.o: ../../../lib/c/include/fcntl.h
+proto/mousedev.o: ../../../lib/c/include/vfs/vfs_sess.h
+proto/mousedev.o: ../../../lib/c/include/async.h
+proto/mousedev.o: ../../../lib/c/include/ipc/common.h
+proto/mousedev.o: ../../../lib/c/include/abi/ipc/ipc.h
+proto/mousedev.o: ../../../lib/c/include/atomic.h
+proto/mousedev.o: ../../../lib/c/include/libarch/atomic.h
+proto/mousedev.o: ../../../lib/c/include/atomicdflt.h
+proto/mousedev.o: ../../../lib/c/include/stdint.h
+proto/mousedev.o: ../../../lib/c/include/task.h
+proto/mousedev.o: ../../../lib/c/include/abi/proc/task.h
+proto/mousedev.o: ../../../lib/c/include/fibril.h
+proto/mousedev.o: ../../../lib/c/include/libarch/fibril.h
+proto/mousedev.o: ../../../lib/c/include/adt/list.h
+proto/mousedev.o: ../../../lib/c/include/assert.h
+proto/mousedev.o: ../../../lib/c/include/unistd.h
+proto/mousedev.o: ../../../lib/c/include/time.h
+proto/mousedev.o: ../../../lib/c/include/sys/time.h
+proto/mousedev.o: ../../../lib/c/include/libarch/config.h
+proto/mousedev.o: ../../../lib/c/include/libarch/tls.h
+proto/mousedev.o: ../../../lib/c/include/libc.h
+proto/mousedev.o: ../../../lib/c/include/abi/syscall.h
+proto/mousedev.o: ../../../lib/c/include/libarch/syscall.h
+proto/mousedev.o: ../../../lib/c/include/malloc.h
+proto/mousedev.o: ../../../lib/c/include/errno.h
+proto/mousedev.o: ../../../lib/c/include/abi/errno.h
+proto/mousedev.o: ../../../lib/c/include/ipc/mouseev.h
+proto/mousedev.o: ../../../lib/c/include/ipc/dev_iface.h
+proto/mousedev.o: ../../../lib/c/include/loc.h
+proto/mousedev.o: ../../../lib/c/include/ipc/loc.h
+proto/mousedev.o: ../../../lib/c/include/sys/typefmt.h
+proto/mousedev.o: ../../../lib/c/include/inttypes.h
+proto/mousedev.o: ../../../lib/c/include/libarch/inttypes.h mouse.h
+proto/mousedev.o: mouse_port.h mouse_proto.h mouse_port.h input.h
+ctl/apple.o: ../../../lib/c/include/io/console.h
+ctl/apple.o: ../../../lib/c/include/sys/time.h
+ctl/apple.o: ../../../lib/c/include/sys/types.h
+ctl/apple.o: ../../../lib/c/include/libarch/types.h
+ctl/apple.o: ../../../lib/c/include/libarch/common.h
+ctl/apple.o: ../../../lib/c/include/io/concaps.h
+ctl/apple.o: ../../../lib/c/include/io/kbd_event.h
+ctl/apple.o: ../../../lib/c/include/adt/list.h
+ctl/apple.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+ctl/apple.o: ../../../lib/c/include/time.h
+ctl/apple.o: ../../../lib/c/include/libarch/config.h
+ctl/apple.o: ../../../lib/c/include/io/keycode.h
+ctl/apple.o: ../../../lib/c/include/async.h
+ctl/apple.o: ../../../lib/c/include/ipc/common.h
+ctl/apple.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/apple.o: ../../../lib/c/include/atomic.h
+ctl/apple.o: ../../../lib/c/include/libarch/atomic.h
+ctl/apple.o: ../../../lib/c/include/atomicdflt.h
+ctl/apple.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+ctl/apple.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+ctl/apple.o: ../../../lib/c/include/abi/proc/task.h
+ctl/apple.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ctl/apple.o: ../../../lib/c/include/libarch/fibril.h
+ctl/apple.o: ../../../lib/c/include/libarch/tls.h
+ctl/apple.o: ../../../lib/c/include/libc.h
+ctl/apple.o: ../../../lib/c/include/abi/syscall.h
+ctl/apple.o: ../../../lib/c/include/libarch/syscall.h
+ctl/apple.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ctl/apple.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ctl/apple.o: ../../../lib/c/include/abi/klog.h kbd.h
+ctl/apple.o: ../../../lib/c/include/ipc/loc.h kbd_ctl.h kbd_port.h kbd_port.h
+ctl/gxe_fb.o: ../../../lib/c/include/io/console.h
+ctl/gxe_fb.o: ../../../lib/c/include/sys/time.h
+ctl/gxe_fb.o: ../../../lib/c/include/sys/types.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/types.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/common.h
+ctl/gxe_fb.o: ../../../lib/c/include/io/concaps.h
+ctl/gxe_fb.o: ../../../lib/c/include/io/kbd_event.h
+ctl/gxe_fb.o: ../../../lib/c/include/adt/list.h
+ctl/gxe_fb.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+ctl/gxe_fb.o: ../../../lib/c/include/time.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/config.h
+ctl/gxe_fb.o: ../../../lib/c/include/io/keycode.h
+ctl/gxe_fb.o: ../../../lib/c/include/async.h
+ctl/gxe_fb.o: ../../../lib/c/include/ipc/common.h
+ctl/gxe_fb.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/gxe_fb.o: ../../../lib/c/include/atomic.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/atomic.h
+ctl/gxe_fb.o: ../../../lib/c/include/atomicdflt.h
+ctl/gxe_fb.o: ../../../lib/c/include/stdint.h
+ctl/gxe_fb.o: ../../../lib/c/include/stdbool.h
+ctl/gxe_fb.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+ctl/gxe_fb.o: ../../../lib/c/include/abi/proc/task.h
+ctl/gxe_fb.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/fibril.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/tls.h
+ctl/gxe_fb.o: ../../../lib/c/include/libc.h
+ctl/gxe_fb.o: ../../../lib/c/include/abi/syscall.h
+ctl/gxe_fb.o: ../../../lib/c/include/libarch/syscall.h
+ctl/gxe_fb.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ctl/gxe_fb.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ctl/gxe_fb.o: ../../../lib/c/include/abi/klog.h stroke.h kbd.h
+ctl/gxe_fb.o: ../../../lib/c/include/ipc/loc.h gsp.h
+ctl/gxe_fb.o: ../../../lib/c/include/adt/hash_table.h
+ctl/gxe_fb.o: ../../../lib/c/include/macros.h kbd.h kbd_port.h kbd_ctl.h
+ctl/gxe_fb.o: kbd_port.h
+ctl/kbdev.o: ../../../lib/c/include/async.h
+ctl/kbdev.o: ../../../lib/c/include/ipc/common.h
+ctl/kbdev.o: ../../../lib/c/include/sys/types.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/types.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/common.h
+ctl/kbdev.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/kbdev.o: ../../../lib/c/include/atomic.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/atomic.h
+ctl/kbdev.o: ../../../lib/c/include/atomicdflt.h
+ctl/kbdev.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+ctl/kbdev.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+ctl/kbdev.o: ../../../lib/c/include/abi/proc/task.h
+ctl/kbdev.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/fibril.h
+ctl/kbdev.o: ../../../lib/c/include/adt/list.h
+ctl/kbdev.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+ctl/kbdev.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/config.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/tls.h
+ctl/kbdev.o: ../../../lib/c/include/libc.h
+ctl/kbdev.o: ../../../lib/c/include/abi/syscall.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/syscall.h
+ctl/kbdev.o: ../../../lib/c/include/errno.h
+ctl/kbdev.o: ../../../lib/c/include/abi/errno.h
+ctl/kbdev.o: ../../../lib/c/include/fcntl.h
+ctl/kbdev.o: ../../../lib/c/include/io/console.h
+ctl/kbdev.o: ../../../lib/c/include/io/concaps.h
+ctl/kbdev.o: ../../../lib/c/include/io/kbd_event.h
+ctl/kbdev.o: ../../../lib/c/include/io/keycode.h
+ctl/kbdev.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ctl/kbdev.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ctl/kbdev.o: ../../../lib/c/include/abi/klog.h
+ctl/kbdev.o: ../../../lib/c/include/ipc/kbdev.h
+ctl/kbdev.o: ../../../lib/c/include/ipc/dev_iface.h
+ctl/kbdev.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/loc.h
+ctl/kbdev.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdlib.h
+ctl/kbdev.o: ../../../lib/c/include/stacktrace.h
+ctl/kbdev.o: ../../../lib/c/include/vfs/vfs_sess.h
+ctl/kbdev.o: ../../../lib/c/include/sys/typefmt.h
+ctl/kbdev.o: ../../../lib/c/include/inttypes.h
+ctl/kbdev.o: ../../../lib/c/include/libarch/inttypes.h gsp.h
+ctl/kbdev.o: ../../../lib/c/include/adt/hash_table.h
+ctl/kbdev.o: ../../../lib/c/include/macros.h input.h kbd.h kbd_ctl.h
+ctl/kbdev.o: kbd_port.h kbd_port.h
+ctl/pc.o: ../../../lib/c/include/io/console.h
+ctl/pc.o: ../../../lib/c/include/sys/time.h
+ctl/pc.o: ../../../lib/c/include/sys/types.h
+ctl/pc.o: ../../../lib/c/include/libarch/types.h
+ctl/pc.o: ../../../lib/c/include/libarch/common.h
+ctl/pc.o: ../../../lib/c/include/io/concaps.h
+ctl/pc.o: ../../../lib/c/include/io/kbd_event.h
+ctl/pc.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ctl/pc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ctl/pc.o: ../../../lib/c/include/libarch/config.h
+ctl/pc.o: ../../../lib/c/include/io/keycode.h ../../../lib/c/include/async.h
+ctl/pc.o: ../../../lib/c/include/ipc/common.h
+ctl/pc.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/pc.o: ../../../lib/c/include/atomic.h
+ctl/pc.o: ../../../lib/c/include/libarch/atomic.h
+ctl/pc.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ctl/pc.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+ctl/pc.o: ../../../lib/c/include/task.h
+ctl/pc.o: ../../../lib/c/include/abi/proc/task.h
+ctl/pc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ctl/pc.o: ../../../lib/c/include/libarch/fibril.h
+ctl/pc.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ctl/pc.o: ../../../lib/c/include/abi/syscall.h
+ctl/pc.o: ../../../lib/c/include/libarch/syscall.h
+ctl/pc.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ctl/pc.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ctl/pc.o: ../../../lib/c/include/abi/klog.h gsp.h
+ctl/pc.o: ../../../lib/c/include/adt/hash_table.h
+ctl/pc.o: ../../../lib/c/include/macros.h kbd.h
+ctl/pc.o: ../../../lib/c/include/ipc/loc.h kbd_port.h kbd_ctl.h kbd_port.h
+ctl/stty.o: ../../../lib/c/include/io/keycode.h stroke.h kbd.h
+ctl/stty.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ctl/stty.o: ../../../lib/c/include/unistd.h
+ctl/stty.o: ../../../lib/c/include/sys/types.h
+ctl/stty.o: ../../../lib/c/include/libarch/types.h
+ctl/stty.o: ../../../lib/c/include/libarch/common.h
+ctl/stty.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+ctl/stty.o: ../../../lib/c/include/libarch/config.h
+ctl/stty.o: ../../../lib/c/include/ipc/loc.h
+ctl/stty.o: ../../../lib/c/include/ipc/common.h
+ctl/stty.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/stty.o: ../../../lib/c/include/atomic.h
+ctl/stty.o: ../../../lib/c/include/libarch/atomic.h
+ctl/stty.o: ../../../lib/c/include/atomicdflt.h
+ctl/stty.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+ctl/stty.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+ctl/stty.o: ../../../lib/c/include/abi/proc/task.h
+ctl/stty.o: ../../../lib/c/include/stdarg.h gsp.h
+ctl/stty.o: ../../../lib/c/include/adt/hash_table.h
+ctl/stty.o: ../../../lib/c/include/macros.h kbd.h kbd_port.h kbd_ctl.h
+ctl/stty.o: kbd_port.h ../../../lib/c/include/stdio.h
+ctl/stty.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+ctl/stty.o: ../../../lib/c/include/io/verify.h
+ctl/stty.o: ../../../lib/c/include/abi/klog.h
+ctl/sun.o: ../../../lib/c/include/io/console.h
+ctl/sun.o: ../../../lib/c/include/sys/time.h
+ctl/sun.o: ../../../lib/c/include/sys/types.h
+ctl/sun.o: ../../../lib/c/include/libarch/types.h
+ctl/sun.o: ../../../lib/c/include/libarch/common.h
+ctl/sun.o: ../../../lib/c/include/io/concaps.h
+ctl/sun.o: ../../../lib/c/include/io/kbd_event.h
+ctl/sun.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ctl/sun.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ctl/sun.o: ../../../lib/c/include/libarch/config.h
+ctl/sun.o: ../../../lib/c/include/io/keycode.h ../../../lib/c/include/async.h
+ctl/sun.o: ../../../lib/c/include/ipc/common.h
+ctl/sun.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/sun.o: ../../../lib/c/include/atomic.h
+ctl/sun.o: ../../../lib/c/include/libarch/atomic.h
+ctl/sun.o: ../../../lib/c/include/atomicdflt.h
+ctl/sun.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+ctl/sun.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+ctl/sun.o: ../../../lib/c/include/abi/proc/task.h
+ctl/sun.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ctl/sun.o: ../../../lib/c/include/libarch/fibril.h
+ctl/sun.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ctl/sun.o: ../../../lib/c/include/abi/syscall.h
+ctl/sun.o: ../../../lib/c/include/libarch/syscall.h
+ctl/sun.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ctl/sun.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ctl/sun.o: ../../../lib/c/include/abi/klog.h kbd.h
+ctl/sun.o: ../../../lib/c/include/ipc/loc.h kbd_port.h kbd_ctl.h kbd_port.h
+gsp.o: ../../../lib/c/include/adt/hash_table.h
+gsp.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+gsp.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+gsp.o: ../../../lib/c/include/libarch/types.h
+gsp.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/time.h
+gsp.o: ../../../lib/c/include/sys/time.h
+gsp.o: ../../../lib/c/include/libarch/config.h
+gsp.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+gsp.o: ../../../lib/c/include/macros.h ../../../lib/c/include/adt/hash.h
+gsp.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdlib.h
+gsp.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+gsp.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+gsp.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+gsp.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+gsp.o: gsp.h
+input.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+input.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+input.o: ../../../lib/c/include/libarch/types.h
+input.o: ../../../lib/c/include/libarch/common.h
+input.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+input.o: ../../../lib/c/include/libarch/config.h
+input.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+input.o: ../../../lib/c/include/fibril_synch.h
+input.o: ../../../lib/c/include/fibril.h
+input.o: ../../../lib/c/include/libarch/fibril.h
+input.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+input.o: ../../../lib/c/include/abi/syscall.h
+input.o: ../../../lib/c/include/libarch/syscall.h
+input.o: ../../../lib/c/include/ipc/services.h
+input.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/ipc/input.h
+input.o: ../../../lib/c/include/ipc/common.h
+input.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+input.o: ../../../lib/c/include/libarch/atomic.h
+input.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+input.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+input.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/sysinfo.h
+input.o: ../../../lib/c/include/abi/sysinfo.h
+input.o: ../../../lib/c/include/abi/proc/thread.h
+input.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+input.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+input.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/stdlib.h
+input.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+input.o: ../../../lib/c/include/ns.h ../../../lib/c/include/async.h
+input.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+input.o: ../../../lib/c/include/adt/fifo.h
+input.o: ../../../lib/c/include/io/console.h
+input.o: ../../../lib/c/include/io/concaps.h
+input.o: ../../../lib/c/include/io/kbd_event.h
+input.o: ../../../lib/c/include/io/keycode.h ../../../lib/c/include/loc.h
+input.o: ../../../lib/c/include/ipc/loc.h layout.h kbd.h kbd_port.h kbd_ctl.h
+input.o: mouse.h mouse_proto.h mouse_port.h input.h
+layout.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+layout.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+layout.o: ../../../lib/c/include/sys/types.h
+layout.o: ../../../lib/c/include/libarch/types.h
+layout.o: ../../../lib/c/include/libarch/common.h
+layout.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+layout.o: ../../../lib/c/include/libarch/config.h
+layout.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+layout.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+layout.o: input.h ../../../lib/c/include/async.h
+layout.o: ../../../lib/c/include/ipc/common.h
+layout.o: ../../../lib/c/include/abi/ipc/ipc.h
+layout.o: ../../../lib/c/include/atomic.h
+layout.o: ../../../lib/c/include/libarch/atomic.h
+layout.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+layout.o: ../../../lib/c/include/task.h
+layout.o: ../../../lib/c/include/abi/proc/task.h
+layout.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+layout.o: ../../../lib/c/include/libarch/fibril.h
+layout.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+layout.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+layout.o: ../../../lib/c/include/abi/syscall.h
+layout.o: ../../../lib/c/include/libarch/syscall.h layout.h
+layout.o: ../../../lib/c/include/io/console.h
+layout.o: ../../../lib/c/include/io/concaps.h
+layout.o: ../../../lib/c/include/io/kbd_event.h
+layout.o: ../../../lib/c/include/io/keycode.h ../../../lib/c/include/stdio.h
+layout.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+layout.o: ../../../lib/c/include/io/verify.h
+layout.o: ../../../lib/c/include/abi/klog.h
+stroke.o: ../../../lib/c/include/io/console.h
+stroke.o: ../../../lib/c/include/sys/time.h
+stroke.o: ../../../lib/c/include/sys/types.h
+stroke.o: ../../../lib/c/include/libarch/types.h
+stroke.o: ../../../lib/c/include/libarch/common.h
+stroke.o: ../../../lib/c/include/io/concaps.h
+stroke.o: ../../../lib/c/include/io/kbd_event.h
+stroke.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+stroke.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+stroke.o: ../../../lib/c/include/libarch/config.h
+stroke.o: ../../../lib/c/include/io/keycode.h ../../../lib/c/include/async.h
+stroke.o: ../../../lib/c/include/ipc/common.h
+stroke.o: ../../../lib/c/include/abi/ipc/ipc.h
+stroke.o: ../../../lib/c/include/atomic.h
+stroke.o: ../../../lib/c/include/libarch/atomic.h
+stroke.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+stroke.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+stroke.o: ../../../lib/c/include/task.h
+stroke.o: ../../../lib/c/include/abi/proc/task.h
+stroke.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+stroke.o: ../../../lib/c/include/libarch/fibril.h
+stroke.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+stroke.o: ../../../lib/c/include/abi/syscall.h
+stroke.o: ../../../lib/c/include/libarch/syscall.h
+stroke.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+stroke.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+stroke.o: ../../../lib/c/include/abi/klog.h stroke.h kbd.h
+stroke.o: ../../../lib/c/include/ipc/loc.h

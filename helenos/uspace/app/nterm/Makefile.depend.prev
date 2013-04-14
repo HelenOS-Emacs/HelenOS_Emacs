@@ -1,0 +1,43 @@
+# DO NOT DELETE
+
+conn.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+conn.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+conn.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+conn.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+conn.o: ../../lib/c/include/sys/types.h ../../lib/c/include/adt/list.h
+conn.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+conn.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+conn.o: ../../lib/c/include/libarch/config.h
+conn.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+conn.o: ../../lib/c/include/abi/syscall.h
+conn.o: ../../lib/c/include/libarch/syscall.h
+conn.o: ../../lib/c/include/net/socket.h
+conn.o: ../../lib/c/include/net/socket_codes.h ../../lib/c/include/net/in.h
+conn.o: ../../lib/c/include/net/inet.h ../../lib/c/include/byteorder.h
+conn.o: ../../lib/c/include/stdint.h ../../lib/c/include/net/ip_protocols.h
+conn.o: ../../lib/c/include/net/in6.h ../../lib/c/include/stdio.h
+conn.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+conn.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+conn.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/str_error.h conn.h
+conn.o: nterm.h
+nterm.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+nterm.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+nterm.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+nterm.o: ../../lib/c/include/io/console.h ../../lib/c/include/sys/time.h
+nterm.o: ../../lib/c/include/sys/types.h ../../lib/c/include/io/concaps.h
+nterm.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/adt/list.h
+nterm.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+nterm.o: ../../lib/c/include/time.h ../../lib/c/include/libarch/config.h
+nterm.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/async.h
+nterm.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+nterm.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+nterm.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+nterm.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+nterm.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+nterm.o: ../../lib/c/include/libarch/fibril.h
+nterm.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+nterm.o: ../../lib/c/include/abi/syscall.h
+nterm.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/stdio.h
+nterm.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+nterm.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+nterm.o: conn.h nterm.h

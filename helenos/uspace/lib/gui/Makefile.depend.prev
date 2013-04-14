@@ -1,0 +1,237 @@
+# DO NOT DELETE
+
+button.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+button.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+button.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+button.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/malloc.h
+button.o: ../../lib/draw/drawctx.h ../../lib/softrend/compose.h
+button.o: ../../lib/c/include/io/pixel.h ../../lib/draw/surface.h
+button.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/unistd.h
+button.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+button.o: ../../lib/c/include/libarch/config.h ../../lib/draw/source.h
+button.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+button.o: ../../lib/draw/path.h ../../lib/c/include/adt/list.h
+button.o: ../../lib/c/include/assert.h ../../lib/draw/font.h window.h
+button.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+button.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+button.o: ../../lib/c/include/libarch/atomic.h
+button.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+button.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+button.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+button.o: ../../lib/c/include/libarch/fibril.h
+button.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+button.o: ../../lib/c/include/abi/syscall.h
+button.o: ../../lib/c/include/libarch/syscall.h
+button.o: ../../lib/c/include/adt/prodcons.h
+button.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/ipc/window.h
+button.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/io/window.h
+button.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+button.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+button.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h
+button.o: ../../lib/c/include/stdio.h ../../lib/c/include/io/verify.h
+button.o: ../../lib/c/include/abi/klog.h widget.h button.h connection.h
+connection.o: ../../lib/c/include/mem.h ../../lib/c/include/sys/types.h
+connection.o: ../../lib/c/include/libarch/types.h
+connection.o: ../../lib/c/include/libarch/common.h
+connection.o: ../../lib/c/include/malloc.h ../../lib/c/include/adt/list.h
+connection.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+connection.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+connection.o: ../../lib/c/include/libarch/config.h
+connection.o: ../../lib/c/include/adt/prodcons.h
+connection.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/fibril.h
+connection.o: ../../lib/c/include/libarch/fibril.h
+connection.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+connection.o: ../../lib/c/include/abi/syscall.h
+connection.o: ../../lib/c/include/libarch/syscall.h
+connection.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+connection.o: ../../lib/c/include/io/window.h ../../lib/c/include/async.h
+connection.o: ../../lib/c/include/ipc/common.h
+connection.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+connection.o: ../../lib/c/include/libarch/atomic.h
+connection.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+connection.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+connection.o: ../../lib/c/include/stdarg.h ../../lib/c/include/loc.h
+connection.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/io/console.h
+connection.o: ../../lib/c/include/io/concaps.h
+connection.o: ../../lib/c/include/io/kbd_event.h
+connection.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/stdio.h
+connection.o: ../../lib/c/include/str.h ../../lib/c/include/io/verify.h
+connection.o: ../../lib/c/include/abi/klog.h window.h
+connection.o: ../../lib/c/include/ipc/window.h ../../lib/c/include/ipc/vfs.h
+connection.o: ../../lib/draw/surface.h ../../lib/c/include/io/pixelmap.h
+connection.o: ../../lib/c/include/io/pixel.h widget.h connection.h
+grid.o: ../../lib/c/include/assert.h ../../lib/c/include/mem.h
+grid.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+grid.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/malloc.h
+grid.o: ../../lib/draw/surface.h ../../lib/c/include/stdbool.h
+grid.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/pixelmap.h
+grid.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+grid.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+grid.o: ../../lib/c/include/io/pixel.h window.h ../../lib/c/include/async.h
+grid.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+grid.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+grid.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+grid.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+grid.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+grid.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+grid.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+grid.o: ../../lib/c/include/abi/syscall.h
+grid.o: ../../lib/c/include/libarch/syscall.h
+grid.o: ../../lib/c/include/adt/prodcons.h ../../lib/c/include/fibril_synch.h
+grid.o: ../../lib/c/include/ipc/window.h ../../lib/c/include/ipc/vfs.h
+grid.o: ../../lib/c/include/io/window.h ../../lib/c/include/loc.h
+grid.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/io/console.h
+grid.o: ../../lib/c/include/io/concaps.h ../../lib/c/include/io/kbd_event.h
+grid.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/stdio.h
+grid.o: ../../lib/c/include/str.h ../../lib/c/include/io/verify.h
+grid.o: ../../lib/c/include/abi/klog.h widget.h grid.h
+label.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+label.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+label.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+label.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/malloc.h
+label.o: ../../lib/draw/drawctx.h ../../lib/softrend/compose.h
+label.o: ../../lib/c/include/io/pixel.h ../../lib/draw/surface.h
+label.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/unistd.h
+label.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+label.o: ../../lib/c/include/libarch/config.h ../../lib/draw/source.h
+label.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+label.o: ../../lib/draw/path.h ../../lib/c/include/adt/list.h
+label.o: ../../lib/c/include/assert.h ../../lib/draw/font.h window.h
+label.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+label.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+label.o: ../../lib/c/include/libarch/atomic.h
+label.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+label.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+label.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+label.o: ../../lib/c/include/libarch/fibril.h
+label.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+label.o: ../../lib/c/include/abi/syscall.h
+label.o: ../../lib/c/include/libarch/syscall.h
+label.o: ../../lib/c/include/adt/prodcons.h
+label.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/ipc/window.h
+label.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/io/window.h
+label.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+label.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+label.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h
+label.o: ../../lib/c/include/stdio.h ../../lib/c/include/io/verify.h
+label.o: ../../lib/c/include/abi/klog.h widget.h label.h connection.h
+minimal.o: ../../lib/c/include/malloc.h ../../lib/c/include/sys/types.h
+minimal.o: ../../lib/c/include/libarch/types.h
+minimal.o: ../../lib/c/include/libarch/common.h ../../lib/draw/surface.h
+minimal.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+minimal.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/unistd.h
+minimal.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+minimal.o: ../../lib/c/include/libarch/config.h
+minimal.o: ../../lib/c/include/io/pixel.h window.h
+minimal.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+minimal.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+minimal.o: ../../lib/c/include/libarch/atomic.h
+minimal.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+minimal.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+minimal.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+minimal.o: ../../lib/c/include/libarch/fibril.h
+minimal.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+minimal.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+minimal.o: ../../lib/c/include/abi/syscall.h
+minimal.o: ../../lib/c/include/libarch/syscall.h
+minimal.o: ../../lib/c/include/adt/prodcons.h
+minimal.o: ../../lib/c/include/fibril_synch.h
+minimal.o: ../../lib/c/include/ipc/window.h ../../lib/c/include/ipc/vfs.h
+minimal.o: ../../lib/c/include/io/window.h ../../lib/c/include/loc.h
+minimal.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/io/console.h
+minimal.o: ../../lib/c/include/io/concaps.h
+minimal.o: ../../lib/c/include/io/kbd_event.h
+minimal.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/stdio.h
+minimal.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+minimal.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+minimal.o: widget.h minimal.h
+terminal.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+terminal.o: ../../lib/c/include/malloc.h ../../lib/c/include/sys/types.h
+terminal.o: ../../lib/c/include/libarch/types.h
+terminal.o: ../../lib/c/include/libarch/common.h
+terminal.o: ../../lib/c/include/io/chargrid.h
+terminal.o: ../../lib/c/include/io/charfield.h ../../lib/c/include/stdbool.h
+terminal.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/color.h
+terminal.o: ../../lib/c/include/io/style.h ../../lib/c/include/io/pixel.h
+terminal.o: ../../lib/draw/surface.h ../../lib/c/include/io/pixelmap.h
+terminal.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+terminal.o: ../../lib/c/include/sys/time.h
+terminal.o: ../../lib/c/include/libarch/config.h
+terminal.o: ../../lib/draw/gfx/font-8x16.h ../../lib/c/include/io/con_srv.h
+terminal.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+terminal.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+terminal.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+terminal.o: ../../lib/c/include/libarch/atomic.h
+terminal.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+terminal.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+terminal.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+terminal.o: ../../lib/c/include/libarch/fibril.h
+terminal.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+terminal.o: ../../lib/c/include/abi/syscall.h
+terminal.o: ../../lib/c/include/libarch/syscall.h
+terminal.o: ../../lib/c/include/fibril_synch.h
+terminal.o: ../../lib/c/include/io/concaps.h
+terminal.o: ../../lib/c/include/io/kbd_event.h
+terminal.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/io/console.h
+terminal.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+terminal.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+terminal.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/adt/prodcons.h
+terminal.o: window.h ../../lib/c/include/ipc/window.h
+terminal.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/io/window.h
+terminal.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h widget.h
+terminal.o: terminal.h ../../lib/draw/font.h ../../lib/draw/source.h
+terminal.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+widget.o: widget.h ../../lib/c/include/sys/types.h
+widget.o: ../../lib/c/include/libarch/types.h
+widget.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/adt/list.h
+widget.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+widget.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+widget.o: ../../lib/c/include/libarch/config.h
+widget.o: ../../lib/c/include/io/window.h ../../lib/c/include/stdbool.h
+widget.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/async.h
+widget.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+widget.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+widget.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+widget.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+widget.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+widget.o: ../../lib/c/include/libarch/fibril.h
+widget.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+widget.o: ../../lib/c/include/abi/syscall.h
+widget.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/loc.h
+widget.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/io/console.h
+widget.o: ../../lib/c/include/io/concaps.h ../../lib/c/include/io/kbd_event.h
+widget.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/stdio.h
+widget.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+widget.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+window.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+window.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+window.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+window.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+window.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+window.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+window.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/as.h
+window.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/task.h
+window.o: ../../lib/c/include/abi/proc/task.h
+window.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+window.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+window.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+window.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+window.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/tls.h
+window.o: ../../lib/c/include/libc.h ../../lib/c/include/abi/syscall.h
+window.o: ../../lib/c/include/libarch/syscall.h
+window.o: ../../lib/c/include/adt/prodcons.h
+window.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/async.h
+window.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+window.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+window.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+window.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+window.o: ../../lib/c/include/io/pixel.h ../../lib/draw/source.h
+window.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+window.o: ../../lib/c/include/io/pixelmap.h ../../lib/draw/surface.h
+window.o: ../../lib/draw/font.h ../../lib/draw/drawctx.h
+window.o: ../../lib/softrend/compose.h ../../lib/draw/path.h connection.h
+window.o: widget.h ../../lib/c/include/io/window.h
+window.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+window.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h
+window.o: window.h ../../lib/c/include/ipc/window.h
+window.o: ../../lib/c/include/ipc/vfs.h

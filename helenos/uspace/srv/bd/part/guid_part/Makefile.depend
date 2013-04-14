@@ -1,0 +1,52 @@
+# DO NOT DELETE
+
+guid_part.o: ../../../../lib/c/include/stdio.h
+guid_part.o: ../../../../lib/c/include/sys/types.h
+guid_part.o: ../../../../lib/c/include/libarch/types.h
+guid_part.o: ../../../../lib/c/include/libarch/common.h
+guid_part.o: ../../../../lib/c/include/stdarg.h
+guid_part.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/mem.h
+guid_part.o: ../../../../lib/c/include/stdbool.h
+guid_part.o: ../../../../lib/c/include/abi/bool.h
+guid_part.o: ../../../../lib/c/include/io/verify.h
+guid_part.o: ../../../../lib/c/include/abi/klog.h
+guid_part.o: ../../../../lib/c/include/stdlib.h
+guid_part.o: ../../../../lib/c/include/unistd.h
+guid_part.o: ../../../../lib/c/include/time.h
+guid_part.o: ../../../../lib/c/include/sys/time.h
+guid_part.o: ../../../../lib/c/include/libarch/config.h
+guid_part.o: ../../../../lib/c/include/malloc.h
+guid_part.o: ../../../../lib/c/include/stacktrace.h
+guid_part.o: ../../../../lib/c/include/async.h
+guid_part.o: ../../../../lib/c/include/ipc/common.h
+guid_part.o: ../../../../lib/c/include/abi/ipc/ipc.h
+guid_part.o: ../../../../lib/c/include/atomic.h
+guid_part.o: ../../../../lib/c/include/libarch/atomic.h
+guid_part.o: ../../../../lib/c/include/atomicdflt.h
+guid_part.o: ../../../../lib/c/include/stdint.h
+guid_part.o: ../../../../lib/c/include/task.h
+guid_part.o: ../../../../lib/c/include/abi/proc/task.h
+guid_part.o: ../../../../lib/c/include/fibril.h
+guid_part.o: ../../../../lib/c/include/libarch/fibril.h
+guid_part.o: ../../../../lib/c/include/adt/list.h
+guid_part.o: ../../../../lib/c/include/assert.h
+guid_part.o: ../../../../lib/c/include/libarch/tls.h
+guid_part.o: ../../../../lib/c/include/libc.h
+guid_part.o: ../../../../lib/c/include/abi/syscall.h
+guid_part.o: ../../../../lib/c/include/libarch/syscall.h
+guid_part.o: ../../../../lib/c/include/as.h
+guid_part.o: ../../../../lib/c/include/abi/mm/as.h
+guid_part.o: ../../../../lib/c/include/bd_srv.h
+guid_part.o: ../../../../lib/c/include/fibril_synch.h
+guid_part.o: ../../../../lib/c/include/loc.h
+guid_part.o: ../../../../lib/c/include/ipc/loc.h
+guid_part.o: ../../../../lib/c/include/sys/typefmt.h
+guid_part.o: ../../../../lib/c/include/inttypes.h
+guid_part.o: ../../../../lib/c/include/libarch/inttypes.h
+guid_part.o: ../../../../lib/block/block.h ../../../../srv/vfs/vfs.h
+guid_part.o: ../../../../lib/c/include/adt/hash_table.h
+guid_part.o: ../../../../lib/c/include/macros.h
+guid_part.o: ../../../../lib/c/include/ipc/vfs.h
+guid_part.o: ../../../../lib/c/include/errno.h
+guid_part.o: ../../../../lib/c/include/abi/errno.h
+guid_part.o: ../../../../lib/c/include/byteorder.h gpt.h

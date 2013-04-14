@@ -1,0 +1,238 @@
+# DO NOT DELETE
+
+mfs.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+mfs.o: ../../../lib/c/include/libarch/common.h
+mfs.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+mfs.o: ../../../lib/c/include/sys/types.h
+mfs.o: ../../../lib/c/include/libarch/types.h ../../../lib/c/include/time.h
+mfs.o: ../../../lib/c/include/sys/time.h
+mfs.o: ../../../lib/c/include/libarch/config.h
+mfs.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+mfs.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+mfs.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+mfs.o: ../../../lib/c/include/ns.h ../../../lib/c/include/task.h
+mfs.o: ../../../lib/c/include/abi/proc/task.h ../../../lib/c/include/stdarg.h
+mfs.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+mfs.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+mfs.o: ../../../lib/c/include/libarch/atomic.h
+mfs.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+mfs.o: ../../../lib/c/include/fibril.h
+mfs.o: ../../../lib/c/include/libarch/fibril.h
+mfs.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+mfs.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+mfs.o: ../../../lib/c/include/abi/syscall.h
+mfs.o: ../../../lib/c/include/libarch/syscall.h
+mfs.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+mfs.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/io/verify.h
+mfs.o: ../../../lib/c/include/abi/klog.h ../../../lib/fs/libfs.h
+mfs.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/c/include/loc.h
+mfs.o: ../../../lib/c/include/ipc/loc.h mfs.h ../../../lib/minix/minix.h
+mfs.o: ../../../lib/c/include/macros.h ../../../lib/block/block.h
+mfs.o: ../../../srv/vfs/vfs.h ../../../lib/c/include/adt/hash_table.h
+mfs.o: ../../../lib/c/include/fibril_synch.h ../../vfs/vfs.h
+mfs_ops.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+mfs_ops.o: ../../../lib/c/include/sys/types.h
+mfs_ops.o: ../../../lib/c/include/libarch/types.h
+mfs_ops.o: ../../../lib/c/include/libarch/common.h
+mfs_ops.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+mfs_ops.o: ../../../lib/c/include/libarch/config.h
+mfs_ops.o: ../../../lib/c/include/malloc.h
+mfs_ops.o: ../../../lib/c/include/stacktrace.h
+mfs_ops.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+mfs_ops.o: ../../../lib/c/include/fibril_synch.h
+mfs_ops.o: ../../../lib/c/include/fibril.h
+mfs_ops.o: ../../../lib/c/include/libarch/fibril.h
+mfs_ops.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+mfs_ops.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+mfs_ops.o: ../../../lib/c/include/abi/syscall.h
+mfs_ops.o: ../../../lib/c/include/libarch/syscall.h
+mfs_ops.o: ../../../lib/c/include/align.h
+mfs_ops.o: ../../../lib/c/include/adt/hash_table.h
+mfs_ops.o: ../../../lib/c/include/macros.h ../../../lib/c/include/adt/hash.h
+mfs_ops.o: ../../../lib/c/include/stdint.h mfs.h ../../../lib/minix/minix.h
+mfs_ops.o: ../../../lib/block/block.h ../../../lib/c/include/async.h
+mfs_ops.o: ../../../lib/c/include/ipc/common.h
+mfs_ops.o: ../../../lib/c/include/abi/ipc/ipc.h
+mfs_ops.o: ../../../lib/c/include/atomic.h
+mfs_ops.o: ../../../lib/c/include/libarch/atomic.h
+mfs_ops.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+mfs_ops.o: ../../../lib/c/include/abi/proc/task.h
+mfs_ops.o: ../../../lib/c/include/stdarg.h ../../../srv/vfs/vfs.h
+mfs_ops.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+mfs_ops.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+mfs_ops.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdio.h
+mfs_ops.o: ../../../lib/c/include/str.h ../../../lib/c/include/io/verify.h
+mfs_ops.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+mfs_ops.o: ../../../lib/c/include/abi/errno.h ../../vfs/vfs.h
+mfs_inode.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+mfs_inode.o: ../../../lib/c/include/sys/types.h
+mfs_inode.o: ../../../lib/c/include/libarch/types.h
+mfs_inode.o: ../../../lib/c/include/libarch/common.h
+mfs_inode.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+mfs_inode.o: ../../../lib/c/include/libarch/config.h
+mfs_inode.o: ../../../lib/c/include/malloc.h
+mfs_inode.o: ../../../lib/c/include/stacktrace.h
+mfs_inode.o: ../../../lib/c/include/stdbool.h
+mfs_inode.o: ../../../lib/c/include/abi/bool.h mfs.h
+mfs_inode.o: ../../../lib/minix/minix.h ../../../lib/c/include/macros.h
+mfs_inode.o: ../../../lib/block/block.h ../../../lib/c/include/stdint.h
+mfs_inode.o: ../../../lib/c/include/async.h
+mfs_inode.o: ../../../lib/c/include/ipc/common.h
+mfs_inode.o: ../../../lib/c/include/abi/ipc/ipc.h
+mfs_inode.o: ../../../lib/c/include/atomic.h
+mfs_inode.o: ../../../lib/c/include/libarch/atomic.h
+mfs_inode.o: ../../../lib/c/include/atomicdflt.h
+mfs_inode.o: ../../../lib/c/include/task.h
+mfs_inode.o: ../../../lib/c/include/abi/proc/task.h
+mfs_inode.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+mfs_inode.o: ../../../lib/c/include/libarch/fibril.h
+mfs_inode.o: ../../../lib/c/include/adt/list.h
+mfs_inode.o: ../../../lib/c/include/assert.h
+mfs_inode.o: ../../../lib/c/include/libarch/tls.h
+mfs_inode.o: ../../../lib/c/include/libc.h
+mfs_inode.o: ../../../lib/c/include/abi/syscall.h
+mfs_inode.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+mfs_inode.o: ../../../lib/c/include/adt/hash_table.h
+mfs_inode.o: ../../../lib/c/include/fibril_synch.h
+mfs_inode.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+mfs_inode.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+mfs_inode.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdio.h
+mfs_inode.o: ../../../lib/c/include/str.h ../../../lib/c/include/io/verify.h
+mfs_inode.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+mfs_inode.o: ../../../lib/c/include/abi/errno.h ../../vfs/vfs.h
+mfs_rw.o: ../../../lib/c/include/align.h mfs.h ../../../lib/minix/minix.h
+mfs_rw.o: ../../../lib/c/include/sys/types.h
+mfs_rw.o: ../../../lib/c/include/libarch/types.h
+mfs_rw.o: ../../../lib/c/include/libarch/common.h
+mfs_rw.o: ../../../lib/c/include/macros.h ../../../lib/block/block.h
+mfs_rw.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/async.h
+mfs_rw.o: ../../../lib/c/include/ipc/common.h
+mfs_rw.o: ../../../lib/c/include/abi/ipc/ipc.h
+mfs_rw.o: ../../../lib/c/include/atomic.h
+mfs_rw.o: ../../../lib/c/include/libarch/atomic.h
+mfs_rw.o: ../../../lib/c/include/atomicdflt.h
+mfs_rw.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+mfs_rw.o: ../../../lib/c/include/task.h
+mfs_rw.o: ../../../lib/c/include/abi/proc/task.h
+mfs_rw.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+mfs_rw.o: ../../../lib/c/include/libarch/fibril.h
+mfs_rw.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+mfs_rw.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+mfs_rw.o: ../../../lib/c/include/sys/time.h
+mfs_rw.o: ../../../lib/c/include/libarch/config.h
+mfs_rw.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+mfs_rw.o: ../../../lib/c/include/abi/syscall.h
+mfs_rw.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+mfs_rw.o: ../../../lib/c/include/adt/hash_table.h
+mfs_rw.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+mfs_rw.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/vfs.h
+mfs_rw.o: ../../../lib/fs/libfs.h ../../../lib/c/include/malloc.h
+mfs_rw.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdio.h
+mfs_rw.o: ../../../lib/c/include/str.h ../../../lib/c/include/io/verify.h
+mfs_rw.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+mfs_rw.o: ../../../lib/c/include/abi/errno.h ../../vfs/vfs.h
+mfs_dentry.o: mfs.h ../../../lib/minix/minix.h
+mfs_dentry.o: ../../../lib/c/include/sys/types.h
+mfs_dentry.o: ../../../lib/c/include/libarch/types.h
+mfs_dentry.o: ../../../lib/c/include/libarch/common.h
+mfs_dentry.o: ../../../lib/c/include/macros.h ../../../lib/block/block.h
+mfs_dentry.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/async.h
+mfs_dentry.o: ../../../lib/c/include/ipc/common.h
+mfs_dentry.o: ../../../lib/c/include/abi/ipc/ipc.h
+mfs_dentry.o: ../../../lib/c/include/atomic.h
+mfs_dentry.o: ../../../lib/c/include/libarch/atomic.h
+mfs_dentry.o: ../../../lib/c/include/atomicdflt.h
+mfs_dentry.o: ../../../lib/c/include/stdbool.h
+mfs_dentry.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+mfs_dentry.o: ../../../lib/c/include/abi/proc/task.h
+mfs_dentry.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+mfs_dentry.o: ../../../lib/c/include/libarch/fibril.h
+mfs_dentry.o: ../../../lib/c/include/adt/list.h
+mfs_dentry.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+mfs_dentry.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+mfs_dentry.o: ../../../lib/c/include/libarch/config.h
+mfs_dentry.o: ../../../lib/c/include/libarch/tls.h
+mfs_dentry.o: ../../../lib/c/include/libc.h
+mfs_dentry.o: ../../../lib/c/include/abi/syscall.h
+mfs_dentry.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+mfs_dentry.o: ../../../lib/c/include/adt/hash_table.h
+mfs_dentry.o: ../../../lib/c/include/fibril_synch.h
+mfs_dentry.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+mfs_dentry.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+mfs_dentry.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+mfs_dentry.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+mfs_dentry.o: ../../../lib/c/include/io/verify.h
+mfs_dentry.o: ../../../lib/c/include/abi/klog.h
+mfs_dentry.o: ../../../lib/c/include/errno.h
+mfs_dentry.o: ../../../lib/c/include/abi/errno.h ../../vfs/vfs.h
+mfs_balloc.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+mfs_balloc.o: ../../../lib/c/include/sys/types.h
+mfs_balloc.o: ../../../lib/c/include/libarch/types.h
+mfs_balloc.o: ../../../lib/c/include/libarch/common.h
+mfs_balloc.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+mfs_balloc.o: ../../../lib/c/include/libarch/config.h
+mfs_balloc.o: ../../../lib/c/include/malloc.h
+mfs_balloc.o: ../../../lib/c/include/stacktrace.h
+mfs_balloc.o: ../../../lib/c/include/stdbool.h
+mfs_balloc.o: ../../../lib/c/include/abi/bool.h mfs.h
+mfs_balloc.o: ../../../lib/minix/minix.h ../../../lib/c/include/macros.h
+mfs_balloc.o: ../../../lib/block/block.h ../../../lib/c/include/stdint.h
+mfs_balloc.o: ../../../lib/c/include/async.h
+mfs_balloc.o: ../../../lib/c/include/ipc/common.h
+mfs_balloc.o: ../../../lib/c/include/abi/ipc/ipc.h
+mfs_balloc.o: ../../../lib/c/include/atomic.h
+mfs_balloc.o: ../../../lib/c/include/libarch/atomic.h
+mfs_balloc.o: ../../../lib/c/include/atomicdflt.h
+mfs_balloc.o: ../../../lib/c/include/task.h
+mfs_balloc.o: ../../../lib/c/include/abi/proc/task.h
+mfs_balloc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+mfs_balloc.o: ../../../lib/c/include/libarch/fibril.h
+mfs_balloc.o: ../../../lib/c/include/adt/list.h
+mfs_balloc.o: ../../../lib/c/include/assert.h
+mfs_balloc.o: ../../../lib/c/include/libarch/tls.h
+mfs_balloc.o: ../../../lib/c/include/libc.h
+mfs_balloc.o: ../../../lib/c/include/abi/syscall.h
+mfs_balloc.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+mfs_balloc.o: ../../../lib/c/include/adt/hash_table.h
+mfs_balloc.o: ../../../lib/c/include/fibril_synch.h
+mfs_balloc.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+mfs_balloc.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+mfs_balloc.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdio.h
+mfs_balloc.o: ../../../lib/c/include/str.h ../../../lib/c/include/io/verify.h
+mfs_balloc.o: ../../../lib/c/include/abi/klog.h
+mfs_balloc.o: ../../../lib/c/include/errno.h
+mfs_balloc.o: ../../../lib/c/include/abi/errno.h ../../vfs/vfs.h
+mfs_utils.o: ../../../lib/c/include/byteorder.h
+mfs_utils.o: ../../../lib/c/include/stdint.h
+mfs_utils.o: ../../../lib/c/include/libarch/types.h
+mfs_utils.o: ../../../lib/c/include/libarch/common.h mfs.h
+mfs_utils.o: ../../../lib/minix/minix.h ../../../lib/c/include/sys/types.h
+mfs_utils.o: ../../../lib/c/include/macros.h ../../../lib/block/block.h
+mfs_utils.o: ../../../lib/c/include/async.h
+mfs_utils.o: ../../../lib/c/include/ipc/common.h
+mfs_utils.o: ../../../lib/c/include/abi/ipc/ipc.h
+mfs_utils.o: ../../../lib/c/include/atomic.h
+mfs_utils.o: ../../../lib/c/include/libarch/atomic.h
+mfs_utils.o: ../../../lib/c/include/atomicdflt.h
+mfs_utils.o: ../../../lib/c/include/stdbool.h
+mfs_utils.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+mfs_utils.o: ../../../lib/c/include/abi/proc/task.h
+mfs_utils.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+mfs_utils.o: ../../../lib/c/include/libarch/fibril.h
+mfs_utils.o: ../../../lib/c/include/adt/list.h
+mfs_utils.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+mfs_utils.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+mfs_utils.o: ../../../lib/c/include/libarch/config.h
+mfs_utils.o: ../../../lib/c/include/libarch/tls.h
+mfs_utils.o: ../../../lib/c/include/libc.h
+mfs_utils.o: ../../../lib/c/include/abi/syscall.h
+mfs_utils.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+mfs_utils.o: ../../../lib/c/include/adt/hash_table.h
+mfs_utils.o: ../../../lib/c/include/fibril_synch.h
+mfs_utils.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+mfs_utils.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+mfs_utils.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+mfs_utils.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+mfs_utils.o: ../../../lib/c/include/io/verify.h
+mfs_utils.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+mfs_utils.o: ../../../lib/c/include/abi/errno.h ../../vfs/vfs.h

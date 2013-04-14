@@ -1,0 +1,37 @@
+# DO NOT DELETE
+
+vlaunch.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+vlaunch.o: ../../lib/c/include/libarch/common.h
+vlaunch.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/errno.h
+vlaunch.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/stdio.h
+vlaunch.o: ../../lib/c/include/sys/types.h ../../lib/c/include/stdarg.h
+vlaunch.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+vlaunch.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+vlaunch.o: ../../lib/c/include/malloc.h ../../lib/c/include/io/pixel.h
+vlaunch.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+vlaunch.o: ../../lib/c/include/str_error.h ../../lib/gui/window.h
+vlaunch.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+vlaunch.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+vlaunch.o: ../../lib/c/include/libarch/atomic.h
+vlaunch.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vlaunch.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+vlaunch.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vlaunch.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vlaunch.o: ../../lib/c/include/sys/time.h
+vlaunch.o: ../../lib/c/include/libarch/config.h
+vlaunch.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vlaunch.o: ../../lib/c/include/abi/syscall.h
+vlaunch.o: ../../lib/c/include/libarch/syscall.h
+vlaunch.o: ../../lib/c/include/adt/prodcons.h
+vlaunch.o: ../../lib/c/include/fibril_synch.h
+vlaunch.o: ../../lib/c/include/ipc/window.h ../../lib/c/include/ipc/vfs.h
+vlaunch.o: ../../lib/c/include/io/window.h ../../lib/c/include/loc.h
+vlaunch.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/io/console.h
+vlaunch.o: ../../lib/c/include/io/concaps.h
+vlaunch.o: ../../lib/c/include/io/kbd_event.h
+vlaunch.o: ../../lib/c/include/io/keycode.h ../../lib/draw/surface.h
+vlaunch.o: ../../lib/c/include/io/pixelmap.h ../../lib/gui/widget.h
+vlaunch.o: ../../lib/gui/grid.h ../../lib/gui/button.h
+vlaunch.o: ../../lib/draw/source.h ../../lib/softrend/transform.h
+vlaunch.o: ../../lib/softrend/filter.h ../../lib/draw/font.h
+vlaunch.o: ../../lib/gui/connection.h ../../lib/gui/label.h

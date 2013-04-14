@@ -1,0 +1,47 @@
+# DO NOT DELETE
+
+category.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+category.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+category.o: ../../lib/c/include/libarch/types.h
+category.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+category.o: ../../lib/c/include/sys/time.h
+category.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/errno.h
+category.o: ../../lib/c/include/abi/errno.h
+category.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/fibril.h
+category.o: ../../lib/c/include/libarch/fibril.h
+category.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+category.o: ../../lib/c/include/abi/syscall.h
+category.o: ../../lib/c/include/libarch/syscall.h
+category.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+category.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+category.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/str.h
+category.o: ../../lib/c/include/mem.h category.h locsrv.h
+category.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/common.h
+category.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+category.o: ../../lib/c/include/libarch/atomic.h
+category.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+category.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+category.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+locsrv.o: ../../lib/c/include/ipc/services.h ../../lib/c/include/fourcc.h
+locsrv.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/ns.h
+locsrv.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+locsrv.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+locsrv.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+locsrv.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+locsrv.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+locsrv.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+locsrv.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+locsrv.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+locsrv.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+locsrv.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+locsrv.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+locsrv.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+locsrv.o: ../../lib/c/include/abi/syscall.h
+locsrv.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/stdio.h
+locsrv.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+locsrv.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+locsrv.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+locsrv.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/macros.h
+locsrv.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+locsrv.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/ipc/loc.h
+locsrv.o: category.h locsrv.h

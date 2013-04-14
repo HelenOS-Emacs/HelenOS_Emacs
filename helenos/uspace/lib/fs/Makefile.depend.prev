@@ -1,0 +1,27 @@
+# DO NOT DELETE
+
+libfs.o: libfs.h ../../lib/c/include/ipc/vfs.h
+libfs.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/sys/types.h
+libfs.o: ../../lib/c/include/libarch/types.h
+libfs.o: ../../lib/c/include/libarch/common.h
+libfs.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+libfs.o: ../../lib/c/include/libarch/atomic.h
+libfs.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+libfs.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+libfs.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+libfs.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+libfs.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+libfs.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+libfs.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+libfs.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+libfs.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+libfs.o: ../../lib/c/include/abi/syscall.h
+libfs.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/loc.h
+libfs.o: ../../lib/c/include/ipc/loc.h ../../srv/vfs/vfs.h
+libfs.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+libfs.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/errno.h
+libfs.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/as.h
+libfs.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/dirent.h
+libfs.o: ../../lib/c/include/mem.h ../../lib/c/include/sys/stat.h
+libfs.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+libfs.o: ../../lib/c/include/stacktrace.h

@@ -1,0 +1,165 @@
+# DO NOT DELETE
+
+vfs.o: ../../lib/c/include/vfs/vfs.h ../../lib/c/include/sys/types.h
+vfs.o: ../../lib/c/include/libarch/types.h
+vfs.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/ipc/vfs.h
+vfs.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+vfs.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+vfs.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vfs.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+vfs.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+vfs.o: ../../lib/c/include/stdarg.h ../../lib/c/include/ipc/loc.h
+vfs.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vfs.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vfs.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+vfs.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+vfs.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+vfs.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/async.h
+vfs.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+vfs.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vfs.o: ../../lib/c/include/abi/syscall.h
+vfs.o: ../../lib/c/include/libarch/syscall.h
+vfs.o: ../../lib/c/include/vfs/vfs_mtab.h ../../lib/c/include/ipc/services.h
+vfs.o: ../../lib/c/include/fourcc.h ../../lib/c/include/abi/ipc/event.h
+vfs.o: ../../lib/c/include/event.h ../../lib/c/include/ns.h
+vfs.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+vfs.o: ../../lib/c/include/as.h ../../lib/c/include/abi/mm/as.h
+vfs.o: ../../lib/c/include/macros.h vfs.h
+vfs.o: ../../lib/c/include/adt/hash_table.h
+vfs.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/loc.h
+vfs_node.o: vfs.h ../../lib/c/include/async.h
+vfs_node.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/sys/types.h
+vfs_node.o: ../../lib/c/include/libarch/types.h
+vfs_node.o: ../../lib/c/include/libarch/common.h
+vfs_node.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+vfs_node.o: ../../lib/c/include/libarch/atomic.h
+vfs_node.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vfs_node.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+vfs_node.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+vfs_node.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+vfs_node.o: ../../lib/c/include/libarch/fibril.h
+vfs_node.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vfs_node.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vfs_node.o: ../../lib/c/include/sys/time.h
+vfs_node.o: ../../lib/c/include/libarch/config.h
+vfs_node.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vfs_node.o: ../../lib/c/include/abi/syscall.h
+vfs_node.o: ../../lib/c/include/libarch/syscall.h
+vfs_node.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+vfs_node.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/loc.h
+vfs_node.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/vfs.h
+vfs_node.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+vfs_node.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/str.h
+vfs_node.o: ../../lib/c/include/mem.h ../../lib/c/include/adt/hash.h
+vfs_node.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+vfs_file.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+vfs_file.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+vfs_file.o: ../../lib/c/include/sys/types.h
+vfs_file.o: ../../lib/c/include/libarch/types.h
+vfs_file.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+vfs_file.o: ../../lib/c/include/sys/time.h
+vfs_file.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+vfs_file.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/stdbool.h
+vfs_file.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/str.h
+vfs_file.o: ../../lib/c/include/mem.h ../../lib/c/include/assert.h
+vfs_file.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+vfs_file.o: ../../lib/c/include/adt/list.h ../../lib/c/include/libarch/tls.h
+vfs_file.o: ../../lib/c/include/libc.h ../../lib/c/include/abi/syscall.h
+vfs_file.o: ../../lib/c/include/libarch/syscall.h
+vfs_file.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/task.h
+vfs_file.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+vfs_file.o: vfs.h ../../lib/c/include/async.h
+vfs_file.o: ../../lib/c/include/ipc/common.h
+vfs_file.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+vfs_file.o: ../../lib/c/include/libarch/atomic.h
+vfs_file.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vfs_file.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+vfs_file.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+vfs_file.o: ../../lib/c/include/ipc/vfs.h
+vfs_ops.o: vfs.h ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+vfs_ops.o: ../../lib/c/include/sys/types.h
+vfs_ops.o: ../../lib/c/include/libarch/types.h
+vfs_ops.o: ../../lib/c/include/libarch/common.h
+vfs_ops.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+vfs_ops.o: ../../lib/c/include/libarch/atomic.h
+vfs_ops.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vfs_ops.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+vfs_ops.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+vfs_ops.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+vfs_ops.o: ../../lib/c/include/libarch/fibril.h
+vfs_ops.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vfs_ops.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vfs_ops.o: ../../lib/c/include/sys/time.h
+vfs_ops.o: ../../lib/c/include/libarch/config.h
+vfs_ops.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vfs_ops.o: ../../lib/c/include/abi/syscall.h
+vfs_ops.o: ../../lib/c/include/libarch/syscall.h
+vfs_ops.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+vfs_ops.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/loc.h
+vfs_ops.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/vfs.h
+vfs_ops.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+vfs_ops.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+vfs_ops.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+vfs_ops.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+vfs_ops.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+vfs_ops.o: ../../lib/c/include/ctype.h ../../lib/c/include/fcntl.h
+vfs_ops.o: ../../lib/c/include/vfs/canonify.h
+vfs_ops.o: ../../lib/c/include/vfs/vfs_mtab.h
+vfs_lookup.o: vfs.h ../../lib/c/include/async.h
+vfs_lookup.o: ../../lib/c/include/ipc/common.h
+vfs_lookup.o: ../../lib/c/include/sys/types.h
+vfs_lookup.o: ../../lib/c/include/libarch/types.h
+vfs_lookup.o: ../../lib/c/include/libarch/common.h
+vfs_lookup.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+vfs_lookup.o: ../../lib/c/include/libarch/atomic.h
+vfs_lookup.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vfs_lookup.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+vfs_lookup.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+vfs_lookup.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+vfs_lookup.o: ../../lib/c/include/libarch/fibril.h
+vfs_lookup.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vfs_lookup.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vfs_lookup.o: ../../lib/c/include/sys/time.h
+vfs_lookup.o: ../../lib/c/include/libarch/config.h
+vfs_lookup.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vfs_lookup.o: ../../lib/c/include/abi/syscall.h
+vfs_lookup.o: ../../lib/c/include/libarch/syscall.h
+vfs_lookup.o: ../../lib/c/include/adt/hash_table.h
+vfs_lookup.o: ../../lib/c/include/macros.h ../../lib/c/include/fibril_synch.h
+vfs_lookup.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+vfs_lookup.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/errno.h
+vfs_lookup.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/str.h
+vfs_lookup.o: ../../lib/c/include/mem.h ../../lib/c/include/vfs/canonify.h
+vfs_register.o: ../../lib/c/include/ipc/services.h
+vfs_register.o: ../../lib/c/include/fourcc.h
+vfs_register.o: ../../lib/c/include/libarch/common.h
+vfs_register.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+vfs_register.o: ../../lib/c/include/sys/types.h
+vfs_register.o: ../../lib/c/include/libarch/types.h
+vfs_register.o: ../../lib/c/include/abi/ipc/ipc.h
+vfs_register.o: ../../lib/c/include/atomic.h
+vfs_register.o: ../../lib/c/include/libarch/atomic.h
+vfs_register.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vfs_register.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+vfs_register.o: ../../lib/c/include/task.h
+vfs_register.o: ../../lib/c/include/abi/proc/task.h
+vfs_register.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+vfs_register.o: ../../lib/c/include/libarch/fibril.h
+vfs_register.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vfs_register.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vfs_register.o: ../../lib/c/include/sys/time.h
+vfs_register.o: ../../lib/c/include/libarch/config.h
+vfs_register.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vfs_register.o: ../../lib/c/include/abi/syscall.h
+vfs_register.o: ../../lib/c/include/libarch/syscall.h
+vfs_register.o: ../../lib/c/include/fibril_synch.h
+vfs_register.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+vfs_register.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+vfs_register.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+vfs_register.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+vfs_register.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+vfs_register.o: ../../lib/c/include/ctype.h ../../lib/c/include/as.h
+vfs_register.o: ../../lib/c/include/abi/mm/as.h vfs.h
+vfs_register.o: ../../lib/c/include/adt/hash_table.h
+vfs_register.o: ../../lib/c/include/macros.h ../../lib/c/include/loc.h
+vfs_register.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/vfs.h

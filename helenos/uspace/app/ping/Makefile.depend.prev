@@ -1,0 +1,25 @@
+# DO NOT DELETE
+
+ping.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+ping.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+ping.o: ../../lib/c/include/libarch/common.h
+ping.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+ping.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+ping.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+ping.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+ping.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+ping.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+ping.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+ping.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+ping.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+ping.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+ping.o: ../../lib/c/include/abi/syscall.h
+ping.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/errno.h
+ping.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/fibril_synch.h
+ping.o: ../../lib/c/include/inet/inetping.h ../../lib/c/include/inet/inet.h
+ping.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+ping.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h
+ping.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+ping.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+ping.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+ping.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h

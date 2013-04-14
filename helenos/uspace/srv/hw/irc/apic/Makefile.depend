@@ -1,0 +1,39 @@
+# DO NOT DELETE
+
+apic.o: ../../../../lib/c/include/ipc/services.h
+apic.o: ../../../../lib/c/include/fourcc.h
+apic.o: ../../../../lib/c/include/libarch/common.h
+apic.o: ../../../../lib/c/include/ipc/irc.h
+apic.o: ../../../../lib/c/include/ipc/common.h
+apic.o: ../../../../lib/c/include/sys/types.h
+apic.o: ../../../../lib/c/include/libarch/types.h
+apic.o: ../../../../lib/c/include/abi/ipc/ipc.h
+apic.o: ../../../../lib/c/include/atomic.h
+apic.o: ../../../../lib/c/include/libarch/atomic.h
+apic.o: ../../../../lib/c/include/atomicdflt.h
+apic.o: ../../../../lib/c/include/stdint.h
+apic.o: ../../../../lib/c/include/stdbool.h
+apic.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+apic.o: ../../../../lib/c/include/abi/proc/task.h
+apic.o: ../../../../lib/c/include/stdarg.h ../../../../lib/c/include/ns.h
+apic.o: ../../../../lib/c/include/async.h ../../../../lib/c/include/fibril.h
+apic.o: ../../../../lib/c/include/libarch/fibril.h
+apic.o: ../../../../lib/c/include/adt/list.h
+apic.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+apic.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+apic.o: ../../../../lib/c/include/libarch/config.h
+apic.o: ../../../../lib/c/include/libarch/tls.h
+apic.o: ../../../../lib/c/include/libc.h
+apic.o: ../../../../lib/c/include/abi/syscall.h
+apic.o: ../../../../lib/c/include/libarch/syscall.h
+apic.o: ../../../../lib/c/include/sysinfo.h
+apic.o: ../../../../lib/c/include/abi/sysinfo.h
+apic.o: ../../../../lib/c/include/abi/proc/thread.h
+apic.o: ../../../../lib/c/include/as.h ../../../../lib/c/include/abi/mm/as.h
+apic.o: ../../../../lib/c/include/ddi.h
+apic.o: ../../../../lib/c/include/abi/ddi/irq.h
+apic.o: ../../../../lib/c/include/errno.h
+apic.o: ../../../../lib/c/include/abi/errno.h
+apic.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+apic.o: ../../../../lib/c/include/mem.h ../../../../lib/c/include/io/verify.h
+apic.o: ../../../../lib/c/include/abi/klog.h

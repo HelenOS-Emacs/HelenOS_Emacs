@@ -1,0 +1,455 @@
+# DO NOT DELETE
+
+conn.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+conn.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+conn.o: ../../../lib/c/include/libarch/types.h
+conn.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/time.h
+conn.o: ../../../lib/c/include/sys/time.h
+conn.o: ../../../lib/c/include/libarch/config.h
+conn.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+conn.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+conn.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+conn.o: ../../../lib/c/include/inttypes.h
+conn.o: ../../../lib/c/include/libarch/inttypes.h
+conn.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/macros.h
+conn.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+conn.o: ../../../lib/c/include/stacktrace.h conn.h tcp_type.h
+conn.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+conn.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+conn.o: ../../../lib/c/include/libarch/atomic.h
+conn.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+conn.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+conn.o: ../../../lib/c/include/fibril.h
+conn.o: ../../../lib/c/include/libarch/fibril.h
+conn.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+conn.o: ../../../lib/c/include/abi/syscall.h
+conn.o: ../../../lib/c/include/libarch/syscall.h
+conn.o: ../../../lib/c/include/fibril_synch.h
+conn.o: ../../../lib/net/include/socket_core.h
+conn.o: ../../../lib/c/include/adt/generic_char_map.h
+conn.o: ../../../lib/c/include/adt/char_map.h
+conn.o: ../../../lib/c/include/adt/generic_field.h
+conn.o: ../../../lib/c/include/mem.h
+conn.o: ../../../lib/c/include/adt/dynamic_fifo.h
+conn.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+conn.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+conn.o: ../../../lib/c/include/net/ip_protocols.h
+conn.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+conn.o: ../../../lib/c/include/nic/eth_phys.h iqueue.h segment.h seq_no.h
+conn.o: tqueue.h std.h ucall.h
+iqueue.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+iqueue.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+iqueue.o: ../../../lib/c/include/libarch/types.h
+iqueue.o: ../../../lib/c/include/libarch/common.h
+iqueue.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+iqueue.o: ../../../lib/c/include/libarch/config.h
+iqueue.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+iqueue.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+iqueue.o: ../../../lib/c/include/inttypes.h
+iqueue.o: ../../../lib/c/include/libarch/inttypes.h
+iqueue.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdlib.h
+iqueue.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+iqueue.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+iqueue.o: iqueue.h tcp_type.h ../../../lib/c/include/async.h
+iqueue.o: ../../../lib/c/include/ipc/common.h
+iqueue.o: ../../../lib/c/include/abi/ipc/ipc.h
+iqueue.o: ../../../lib/c/include/atomic.h
+iqueue.o: ../../../lib/c/include/libarch/atomic.h
+iqueue.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+iqueue.o: ../../../lib/c/include/task.h
+iqueue.o: ../../../lib/c/include/abi/proc/task.h
+iqueue.o: ../../../lib/c/include/fibril.h
+iqueue.o: ../../../lib/c/include/libarch/fibril.h
+iqueue.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+iqueue.o: ../../../lib/c/include/abi/syscall.h
+iqueue.o: ../../../lib/c/include/libarch/syscall.h
+iqueue.o: ../../../lib/c/include/fibril_synch.h
+iqueue.o: ../../../lib/net/include/socket_core.h
+iqueue.o: ../../../lib/c/include/adt/generic_char_map.h
+iqueue.o: ../../../lib/c/include/adt/char_map.h
+iqueue.o: ../../../lib/c/include/adt/generic_field.h
+iqueue.o: ../../../lib/c/include/mem.h
+iqueue.o: ../../../lib/c/include/adt/dynamic_fifo.h
+iqueue.o: ../../../lib/c/include/adt/int_map.h
+iqueue.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+iqueue.o: ../../../lib/c/include/byteorder.h
+iqueue.o: ../../../lib/c/include/net/ip_protocols.h
+iqueue.o: ../../../lib/c/include/net/device.h
+iqueue.o: ../../../lib/c/include/nic/nic.h
+iqueue.o: ../../../lib/c/include/nic/eth_phys.h segment.h seq_no.h
+ncsim.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ncsim.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+ncsim.o: ../../../lib/c/include/libarch/types.h
+ncsim.o: ../../../lib/c/include/libarch/common.h
+ncsim.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+ncsim.o: ../../../lib/c/include/libarch/config.h
+ncsim.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+ncsim.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+ncsim.o: ../../../lib/c/include/libarch/atomic.h
+ncsim.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ncsim.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+ncsim.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+ncsim.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ncsim.o: ../../../lib/c/include/libarch/fibril.h
+ncsim.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ncsim.o: ../../../lib/c/include/abi/syscall.h
+ncsim.o: ../../../lib/c/include/libarch/syscall.h
+ncsim.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+ncsim.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+ncsim.o: ../../../lib/c/include/libarch/inttypes.h
+ncsim.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdlib.h
+ncsim.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+ncsim.o: conn.h tcp_type.h ../../../lib/c/include/fibril_synch.h
+ncsim.o: ../../../lib/net/include/socket_core.h
+ncsim.o: ../../../lib/c/include/adt/generic_char_map.h
+ncsim.o: ../../../lib/c/include/adt/char_map.h
+ncsim.o: ../../../lib/c/include/adt/generic_field.h
+ncsim.o: ../../../lib/c/include/mem.h
+ncsim.o: ../../../lib/c/include/adt/dynamic_fifo.h
+ncsim.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+ncsim.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+ncsim.o: ../../../lib/c/include/net/ip_protocols.h
+ncsim.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+ncsim.o: ../../../lib/c/include/nic/eth_phys.h ncsim.h rqueue.h segment.h
+pdu.o: ../../../lib/c/include/bitops.h ../../../lib/c/include/sys/types.h
+pdu.o: ../../../lib/c/include/libarch/types.h
+pdu.o: ../../../lib/c/include/libarch/common.h
+pdu.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+pdu.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+pdu.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdlib.h
+pdu.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+pdu.o: ../../../lib/c/include/sys/time.h
+pdu.o: ../../../lib/c/include/libarch/config.h
+pdu.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+pdu.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+pdu.o: pdu.h std.h tcp_type.h ../../../lib/c/include/adt/list.h
+pdu.o: ../../../lib/c/include/assert.h ../../../lib/c/include/async.h
+pdu.o: ../../../lib/c/include/ipc/common.h
+pdu.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+pdu.o: ../../../lib/c/include/libarch/atomic.h
+pdu.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+pdu.o: ../../../lib/c/include/abi/proc/task.h ../../../lib/c/include/stdarg.h
+pdu.o: ../../../lib/c/include/fibril.h
+pdu.o: ../../../lib/c/include/libarch/fibril.h
+pdu.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+pdu.o: ../../../lib/c/include/abi/syscall.h
+pdu.o: ../../../lib/c/include/libarch/syscall.h
+pdu.o: ../../../lib/c/include/fibril_synch.h
+pdu.o: ../../../lib/net/include/socket_core.h
+pdu.o: ../../../lib/c/include/adt/generic_char_map.h
+pdu.o: ../../../lib/c/include/adt/char_map.h
+pdu.o: ../../../lib/c/include/adt/generic_field.h
+pdu.o: ../../../lib/c/include/adt/dynamic_fifo.h
+pdu.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+pdu.o: ../../../lib/c/include/net/inet.h
+pdu.o: ../../../lib/c/include/net/ip_protocols.h
+pdu.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+pdu.o: ../../../lib/c/include/nic/eth_phys.h segment.h seq_no.h
+rqueue.o: ../../../lib/c/include/adt/prodcons.h
+rqueue.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+rqueue.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+rqueue.o: ../../../lib/c/include/libarch/types.h
+rqueue.o: ../../../lib/c/include/libarch/common.h
+rqueue.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+rqueue.o: ../../../lib/c/include/libarch/config.h
+rqueue.o: ../../../lib/c/include/fibril_synch.h
+rqueue.o: ../../../lib/c/include/fibril.h
+rqueue.o: ../../../lib/c/include/libarch/fibril.h
+rqueue.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+rqueue.o: ../../../lib/c/include/abi/syscall.h
+rqueue.o: ../../../lib/c/include/libarch/syscall.h
+rqueue.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+rqueue.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+rqueue.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+rqueue.o: ../../../lib/c/include/inttypes.h
+rqueue.o: ../../../lib/c/include/libarch/inttypes.h
+rqueue.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdlib.h
+rqueue.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+rqueue.o: conn.h tcp_type.h ../../../lib/c/include/async.h
+rqueue.o: ../../../lib/c/include/ipc/common.h
+rqueue.o: ../../../lib/c/include/abi/ipc/ipc.h
+rqueue.o: ../../../lib/c/include/atomic.h
+rqueue.o: ../../../lib/c/include/libarch/atomic.h
+rqueue.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+rqueue.o: ../../../lib/c/include/task.h
+rqueue.o: ../../../lib/c/include/abi/proc/task.h
+rqueue.o: ../../../lib/net/include/socket_core.h
+rqueue.o: ../../../lib/c/include/adt/generic_char_map.h
+rqueue.o: ../../../lib/c/include/adt/char_map.h
+rqueue.o: ../../../lib/c/include/adt/generic_field.h
+rqueue.o: ../../../lib/c/include/mem.h
+rqueue.o: ../../../lib/c/include/adt/dynamic_fifo.h
+rqueue.o: ../../../lib/c/include/adt/int_map.h
+rqueue.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+rqueue.o: ../../../lib/c/include/byteorder.h
+rqueue.o: ../../../lib/c/include/net/ip_protocols.h
+rqueue.o: ../../../lib/c/include/net/device.h
+rqueue.o: ../../../lib/c/include/nic/nic.h
+rqueue.o: ../../../lib/c/include/nic/eth_phys.h pdu.h std.h rqueue.h
+rqueue.o: segment.h ucall.h
+segment.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+segment.o: ../../../lib/c/include/sys/types.h
+segment.o: ../../../lib/c/include/libarch/types.h
+segment.o: ../../../lib/c/include/libarch/common.h
+segment.o: ../../../lib/c/include/inttypes.h
+segment.o: ../../../lib/c/include/libarch/inttypes.h
+segment.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/mem.h
+segment.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+segment.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+segment.o: ../../../lib/c/include/libarch/config.h
+segment.o: ../../../lib/c/include/malloc.h
+segment.o: ../../../lib/c/include/stacktrace.h
+segment.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+segment.o: segment.h tcp_type.h ../../../lib/c/include/adt/list.h
+segment.o: ../../../lib/c/include/assert.h ../../../lib/c/include/async.h
+segment.o: ../../../lib/c/include/ipc/common.h
+segment.o: ../../../lib/c/include/abi/ipc/ipc.h
+segment.o: ../../../lib/c/include/atomic.h
+segment.o: ../../../lib/c/include/libarch/atomic.h
+segment.o: ../../../lib/c/include/atomicdflt.h
+segment.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+segment.o: ../../../lib/c/include/abi/proc/task.h
+segment.o: ../../../lib/c/include/fibril.h
+segment.o: ../../../lib/c/include/libarch/fibril.h
+segment.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+segment.o: ../../../lib/c/include/abi/syscall.h
+segment.o: ../../../lib/c/include/libarch/syscall.h
+segment.o: ../../../lib/c/include/fibril_synch.h
+segment.o: ../../../lib/net/include/socket_core.h
+segment.o: ../../../lib/c/include/adt/generic_char_map.h
+segment.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+segment.o: ../../../lib/c/include/adt/char_map.h
+segment.o: ../../../lib/c/include/adt/generic_field.h
+segment.o: ../../../lib/c/include/adt/dynamic_fifo.h
+segment.o: ../../../lib/c/include/adt/int_map.h
+segment.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+segment.o: ../../../lib/c/include/byteorder.h
+segment.o: ../../../lib/c/include/net/ip_protocols.h
+segment.o: ../../../lib/c/include/net/device.h
+segment.o: ../../../lib/c/include/nic/nic.h
+segment.o: ../../../lib/c/include/nic/eth_phys.h seq_no.h
+seq_no.o: ../../../lib/c/include/assert.h ../../../lib/c/include/stdbool.h
+seq_no.o: ../../../lib/c/include/libarch/types.h
+seq_no.o: ../../../lib/c/include/libarch/common.h
+seq_no.o: ../../../lib/c/include/abi/bool.h
+seq_no.o: ../../../lib/c/include/sys/types.h seq_no.h tcp_type.h
+seq_no.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/unistd.h
+seq_no.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+seq_no.o: ../../../lib/c/include/libarch/config.h
+seq_no.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+seq_no.o: ../../../lib/c/include/abi/ipc/ipc.h
+seq_no.o: ../../../lib/c/include/atomic.h
+seq_no.o: ../../../lib/c/include/libarch/atomic.h
+seq_no.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+seq_no.o: ../../../lib/c/include/task.h
+seq_no.o: ../../../lib/c/include/abi/proc/task.h
+seq_no.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+seq_no.o: ../../../lib/c/include/libarch/fibril.h
+seq_no.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+seq_no.o: ../../../lib/c/include/abi/syscall.h
+seq_no.o: ../../../lib/c/include/libarch/syscall.h
+seq_no.o: ../../../lib/c/include/fibril_synch.h
+seq_no.o: ../../../lib/net/include/socket_core.h
+seq_no.o: ../../../lib/c/include/adt/generic_char_map.h
+seq_no.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+seq_no.o: ../../../lib/c/include/adt/char_map.h
+seq_no.o: ../../../lib/c/include/adt/generic_field.h
+seq_no.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+seq_no.o: ../../../lib/c/include/adt/dynamic_fifo.h
+seq_no.o: ../../../lib/c/include/adt/int_map.h
+seq_no.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+seq_no.o: ../../../lib/c/include/byteorder.h
+seq_no.o: ../../../lib/c/include/net/ip_protocols.h
+seq_no.o: ../../../lib/c/include/net/device.h
+seq_no.o: ../../../lib/c/include/nic/nic.h
+seq_no.o: ../../../lib/c/include/nic/eth_phys.h
+sock.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+sock.o: ../../../lib/c/include/sys/types.h
+sock.o: ../../../lib/c/include/libarch/types.h
+sock.o: ../../../lib/c/include/libarch/common.h
+sock.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+sock.o: ../../../lib/c/include/libarch/atomic.h
+sock.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+sock.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+sock.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+sock.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+sock.o: ../../../lib/c/include/libarch/fibril.h
+sock.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+sock.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+sock.o: ../../../lib/c/include/sys/time.h
+sock.o: ../../../lib/c/include/libarch/config.h
+sock.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+sock.o: ../../../lib/c/include/abi/syscall.h
+sock.o: ../../../lib/c/include/libarch/syscall.h
+sock.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+sock.o: ../../../lib/c/include/inet/inet.h ../../../lib/c/include/io/log.h
+sock.o: ../../../lib/c/include/inttypes.h
+sock.o: ../../../lib/c/include/libarch/inttypes.h
+sock.o: ../../../lib/c/include/io/verify.h
+sock.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+sock.o: ../../../lib/c/include/ipc/socket.h
+sock.o: ../../../lib/c/include/net/socket.h
+sock.o: ../../../lib/c/include/net/socket_codes.h
+sock.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+sock.o: ../../../lib/c/include/byteorder.h
+sock.o: ../../../lib/c/include/net/ip_protocols.h
+sock.o: ../../../lib/c/include/net/in6.h ../../../lib/c/include/ns.h sock.h
+sock.o: std.h tcp.h tcp_type.h ../../../lib/c/include/fibril_synch.h
+sock.o: ../../../lib/net/include/socket_core.h
+sock.o: ../../../lib/c/include/adt/generic_char_map.h
+sock.o: ../../../lib/c/include/adt/char_map.h
+sock.o: ../../../lib/c/include/adt/generic_field.h
+sock.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+sock.o: ../../../lib/c/include/adt/dynamic_fifo.h
+sock.o: ../../../lib/c/include/adt/int_map.h
+sock.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+sock.o: ../../../lib/c/include/nic/eth_phys.h ucall.h
+tcp.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+tcp.o: ../../../lib/c/include/sys/types.h
+tcp.o: ../../../lib/c/include/libarch/types.h
+tcp.o: ../../../lib/c/include/libarch/common.h
+tcp.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+tcp.o: ../../../lib/c/include/libarch/atomic.h
+tcp.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+tcp.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+tcp.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+tcp.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+tcp.o: ../../../lib/c/include/libarch/fibril.h
+tcp.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+tcp.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+tcp.o: ../../../lib/c/include/sys/time.h
+tcp.o: ../../../lib/c/include/libarch/config.h
+tcp.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+tcp.o: ../../../lib/c/include/abi/syscall.h
+tcp.o: ../../../lib/c/include/libarch/syscall.h
+tcp.o: ../../../lib/c/include/bitops.h ../../../lib/c/include/byteorder.h
+tcp.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+tcp.o: ../../../lib/c/include/inet/inet.h ../../../lib/c/include/io/log.h
+tcp.o: ../../../lib/c/include/inttypes.h
+tcp.o: ../../../lib/c/include/libarch/inttypes.h
+tcp.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdio.h
+tcp.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+tcp.o: ../../../lib/c/include/abi/klog.h ncsim.h tcp_type.h
+tcp.o: ../../../lib/c/include/fibril_synch.h
+tcp.o: ../../../lib/net/include/socket_core.h
+tcp.o: ../../../lib/c/include/adt/generic_char_map.h
+tcp.o: ../../../lib/c/include/adt/char_map.h
+tcp.o: ../../../lib/c/include/adt/generic_field.h
+tcp.o: ../../../lib/c/include/malloc.h
+tcp.o: ../../../lib/c/include/adt/dynamic_fifo.h
+tcp.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+tcp.o: ../../../lib/c/include/net/inet.h
+tcp.o: ../../../lib/c/include/net/ip_protocols.h
+tcp.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+tcp.o: ../../../lib/c/include/nic/eth_phys.h pdu.h std.h rqueue.h sock.h
+tcp.o: tcp.h test.h
+test.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+test.o: ../../../lib/c/include/sys/types.h
+test.o: ../../../lib/c/include/libarch/types.h
+test.o: ../../../lib/c/include/libarch/common.h
+test.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+test.o: ../../../lib/c/include/libarch/atomic.h
+test.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+test.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+test.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+test.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+test.o: ../../../lib/c/include/libarch/fibril.h
+test.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+test.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+test.o: ../../../lib/c/include/sys/time.h
+test.o: ../../../lib/c/include/libarch/config.h
+test.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+test.o: ../../../lib/c/include/abi/syscall.h
+test.o: ../../../lib/c/include/libarch/syscall.h
+test.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+test.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+test.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+test.o: ../../../lib/c/include/abi/klog.h tcp_type.h
+test.o: ../../../lib/c/include/fibril_synch.h
+test.o: ../../../lib/net/include/socket_core.h
+test.o: ../../../lib/c/include/adt/generic_char_map.h
+test.o: ../../../lib/c/include/adt/char_map.h
+test.o: ../../../lib/c/include/adt/generic_field.h
+test.o: ../../../lib/c/include/malloc.h
+test.o: ../../../lib/c/include/adt/dynamic_fifo.h
+test.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+test.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+test.o: ../../../lib/c/include/net/ip_protocols.h
+test.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+test.o: ../../../lib/c/include/nic/eth_phys.h ucall.h test.h
+tqueue.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+tqueue.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+tqueue.o: ../../../lib/c/include/libarch/types.h
+tqueue.o: ../../../lib/c/include/libarch/common.h
+tqueue.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+tqueue.o: ../../../lib/c/include/libarch/config.h
+tqueue.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+tqueue.o: ../../../lib/c/include/fibril_synch.h
+tqueue.o: ../../../lib/c/include/fibril.h
+tqueue.o: ../../../lib/c/include/libarch/fibril.h
+tqueue.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+tqueue.o: ../../../lib/c/include/abi/syscall.h
+tqueue.o: ../../../lib/c/include/libarch/syscall.h
+tqueue.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+tqueue.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+tqueue.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+tqueue.o: ../../../lib/c/include/inttypes.h
+tqueue.o: ../../../lib/c/include/libarch/inttypes.h
+tqueue.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/macros.h
+tqueue.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdlib.h
+tqueue.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+tqueue.o: conn.h tcp_type.h ../../../lib/c/include/async.h
+tqueue.o: ../../../lib/c/include/ipc/common.h
+tqueue.o: ../../../lib/c/include/abi/ipc/ipc.h
+tqueue.o: ../../../lib/c/include/atomic.h
+tqueue.o: ../../../lib/c/include/libarch/atomic.h
+tqueue.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+tqueue.o: ../../../lib/c/include/abi/proc/task.h
+tqueue.o: ../../../lib/net/include/socket_core.h
+tqueue.o: ../../../lib/c/include/adt/generic_char_map.h
+tqueue.o: ../../../lib/c/include/adt/char_map.h
+tqueue.o: ../../../lib/c/include/adt/generic_field.h
+tqueue.o: ../../../lib/c/include/adt/dynamic_fifo.h
+tqueue.o: ../../../lib/c/include/adt/int_map.h
+tqueue.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+tqueue.o: ../../../lib/c/include/net/ip_protocols.h
+tqueue.o: ../../../lib/c/include/net/device.h
+tqueue.o: ../../../lib/c/include/nic/nic.h
+tqueue.o: ../../../lib/c/include/nic/eth_phys.h ncsim.h pdu.h std.h rqueue.h
+tqueue.o: segment.h seq_no.h tqueue.h tcp.h
+ucall.o: ../../../lib/c/include/fibril_synch.h
+ucall.o: ../../../lib/c/include/fibril.h
+ucall.o: ../../../lib/c/include/libarch/fibril.h
+ucall.o: ../../../lib/c/include/sys/types.h
+ucall.o: ../../../lib/c/include/libarch/types.h
+ucall.o: ../../../lib/c/include/libarch/common.h
+ucall.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ucall.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ucall.o: ../../../lib/c/include/sys/time.h
+ucall.o: ../../../lib/c/include/libarch/config.h
+ucall.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ucall.o: ../../../lib/c/include/abi/syscall.h
+ucall.o: ../../../lib/c/include/libarch/syscall.h
+ucall.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+ucall.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+ucall.o: ../../../lib/c/include/inttypes.h
+ucall.o: ../../../lib/c/include/libarch/inttypes.h
+ucall.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/macros.h
+ucall.o: ../../../lib/c/include/mem.h conn.h tcp_type.h
+ucall.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+ucall.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+ucall.o: ../../../lib/c/include/libarch/atomic.h
+ucall.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ucall.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+ucall.o: ../../../lib/net/include/socket_core.h
+ucall.o: ../../../lib/c/include/adt/generic_char_map.h
+ucall.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+ucall.o: ../../../lib/c/include/adt/char_map.h
+ucall.o: ../../../lib/c/include/adt/generic_field.h
+ucall.o: ../../../lib/c/include/malloc.h
+ucall.o: ../../../lib/c/include/adt/dynamic_fifo.h
+ucall.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+ucall.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+ucall.o: ../../../lib/c/include/net/ip_protocols.h
+ucall.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+ucall.o: ../../../lib/c/include/nic/eth_phys.h tqueue.h std.h ucall.h

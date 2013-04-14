@@ -1,0 +1,105 @@
+# DO NOT DELETE
+
+tmpfs.o: tmpfs.h ../../../lib/fs/libfs.h ../../../lib/c/include/ipc/vfs.h
+tmpfs.o: ../../../lib/c/include/ipc/common.h
+tmpfs.o: ../../../lib/c/include/sys/types.h
+tmpfs.o: ../../../lib/c/include/libarch/types.h
+tmpfs.o: ../../../lib/c/include/libarch/common.h
+tmpfs.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+tmpfs.o: ../../../lib/c/include/libarch/atomic.h
+tmpfs.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+tmpfs.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+tmpfs.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+tmpfs.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+tmpfs.o: ../../../lib/c/include/fibril.h
+tmpfs.o: ../../../lib/c/include/libarch/fibril.h
+tmpfs.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+tmpfs.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+tmpfs.o: ../../../lib/c/include/sys/time.h
+tmpfs.o: ../../../lib/c/include/libarch/config.h
+tmpfs.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+tmpfs.o: ../../../lib/c/include/abi/syscall.h
+tmpfs.o: ../../../lib/c/include/libarch/syscall.h
+tmpfs.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+tmpfs.o: ../../../lib/c/include/adt/hash_table.h
+tmpfs.o: ../../../lib/c/include/macros.h
+tmpfs.o: ../../../lib/c/include/ipc/services.h
+tmpfs.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/ns.h
+tmpfs.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+tmpfs.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+tmpfs.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+tmpfs.o: ../../../lib/c/include/abi/klog.h ../../vfs/vfs.h
+tmpfs.o: ../../../lib/c/include/fibril_synch.h
+tmpfs_ops.o: tmpfs.h ../../../lib/fs/libfs.h ../../../lib/c/include/ipc/vfs.h
+tmpfs_ops.o: ../../../lib/c/include/ipc/common.h
+tmpfs_ops.o: ../../../lib/c/include/sys/types.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/types.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/common.h
+tmpfs_ops.o: ../../../lib/c/include/abi/ipc/ipc.h
+tmpfs_ops.o: ../../../lib/c/include/atomic.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/atomic.h
+tmpfs_ops.o: ../../../lib/c/include/atomicdflt.h
+tmpfs_ops.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+tmpfs_ops.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+tmpfs_ops.o: ../../../lib/c/include/abi/proc/task.h
+tmpfs_ops.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+tmpfs_ops.o: ../../../lib/c/include/fibril.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/fibril.h
+tmpfs_ops.o: ../../../lib/c/include/adt/list.h
+tmpfs_ops.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+tmpfs_ops.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/config.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/tls.h
+tmpfs_ops.o: ../../../lib/c/include/libc.h
+tmpfs_ops.o: ../../../lib/c/include/abi/syscall.h
+tmpfs_ops.o: ../../../lib/c/include/libarch/syscall.h
+tmpfs_ops.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+tmpfs_ops.o: ../../../lib/c/include/adt/hash_table.h
+tmpfs_ops.o: ../../../lib/c/include/macros.h ../../vfs/vfs.h
+tmpfs_ops.o: ../../../lib/c/include/fibril_synch.h
+tmpfs_ops.o: ../../../lib/c/include/errno.h
+tmpfs_ops.o: ../../../lib/c/include/abi/errno.h
+tmpfs_ops.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+tmpfs_ops.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/str.h
+tmpfs_ops.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdio.h
+tmpfs_ops.o: ../../../lib/c/include/io/verify.h
+tmpfs_ops.o: ../../../lib/c/include/abi/klog.h
+tmpfs_ops.o: ../../../lib/c/include/adt/hash.h ../../../lib/c/include/as.h
+tmpfs_ops.o: ../../../lib/c/include/abi/mm/as.h
+tmpfs_dump.o: tmpfs.h ../../../lib/fs/libfs.h
+tmpfs_dump.o: ../../../lib/c/include/ipc/vfs.h
+tmpfs_dump.o: ../../../lib/c/include/ipc/common.h
+tmpfs_dump.o: ../../../lib/c/include/sys/types.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/types.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/common.h
+tmpfs_dump.o: ../../../lib/c/include/abi/ipc/ipc.h
+tmpfs_dump.o: ../../../lib/c/include/atomic.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/atomic.h
+tmpfs_dump.o: ../../../lib/c/include/atomicdflt.h
+tmpfs_dump.o: ../../../lib/c/include/stdint.h
+tmpfs_dump.o: ../../../lib/c/include/stdbool.h
+tmpfs_dump.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+tmpfs_dump.o: ../../../lib/c/include/abi/proc/task.h
+tmpfs_dump.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+tmpfs_dump.o: ../../../lib/c/include/fibril.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/fibril.h
+tmpfs_dump.o: ../../../lib/c/include/adt/list.h
+tmpfs_dump.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+tmpfs_dump.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/config.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/tls.h
+tmpfs_dump.o: ../../../lib/c/include/libc.h
+tmpfs_dump.o: ../../../lib/c/include/abi/syscall.h
+tmpfs_dump.o: ../../../lib/c/include/libarch/syscall.h
+tmpfs_dump.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+tmpfs_dump.o: ../../../lib/c/include/adt/hash_table.h
+tmpfs_dump.o: ../../../lib/c/include/macros.h ../../vfs/vfs.h
+tmpfs_dump.o: ../../../lib/c/include/fibril_synch.h
+tmpfs_dump.o: ../../../lib/c/include/errno.h
+tmpfs_dump.o: ../../../lib/c/include/abi/errno.h
+tmpfs_dump.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+tmpfs_dump.o: ../../../lib/c/include/stacktrace.h
+tmpfs_dump.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+tmpfs_dump.o: ../../../lib/c/include/as.h ../../../lib/c/include/abi/mm/as.h
+tmpfs_dump.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h
+tmpfs_dump.o: ../../../lib/c/include/byteorder.h

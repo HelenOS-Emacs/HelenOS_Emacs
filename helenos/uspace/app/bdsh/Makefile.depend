@@ -1,0 +1,867 @@
+# DO NOT DELETE
+
+cmds/modules/help/help.o: ../../lib/c/include/stdio.h
+cmds/modules/help/help.o: ../../lib/c/include/sys/types.h
+cmds/modules/help/help.o: ../../lib/c/include/libarch/types.h
+cmds/modules/help/help.o: ../../lib/c/include/libarch/common.h
+cmds/modules/help/help.o: ../../lib/c/include/stdarg.h
+cmds/modules/help/help.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+cmds/modules/help/help.o: ../../lib/c/include/stdbool.h
+cmds/modules/help/help.o: ../../lib/c/include/abi/bool.h
+cmds/modules/help/help.o: ../../lib/c/include/io/verify.h
+cmds/modules/help/help.o: ../../lib/c/include/abi/klog.h
+cmds/modules/help/help.o: ../../lib/c/include/stdlib.h
+cmds/modules/help/help.o: ../../lib/c/include/unistd.h
+cmds/modules/help/help.o: ../../lib/c/include/time.h
+cmds/modules/help/help.o: ../../lib/c/include/sys/time.h
+cmds/modules/help/help.o: ../../lib/c/include/libarch/config.h
+cmds/modules/help/help.o: ../../lib/c/include/malloc.h
+cmds/modules/help/help.o: ../../lib/c/include/stacktrace.h
+cmds/modules/help/help.o: ../../lib/fmtutil/fmtutil.h config.h
+cmds/modules/help/help.o: cmds/modules/help/entry.h cmds/modules/help/help.h
+cmds/modules/help/help.o: cmds/cmds.h scli.h ../../lib/c/include/stdint.h
+cmds/modules/help/help.o: cmds/modules/modules.h cmds/modules/help/entry.h
+cmds/modules/help/help.o: cmds/modules/mkdir/entry.h
+cmds/modules/help/help.o: cmds/modules/mkfile/entry.h cmds/modules/rm/entry.h
+cmds/modules/help/help.o: cmds/modules/bdd/entry.h cmds/modules/cat/entry.h
+cmds/modules/help/help.o: cmds/modules/touch/entry.h cmds/modules/ls/entry.h
+cmds/modules/help/help.o: cmds/modules/pwd/entry.h cmds/modules/sleep/entry.h
+cmds/modules/help/help.o: cmds/modules/cp/entry.h cmds/modules/mv/entry.h
+cmds/modules/help/help.o: cmds/modules/mount/entry.h
+cmds/modules/help/help.o: cmds/modules/unmount/entry.h
+cmds/modules/help/help.o: cmds/modules/kcon/entry.h
+cmds/modules/help/help.o: cmds/modules/printf/entry.h
+cmds/modules/help/help.o: cmds/modules/echo/entry.h cmds/modules/cmp/entry.h
+cmds/modules/help/help.o: cmds/modules/help/help_def.h
+cmds/modules/help/help.o: cmds/modules/mkdir/mkdir_def.h
+cmds/modules/help/help.o: cmds/modules/mkfile/mkfile_def.h
+cmds/modules/help/help.o: cmds/modules/rm/rm_def.h cmds/modules/bdd/bdd_def.h
+cmds/modules/help/help.o: cmds/modules/cat/cat_def.h
+cmds/modules/help/help.o: cmds/modules/touch/touch_def.h
+cmds/modules/help/help.o: cmds/modules/ls/ls_def.h cmds/modules/pwd/pwd_def.h
+cmds/modules/help/help.o: cmds/modules/sleep/sleep_def.h
+cmds/modules/help/help.o: cmds/modules/cp/cp_def.h cmds/modules/mv/mv_def.h
+cmds/modules/help/help.o: cmds/modules/mount/mount_def.h
+cmds/modules/help/help.o: cmds/modules/unmount/unmount_def.h
+cmds/modules/help/help.o: cmds/modules/kcon/kcon_def.h
+cmds/modules/help/help.o: cmds/modules/printf/printf_def.h
+cmds/modules/help/help.o: cmds/modules/echo/echo_def.h
+cmds/modules/help/help.o: cmds/modules/cmp/cmp_def.h cmds/builtins/builtins.h
+cmds/modules/help/help.o: cmds/builtins/batch/entry.h
+cmds/modules/help/help.o: cmds/builtins/cd/entry.h cmds/builtins/exit/entry.h
+cmds/modules/help/help.o: cmds/builtins/batch/batch_def.h
+cmds/modules/help/help.o: cmds/builtins/cd/cd_def.h
+cmds/modules/help/help.o: cmds/builtins/exit/exit_def.h errors.h util.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/stdio.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/sys/types.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/types.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/common.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/stdarg.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/str.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/mem.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/stdbool.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/abi/bool.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/io/verify.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/abi/klog.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/stdlib.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/unistd.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/time.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/sys/time.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/config.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/malloc.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/stacktrace.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/dirent.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/fcntl.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/sys/stat.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/ipc/common.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/atomic.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/stdint.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/task.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/getopt.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/errno.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/abi/errno.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/str_error.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/vfs/vfs.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/adt/list.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/assert.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/async.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/fibril.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libc.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/mkdir/mkdir.o: ../../lib/c/include/vfs/vfs_mtab.h config.h
+cmds/modules/mkdir/mkdir.o: errors.h util.h scli.h cmds/modules/help/entry.h
+cmds/modules/mkdir/mkdir.o: cmds/modules/mkdir/mkdir.h cmds/cmds.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/stdio.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/sys/types.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/libarch/types.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/libarch/common.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/stdarg.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/str.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/mem.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/stdbool.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/abi/bool.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/io/verify.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/abi/klog.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/stdlib.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/unistd.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/time.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/sys/time.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/libarch/config.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/malloc.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/stacktrace.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/dirent.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/fcntl.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/sys/stat.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/ipc/common.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/atomic.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/stdint.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/task.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/macros.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/getopt.h
+cmds/modules/mkfile/mkfile.o: ../../lib/c/include/ctype.h config.h errors.h
+cmds/modules/mkfile/mkfile.o: util.h scli.h cmds/modules/help/entry.h
+cmds/modules/mkfile/mkfile.o: cmds/modules/mkfile/mkfile.h cmds/cmds.h
+cmds/modules/rm/rm.o: ../../lib/c/include/stdio.h
+cmds/modules/rm/rm.o: ../../lib/c/include/sys/types.h
+cmds/modules/rm/rm.o: ../../lib/c/include/libarch/types.h
+cmds/modules/rm/rm.o: ../../lib/c/include/libarch/common.h
+cmds/modules/rm/rm.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/modules/rm/rm.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+cmds/modules/rm/rm.o: ../../lib/c/include/abi/bool.h
+cmds/modules/rm/rm.o: ../../lib/c/include/io/verify.h
+cmds/modules/rm/rm.o: ../../lib/c/include/abi/klog.h
+cmds/modules/rm/rm.o: ../../lib/c/include/stdlib.h
+cmds/modules/rm/rm.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cmds/modules/rm/rm.o: ../../lib/c/include/sys/time.h
+cmds/modules/rm/rm.o: ../../lib/c/include/libarch/config.h
+cmds/modules/rm/rm.o: ../../lib/c/include/malloc.h
+cmds/modules/rm/rm.o: ../../lib/c/include/stacktrace.h
+cmds/modules/rm/rm.o: ../../lib/c/include/fcntl.h
+cmds/modules/rm/rm.o: ../../lib/c/include/dirent.h
+cmds/modules/rm/rm.o: ../../lib/c/include/getopt.h config.h errors.h util.h
+cmds/modules/rm/rm.o: scli.h ../../lib/c/include/stdint.h
+cmds/modules/rm/rm.o: cmds/modules/help/entry.h cmds/modules/rm/rm.h
+cmds/modules/rm/rm.o: cmds/cmds.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/stdio.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/sys/types.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/types.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/common.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/stdarg.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/stdbool.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/abi/bool.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/io/verify.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/abi/klog.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/stdlib.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/unistd.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/time.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/sys/time.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/config.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/malloc.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/stacktrace.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/sys/typefmt.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/inttypes.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/inttypes.h config.h
+cmds/modules/bdd/bdd.o: util.h scli.h ../../lib/c/include/stdint.h errors.h
+cmds/modules/bdd/bdd.o: cmds/modules/help/entry.h cmds/modules/bdd/bdd.h
+cmds/modules/bdd/bdd.o: cmds/cmds.h ../../lib/block/block.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/async.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/ipc/common.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/atomic.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/task.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/fibril.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/adt/list.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/assert.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libc.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/bdd/bdd.o: ../../srv/vfs/vfs.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/adt/hash_table.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/macros.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/fibril_synch.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/loc.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/errno.h
+cmds/modules/bdd/bdd.o: ../../lib/c/include/abi/errno.h
+cmds/modules/cat/cat.o: ../../lib/c/include/stdio.h
+cmds/modules/cat/cat.o: ../../lib/c/include/sys/types.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/types.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/common.h
+cmds/modules/cat/cat.o: ../../lib/c/include/stdarg.h
+cmds/modules/cat/cat.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+cmds/modules/cat/cat.o: ../../lib/c/include/stdbool.h
+cmds/modules/cat/cat.o: ../../lib/c/include/abi/bool.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/verify.h
+cmds/modules/cat/cat.o: ../../lib/c/include/abi/klog.h
+cmds/modules/cat/cat.o: ../../lib/c/include/stdlib.h
+cmds/modules/cat/cat.o: ../../lib/c/include/unistd.h
+cmds/modules/cat/cat.o: ../../lib/c/include/time.h
+cmds/modules/cat/cat.o: ../../lib/c/include/sys/time.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/config.h
+cmds/modules/cat/cat.o: ../../lib/c/include/malloc.h
+cmds/modules/cat/cat.o: ../../lib/c/include/stacktrace.h
+cmds/modules/cat/cat.o: ../../lib/c/include/getopt.h
+cmds/modules/cat/cat.o: ../../lib/c/include/fcntl.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/console.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/concaps.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/kbd_event.h
+cmds/modules/cat/cat.o: ../../lib/c/include/adt/list.h
+cmds/modules/cat/cat.o: ../../lib/c/include/assert.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/keycode.h
+cmds/modules/cat/cat.o: ../../lib/c/include/async.h
+cmds/modules/cat/cat.o: ../../lib/c/include/ipc/common.h
+cmds/modules/cat/cat.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/cat/cat.o: ../../lib/c/include/atomic.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/cat/cat.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/cat/cat.o: ../../lib/c/include/stdint.h
+cmds/modules/cat/cat.o: ../../lib/c/include/task.h
+cmds/modules/cat/cat.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/cat/cat.o: ../../lib/c/include/fibril.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libc.h
+cmds/modules/cat/cat.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/cat/cat.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/color.h
+cmds/modules/cat/cat.o: ../../lib/c/include/io/style.h
+cmds/modules/cat/cat.o: ../../lib/c/include/errno.h
+cmds/modules/cat/cat.o: ../../lib/c/include/abi/errno.h
+cmds/modules/cat/cat.o: ../../lib/c/include/vfs/vfs.h
+cmds/modules/cat/cat.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/cat/cat.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/cat/cat.o: ../../lib/c/include/vfs/vfs_mtab.h config.h util.h
+cmds/modules/cat/cat.o: scli.h errors.h cmds/modules/help/entry.h
+cmds/modules/cat/cat.o: cmds/modules/cat/cat.h cmds/cmds.h
+cmds/modules/touch/touch.o: ../../lib/c/include/stdio.h
+cmds/modules/touch/touch.o: ../../lib/c/include/sys/types.h
+cmds/modules/touch/touch.o: ../../lib/c/include/libarch/types.h
+cmds/modules/touch/touch.o: ../../lib/c/include/libarch/common.h
+cmds/modules/touch/touch.o: ../../lib/c/include/stdarg.h
+cmds/modules/touch/touch.o: ../../lib/c/include/str.h
+cmds/modules/touch/touch.o: ../../lib/c/include/mem.h
+cmds/modules/touch/touch.o: ../../lib/c/include/stdbool.h
+cmds/modules/touch/touch.o: ../../lib/c/include/abi/bool.h
+cmds/modules/touch/touch.o: ../../lib/c/include/io/verify.h
+cmds/modules/touch/touch.o: ../../lib/c/include/abi/klog.h
+cmds/modules/touch/touch.o: ../../lib/c/include/stdlib.h
+cmds/modules/touch/touch.o: ../../lib/c/include/unistd.h
+cmds/modules/touch/touch.o: ../../lib/c/include/time.h
+cmds/modules/touch/touch.o: ../../lib/c/include/sys/time.h
+cmds/modules/touch/touch.o: ../../lib/c/include/libarch/config.h
+cmds/modules/touch/touch.o: ../../lib/c/include/malloc.h
+cmds/modules/touch/touch.o: ../../lib/c/include/stacktrace.h
+cmds/modules/touch/touch.o: ../../lib/c/include/fcntl.h
+cmds/modules/touch/touch.o: ../../lib/c/include/dirent.h
+cmds/modules/touch/touch.o: ../../lib/c/include/getopt.h
+cmds/modules/touch/touch.o: ../../lib/c/include/sys/stat.h
+cmds/modules/touch/touch.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/touch/touch.o: ../../lib/c/include/ipc/common.h
+cmds/modules/touch/touch.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/touch/touch.o: ../../lib/c/include/atomic.h
+cmds/modules/touch/touch.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/touch/touch.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/touch/touch.o: ../../lib/c/include/stdint.h
+cmds/modules/touch/touch.o: ../../lib/c/include/task.h
+cmds/modules/touch/touch.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/touch/touch.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/touch/touch.o: ../../lib/c/include/errno.h
+cmds/modules/touch/touch.o: ../../lib/c/include/abi/errno.h config.h errors.h
+cmds/modules/touch/touch.o: util.h scli.h cmds/modules/help/entry.h
+cmds/modules/touch/touch.o: cmds/modules/touch/touch.h cmds/cmds.h
+cmds/modules/ls/ls.o: ../../lib/c/include/stdio.h
+cmds/modules/ls/ls.o: ../../lib/c/include/sys/types.h
+cmds/modules/ls/ls.o: ../../lib/c/include/libarch/types.h
+cmds/modules/ls/ls.o: ../../lib/c/include/libarch/common.h
+cmds/modules/ls/ls.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/modules/ls/ls.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+cmds/modules/ls/ls.o: ../../lib/c/include/abi/bool.h
+cmds/modules/ls/ls.o: ../../lib/c/include/io/verify.h
+cmds/modules/ls/ls.o: ../../lib/c/include/abi/klog.h
+cmds/modules/ls/ls.o: ../../lib/c/include/stdlib.h
+cmds/modules/ls/ls.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cmds/modules/ls/ls.o: ../../lib/c/include/sys/time.h
+cmds/modules/ls/ls.o: ../../lib/c/include/libarch/config.h
+cmds/modules/ls/ls.o: ../../lib/c/include/malloc.h
+cmds/modules/ls/ls.o: ../../lib/c/include/stacktrace.h
+cmds/modules/ls/ls.o: ../../lib/c/include/dirent.h
+cmds/modules/ls/ls.o: ../../lib/c/include/fcntl.h
+cmds/modules/ls/ls.o: ../../lib/c/include/getopt.h
+cmds/modules/ls/ls.o: ../../lib/c/include/sys/stat.h
+cmds/modules/ls/ls.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/ls/ls.o: ../../lib/c/include/ipc/common.h
+cmds/modules/ls/ls.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/ls/ls.o: ../../lib/c/include/atomic.h
+cmds/modules/ls/ls.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/ls/ls.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/ls/ls.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+cmds/modules/ls/ls.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/ls/ls.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/ls/ls.o: ../../lib/c/include/sort.h cmds/modules/ls/ls.h
+cmds/modules/ls/ls.o: errors.h config.h util.h scli.h
+cmds/modules/ls/ls.o: cmds/modules/help/entry.h cmds/cmds.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/stdio.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/sys/types.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/libarch/types.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/libarch/common.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/stdarg.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/stdbool.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/abi/bool.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/io/verify.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/abi/klog.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/stdlib.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/unistd.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/time.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/sys/time.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/libarch/config.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/malloc.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/stacktrace.h config.h errors.h
+cmds/modules/pwd/pwd.o: cmds/modules/help/entry.h cmds/cmds.h scli.h
+cmds/modules/pwd/pwd.o: ../../lib/c/include/stdint.h cmds/modules/pwd/pwd.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/errno.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/abi/errno.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/stdio.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/sys/types.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/libarch/types.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/libarch/common.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/stdarg.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/str.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/mem.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/stdbool.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/abi/bool.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/io/verify.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/abi/klog.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/stdlib.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/unistd.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/time.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/sys/time.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/libarch/config.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/malloc.h
+cmds/modules/sleep/sleep.o: ../../lib/c/include/stacktrace.h config.h util.h
+cmds/modules/sleep/sleep.o: scli.h ../../lib/c/include/stdint.h errors.h
+cmds/modules/sleep/sleep.o: cmds/modules/help/entry.h
+cmds/modules/sleep/sleep.o: cmds/modules/sleep/sleep.h cmds/cmds.h
+cmds/modules/cp/cp.o: ../../lib/c/include/stdio.h
+cmds/modules/cp/cp.o: ../../lib/c/include/sys/types.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/types.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/common.h
+cmds/modules/cp/cp.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/modules/cp/cp.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+cmds/modules/cp/cp.o: ../../lib/c/include/abi/bool.h
+cmds/modules/cp/cp.o: ../../lib/c/include/io/verify.h
+cmds/modules/cp/cp.o: ../../lib/c/include/abi/klog.h
+cmds/modules/cp/cp.o: ../../lib/c/include/stdlib.h
+cmds/modules/cp/cp.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cmds/modules/cp/cp.o: ../../lib/c/include/sys/time.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/config.h
+cmds/modules/cp/cp.o: ../../lib/c/include/malloc.h
+cmds/modules/cp/cp.o: ../../lib/c/include/stacktrace.h
+cmds/modules/cp/cp.o: ../../lib/c/include/io/console.h
+cmds/modules/cp/cp.o: ../../lib/c/include/io/concaps.h
+cmds/modules/cp/cp.o: ../../lib/c/include/io/kbd_event.h
+cmds/modules/cp/cp.o: ../../lib/c/include/adt/list.h
+cmds/modules/cp/cp.o: ../../lib/c/include/assert.h
+cmds/modules/cp/cp.o: ../../lib/c/include/io/keycode.h
+cmds/modules/cp/cp.o: ../../lib/c/include/async.h
+cmds/modules/cp/cp.o: ../../lib/c/include/ipc/common.h
+cmds/modules/cp/cp.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/cp/cp.o: ../../lib/c/include/atomic.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/cp/cp.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/cp/cp.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+cmds/modules/cp/cp.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/cp/cp.o: ../../lib/c/include/fibril.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libc.h
+cmds/modules/cp/cp.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/cp/cp.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/cp/cp.o: ../../lib/c/include/getopt.h
+cmds/modules/cp/cp.o: ../../lib/c/include/fcntl.h
+cmds/modules/cp/cp.o: ../../lib/c/include/sys/stat.h
+cmds/modules/cp/cp.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/cp/cp.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/cp/cp.o: ../../lib/c/include/dirent.h config.h util.h scli.h
+cmds/modules/cp/cp.o: errors.h cmds/modules/help/entry.h cmds/modules/cp/cp.h
+cmds/modules/cp/cp.o: cmds/cmds.h
+cmds/modules/mv/mv.o: ../../lib/c/include/stdio.h
+cmds/modules/mv/mv.o: ../../lib/c/include/sys/types.h
+cmds/modules/mv/mv.o: ../../lib/c/include/libarch/types.h
+cmds/modules/mv/mv.o: ../../lib/c/include/libarch/common.h
+cmds/modules/mv/mv.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/modules/mv/mv.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+cmds/modules/mv/mv.o: ../../lib/c/include/abi/bool.h
+cmds/modules/mv/mv.o: ../../lib/c/include/io/verify.h
+cmds/modules/mv/mv.o: ../../lib/c/include/abi/klog.h
+cmds/modules/mv/mv.o: ../../lib/c/include/stdlib.h
+cmds/modules/mv/mv.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cmds/modules/mv/mv.o: ../../lib/c/include/sys/time.h
+cmds/modules/mv/mv.o: ../../lib/c/include/libarch/config.h
+cmds/modules/mv/mv.o: ../../lib/c/include/malloc.h
+cmds/modules/mv/mv.o: ../../lib/c/include/stacktrace.h
+cmds/modules/mv/mv.o: ../../lib/c/include/errno.h
+cmds/modules/mv/mv.o: ../../lib/c/include/abi/errno.h config.h util.h scli.h
+cmds/modules/mv/mv.o: ../../lib/c/include/stdint.h errors.h
+cmds/modules/mv/mv.o: cmds/modules/help/entry.h cmds/modules/mv/mv.h
+cmds/modules/mv/mv.o: cmds/cmds.h
+cmds/modules/printf/printf.o: ../../lib/c/include/stdio.h
+cmds/modules/printf/printf.o: ../../lib/c/include/sys/types.h
+cmds/modules/printf/printf.o: ../../lib/c/include/libarch/types.h
+cmds/modules/printf/printf.o: ../../lib/c/include/libarch/common.h
+cmds/modules/printf/printf.o: ../../lib/c/include/stdarg.h
+cmds/modules/printf/printf.o: ../../lib/c/include/str.h
+cmds/modules/printf/printf.o: ../../lib/c/include/mem.h
+cmds/modules/printf/printf.o: ../../lib/c/include/stdbool.h
+cmds/modules/printf/printf.o: ../../lib/c/include/abi/bool.h
+cmds/modules/printf/printf.o: ../../lib/c/include/io/verify.h
+cmds/modules/printf/printf.o: ../../lib/c/include/abi/klog.h
+cmds/modules/printf/printf.o: ../../lib/c/include/stdlib.h
+cmds/modules/printf/printf.o: ../../lib/c/include/unistd.h
+cmds/modules/printf/printf.o: ../../lib/c/include/time.h
+cmds/modules/printf/printf.o: ../../lib/c/include/sys/time.h
+cmds/modules/printf/printf.o: ../../lib/c/include/libarch/config.h
+cmds/modules/printf/printf.o: ../../lib/c/include/malloc.h
+cmds/modules/printf/printf.o: ../../lib/c/include/stacktrace.h config.h
+cmds/modules/printf/printf.o: util.h scli.h ../../lib/c/include/stdint.h
+cmds/modules/printf/printf.o: errors.h cmds/modules/help/entry.h
+cmds/modules/printf/printf.o: cmds/modules/printf/printf.h cmds/cmds.h
+cmds/modules/echo/echo.o: ../../lib/c/include/stdio.h
+cmds/modules/echo/echo.o: ../../lib/c/include/sys/types.h
+cmds/modules/echo/echo.o: ../../lib/c/include/libarch/types.h
+cmds/modules/echo/echo.o: ../../lib/c/include/libarch/common.h
+cmds/modules/echo/echo.o: ../../lib/c/include/stdarg.h
+cmds/modules/echo/echo.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+cmds/modules/echo/echo.o: ../../lib/c/include/stdbool.h
+cmds/modules/echo/echo.o: ../../lib/c/include/abi/bool.h
+cmds/modules/echo/echo.o: ../../lib/c/include/io/verify.h
+cmds/modules/echo/echo.o: ../../lib/c/include/abi/klog.h
+cmds/modules/echo/echo.o: ../../lib/c/include/stdlib.h
+cmds/modules/echo/echo.o: ../../lib/c/include/unistd.h
+cmds/modules/echo/echo.o: ../../lib/c/include/time.h
+cmds/modules/echo/echo.o: ../../lib/c/include/sys/time.h
+cmds/modules/echo/echo.o: ../../lib/c/include/libarch/config.h
+cmds/modules/echo/echo.o: ../../lib/c/include/malloc.h
+cmds/modules/echo/echo.o: ../../lib/c/include/stacktrace.h config.h util.h
+cmds/modules/echo/echo.o: scli.h ../../lib/c/include/stdint.h errors.h
+cmds/modules/echo/echo.o: cmds/modules/help/entry.h cmds/modules/echo/echo.h
+cmds/modules/echo/echo.o: cmds/cmds.h ../../lib/c/include/errno.h
+cmds/modules/echo/echo.o: ../../lib/c/include/abi/errno.h
+cmds/modules/mount/mount.o: ../../lib/c/include/loc.h
+cmds/modules/mount/mount.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/mount/mount.o: ../../lib/c/include/ipc/common.h
+cmds/modules/mount/mount.o: ../../lib/c/include/sys/types.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/types.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/common.h
+cmds/modules/mount/mount.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/mount/mount.o: ../../lib/c/include/atomic.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/mount/mount.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/mount/mount.o: ../../lib/c/include/stdint.h
+cmds/modules/mount/mount.o: ../../lib/c/include/stdbool.h
+cmds/modules/mount/mount.o: ../../lib/c/include/abi/bool.h
+cmds/modules/mount/mount.o: ../../lib/c/include/task.h
+cmds/modules/mount/mount.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/mount/mount.o: ../../lib/c/include/stdarg.h
+cmds/modules/mount/mount.o: ../../lib/c/include/async.h
+cmds/modules/mount/mount.o: ../../lib/c/include/fibril.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/mount/mount.o: ../../lib/c/include/adt/list.h
+cmds/modules/mount/mount.o: ../../lib/c/include/assert.h
+cmds/modules/mount/mount.o: ../../lib/c/include/unistd.h
+cmds/modules/mount/mount.o: ../../lib/c/include/time.h
+cmds/modules/mount/mount.o: ../../lib/c/include/sys/time.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/config.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libc.h
+cmds/modules/mount/mount.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/mount/mount.o: ../../lib/c/include/stdio.h
+cmds/modules/mount/mount.o: ../../lib/c/include/str.h
+cmds/modules/mount/mount.o: ../../lib/c/include/mem.h
+cmds/modules/mount/mount.o: ../../lib/c/include/io/verify.h
+cmds/modules/mount/mount.o: ../../lib/c/include/abi/klog.h
+cmds/modules/mount/mount.o: ../../lib/c/include/stdlib.h
+cmds/modules/mount/mount.o: ../../lib/c/include/malloc.h
+cmds/modules/mount/mount.o: ../../lib/c/include/stacktrace.h
+cmds/modules/mount/mount.o: ../../lib/c/include/vfs/vfs.h
+cmds/modules/mount/mount.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/mount/mount.o: ../../lib/c/include/vfs/vfs_mtab.h
+cmds/modules/mount/mount.o: ../../lib/c/include/errno.h
+cmds/modules/mount/mount.o: ../../lib/c/include/abi/errno.h
+cmds/modules/mount/mount.o: ../../lib/c/include/getopt.h
+cmds/modules/mount/mount.o: ../../lib/c/include/inttypes.h
+cmds/modules/mount/mount.o: ../../lib/c/include/libarch/inttypes.h config.h
+cmds/modules/mount/mount.o: util.h scli.h errors.h cmds/modules/help/entry.h
+cmds/modules/mount/mount.o: cmds/modules/mount/mount.h cmds/cmds.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/stdio.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/sys/types.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/types.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/common.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/stdarg.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/str.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/mem.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/stdbool.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/abi/bool.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/io/verify.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/abi/klog.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/stdlib.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/unistd.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/time.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/sys/time.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/config.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/malloc.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/stacktrace.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/vfs/vfs.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/ipc/common.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/atomic.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/stdint.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/task.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/adt/list.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/assert.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/async.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/fibril.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libc.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/vfs/vfs_mtab.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/errno.h
+cmds/modules/unmount/unmount.o: ../../lib/c/include/abi/errno.h config.h
+cmds/modules/unmount/unmount.o: util.h scli.h errors.h
+cmds/modules/unmount/unmount.o: cmds/modules/help/entry.h
+cmds/modules/unmount/unmount.o: cmds/modules/unmount/unmount.h cmds/cmds.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/stdio.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/sys/types.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/types.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/common.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/stdarg.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/stdbool.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/abi/bool.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/io/verify.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/abi/klog.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/stdlib.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/unistd.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/time.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/sys/time.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/config.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/malloc.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/stacktrace.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/io/console.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/io/concaps.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/io/kbd_event.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/adt/list.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/assert.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/io/keycode.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/async.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/ipc/common.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/atomic.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/stdint.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/task.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/fibril.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libc.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/kcon/kcon.o: ../../lib/c/include/libarch/syscall.h config.h
+cmds/modules/kcon/kcon.o: util.h scli.h errors.h cmds/modules/help/entry.h
+cmds/modules/kcon/kcon.o: cmds/modules/kcon/kcon.h cmds/cmds.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/errno.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/abi/errno.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/fcntl.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/getopt.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/unistd.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/sys/types.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/types.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/common.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/time.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/sys/time.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/config.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/mem.h ../../lib/c/include/stdio.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/stdarg.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/str.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/stdbool.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/abi/bool.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/io/verify.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/abi/klog.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/stdlib.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/malloc.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/stacktrace.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/vfs/vfs.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/ipc/vfs.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/ipc/common.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/abi/ipc/ipc.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/atomic.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/atomic.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/atomicdflt.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/stdint.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/task.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/abi/proc/task.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/ipc/loc.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/adt/list.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/assert.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/async.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/fibril.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/fibril.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/tls.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libc.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/abi/syscall.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/libarch/syscall.h
+cmds/modules/cmp/cmp.o: ../../lib/c/include/vfs/vfs_mtab.h cmds/cmds.h
+cmds/modules/cmp/cmp.o: config.h scli.h cmds/modules/cmp/cmp.h
+cmds/modules/cmp/cmp.o: cmds/modules/help/entry.h errors.h util.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/stdio.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/sys/types.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/libarch/types.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/libarch/common.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/stdarg.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/str.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/mem.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/stdbool.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/abi/bool.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/io/verify.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/abi/klog.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/stdlib.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/unistd.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/time.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/sys/time.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/libarch/config.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/malloc.h
+cmds/builtins/batch/batch.o: ../../lib/c/include/stacktrace.h config.h util.h
+cmds/builtins/batch/batch.o: scli.h ../../lib/c/include/stdint.h errors.h
+cmds/builtins/batch/batch.o: cmds/modules/help/entry.h
+cmds/builtins/batch/batch.o: cmds/builtins/batch/batch.h cmds/cmds.h input.h
+cmds/builtins/batch/batch.o: cmds/cmds.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/stdio.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/sys/types.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/libarch/types.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/libarch/common.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/stdarg.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/str.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/mem.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/stdbool.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/abi/bool.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/io/verify.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/abi/klog.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/stdlib.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/unistd.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/time.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/sys/time.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/libarch/config.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/malloc.h
+cmds/builtins/exit/exit.o: ../../lib/c/include/stacktrace.h
+cmds/builtins/exit/exit.o: cmds/modules/help/entry.h
+cmds/builtins/exit/exit.o: cmds/builtins/exit/exit.h cmds/cmds.h config.h
+cmds/builtins/exit/exit.o: scli.h ../../lib/c/include/stdint.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/stdio.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/sys/types.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/libarch/types.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/libarch/common.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/mem.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/stdbool.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/abi/bool.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/io/verify.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/abi/klog.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/stdlib.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/unistd.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/time.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/sys/time.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/libarch/config.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/malloc.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/stacktrace.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/errno.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/abi/errno.h util.h scli.h config.h
+cmds/builtins/cd/cd.o: ../../lib/c/include/stdint.h errors.h
+cmds/builtins/cd/cd.o: cmds/modules/help/entry.h cmds/cmds.h
+cmds/builtins/cd/cd.o: cmds/builtins/cd/cd.h
+cmds/mod_cmds.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+cmds/mod_cmds.o: ../../lib/c/include/libarch/types.h
+cmds/mod_cmds.o: ../../lib/c/include/libarch/common.h
+cmds/mod_cmds.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/mod_cmds.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+cmds/mod_cmds.o: ../../lib/c/include/abi/bool.h
+cmds/mod_cmds.o: ../../lib/c/include/io/verify.h
+cmds/mod_cmds.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+cmds/mod_cmds.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cmds/mod_cmds.o: ../../lib/c/include/sys/time.h
+cmds/mod_cmds.o: ../../lib/c/include/libarch/config.h
+cmds/mod_cmds.o: ../../lib/c/include/malloc.h
+cmds/mod_cmds.o: ../../lib/c/include/stacktrace.h errors.h cmds/cmds.h
+cmds/mod_cmds.o: config.h scli.h ../../lib/c/include/stdint.h
+cmds/mod_cmds.o: cmds/modules/module_aliases.h
+cmds/builtin_cmds.o: ../../lib/c/include/stdio.h
+cmds/builtin_cmds.o: ../../lib/c/include/sys/types.h
+cmds/builtin_cmds.o: ../../lib/c/include/libarch/types.h
+cmds/builtin_cmds.o: ../../lib/c/include/libarch/common.h
+cmds/builtin_cmds.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+cmds/builtin_cmds.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+cmds/builtin_cmds.o: ../../lib/c/include/abi/bool.h
+cmds/builtin_cmds.o: ../../lib/c/include/io/verify.h
+cmds/builtin_cmds.o: ../../lib/c/include/abi/klog.h
+cmds/builtin_cmds.o: ../../lib/c/include/stdlib.h
+cmds/builtin_cmds.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cmds/builtin_cmds.o: ../../lib/c/include/sys/time.h
+cmds/builtin_cmds.o: ../../lib/c/include/libarch/config.h
+cmds/builtin_cmds.o: ../../lib/c/include/malloc.h
+cmds/builtin_cmds.o: ../../lib/c/include/stacktrace.h errors.h cmds/cmds.h
+cmds/builtin_cmds.o: config.h scli.h ../../lib/c/include/stdint.h
+cmds/builtin_cmds.o: cmds/builtins/builtin_aliases.h
+compl.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+compl.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+compl.o: ../../lib/c/include/dirent.h ../../lib/c/include/errno.h
+compl.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/macros.h
+compl.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+compl.o: ../../lib/c/include/sys/types.h ../../lib/c/include/time.h
+compl.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+compl.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+compl.o: ../../lib/c/include/sys/stat.h ../../lib/c/include/ipc/vfs.h
+compl.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+compl.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+compl.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+compl.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+compl.o: ../../lib/c/include/stdarg.h ../../lib/c/include/ipc/loc.h
+compl.o: cmds/cmds.h compl.h ../../lib/clui/tinput.h
+compl.o: ../../lib/c/include/inttypes.h
+compl.o: ../../lib/c/include/libarch/inttypes.h
+compl.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+compl.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/adt/list.h
+compl.o: ../../lib/c/include/assert.h ../../lib/c/include/io/keycode.h
+compl.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+compl.o: ../../lib/c/include/libarch/fibril.h
+compl.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+compl.o: ../../lib/c/include/abi/syscall.h
+compl.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/stdio.h
+compl.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+compl.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+compl.o: exec.h scli.h config.h tok.h
+errors.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+errors.o: ../../lib/c/include/libarch/types.h
+errors.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+errors.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+errors.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+errors.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+errors.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+errors.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+errors.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+errors.o: ../../lib/c/include/stacktrace.h config.h errors.h errstr.h scli.h
+errors.o: ../../lib/c/include/stdint.h
+input.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+input.o: ../../lib/c/include/libarch/types.h
+input.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+input.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+input.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+input.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+input.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+input.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+input.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+input.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/io/console.h
+input.o: ../../lib/c/include/io/concaps.h ../../lib/c/include/io/kbd_event.h
+input.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+input.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/async.h
+input.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+input.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+input.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+input.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+input.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+input.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+input.o: ../../lib/c/include/abi/syscall.h
+input.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/io/style.h
+input.o: ../../lib/c/include/io/color.h ../../lib/c/include/vfs/vfs.h
+input.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/loc.h
+input.o: ../../lib/c/include/vfs/vfs_mtab.h ../../lib/c/include/clipboard.h
+input.o: ../../lib/c/include/macros.h ../../lib/c/include/errno.h
+input.o: ../../lib/c/include/abi/errno.h ../../lib/clui/tinput.h
+input.o: ../../lib/c/include/inttypes.h
+input.o: ../../lib/c/include/libarch/inttypes.h config.h compl.h util.h
+input.o: scli.h input.h cmds/cmds.h errors.h exec.h tok.h
+util.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+util.o: ../../lib/c/include/libarch/types.h
+util.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+util.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+util.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+util.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+util.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+util.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+util.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+util.o: ../../lib/c/include/stacktrace.h config.h errors.h util.h scli.h
+util.o: ../../lib/c/include/stdint.h
+exec.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+exec.o: ../../lib/c/include/libarch/types.h
+exec.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+exec.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+exec.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+exec.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+exec.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+exec.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+exec.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+exec.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/fcntl.h
+exec.o: ../../lib/c/include/str_error.h ../../lib/c/include/errno.h
+exec.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/vfs/vfs.h
+exec.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/common.h
+exec.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+exec.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+exec.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+exec.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/ipc/loc.h
+exec.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+exec.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+exec.o: ../../lib/c/include/libarch/fibril.h
+exec.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+exec.o: ../../lib/c/include/abi/syscall.h
+exec.o: ../../lib/c/include/libarch/syscall.h
+exec.o: ../../lib/c/include/vfs/vfs_mtab.h config.h util.h scli.h exec.h
+exec.o: errors.h
+scli.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+scli.o: ../../lib/c/include/libarch/types.h
+scli.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+scli.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+scli.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+scli.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+scli.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+scli.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+scli.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+scli.o: ../../lib/c/include/stacktrace.h config.h scli.h
+scli.o: ../../lib/c/include/stdint.h input.h cmds/cmds.h util.h errors.h
+tok.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+tok.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+tok.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+tok.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/assert.h
+tok.o: ../../lib/c/include/malloc.h ../../lib/c/include/stdlib.h
+tok.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+tok.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+tok.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/errno.h
+tok.o: ../../lib/c/include/abi/errno.h tok.h

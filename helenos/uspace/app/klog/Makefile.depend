@@ -1,0 +1,32 @@
+# DO NOT DELETE
+
+klog.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+klog.o: ../../lib/c/include/libarch/types.h
+klog.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+klog.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+klog.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+klog.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+klog.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+klog.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+klog.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+klog.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+klog.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/fibril.h
+klog.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+klog.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+klog.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+klog.o: ../../lib/c/include/libarch/config.h
+klog.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+klog.o: ../../lib/c/include/abi/syscall.h
+klog.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/as.h
+klog.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/ddi.h
+klog.o: ../../lib/c/include/abi/ddi/irq.h ../../lib/c/include/event.h
+klog.o: ../../lib/c/include/abi/ipc/event.h ../../lib/c/include/errno.h
+klog.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/str_error.h
+klog.o: ../../lib/c/include/io/klog.h ../../lib/c/include/sysinfo.h
+klog.o: ../../lib/c/include/abi/sysinfo.h
+klog.o: ../../lib/c/include/abi/proc/thread.h ../../lib/c/include/malloc.h
+klog.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/adt/prodcons.h
+klog.o: ../../lib/clui/tinput.h ../../lib/c/include/inttypes.h
+klog.o: ../../lib/c/include/libarch/inttypes.h
+klog.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+klog.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h

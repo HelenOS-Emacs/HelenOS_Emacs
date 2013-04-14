@@ -1,0 +1,85 @@
+# DO NOT DELETE
+
+elf_core.o: ../../lib/c/include/align.h ../../lib/c/include/elf/elf.h
+elf_core.o: ../../lib/c/include/sys/types.h
+elf_core.o: ../../lib/c/include/libarch/types.h
+elf_core.o: ../../lib/c/include/libarch/common.h
+elf_core.o: ../../lib/c/include/abi/elf.h ../../lib/c/include/libarch/elf.h
+elf_core.o: ../../lib/c/include/elf/elf_linux.h
+elf_core.o: ../../lib/c/include/libarch/elf_linux.h
+elf_core.o: ../../lib/c/include/libarch/istate.h ../../lib/c/include/trace.h
+elf_core.o: ../../lib/c/include/stdio.h ../../lib/c/include/stdarg.h
+elf_core.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+elf_core.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+elf_core.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+elf_core.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+elf_core.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+elf_core.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+elf_core.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/errno.h
+elf_core.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/sys/stat.h
+elf_core.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/common.h
+elf_core.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+elf_core.o: ../../lib/c/include/libarch/atomic.h
+elf_core.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+elf_core.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+elf_core.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/fcntl.h
+elf_core.o: ../../lib/c/include/as.h ../../lib/c/include/abi/mm/as.h
+elf_core.o: ../../lib/c/include/udebug.h ../../lib/c/include/abi/udebug.h
+elf_core.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+elf_core.o: ../../lib/c/include/libarch/fibril.h
+elf_core.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+elf_core.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+elf_core.o: ../../lib/c/include/abi/syscall.h
+elf_core.o: ../../lib/c/include/libarch/syscall.h
+elf_core.o: ../../lib/c/include/macros.h include/elf_core.h
+taskdump.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+taskdump.o: ../../lib/c/include/sys/types.h
+taskdump.o: ../../lib/c/include/libarch/types.h
+taskdump.o: ../../lib/c/include/libarch/common.h
+taskdump.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+taskdump.o: ../../lib/c/include/libarch/atomic.h
+taskdump.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+taskdump.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+taskdump.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+taskdump.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+taskdump.o: ../../lib/c/include/libarch/fibril.h
+taskdump.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+taskdump.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+taskdump.o: ../../lib/c/include/sys/time.h
+taskdump.o: ../../lib/c/include/libarch/config.h
+taskdump.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+taskdump.o: ../../lib/c/include/abi/syscall.h
+taskdump.o: ../../lib/c/include/libarch/syscall.h
+taskdump.o: ../../lib/c/include/elf/elf_linux.h ../../lib/c/include/elf/elf.h
+taskdump.o: ../../lib/c/include/abi/elf.h ../../lib/c/include/libarch/elf.h
+taskdump.o: ../../lib/c/include/libarch/elf_linux.h
+taskdump.o: ../../lib/c/include/libarch/istate.h ../../lib/c/include/trace.h
+taskdump.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+taskdump.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+taskdump.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+taskdump.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+taskdump.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+taskdump.o: ../../lib/c/include/udebug.h ../../lib/c/include/abi/udebug.h
+taskdump.o: ../../lib/c/include/as.h ../../lib/c/include/abi/mm/as.h
+taskdump.o: ../../lib/c/include/sys/typefmt.h ../../lib/c/include/inttypes.h
+taskdump.o: ../../lib/c/include/libarch/inttypes.h
+taskdump.o: ../../lib/c/include/macros.h include/symtab.h include/elf_core.h
+symtab.o: ../../lib/c/include/elf/elf.h ../../lib/c/include/sys/types.h
+symtab.o: ../../lib/c/include/libarch/types.h
+symtab.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/elf.h
+symtab.o: ../../lib/c/include/libarch/elf.h ../../lib/c/include/stdio.h
+symtab.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+symtab.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+symtab.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/verify.h
+symtab.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+symtab.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+symtab.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+symtab.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+symtab.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+symtab.o: ../../lib/c/include/sys/stat.h ../../lib/c/include/ipc/vfs.h
+symtab.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+symtab.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+symtab.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+symtab.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+symtab.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/fcntl.h
+symtab.o: include/symtab.h

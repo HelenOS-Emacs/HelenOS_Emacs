@@ -1,0 +1,34 @@
+# DO NOT DELETE
+
+ata_bd.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+ata_bd.o: ../../../lib/c/include/libarch/types.h
+ata_bd.o: ../../../lib/c/include/libarch/common.h
+ata_bd.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+ata_bd.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+ata_bd.o: ../../../lib/c/include/abi/bool.h
+ata_bd.o: ../../../lib/c/include/io/verify.h
+ata_bd.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ddi.h
+ata_bd.o: ../../../lib/c/include/sys/time.h
+ata_bd.o: ../../../lib/c/include/abi/ddi/irq.h ../../../lib/c/include/task.h
+ata_bd.o: ../../../lib/c/include/abi/proc/task.h
+ata_bd.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+ata_bd.o: ../../../lib/c/include/abi/ipc/ipc.h
+ata_bd.o: ../../../lib/c/include/atomic.h
+ata_bd.o: ../../../lib/c/include/libarch/atomic.h
+ata_bd.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ata_bd.o: ../../../lib/c/include/fibril.h
+ata_bd.o: ../../../lib/c/include/libarch/fibril.h
+ata_bd.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ata_bd.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ata_bd.o: ../../../lib/c/include/libarch/config.h
+ata_bd.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ata_bd.o: ../../../lib/c/include/abi/syscall.h
+ata_bd.o: ../../../lib/c/include/libarch/syscall.h
+ata_bd.o: ../../../lib/c/include/as.h ../../../lib/c/include/abi/mm/as.h
+ata_bd.o: ../../../lib/c/include/bd_srv.h
+ata_bd.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+ata_bd.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/inttypes.h
+ata_bd.o: ../../../lib/c/include/libarch/inttypes.h
+ata_bd.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+ata_bd.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/macros.h
+ata_bd.o: ata_hw.h ata_bd.h

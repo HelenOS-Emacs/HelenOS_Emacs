@@ -1,0 +1,25 @@
+# DO NOT DELETE
+
+fmtutil.o: ../../lib/c/include/io/console.h ../../lib/c/include/sys/time.h
+fmtutil.o: ../../lib/c/include/sys/types.h
+fmtutil.o: ../../lib/c/include/libarch/types.h
+fmtutil.o: ../../lib/c/include/libarch/common.h
+fmtutil.o: ../../lib/c/include/io/concaps.h
+fmtutil.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/adt/list.h
+fmtutil.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+fmtutil.o: ../../lib/c/include/time.h ../../lib/c/include/libarch/config.h
+fmtutil.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/async.h
+fmtutil.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+fmtutil.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+fmtutil.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+fmtutil.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+fmtutil.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+fmtutil.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+fmtutil.o: ../../lib/c/include/libarch/fibril.h
+fmtutil.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+fmtutil.o: ../../lib/c/include/abi/syscall.h
+fmtutil.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/stdio.h
+fmtutil.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+fmtutil.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+fmtutil.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+fmtutil.o: ../../lib/c/include/malloc.h ./fmtutil.h

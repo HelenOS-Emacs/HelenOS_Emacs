@@ -1,0 +1,56 @@
+# DO NOT DELETE
+
+main.o: ../../../lib/c/include/device/char_dev.h
+main.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+main.o: ../../../lib/c/include/sys/types.h
+main.o: ../../../lib/c/include/libarch/types.h
+main.o: ../../../lib/c/include/libarch/common.h
+main.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+main.o: ../../../lib/c/include/libarch/atomic.h
+main.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+main.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+main.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+main.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+main.o: ../../../lib/c/include/libarch/fibril.h
+main.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+main.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+main.o: ../../../lib/c/include/sys/time.h
+main.o: ../../../lib/c/include/libarch/config.h
+main.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+main.o: ../../../lib/c/include/abi/syscall.h
+main.o: ../../../lib/c/include/libarch/syscall.h
+main.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+main.o: ../../../lib/c/include/ipc/serial_ctl.h
+main.o: ../../../lib/c/include/ipc/dev_iface.h
+main.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/loc.h
+main.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdio.h
+main.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+main.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+main.o: ../../../lib/c/include/fibril_synch.h
+main.o: ../../../lib/c/include/abi/ipc/methods.h
+main.o: ../../../lib/c/include/ipc/mouseev.h
+main.o: ../../../lib/c/include/inttypes.h
+main.o: ../../../lib/c/include/libarch/inttypes.h isdv4.h
+isdv4.o: ../../../lib/c/include/device/char_dev.h
+isdv4.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+isdv4.o: ../../../lib/c/include/sys/types.h
+isdv4.o: ../../../lib/c/include/libarch/types.h
+isdv4.o: ../../../lib/c/include/libarch/common.h
+isdv4.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+isdv4.o: ../../../lib/c/include/libarch/atomic.h
+isdv4.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+isdv4.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+isdv4.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+isdv4.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+isdv4.o: ../../../lib/c/include/libarch/fibril.h
+isdv4.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+isdv4.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+isdv4.o: ../../../lib/c/include/sys/time.h
+isdv4.o: ../../../lib/c/include/libarch/config.h
+isdv4.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+isdv4.o: ../../../lib/c/include/abi/syscall.h
+isdv4.o: ../../../lib/c/include/libarch/syscall.h
+isdv4.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+isdv4.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+isdv4.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/mem.h
+isdv4.o: isdv4.h

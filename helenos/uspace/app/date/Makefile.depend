@@ -1,0 +1,23 @@
+# DO NOT DELETE
+
+date.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+date.o: ../../lib/c/include/libarch/types.h
+date.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+date.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+date.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+date.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+date.o: ../../lib/c/include/device/clock_dev.h ../../lib/c/include/async.h
+date.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+date.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+date.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+date.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+date.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+date.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+date.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+date.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+date.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+date.o: ../../lib/c/include/abi/syscall.h
+date.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/errno.h
+date.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/loc.h
+date.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/malloc.h
+date.o: ../../lib/c/include/getopt.h ../../lib/c/include/ctype.h

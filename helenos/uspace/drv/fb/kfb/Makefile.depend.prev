@@ -1,0 +1,76 @@
+# DO NOT DELETE
+
+port.o: ../../../lib/c/include/abi/fb/visuals.h
+port.o: ../../../lib/c/include/sys/types.h
+port.o: ../../../lib/c/include/libarch/types.h
+port.o: ../../../lib/c/include/libarch/common.h
+port.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+port.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+port.o: ../../../lib/c/include/as.h ../../../lib/c/include/abi/mm/as.h
+port.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+port.o: ../../../lib/c/include/stdarg.h
+port.o: ../../../lib/c/include/libarch/config.h
+port.o: ../../../lib/c/include/align.h ../../../lib/c/include/sysinfo.h
+port.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+port.o: ../../../lib/c/include/abi/sysinfo.h
+port.o: ../../../lib/c/include/abi/proc/thread.h ../../../lib/c/include/ddi.h
+port.o: ../../../lib/c/include/sys/time.h
+port.o: ../../../lib/c/include/abi/ddi/irq.h
+port.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+port.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port.o: ../../../lib/c/include/io/mode.h ../../../lib/c/include/io/pixel.h
+port.o: ../../../lib/c/include/io/charfield.h
+port.o: ../../../lib/c/include/io/color.h ../../../lib/c/include/io/style.h
+port.o: ../../../lib/c/include/io/pixelmap.h
+port.o: ../../../lib/c/include/io/chargrid.h ../../../lib/softrend/pixconv.h
+port.o: ../../../lib/graph/graph.h ../../../lib/c/include/loc.h
+port.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/common.h
+port.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+port.o: ../../../lib/c/include/libarch/atomic.h
+port.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+port.o: ../../../lib/c/include/async.h ../../../lib/c/include/fibril.h
+port.o: ../../../lib/c/include/libarch/fibril.h
+port.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+port.o: ../../../lib/c/include/abi/syscall.h
+port.o: ../../../lib/c/include/libarch/syscall.h
+port.o: ../../../lib/c/include/fibril_synch.h
+port.o: ../../../lib/c/include/ipc/graph.h kfb.h
+port.o: ../../../lib/drv/include/ddf/driver.h
+port.o: ../../../lib/c/include/ipc/devman.h
+port.o: ../../../lib/c/include/ipc/dev_iface.h
+port.o: ../../../lib/drv/include/dev_iface.h port.h
+kfb.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+kfb.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+kfb.o: ../../../lib/c/include/libarch/types.h
+kfb.o: ../../../lib/c/include/libarch/common.h
+kfb.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+kfb.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+kfb.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+kfb.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/loc.h
+kfb.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/common.h
+kfb.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+kfb.o: ../../../lib/c/include/libarch/atomic.h
+kfb.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+kfb.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+kfb.o: ../../../lib/c/include/async.h ../../../lib/c/include/fibril.h
+kfb.o: ../../../lib/c/include/libarch/fibril.h
+kfb.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+kfb.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+kfb.o: ../../../lib/c/include/sys/time.h
+kfb.o: ../../../lib/c/include/libarch/config.h
+kfb.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+kfb.o: ../../../lib/c/include/abi/syscall.h
+kfb.o: ../../../lib/c/include/libarch/syscall.h ../../../lib/graph/graph.h
+kfb.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/io/mode.h
+kfb.o: ../../../lib/c/include/abi/fb/visuals.h
+kfb.o: ../../../lib/c/include/io/pixel.h
+kfb.o: ../../../lib/c/include/io/charfield.h
+kfb.o: ../../../lib/c/include/io/color.h ../../../lib/c/include/io/style.h
+kfb.o: ../../../lib/c/include/io/pixelmap.h
+kfb.o: ../../../lib/c/include/ipc/graph.h
+kfb.o: ../../../lib/drv/include/ops/graph_dev.h
+kfb.o: ../../../lib/drv/include/ddf/driver.h
+kfb.o: ../../../lib/c/include/ipc/devman.h ../../../lib/c/include/malloc.h
+kfb.o: ../../../lib/c/include/ipc/dev_iface.h
+kfb.o: ../../../lib/drv/include/dev_iface.h port.h
+kfb.o: ../../../lib/drv/include/ddf/driver.h kfb.h

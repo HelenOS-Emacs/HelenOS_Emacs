@@ -1,0 +1,27 @@
+# DO NOT DELETE
+
+devctl.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/devman.h
+devctl.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/sys/types.h
+devctl.o: ../../lib/c/include/libarch/types.h
+devctl.o: ../../lib/c/include/libarch/common.h
+devctl.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+devctl.o: ../../lib/c/include/libarch/atomic.h
+devctl.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+devctl.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+devctl.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+devctl.o: ../../lib/c/include/stdarg.h ../../lib/c/include/adt/list.h
+devctl.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+devctl.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+devctl.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+devctl.o: ../../lib/c/include/mem.h ../../lib/c/include/ipc/loc.h
+devctl.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+devctl.o: ../../lib/c/include/libarch/fibril.h
+devctl.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+devctl.o: ../../lib/c/include/abi/syscall.h
+devctl.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/errno.h
+devctl.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/stdio.h
+devctl.o: ../../lib/c/include/str.h ../../lib/c/include/io/verify.h
+devctl.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+devctl.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/str_error.h
+devctl.o: ../../lib/c/include/sys/typefmt.h ../../lib/c/include/inttypes.h
+devctl.o: ../../lib/c/include/libarch/inttypes.h

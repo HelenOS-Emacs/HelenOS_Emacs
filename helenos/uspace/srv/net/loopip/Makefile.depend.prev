@@ -1,0 +1,33 @@
+# DO NOT DELETE
+
+loopip.o: ../../../lib/c/include/adt/prodcons.h
+loopip.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+loopip.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+loopip.o: ../../../lib/c/include/libarch/types.h
+loopip.o: ../../../lib/c/include/libarch/common.h
+loopip.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+loopip.o: ../../../lib/c/include/libarch/config.h
+loopip.o: ../../../lib/c/include/fibril_synch.h
+loopip.o: ../../../lib/c/include/fibril.h
+loopip.o: ../../../lib/c/include/libarch/fibril.h
+loopip.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+loopip.o: ../../../lib/c/include/abi/syscall.h
+loopip.o: ../../../lib/c/include/libarch/syscall.h
+loopip.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+loopip.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+loopip.o: ../../../lib/c/include/abi/ipc/ipc.h
+loopip.o: ../../../lib/c/include/atomic.h
+loopip.o: ../../../lib/c/include/libarch/atomic.h
+loopip.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+loopip.o: ../../../lib/c/include/task.h
+loopip.o: ../../../lib/c/include/abi/proc/task.h
+loopip.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/errno.h
+loopip.o: ../../../lib/c/include/abi/errno.h
+loopip.o: ../../../lib/c/include/inet/iplink_srv.h
+loopip.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+loopip.o: ../../../lib/c/include/libarch/inttypes.h
+loopip.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/loc.h
+loopip.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdio.h
+loopip.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+loopip.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/stdlib.h
+loopip.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h

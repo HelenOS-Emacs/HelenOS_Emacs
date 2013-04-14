@@ -1,0 +1,187 @@
+# DO NOT DELETE
+
+udf.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+udf.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/ns.h
+udf.o: ../../../lib/c/include/sys/types.h
+udf.o: ../../../lib/c/include/libarch/types.h ../../../lib/c/include/task.h
+udf.o: ../../../lib/c/include/abi/proc/task.h ../../../lib/c/include/stdarg.h
+udf.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+udf.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+udf.o: ../../../lib/c/include/libarch/atomic.h
+udf.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+udf.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+udf.o: ../../../lib/c/include/fibril.h
+udf.o: ../../../lib/c/include/libarch/fibril.h
+udf.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+udf.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+udf.o: ../../../lib/c/include/sys/time.h
+udf.o: ../../../lib/c/include/libarch/config.h
+udf.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+udf.o: ../../../lib/c/include/abi/syscall.h
+udf.o: ../../../lib/c/include/libarch/syscall.h
+udf.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+udf.o: ../../../lib/fs/libfs.h ../../../lib/c/include/ipc/vfs.h
+udf.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+udf.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+udf.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+udf.o: ../../../lib/c/include/libarch/inttypes.h
+udf.o: ../../../lib/c/include/io/verify.h ../../vfs/vfs.h
+udf.o: ../../../lib/c/include/adt/hash_table.h
+udf.o: ../../../lib/c/include/macros.h ../../../lib/c/include/fibril_synch.h
+udf.o: udf.h udf_types.h ../../../lib/c/include/byteorder.h udf_idx.h
+udf_volume.o: ../../../lib/c/include/byteorder.h
+udf_volume.o: ../../../lib/c/include/stdint.h
+udf_volume.o: ../../../lib/c/include/libarch/types.h
+udf_volume.o: ../../../lib/c/include/libarch/common.h
+udf_volume.o: ../../../lib/block/block.h ../../../lib/c/include/async.h
+udf_volume.o: ../../../lib/c/include/ipc/common.h
+udf_volume.o: ../../../lib/c/include/sys/types.h
+udf_volume.o: ../../../lib/c/include/abi/ipc/ipc.h
+udf_volume.o: ../../../lib/c/include/atomic.h
+udf_volume.o: ../../../lib/c/include/libarch/atomic.h
+udf_volume.o: ../../../lib/c/include/atomicdflt.h
+udf_volume.o: ../../../lib/c/include/stdbool.h
+udf_volume.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+udf_volume.o: ../../../lib/c/include/abi/proc/task.h
+udf_volume.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+udf_volume.o: ../../../lib/c/include/libarch/fibril.h
+udf_volume.o: ../../../lib/c/include/adt/list.h
+udf_volume.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+udf_volume.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+udf_volume.o: ../../../lib/c/include/libarch/config.h
+udf_volume.o: ../../../lib/c/include/libarch/tls.h
+udf_volume.o: ../../../lib/c/include/libc.h
+udf_volume.o: ../../../lib/c/include/abi/syscall.h
+udf_volume.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+udf_volume.o: ../../../lib/c/include/adt/hash_table.h
+udf_volume.o: ../../../lib/c/include/macros.h
+udf_volume.o: ../../../lib/c/include/fibril_synch.h
+udf_volume.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+udf_volume.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+udf_volume.o: ../../../lib/c/include/errno.h
+udf_volume.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+udf_volume.o: ../../../lib/c/include/mem.h ../../../lib/c/include/malloc.h
+udf_volume.o: ../../../lib/c/include/inttypes.h
+udf_volume.o: ../../../lib/c/include/libarch/inttypes.h
+udf_volume.o: ../../../lib/c/include/io/log.h
+udf_volume.o: ../../../lib/c/include/io/verify.h udf.h ../../vfs/vfs.h
+udf_volume.o: udf_types.h udf_volume.h udf_osta.h udf_cksum.h udf_file.h
+udf_ops.o: ../../../lib/fs/libfs.h ../../../lib/c/include/ipc/vfs.h
+udf_ops.o: ../../../lib/c/include/ipc/common.h
+udf_ops.o: ../../../lib/c/include/sys/types.h
+udf_ops.o: ../../../lib/c/include/libarch/types.h
+udf_ops.o: ../../../lib/c/include/libarch/common.h
+udf_ops.o: ../../../lib/c/include/abi/ipc/ipc.h
+udf_ops.o: ../../../lib/c/include/atomic.h
+udf_ops.o: ../../../lib/c/include/libarch/atomic.h
+udf_ops.o: ../../../lib/c/include/atomicdflt.h
+udf_ops.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+udf_ops.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+udf_ops.o: ../../../lib/c/include/abi/proc/task.h
+udf_ops.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+udf_ops.o: ../../../lib/c/include/fibril.h
+udf_ops.o: ../../../lib/c/include/libarch/fibril.h
+udf_ops.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+udf_ops.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+udf_ops.o: ../../../lib/c/include/sys/time.h
+udf_ops.o: ../../../lib/c/include/libarch/config.h
+udf_ops.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+udf_ops.o: ../../../lib/c/include/abi/syscall.h
+udf_ops.o: ../../../lib/c/include/libarch/syscall.h
+udf_ops.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+udf_ops.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h
+udf_ops.o: ../../../lib/c/include/adt/hash_table.h
+udf_ops.o: ../../../lib/c/include/macros.h
+udf_ops.o: ../../../lib/c/include/fibril_synch.h
+udf_ops.o: ../../../lib/c/include/ipc/services.h
+udf_ops.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/errno.h
+udf_ops.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+udf_ops.o: ../../../lib/c/include/mem.h ../../../lib/c/include/byteorder.h
+udf_ops.o: ../../../lib/c/include/sys/mman.h ../../../lib/c/include/as.h
+udf_ops.o: ../../../lib/c/include/abi/mm/as.h ../../../lib/c/include/align.h
+udf_ops.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/inttypes.h
+udf_ops.o: ../../../lib/c/include/libarch/inttypes.h
+udf_ops.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/io/verify.h
+udf_ops.o: ../../vfs/vfs.h udf.h udf_types.h udf_cksum.h udf_volume.h
+udf_ops.o: udf_idx.h udf_file.h udf_osta.h
+udf_osta.o: ../../../lib/c/include/malloc.h
+udf_osta.o: ../../../lib/c/include/sys/types.h
+udf_osta.o: ../../../lib/c/include/libarch/types.h
+udf_osta.o: ../../../lib/c/include/libarch/common.h
+udf_osta.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+udf_osta.o: ../../../lib/c/include/stdbool.h
+udf_osta.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/macros.h
+udf_osta.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+udf_osta.o: udf_osta.h udf_types.h ../../../lib/c/include/byteorder.h
+udf_osta.o: ../../../lib/c/include/stdint.h udf_cksum.h
+udf_cksum.o: udf_cksum.h ../../../lib/c/include/sys/types.h
+udf_cksum.o: ../../../lib/c/include/libarch/types.h
+udf_cksum.o: ../../../lib/c/include/libarch/common.h
+udf_cksum.o: ../../../lib/c/include/stdbool.h
+udf_cksum.o: ../../../lib/c/include/abi/bool.h
+udf_file.o: ../../../lib/block/block.h ../../../lib/c/include/stdint.h
+udf_file.o: ../../../lib/c/include/libarch/types.h
+udf_file.o: ../../../lib/c/include/libarch/common.h
+udf_file.o: ../../../lib/c/include/async.h
+udf_file.o: ../../../lib/c/include/ipc/common.h
+udf_file.o: ../../../lib/c/include/sys/types.h
+udf_file.o: ../../../lib/c/include/abi/ipc/ipc.h
+udf_file.o: ../../../lib/c/include/atomic.h
+udf_file.o: ../../../lib/c/include/libarch/atomic.h
+udf_file.o: ../../../lib/c/include/atomicdflt.h
+udf_file.o: ../../../lib/c/include/stdbool.h
+udf_file.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+udf_file.o: ../../../lib/c/include/abi/proc/task.h
+udf_file.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+udf_file.o: ../../../lib/c/include/libarch/fibril.h
+udf_file.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+udf_file.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+udf_file.o: ../../../lib/c/include/sys/time.h
+udf_file.o: ../../../lib/c/include/libarch/config.h
+udf_file.o: ../../../lib/c/include/libarch/tls.h
+udf_file.o: ../../../lib/c/include/libc.h
+udf_file.o: ../../../lib/c/include/abi/syscall.h
+udf_file.o: ../../../lib/c/include/libarch/syscall.h ../../../srv/vfs/vfs.h
+udf_file.o: ../../../lib/c/include/adt/hash_table.h
+udf_file.o: ../../../lib/c/include/macros.h
+udf_file.o: ../../../lib/c/include/fibril_synch.h
+udf_file.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+udf_file.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/fs/libfs.h
+udf_file.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+udf_file.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/inttypes.h
+udf_file.o: ../../../lib/c/include/libarch/inttypes.h
+udf_file.o: ../../../lib/c/include/io/log.h
+udf_file.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/mem.h
+udf_file.o: udf.h ../../vfs/vfs.h udf_types.h
+udf_file.o: ../../../lib/c/include/byteorder.h udf_file.h udf_cksum.h
+udf_file.o: udf_volume.h
+udf_idx.o: ../../vfs/vfs.h ../../../lib/c/include/async.h
+udf_idx.o: ../../../lib/c/include/ipc/common.h
+udf_idx.o: ../../../lib/c/include/sys/types.h
+udf_idx.o: ../../../lib/c/include/libarch/types.h
+udf_idx.o: ../../../lib/c/include/libarch/common.h
+udf_idx.o: ../../../lib/c/include/abi/ipc/ipc.h
+udf_idx.o: ../../../lib/c/include/atomic.h
+udf_idx.o: ../../../lib/c/include/libarch/atomic.h
+udf_idx.o: ../../../lib/c/include/atomicdflt.h
+udf_idx.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+udf_idx.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+udf_idx.o: ../../../lib/c/include/abi/proc/task.h
+udf_idx.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+udf_idx.o: ../../../lib/c/include/libarch/fibril.h
+udf_idx.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+udf_idx.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+udf_idx.o: ../../../lib/c/include/sys/time.h
+udf_idx.o: ../../../lib/c/include/libarch/config.h
+udf_idx.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+udf_idx.o: ../../../lib/c/include/abi/syscall.h
+udf_idx.o: ../../../lib/c/include/libarch/syscall.h
+udf_idx.o: ../../../lib/c/include/adt/hash_table.h
+udf_idx.o: ../../../lib/c/include/macros.h
+udf_idx.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+udf_idx.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/vfs.h
+udf_idx.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+udf_idx.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+udf_idx.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/adt/hash.h
+udf_idx.o: udf_idx.h udf.h ../../../lib/fs/libfs.h udf_types.h
+udf_idx.o: ../../../lib/c/include/byteorder.h

@@ -1,0 +1,50 @@
+# DO NOT DELETE
+
+ns8250.o: ../../../lib/c/include/assert.h ../../../lib/c/include/stdio.h
+ns8250.o: ../../../lib/c/include/sys/types.h
+ns8250.o: ../../../lib/c/include/libarch/types.h
+ns8250.o: ../../../lib/c/include/libarch/common.h
+ns8250.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+ns8250.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+ns8250.o: ../../../lib/c/include/abi/bool.h
+ns8250.o: ../../../lib/c/include/io/verify.h
+ns8250.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+ns8250.o: ../../../lib/c/include/abi/errno.h
+ns8250.o: ../../../lib/c/include/fibril_synch.h
+ns8250.o: ../../../lib/c/include/fibril.h
+ns8250.o: ../../../lib/c/include/libarch/fibril.h
+ns8250.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/unistd.h
+ns8250.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+ns8250.o: ../../../lib/c/include/libarch/config.h
+ns8250.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ns8250.o: ../../../lib/c/include/abi/syscall.h
+ns8250.o: ../../../lib/c/include/libarch/syscall.h
+ns8250.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+ns8250.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/ctype.h
+ns8250.o: ../../../lib/c/include/macros.h ../../../lib/c/include/dirent.h
+ns8250.o: ../../../lib/c/include/fcntl.h ../../../lib/c/include/sys/stat.h
+ns8250.o: ../../../lib/c/include/ipc/vfs.h
+ns8250.o: ../../../lib/c/include/ipc/common.h
+ns8250.o: ../../../lib/c/include/abi/ipc/ipc.h
+ns8250.o: ../../../lib/c/include/atomic.h
+ns8250.o: ../../../lib/c/include/libarch/atomic.h
+ns8250.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ns8250.o: ../../../lib/c/include/task.h
+ns8250.o: ../../../lib/c/include/abi/proc/task.h
+ns8250.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ddi.h
+ns8250.o: ../../../lib/c/include/abi/ddi/irq.h
+ns8250.o: ../../../lib/drv/include/ddf/driver.h
+ns8250.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/devman.h
+ns8250.o: ../../../lib/c/include/ipc/dev_iface.h
+ns8250.o: ../../../lib/drv/include/dev_iface.h
+ns8250.o: ../../../lib/drv/include/ddf/interrupt.h
+ns8250.o: ../../../lib/drv/include/ddf/driver.h
+ns8250.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+ns8250.o: ../../../lib/c/include/inttypes.h
+ns8250.o: ../../../lib/c/include/libarch/inttypes.h
+ns8250.o: ../../../lib/drv/include/ops/char_dev.h
+ns8250.o: ../../../lib/drv/include/ddf/driver.h ../../../lib/c/include/ns.h
+ns8250.o: ../../../lib/c/include/ipc/services.h
+ns8250.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/ipc/irc.h
+ns8250.o: ../../../lib/c/include/device/hw_res.h
+ns8250.o: ../../../lib/c/include/ipc/serial_ctl.h cyclic_buffer.h

@@ -1,0 +1,267 @@
+# DO NOT DELETE
+
+assoc.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+assoc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+assoc.o: ../../../lib/c/include/libarch/types.h
+assoc.o: ../../../lib/c/include/libarch/common.h
+assoc.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+assoc.o: ../../../lib/c/include/libarch/config.h
+assoc.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+assoc.o: ../../../lib/c/include/fibril_synch.h
+assoc.o: ../../../lib/c/include/fibril.h
+assoc.o: ../../../lib/c/include/libarch/fibril.h
+assoc.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+assoc.o: ../../../lib/c/include/abi/syscall.h
+assoc.o: ../../../lib/c/include/libarch/syscall.h
+assoc.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+assoc.o: ../../../lib/c/include/inttypes.h
+assoc.o: ../../../lib/c/include/libarch/inttypes.h
+assoc.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdlib.h
+assoc.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+assoc.o: assoc.h udp_type.h ../../../lib/net/include/socket_core.h
+assoc.o: ../../../lib/c/include/adt/generic_char_map.h
+assoc.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+assoc.o: ../../../lib/c/include/adt/char_map.h
+assoc.o: ../../../lib/c/include/adt/generic_field.h
+assoc.o: ../../../lib/c/include/mem.h
+assoc.o: ../../../lib/c/include/adt/dynamic_fifo.h
+assoc.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+assoc.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+assoc.o: ../../../lib/c/include/stdint.h
+assoc.o: ../../../lib/c/include/net/ip_protocols.h
+assoc.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+assoc.o: ../../../lib/c/include/nic/eth_phys.h ../../../lib/c/include/async.h
+assoc.o: ../../../lib/c/include/ipc/common.h
+assoc.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+assoc.o: ../../../lib/c/include/libarch/atomic.h
+assoc.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+assoc.o: ../../../lib/c/include/abi/proc/task.h msg.h pdu.h std.h ucall.h
+assoc.o: udp_inet.h
+msg.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+msg.o: ../../../lib/c/include/sys/types.h
+msg.o: ../../../lib/c/include/libarch/types.h
+msg.o: ../../../lib/c/include/libarch/common.h
+msg.o: ../../../lib/c/include/inttypes.h
+msg.o: ../../../lib/c/include/libarch/inttypes.h
+msg.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdlib.h
+msg.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+msg.o: ../../../lib/c/include/sys/time.h
+msg.o: ../../../lib/c/include/libarch/config.h
+msg.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+msg.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+msg.o: msg.h udp_type.h ../../../lib/c/include/fibril.h
+msg.o: ../../../lib/c/include/libarch/fibril.h
+msg.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+msg.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+msg.o: ../../../lib/c/include/abi/syscall.h
+msg.o: ../../../lib/c/include/libarch/syscall.h
+msg.o: ../../../lib/c/include/fibril_synch.h
+msg.o: ../../../lib/net/include/socket_core.h
+msg.o: ../../../lib/c/include/adt/generic_char_map.h
+msg.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+msg.o: ../../../lib/c/include/adt/char_map.h
+msg.o: ../../../lib/c/include/adt/generic_field.h
+msg.o: ../../../lib/c/include/mem.h ../../../lib/c/include/adt/dynamic_fifo.h
+msg.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+msg.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+msg.o: ../../../lib/c/include/stdint.h
+msg.o: ../../../lib/c/include/net/ip_protocols.h
+msg.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+msg.o: ../../../lib/c/include/nic/eth_phys.h ../../../lib/c/include/async.h
+msg.o: ../../../lib/c/include/ipc/common.h
+msg.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+msg.o: ../../../lib/c/include/libarch/atomic.h
+msg.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+msg.o: ../../../lib/c/include/abi/proc/task.h
+sock.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+sock.o: ../../../lib/c/include/sys/types.h
+sock.o: ../../../lib/c/include/libarch/types.h
+sock.o: ../../../lib/c/include/libarch/common.h
+sock.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+sock.o: ../../../lib/c/include/libarch/atomic.h
+sock.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+sock.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+sock.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+sock.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+sock.o: ../../../lib/c/include/libarch/fibril.h
+sock.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+sock.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+sock.o: ../../../lib/c/include/sys/time.h
+sock.o: ../../../lib/c/include/libarch/config.h
+sock.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+sock.o: ../../../lib/c/include/abi/syscall.h
+sock.o: ../../../lib/c/include/libarch/syscall.h
+sock.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/errno.h
+sock.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/inet/inet.h
+sock.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+sock.o: ../../../lib/c/include/libarch/inttypes.h
+sock.o: ../../../lib/c/include/io/verify.h
+sock.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+sock.o: ../../../lib/c/include/ipc/socket.h
+sock.o: ../../../lib/c/include/net/socket.h
+sock.o: ../../../lib/c/include/net/socket_codes.h
+sock.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+sock.o: ../../../lib/c/include/net/ip_protocols.h
+sock.o: ../../../lib/c/include/net/in6.h ../../../lib/c/include/ns.h sock.h
+sock.o: std.h udp_type.h ../../../lib/c/include/fibril_synch.h
+sock.o: ../../../lib/net/include/socket_core.h
+sock.o: ../../../lib/c/include/adt/generic_char_map.h
+sock.o: ../../../lib/c/include/adt/char_map.h
+sock.o: ../../../lib/c/include/adt/generic_field.h
+sock.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+sock.o: ../../../lib/c/include/adt/dynamic_fifo.h
+sock.o: ../../../lib/c/include/adt/int_map.h
+sock.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+sock.o: ../../../lib/c/include/nic/eth_phys.h ucall.h
+pdu.o: ../../../lib/c/include/bitops.h ../../../lib/c/include/sys/types.h
+pdu.o: ../../../lib/c/include/libarch/types.h
+pdu.o: ../../../lib/c/include/libarch/common.h
+pdu.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+pdu.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+pdu.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdlib.h
+pdu.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+pdu.o: ../../../lib/c/include/sys/time.h
+pdu.o: ../../../lib/c/include/libarch/config.h
+pdu.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+pdu.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+pdu.o: msg.h udp_type.h ../../../lib/c/include/fibril.h
+pdu.o: ../../../lib/c/include/libarch/fibril.h
+pdu.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+pdu.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+pdu.o: ../../../lib/c/include/abi/syscall.h
+pdu.o: ../../../lib/c/include/libarch/syscall.h
+pdu.o: ../../../lib/c/include/fibril_synch.h
+pdu.o: ../../../lib/net/include/socket_core.h
+pdu.o: ../../../lib/c/include/adt/generic_char_map.h
+pdu.o: ../../../lib/c/include/adt/char_map.h
+pdu.o: ../../../lib/c/include/adt/generic_field.h
+pdu.o: ../../../lib/c/include/adt/dynamic_fifo.h
+pdu.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+pdu.o: ../../../lib/c/include/net/inet.h
+pdu.o: ../../../lib/c/include/net/ip_protocols.h
+pdu.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+pdu.o: ../../../lib/c/include/nic/eth_phys.h ../../../lib/c/include/async.h
+pdu.o: ../../../lib/c/include/ipc/common.h
+pdu.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+pdu.o: ../../../lib/c/include/libarch/atomic.h
+pdu.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+pdu.o: ../../../lib/c/include/abi/proc/task.h ../../../lib/c/include/stdarg.h
+pdu.o: pdu.h std.h
+ucall.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+ucall.o: ../../../lib/c/include/sys/types.h
+ucall.o: ../../../lib/c/include/libarch/types.h
+ucall.o: ../../../lib/c/include/libarch/common.h
+ucall.o: ../../../lib/c/include/inttypes.h
+ucall.o: ../../../lib/c/include/libarch/inttypes.h
+ucall.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/macros.h
+ucall.o: assoc.h udp_type.h ../../../lib/c/include/fibril.h
+ucall.o: ../../../lib/c/include/libarch/fibril.h
+ucall.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ucall.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ucall.o: ../../../lib/c/include/sys/time.h
+ucall.o: ../../../lib/c/include/libarch/config.h
+ucall.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ucall.o: ../../../lib/c/include/abi/syscall.h
+ucall.o: ../../../lib/c/include/libarch/syscall.h
+ucall.o: ../../../lib/c/include/fibril_synch.h
+ucall.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+ucall.o: ../../../lib/net/include/socket_core.h
+ucall.o: ../../../lib/c/include/adt/generic_char_map.h
+ucall.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+ucall.o: ../../../lib/c/include/adt/char_map.h
+ucall.o: ../../../lib/c/include/adt/generic_field.h
+ucall.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h
+ucall.o: ../../../lib/c/include/adt/dynamic_fifo.h
+ucall.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+ucall.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+ucall.o: ../../../lib/c/include/stdint.h
+ucall.o: ../../../lib/c/include/net/ip_protocols.h
+ucall.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+ucall.o: ../../../lib/c/include/nic/eth_phys.h ../../../lib/c/include/async.h
+ucall.o: ../../../lib/c/include/ipc/common.h
+ucall.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+ucall.o: ../../../lib/c/include/libarch/atomic.h
+ucall.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+ucall.o: ../../../lib/c/include/abi/proc/task.h msg.h ucall.h
+udp.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+udp.o: ../../../lib/c/include/sys/types.h
+udp.o: ../../../lib/c/include/libarch/types.h
+udp.o: ../../../lib/c/include/libarch/common.h
+udp.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+udp.o: ../../../lib/c/include/libarch/atomic.h
+udp.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+udp.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+udp.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+udp.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+udp.o: ../../../lib/c/include/libarch/fibril.h
+udp.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+udp.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+udp.o: ../../../lib/c/include/sys/time.h
+udp.o: ../../../lib/c/include/libarch/config.h
+udp.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+udp.o: ../../../lib/c/include/abi/syscall.h
+udp.o: ../../../lib/c/include/libarch/syscall.h
+udp.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+udp.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+udp.o: ../../../lib/c/include/libarch/inttypes.h
+udp.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdio.h
+udp.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+udp.o: ../../../lib/c/include/abi/klog.h udp_inet.h udp_type.h
+udp.o: ../../../lib/c/include/fibril_synch.h
+udp.o: ../../../lib/net/include/socket_core.h
+udp.o: ../../../lib/c/include/adt/generic_char_map.h
+udp.o: ../../../lib/c/include/adt/char_map.h
+udp.o: ../../../lib/c/include/adt/generic_field.h
+udp.o: ../../../lib/c/include/malloc.h
+udp.o: ../../../lib/c/include/adt/dynamic_fifo.h
+udp.o: ../../../lib/c/include/adt/int_map.h ../../../lib/c/include/net/in.h
+udp.o: ../../../lib/c/include/net/inet.h ../../../lib/c/include/byteorder.h
+udp.o: ../../../lib/c/include/net/ip_protocols.h
+udp.o: ../../../lib/c/include/net/device.h ../../../lib/c/include/nic/nic.h
+udp.o: ../../../lib/c/include/nic/eth_phys.h sock.h
+udp_inet.o: ../../../lib/c/include/bitops.h
+udp_inet.o: ../../../lib/c/include/sys/types.h
+udp_inet.o: ../../../lib/c/include/libarch/types.h
+udp_inet.o: ../../../lib/c/include/libarch/common.h
+udp_inet.o: ../../../lib/c/include/byteorder.h
+udp_inet.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/errno.h
+udp_inet.o: ../../../lib/c/include/abi/errno.h
+udp_inet.o: ../../../lib/c/include/inet/inet.h
+udp_inet.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+udp_inet.o: ../../../lib/c/include/inttypes.h
+udp_inet.o: ../../../lib/c/include/libarch/inttypes.h
+udp_inet.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdio.h
+udp_inet.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+udp_inet.o: ../../../lib/c/include/stdbool.h
+udp_inet.o: ../../../lib/c/include/abi/bool.h
+udp_inet.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/task.h
+udp_inet.o: ../../../lib/c/include/abi/proc/task.h assoc.h udp_type.h
+udp_inet.o: ../../../lib/c/include/fibril.h
+udp_inet.o: ../../../lib/c/include/libarch/fibril.h
+udp_inet.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+udp_inet.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+udp_inet.o: ../../../lib/c/include/sys/time.h
+udp_inet.o: ../../../lib/c/include/libarch/config.h
+udp_inet.o: ../../../lib/c/include/libarch/tls.h
+udp_inet.o: ../../../lib/c/include/libc.h
+udp_inet.o: ../../../lib/c/include/abi/syscall.h
+udp_inet.o: ../../../lib/c/include/libarch/syscall.h
+udp_inet.o: ../../../lib/c/include/fibril_synch.h
+udp_inet.o: ../../../lib/net/include/socket_core.h
+udp_inet.o: ../../../lib/c/include/adt/generic_char_map.h
+udp_inet.o: ../../../lib/c/include/adt/char_map.h
+udp_inet.o: ../../../lib/c/include/adt/generic_field.h
+udp_inet.o: ../../../lib/c/include/malloc.h
+udp_inet.o: ../../../lib/c/include/adt/dynamic_fifo.h
+udp_inet.o: ../../../lib/c/include/adt/int_map.h
+udp_inet.o: ../../../lib/c/include/net/in.h ../../../lib/c/include/net/inet.h
+udp_inet.o: ../../../lib/c/include/net/ip_protocols.h
+udp_inet.o: ../../../lib/c/include/net/device.h
+udp_inet.o: ../../../lib/c/include/nic/nic.h
+udp_inet.o: ../../../lib/c/include/nic/eth_phys.h
+udp_inet.o: ../../../lib/c/include/async.h
+udp_inet.o: ../../../lib/c/include/ipc/common.h
+udp_inet.o: ../../../lib/c/include/abi/ipc/ipc.h
+udp_inet.o: ../../../lib/c/include/atomic.h
+udp_inet.o: ../../../lib/c/include/libarch/atomic.h
+udp_inet.o: ../../../lib/c/include/atomicdflt.h pdu.h std.h udp_inet.h

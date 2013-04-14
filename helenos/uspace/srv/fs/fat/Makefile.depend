@@ -1,0 +1,179 @@
+# DO NOT DELETE
+
+fat.o: fat.h fat_fat.h ../../vfs/vfs.h ../../../lib/c/include/async.h
+fat.o: ../../../lib/c/include/ipc/common.h ../../../lib/c/include/sys/types.h
+fat.o: ../../../lib/c/include/libarch/types.h
+fat.o: ../../../lib/c/include/libarch/common.h
+fat.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+fat.o: ../../../lib/c/include/libarch/atomic.h
+fat.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+fat.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+fat.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+fat.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+fat.o: ../../../lib/c/include/libarch/fibril.h
+fat.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+fat.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+fat.o: ../../../lib/c/include/sys/time.h
+fat.o: ../../../lib/c/include/libarch/config.h
+fat.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+fat.o: ../../../lib/c/include/abi/syscall.h
+fat.o: ../../../lib/c/include/libarch/syscall.h
+fat.o: ../../../lib/c/include/adt/hash_table.h
+fat.o: ../../../lib/c/include/macros.h ../../../lib/c/include/fibril_synch.h
+fat.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+fat.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/block/block.h
+fat.o: ../../../srv/vfs/vfs.h ../../../lib/fs/libfs.h
+fat.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+fat.o: ../../../lib/c/include/ns.h ../../../lib/c/include/errno.h
+fat.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/stdio.h
+fat.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+fat.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/abi/klog.h
+fat_ops.o: fat.h fat_fat.h ../../vfs/vfs.h ../../../lib/c/include/async.h
+fat_ops.o: ../../../lib/c/include/ipc/common.h
+fat_ops.o: ../../../lib/c/include/sys/types.h
+fat_ops.o: ../../../lib/c/include/libarch/types.h
+fat_ops.o: ../../../lib/c/include/libarch/common.h
+fat_ops.o: ../../../lib/c/include/abi/ipc/ipc.h
+fat_ops.o: ../../../lib/c/include/atomic.h
+fat_ops.o: ../../../lib/c/include/libarch/atomic.h
+fat_ops.o: ../../../lib/c/include/atomicdflt.h
+fat_ops.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+fat_ops.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+fat_ops.o: ../../../lib/c/include/abi/proc/task.h
+fat_ops.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+fat_ops.o: ../../../lib/c/include/libarch/fibril.h
+fat_ops.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+fat_ops.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+fat_ops.o: ../../../lib/c/include/sys/time.h
+fat_ops.o: ../../../lib/c/include/libarch/config.h
+fat_ops.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+fat_ops.o: ../../../lib/c/include/abi/syscall.h
+fat_ops.o: ../../../lib/c/include/libarch/syscall.h
+fat_ops.o: ../../../lib/c/include/adt/hash_table.h
+fat_ops.o: ../../../lib/c/include/macros.h
+fat_ops.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+fat_ops.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/vfs.h
+fat_ops.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h
+fat_ops.o: ../../../lib/fs/libfs.h fat_dentry.h fat_directory.h
+fat_ops.o: ../../../lib/c/include/ipc/services.h
+fat_ops.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/errno.h
+fat_ops.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+fat_ops.o: ../../../lib/c/include/mem.h ../../../lib/c/include/byteorder.h
+fat_ops.o: ../../../lib/c/include/sys/mman.h ../../../lib/c/include/as.h
+fat_ops.o: ../../../lib/c/include/abi/mm/as.h ../../../lib/c/include/align.h
+fat_ops.o: ../../../lib/c/include/malloc.h
+fat_idx.o: fat.h fat_fat.h ../../vfs/vfs.h ../../../lib/c/include/async.h
+fat_idx.o: ../../../lib/c/include/ipc/common.h
+fat_idx.o: ../../../lib/c/include/sys/types.h
+fat_idx.o: ../../../lib/c/include/libarch/types.h
+fat_idx.o: ../../../lib/c/include/libarch/common.h
+fat_idx.o: ../../../lib/c/include/abi/ipc/ipc.h
+fat_idx.o: ../../../lib/c/include/atomic.h
+fat_idx.o: ../../../lib/c/include/libarch/atomic.h
+fat_idx.o: ../../../lib/c/include/atomicdflt.h
+fat_idx.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+fat_idx.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+fat_idx.o: ../../../lib/c/include/abi/proc/task.h
+fat_idx.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+fat_idx.o: ../../../lib/c/include/libarch/fibril.h
+fat_idx.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+fat_idx.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+fat_idx.o: ../../../lib/c/include/sys/time.h
+fat_idx.o: ../../../lib/c/include/libarch/config.h
+fat_idx.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+fat_idx.o: ../../../lib/c/include/abi/syscall.h
+fat_idx.o: ../../../lib/c/include/libarch/syscall.h
+fat_idx.o: ../../../lib/c/include/adt/hash_table.h
+fat_idx.o: ../../../lib/c/include/macros.h
+fat_idx.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+fat_idx.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/vfs.h
+fat_idx.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h
+fat_idx.o: ../../../lib/fs/libfs.h ../../../lib/c/include/errno.h
+fat_idx.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+fat_idx.o: ../../../lib/c/include/mem.h ../../../lib/c/include/adt/hash.h
+fat_idx.o: ../../../lib/c/include/malloc.h
+fat_dentry.o: fat_dentry.h ../../../lib/c/include/stdint.h
+fat_dentry.o: ../../../lib/c/include/libarch/types.h
+fat_dentry.o: ../../../lib/c/include/libarch/common.h
+fat_dentry.o: ../../../lib/c/include/stdbool.h
+fat_dentry.o: ../../../lib/c/include/abi/bool.h
+fat_dentry.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/str.h
+fat_dentry.o: ../../../lib/c/include/mem.h ../../../lib/c/include/sys/types.h
+fat_dentry.o: ../../../lib/c/include/errno.h
+fat_dentry.o: ../../../lib/c/include/abi/errno.h
+fat_dentry.o: ../../../lib/c/include/byteorder.h
+fat_dentry.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+fat_dentry.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+fat_dentry.o: ../../../lib/c/include/libarch/config.h
+fat_directory.o: fat_directory.h ../../../lib/c/include/stdint.h
+fat_directory.o: ../../../lib/c/include/libarch/types.h
+fat_directory.o: ../../../lib/c/include/libarch/common.h fat.h fat_fat.h
+fat_directory.o: ../../vfs/vfs.h ../../../lib/c/include/async.h
+fat_directory.o: ../../../lib/c/include/ipc/common.h
+fat_directory.o: ../../../lib/c/include/sys/types.h
+fat_directory.o: ../../../lib/c/include/abi/ipc/ipc.h
+fat_directory.o: ../../../lib/c/include/atomic.h
+fat_directory.o: ../../../lib/c/include/libarch/atomic.h
+fat_directory.o: ../../../lib/c/include/atomicdflt.h
+fat_directory.o: ../../../lib/c/include/stdbool.h
+fat_directory.o: ../../../lib/c/include/abi/bool.h
+fat_directory.o: ../../../lib/c/include/task.h
+fat_directory.o: ../../../lib/c/include/abi/proc/task.h
+fat_directory.o: ../../../lib/c/include/stdarg.h
+fat_directory.o: ../../../lib/c/include/fibril.h
+fat_directory.o: ../../../lib/c/include/libarch/fibril.h
+fat_directory.o: ../../../lib/c/include/adt/list.h
+fat_directory.o: ../../../lib/c/include/assert.h
+fat_directory.o: ../../../lib/c/include/unistd.h
+fat_directory.o: ../../../lib/c/include/time.h
+fat_directory.o: ../../../lib/c/include/sys/time.h
+fat_directory.o: ../../../lib/c/include/libarch/config.h
+fat_directory.o: ../../../lib/c/include/libarch/tls.h
+fat_directory.o: ../../../lib/c/include/libc.h
+fat_directory.o: ../../../lib/c/include/abi/syscall.h
+fat_directory.o: ../../../lib/c/include/libarch/syscall.h
+fat_directory.o: ../../../lib/c/include/adt/hash_table.h
+fat_directory.o: ../../../lib/c/include/macros.h
+fat_directory.o: ../../../lib/c/include/fibril_synch.h
+fat_directory.o: ../../../lib/c/include/loc.h
+fat_directory.o: ../../../lib/c/include/ipc/loc.h
+fat_directory.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/block/block.h
+fat_directory.o: ../../../srv/vfs/vfs.h ../../../lib/fs/libfs.h fat_dentry.h
+fat_directory.o: ../../../lib/c/include/errno.h
+fat_directory.o: ../../../lib/c/include/abi/errno.h
+fat_directory.o: ../../../lib/c/include/byteorder.h
+fat_directory.o: ../../../lib/c/include/mem.h ../../../lib/c/include/str.h
+fat_directory.o: ../../../lib/c/include/align.h
+fat_directory.o: ../../../lib/c/include/stdio.h
+fat_directory.o: ../../../lib/c/include/io/verify.h
+fat_directory.o: ../../../lib/c/include/abi/klog.h
+fat_fat.o: fat_fat.h ../../vfs/vfs.h ../../../lib/c/include/async.h
+fat_fat.o: ../../../lib/c/include/ipc/common.h
+fat_fat.o: ../../../lib/c/include/sys/types.h
+fat_fat.o: ../../../lib/c/include/libarch/types.h
+fat_fat.o: ../../../lib/c/include/libarch/common.h
+fat_fat.o: ../../../lib/c/include/abi/ipc/ipc.h
+fat_fat.o: ../../../lib/c/include/atomic.h
+fat_fat.o: ../../../lib/c/include/libarch/atomic.h
+fat_fat.o: ../../../lib/c/include/atomicdflt.h
+fat_fat.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+fat_fat.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+fat_fat.o: ../../../lib/c/include/abi/proc/task.h
+fat_fat.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+fat_fat.o: ../../../lib/c/include/libarch/fibril.h
+fat_fat.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+fat_fat.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+fat_fat.o: ../../../lib/c/include/sys/time.h
+fat_fat.o: ../../../lib/c/include/libarch/config.h
+fat_fat.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+fat_fat.o: ../../../lib/c/include/abi/syscall.h
+fat_fat.o: ../../../lib/c/include/libarch/syscall.h
+fat_fat.o: ../../../lib/c/include/adt/hash_table.h
+fat_fat.o: ../../../lib/c/include/macros.h
+fat_fat.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+fat_fat.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/vfs.h
+fat_fat.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h fat_dentry.h
+fat_fat.o: fat.h ../../../lib/fs/libfs.h ../../../lib/c/include/errno.h
+fat_fat.o: ../../../lib/c/include/abi/errno.h
+fat_fat.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/align.h
+fat_fat.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/mem.h

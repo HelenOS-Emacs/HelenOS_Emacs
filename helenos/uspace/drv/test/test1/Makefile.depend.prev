@@ -1,0 +1,41 @@
+# DO NOT DELETE
+
+char.o: ../../../lib/c/include/assert.h ../../../lib/c/include/errno.h
+char.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/mem.h
+char.o: ../../../lib/c/include/sys/types.h
+char.o: ../../../lib/c/include/libarch/types.h
+char.o: ../../../lib/c/include/libarch/common.h
+char.o: ../../../lib/drv/include/ops/char_dev.h
+char.o: ../../../lib/drv/include/ddf/driver.h ../../../lib/c/include/async.h
+char.o: ../../../lib/c/include/ipc/common.h
+char.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+char.o: ../../../lib/c/include/libarch/atomic.h
+char.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+char.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+char.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+char.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+char.o: ../../../lib/c/include/libarch/fibril.h
+char.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/unistd.h
+char.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+char.o: ../../../lib/c/include/libarch/config.h
+char.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+char.o: ../../../lib/c/include/abi/syscall.h
+char.o: ../../../lib/c/include/libarch/syscall.h
+char.o: ../../../lib/c/include/ipc/devman.h ../../../lib/c/include/malloc.h
+char.o: ../../../lib/c/include/ipc/dev_iface.h
+char.o: ../../../lib/drv/include/dev_iface.h test1.h
+char.o: ../../../lib/drv/include/ddf/driver.h
+test1.o: ../../../lib/c/include/assert.h ../../../lib/c/include/stdio.h
+test1.o: ../../../lib/c/include/sys/types.h
+test1.o: ../../../lib/c/include/libarch/types.h
+test1.o: ../../../lib/c/include/libarch/common.h
+test1.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+test1.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+test1.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+test1.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+test1.o: ../../../lib/c/include/abi/errno.h
+test1.o: ../../../lib/c/include/str_error.h
+test1.o: ../../../lib/drv/include/ddf/driver.h
+test1.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+test1.o: ../../../lib/c/include/inttypes.h
+test1.o: ../../../lib/c/include/libarch/inttypes.h test1.h

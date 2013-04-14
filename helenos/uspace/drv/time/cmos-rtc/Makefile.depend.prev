@@ -1,0 +1,52 @@
+# DO NOT DELETE
+
+cmos-rtc.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+cmos-rtc.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/stdbool.h
+cmos-rtc.o: ../../../lib/c/include/libarch/types.h
+cmos-rtc.o: ../../../lib/c/include/libarch/common.h
+cmos-rtc.o: ../../../lib/c/include/abi/bool.h
+cmos-rtc.o: ../../../lib/c/include/sys/types.h
+cmos-rtc.o: ../../../lib/c/include/sys/time.h
+cmos-rtc.o: ../../../lib/c/include/abi/ddi/irq.h
+cmos-rtc.o: ../../../lib/c/include/task.h
+cmos-rtc.o: ../../../lib/c/include/abi/proc/task.h
+cmos-rtc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/as.h
+cmos-rtc.o: ../../../lib/c/include/abi/mm/as.h
+cmos-rtc.o: ../../../lib/c/include/libarch/config.h
+cmos-rtc.o: ../../../lib/c/include/sysinfo.h
+cmos-rtc.o: ../../../lib/c/include/abi/sysinfo.h
+cmos-rtc.o: ../../../lib/c/include/abi/proc/thread.h
+cmos-rtc.o: ../../../lib/c/include/libarch/barrier.h
+cmos-rtc.o: ../../../lib/c/include/trace.h ../../../lib/c/include/stdio.h
+cmos-rtc.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+cmos-rtc.o: ../../../lib/c/include/io/verify.h
+cmos-rtc.o: ../../../lib/c/include/abi/klog.h
+cmos-rtc.o: ../../../lib/drv/include/ddf/driver.h
+cmos-rtc.o: ../../../lib/c/include/async.h
+cmos-rtc.o: ../../../lib/c/include/ipc/common.h
+cmos-rtc.o: ../../../lib/c/include/abi/ipc/ipc.h
+cmos-rtc.o: ../../../lib/c/include/atomic.h
+cmos-rtc.o: ../../../lib/c/include/libarch/atomic.h
+cmos-rtc.o: ../../../lib/c/include/atomicdflt.h
+cmos-rtc.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/fibril.h
+cmos-rtc.o: ../../../lib/c/include/libarch/fibril.h
+cmos-rtc.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+cmos-rtc.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+cmos-rtc.o: ../../../lib/c/include/libarch/tls.h
+cmos-rtc.o: ../../../lib/c/include/libc.h
+cmos-rtc.o: ../../../lib/c/include/abi/syscall.h
+cmos-rtc.o: ../../../lib/c/include/libarch/syscall.h
+cmos-rtc.o: ../../../lib/c/include/ipc/devman.h
+cmos-rtc.o: ../../../lib/c/include/malloc.h
+cmos-rtc.o: ../../../lib/c/include/ipc/dev_iface.h
+cmos-rtc.o: ../../../lib/drv/include/dev_iface.h
+cmos-rtc.o: ../../../lib/drv/include/ddf/log.h
+cmos-rtc.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+cmos-rtc.o: ../../../lib/c/include/libarch/inttypes.h
+cmos-rtc.o: ../../../lib/drv/include/ops/clock_dev.h
+cmos-rtc.o: ../../../lib/drv/include/ddf/driver.h
+cmos-rtc.o: ../../../lib/drv/include/ops/battery_dev.h
+cmos-rtc.o: ../../../lib/c/include/device/battery_dev.h
+cmos-rtc.o: ../../../lib/c/include/fibril_synch.h
+cmos-rtc.o: ../../../lib/c/include/device/hw_res.h
+cmos-rtc.o: ../../../lib/c/include/macros.h cmos-regs.h

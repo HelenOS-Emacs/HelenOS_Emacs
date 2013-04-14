@@ -1,0 +1,44 @@
+# DO NOT DELETE
+
+nettest1.o: nettest.h ../../lib/c/include/net/socket.h
+nettest1.o: ../../lib/c/include/net/socket_codes.h
+nettest1.o: ../../lib/c/include/sys/types.h
+nettest1.o: ../../lib/c/include/libarch/types.h
+nettest1.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/net/in.h
+nettest1.o: ../../lib/c/include/net/inet.h ../../lib/c/include/byteorder.h
+nettest1.o: ../../lib/c/include/stdint.h
+nettest1.o: ../../lib/c/include/net/ip_protocols.h
+nettest1.o: ../../lib/c/include/net/in6.h ../../lib/c/include/errno.h
+nettest1.o: ../../lib/c/include/abi/errno.h print_error.h
+nettest1.o: ../../lib/c/include/stdio.h ../../lib/c/include/stdarg.h
+nettest1.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+nettest1.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+nettest1.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+nettest1.o: ../../lib/c/include/malloc.h ../../lib/c/include/unistd.h
+nettest1.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+nettest1.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/task.h
+nettest1.o: ../../lib/c/include/abi/proc/task.h
+nettest1.o: ../../lib/c/include/arg_parse.h
+nettest1.o: ../../lib/c/include/net/socket_parse.h
+nettest.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+nettest.o: ../../lib/c/include/libarch/types.h
+nettest.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+nettest.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+nettest.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+nettest.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+nettest.o: ../../lib/c/include/net/socket.h
+nettest.o: ../../lib/c/include/net/socket_codes.h
+nettest.o: ../../lib/c/include/net/in.h ../../lib/c/include/net/inet.h
+nettest.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+nettest.o: ../../lib/c/include/net/ip_protocols.h
+nettest.o: ../../lib/c/include/net/in6.h ../../lib/c/include/errno.h
+nettest.o: ../../lib/c/include/abi/errno.h nettest.h print_error.h
+print_error.o: print_error.h ../../lib/c/include/stdio.h
+print_error.o: ../../lib/c/include/sys/types.h
+print_error.o: ../../lib/c/include/libarch/types.h
+print_error.o: ../../lib/c/include/libarch/common.h
+print_error.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+print_error.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+print_error.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/verify.h
+print_error.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/errno.h
+print_error.o: ../../lib/c/include/abi/errno.h

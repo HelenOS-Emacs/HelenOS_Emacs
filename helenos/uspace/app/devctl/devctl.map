@@ -1,0 +1,1402 @@
+Archive member included because of file (symbol)
+
+../../lib/c/libc.a(libc.o)    /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o (__main)
+../../lib/c/libc.a(devman.o)  devctl.o (devman_fun_get_handle)
+../../lib/c/libc.a(str.o)     ../../lib/c/libc.a(devman.o) (str_size)
+../../lib/c/libc.a(str_error.o)
+                              devctl.o (str_error)
+../../lib/c/libc.a(fibril.o)  ../../lib/c/libc.a(libc.o) (fibril_setup)
+../../lib/c/libc.a(fibril_synch.o)
+                              ../../lib/c/libc.a(devman.o) (fibril_mutex_lock)
+../../lib/c/libc.a(pcb.o)     ../../lib/c/libc.a(libc.o) (__pcb)
+../../lib/c/libc.a(tls.o)     ../../lib/c/libc.a(fibril.o) (__make_tls)
+../../lib/c/libc.a(task.o)    ../../lib/c/libc.a(libc.o) (task_retval)
+../../lib/c/libc.a(futex.o)   ../../lib/c/libc.a(fibril.o) (futex_down)
+../../lib/c/libc.a(io.o)      ../../lib/c/libc.a(libc.o) (__stdio_init)
+../../lib/c/libc.a(printf.o)  devctl.o (printf)
+../../lib/c/libc.a(klog.o)    ../../lib/c/libc.a(io.o) (klog_write)
+../../lib/c/libc.a(snprintf.o)
+                              ../../lib/c/libc.a(str_error.o) (snprintf)
+../../lib/c/libc.a(vprintf.o)
+                              ../../lib/c/libc.a(printf.o) (vfprintf)
+../../lib/c/libc.a(vsnprintf.o)
+                              ../../lib/c/libc.a(snprintf.o) (vsnprintf)
+../../lib/c/libc.a(printf_core.o)
+                              ../../lib/c/libc.a(klog.o) (printf_core)
+../../lib/c/libc.a(ieee_double.o)
+                              ../../lib/c/libc.a(printf_core.o) (extract_ieee_double)
+../../lib/c/libc.a(double_to_str.o)
+                              ../../lib/c/libc.a(printf_core.o) (double_to_short_str)
+../../lib/c/libc.a(malloc.o)  ../../lib/c/libc.a(libc.o) (__malloc_init)
+../../lib/c/libc.a(ns.o)      ../../lib/c/libc.a(devman.o) (service_connect)
+../../lib/c/libc.a(async.o)   ../../lib/c/libc.a(fibril_synch.o) (async_futex)
+../../lib/c/libc.a(loader.o)  ../../lib/c/libc.a(task.o) (loader_connect)
+../../lib/c/libc.a(list.o)    ../../lib/c/libc.a(devman.o) (list_count)
+../../lib/c/libc.a(hash_table.o)
+                              ../../lib/c/libc.a(async.o) (hash_table_create)
+../../lib/c/libc.a(time.o)    ../../lib/c/libc.a(fibril_synch.o) (tv_add)
+../../lib/c/libc.a(vfs.o)     ../../lib/c/libc.a(loader.o) (vfs_exchange_begin)
+../../lib/c/libc.a(canonify.o)
+                              ../../lib/c/libc.a(vfs.o) (canonify)
+../../lib/c/libc.a(stack.o)   ../../lib/c/libc.a(fibril.o) (stack_size_get)
+../../lib/c/libc.a(stacktrace.o)
+                              ../../lib/c/libc.a(fibril_synch.o) (stacktrace_print_fp_pc)
+../../lib/c/libc.a(assert.o)  ../../lib/c/libc.a(devman.o) (assert_abort)
+../../lib/c/libc.a(syscall.o)
+                              /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o (__syscall_fast_func)
+../../lib/c/libc.a(fibril.o)  ../../lib/c/libc.a(fibril.o) (context_save)
+../../lib/c/libc.a(tls.o)     ../../lib/c/libc.a(tls.o) (__alloc_tls)
+../../lib/c/libc.a(stacktrace.o)
+                              ../../lib/c/libc.a(stacktrace.o) (stacktrace_fp_valid)
+../../lib/c/libc.a(stacktrace_asm.o)
+                              ../../lib/c/libc.a(stacktrace.o) (stacktrace_prepare)
+../../lib/c/libc.a(ddi.o)     ../../lib/c/libc.a(time.o) (physmem_map)
+../../lib/c/libc.a(as.o)      ../../lib/c/libc.a(fibril.o) (as_area_create)
+../../lib/c/libc.a(clock_dev.o)
+                              ../../lib/c/libc.a(time.o) (clock_dev_time_get)
+../../lib/c/libc.a(errno.o)   ../../lib/c/libc.a(io.o) (__errno)
+../../lib/c/libc.a(loc.o)     ../../lib/c/libc.a(time.o) (loc_service_get_id)
+../../lib/c/libc.a(mem.o)     ../../lib/c/libc.a(tls.o) (memset)
+../../lib/c/libc.a(power_of_ten.o)
+                              ../../lib/c/libc.a(double_to_str.o) (get_power_of_ten)
+../../lib/c/libc.a(sysinfo.o)
+                              ../../lib/c/libc.a(time.o) (sysinfo_get_value)
+../../lib/c/libc.a(ipc.o)     ../../lib/c/libc.a(async.o) (ipc_call_async_fast)
+../../lib/c/libc.a(pio_trace.o)
+                              ../../lib/c/libc.a(ddi.o) (pio_trace_log)
+../../lib/softint/libsoftint.a(division.o)
+                              ../../lib/c/libc.a(str.o) (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+__pcb               0x4               ../../lib/c/libc.a(pcb.o)
+session_ns          0x4               ../../lib/c/libc.a(async.o)
+name                0x400             devctl.o
+drv_name            0x400             devctl.o
+
+Discarded input sections
+
+ .debug_line    0x00000000       0x52 /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .debug_info    0x00000000       0x6e /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .debug_abbrev  0x00000000       0x14 /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .debug_aranges
+                0x00000000       0x20 /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .debug_info    0x00000000      0x91b devctl.o
+ .debug_abbrev  0x00000000      0x227 devctl.o
+ .debug_loc     0x00000000      0x399 devctl.o
+ .debug_aranges
+                0x00000000       0x28 devctl.o
+ .debug_ranges  0x00000000       0x78 devctl.o
+ .debug_line    0x00000000      0x1d8 devctl.o
+ .debug_str     0x00000000      0x610 devctl.o
+ .comment       0x00000000       0x12 devctl.o
+ .note.GNU-stack
+                0x00000000        0x0 devctl.o
+ .eh_frame      0x00000000       0x80 devctl.o
+ .debug_info    0x00000000      0x79b ../../lib/c/libc.a(libc.o)
+ .debug_abbrev  0x00000000      0x21b ../../lib/c/libc.a(libc.o)
+ .debug_loc     0x00000000      0x11a ../../lib/c/libc.a(libc.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(libc.o)
+ .debug_line    0x00000000      0x1ad ../../lib/c/libc.a(libc.o)
+ .debug_str     0x00000000      0x63d ../../lib/c/libc.a(libc.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(libc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(libc.o)
+ .eh_frame      0x00000000       0x70 ../../lib/c/libc.a(libc.o)
+ .debug_info    0x00000000     0x37ee ../../lib/c/libc.a(devman.o)
+ .debug_abbrev  0x00000000      0x3ac ../../lib/c/libc.a(devman.o)
+ .debug_loc     0x00000000     0x1c35 ../../lib/c/libc.a(devman.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(devman.o)
+ .debug_ranges  0x00000000      0xe48 ../../lib/c/libc.a(devman.o)
+ .debug_line    0x00000000      0x7db ../../lib/c/libc.a(devman.o)
+ .debug_str     0x00000000      0xe6f ../../lib/c/libc.a(devman.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(devman.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(devman.o)
+ .eh_frame      0x00000000      0x48c ../../lib/c/libc.a(devman.o)
+ .debug_info    0x00000000     0x2e15 ../../lib/c/libc.a(str.o)
+ .debug_abbrev  0x00000000      0x38c ../../lib/c/libc.a(str.o)
+ .debug_loc     0x00000000     0x5d1d ../../lib/c/libc.a(str.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(str.o)
+ .debug_ranges  0x00000000     0x16a8 ../../lib/c/libc.a(str.o)
+ .debug_line    0x00000000      0xf67 ../../lib/c/libc.a(str.o)
+ .debug_str     0x00000000      0x4cf ../../lib/c/libc.a(str.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(str.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(str.o)
+ .eh_frame      0x00000000      0xa18 ../../lib/c/libc.a(str.o)
+ .debug_info    0x00000000      0x2fb ../../lib/c/libc.a(str_error.o)
+ .debug_abbrev  0x00000000       0xfd ../../lib/c/libc.a(str_error.o)
+ .debug_loc     0x00000000       0xb0 ../../lib/c/libc.a(str_error.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(str_error.o)
+ .debug_line    0x00000000       0xf5 ../../lib/c/libc.a(str_error.o)
+ .debug_str     0x00000000      0x4e4 ../../lib/c/libc.a(str_error.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(str_error.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(str_error.o)
+ .eh_frame      0x00000000       0x70 ../../lib/c/libc.a(str_error.o)
+ .debug_info    0x00000000     0x1090 ../../lib/c/libc.a(fibril.o)
+ .debug_abbrev  0x00000000      0x390 ../../lib/c/libc.a(fibril.o)
+ .debug_loc     0x00000000      0x96f ../../lib/c/libc.a(fibril.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(fibril.o)
+ .debug_ranges  0x00000000       0x90 ../../lib/c/libc.a(fibril.o)
+ .debug_line    0x00000000      0x35b ../../lib/c/libc.a(fibril.o)
+ .debug_str     0x00000000      0x860 ../../lib/c/libc.a(fibril.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(fibril.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(fibril.o)
+ .eh_frame      0x00000000      0x208 ../../lib/c/libc.a(fibril.o)
+ .debug_info    0x00000000     0x2d1f ../../lib/c/libc.a(fibril_synch.o)
+ .debug_abbrev  0x00000000      0x4d0 ../../lib/c/libc.a(fibril_synch.o)
+ .debug_loc     0x00000000     0x19ce ../../lib/c/libc.a(fibril_synch.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(fibril_synch.o)
+ .debug_ranges  0x00000000      0xa10 ../../lib/c/libc.a(fibril_synch.o)
+ .debug_line    0x00000000      0x955 ../../lib/c/libc.a(fibril_synch.o)
+ .debug_str     0x00000000      0xbb3 ../../lib/c/libc.a(fibril_synch.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(fibril_synch.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(fibril_synch.o)
+ .eh_frame      0x00000000      0x454 ../../lib/c/libc.a(fibril_synch.o)
+ .debug_info    0x00000000      0x10c ../../lib/c/libc.a(pcb.o)
+ .debug_abbrev  0x00000000       0x86 ../../lib/c/libc.a(pcb.o)
+ .debug_aranges
+                0x00000000       0x18 ../../lib/c/libc.a(pcb.o)
+ .debug_line    0x00000000       0x52 ../../lib/c/libc.a(pcb.o)
+ .debug_str     0x00000000       0xfc ../../lib/c/libc.a(pcb.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(pcb.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(pcb.o)
+ .debug_info    0x00000000      0x4d2 ../../lib/c/libc.a(tls.o)
+ .debug_abbrev  0x00000000      0x1ae ../../lib/c/libc.a(tls.o)
+ .debug_loc     0x00000000      0x1d3 ../../lib/c/libc.a(tls.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(tls.o)
+ .debug_line    0x00000000      0x10a ../../lib/c/libc.a(tls.o)
+ .debug_str     0x00000000      0x59f ../../lib/c/libc.a(tls.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(tls.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(tls.o)
+ .eh_frame      0x00000000       0xa8 ../../lib/c/libc.a(tls.o)
+ .debug_info    0x00000000      0xe5b ../../lib/c/libc.a(task.o)
+ .debug_abbrev  0x00000000      0x2e6 ../../lib/c/libc.a(task.o)
+ .debug_loc     0x00000000      0x5d1 ../../lib/c/libc.a(task.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(task.o)
+ .debug_ranges  0x00000000       0xa0 ../../lib/c/libc.a(task.o)
+ .debug_line    0x00000000      0x2bc ../../lib/c/libc.a(task.o)
+ .debug_str     0x00000000      0x771 ../../lib/c/libc.a(task.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(task.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(task.o)
+ .eh_frame      0x00000000      0x180 ../../lib/c/libc.a(task.o)
+ .debug_info    0x00000000      0x4d2 ../../lib/c/libc.a(futex.o)
+ .debug_abbrev  0x00000000      0x1b9 ../../lib/c/libc.a(futex.o)
+ .debug_loc     0x00000000      0x18d ../../lib/c/libc.a(futex.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(futex.o)
+ .debug_ranges  0x00000000       0xa0 ../../lib/c/libc.a(futex.o)
+ .debug_line    0x00000000      0x135 ../../lib/c/libc.a(futex.o)
+ .debug_str     0x00000000      0x54d ../../lib/c/libc.a(futex.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(futex.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(futex.o)
+ .eh_frame      0x00000000       0xa8 ../../lib/c/libc.a(futex.o)
+ .debug_info    0x00000000     0x38d4 ../../lib/c/libc.a(io.o)
+ .debug_abbrev  0x00000000      0x46f ../../lib/c/libc.a(io.o)
+ .debug_loc     0x00000000     0x2f68 ../../lib/c/libc.a(io.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(io.o)
+ .debug_ranges  0x00000000     0x12f8 ../../lib/c/libc.a(io.o)
+ .debug_line    0x00000000      0x98d ../../lib/c/libc.a(io.o)
+ .debug_str     0x00000000      0x8c4 ../../lib/c/libc.a(io.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(io.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(io.o)
+ .eh_frame      0x00000000      0x580 ../../lib/c/libc.a(io.o)
+ .debug_info    0x00000000      0x1ba ../../lib/c/libc.a(printf.o)
+ .debug_abbrev  0x00000000       0xfe ../../lib/c/libc.a(printf.o)
+ .debug_loc     0x00000000       0xc8 ../../lib/c/libc.a(printf.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(printf.o)
+ .debug_line    0x00000000       0x79 ../../lib/c/libc.a(printf.o)
+ .debug_str     0x00000000      0x11b ../../lib/c/libc.a(printf.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(printf.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(printf.o)
+ .eh_frame      0x00000000       0x58 ../../lib/c/libc.a(printf.o)
+ .debug_info    0x00000000      0x7d5 ../../lib/c/libc.a(klog.o)
+ .debug_abbrev  0x00000000      0x251 ../../lib/c/libc.a(klog.o)
+ .debug_loc     0x00000000      0x296 ../../lib/c/libc.a(klog.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(klog.o)
+ .debug_ranges  0x00000000       0x78 ../../lib/c/libc.a(klog.o)
+ .debug_line    0x00000000      0x16d ../../lib/c/libc.a(klog.o)
+ .debug_str     0x00000000      0x5f2 ../../lib/c/libc.a(klog.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(klog.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(klog.o)
+ .eh_frame      0x00000000      0x10c ../../lib/c/libc.a(klog.o)
+ .debug_info    0x00000000      0x15a ../../lib/c/libc.a(snprintf.o)
+ .debug_abbrev  0x00000000       0xe0 ../../lib/c/libc.a(snprintf.o)
+ .debug_loc     0x00000000       0x64 ../../lib/c/libc.a(snprintf.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(snprintf.o)
+ .debug_line    0x00000000       0xa7 ../../lib/c/libc.a(snprintf.o)
+ .debug_str     0x00000000      0x110 ../../lib/c/libc.a(snprintf.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(snprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(snprintf.o)
+ .eh_frame      0x00000000       0x38 ../../lib/c/libc.a(snprintf.o)
+ .debug_info    0x00000000      0x882 ../../lib/c/libc.a(vprintf.o)
+ .debug_abbrev  0x00000000      0x24e ../../lib/c/libc.a(vprintf.o)
+ .debug_loc     0x00000000      0x170 ../../lib/c/libc.a(vprintf.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(vprintf.o)
+ .debug_line    0x00000000      0x198 ../../lib/c/libc.a(vprintf.o)
+ .debug_str     0x00000000      0x67d ../../lib/c/libc.a(vprintf.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(vprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(vprintf.o)
+ .eh_frame      0x00000000       0xac ../../lib/c/libc.a(vprintf.o)
+ .debug_info    0x00000000      0x468 ../../lib/c/libc.a(vsnprintf.o)
+ .debug_abbrev  0x00000000      0x1f6 ../../lib/c/libc.a(vsnprintf.o)
+ .debug_loc     0x00000000      0x23a ../../lib/c/libc.a(vsnprintf.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(vsnprintf.o)
+ .debug_ranges  0x00000000       0x20 ../../lib/c/libc.a(vsnprintf.o)
+ .debug_line    0x00000000      0x12d ../../lib/c/libc.a(vsnprintf.o)
+ .debug_str     0x00000000      0x199 ../../lib/c/libc.a(vsnprintf.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(vsnprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(vsnprintf.o)
+ .eh_frame      0x00000000       0xbc ../../lib/c/libc.a(vsnprintf.o)
+ .debug_info    0x00000000     0x3192 ../../lib/c/libc.a(printf_core.o)
+ .debug_abbrev  0x00000000      0x36b ../../lib/c/libc.a(printf_core.o)
+ .debug_loc     0x00000000     0x4155 ../../lib/c/libc.a(printf_core.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(printf_core.o)
+ .debug_ranges  0x00000000      0xbd8 ../../lib/c/libc.a(printf_core.o)
+ .debug_line    0x00000000      0x8a8 ../../lib/c/libc.a(printf_core.o)
+ .debug_str     0x00000000      0x686 ../../lib/c/libc.a(printf_core.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(printf_core.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(printf_core.o)
+ .eh_frame      0x00000000      0x1a8 ../../lib/c/libc.a(printf_core.o)
+ .debug_info    0x00000000      0x24b ../../lib/c/libc.a(ieee_double.o)
+ .debug_abbrev  0x00000000      0x10a ../../lib/c/libc.a(ieee_double.o)
+ .debug_loc     0x00000000      0x1e0 ../../lib/c/libc.a(ieee_double.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(ieee_double.o)
+ .debug_line    0x00000000       0xd5 ../../lib/c/libc.a(ieee_double.o)
+ .debug_str     0x00000000      0x215 ../../lib/c/libc.a(ieee_double.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(ieee_double.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(ieee_double.o)
+ .eh_frame      0x00000000       0x48 ../../lib/c/libc.a(ieee_double.o)
+ .debug_info    0x00000000     0x1176 ../../lib/c/libc.a(double_to_str.o)
+ .debug_abbrev  0x00000000      0x296 ../../lib/c/libc.a(double_to_str.o)
+ .debug_loc     0x00000000     0x2b1c ../../lib/c/libc.a(double_to_str.o)
+ .debug_aranges
+                0x00000000       0x28 ../../lib/c/libc.a(double_to_str.o)
+ .debug_ranges  0x00000000      0x588 ../../lib/c/libc.a(double_to_str.o)
+ .debug_line    0x00000000      0x569 ../../lib/c/libc.a(double_to_str.o)
+ .debug_str     0x00000000      0x40f ../../lib/c/libc.a(double_to_str.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(double_to_str.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(double_to_str.o)
+ .eh_frame      0x00000000       0xf4 ../../lib/c/libc.a(double_to_str.o)
+ .debug_info    0x00000000     0x25a8 ../../lib/c/libc.a(malloc.o)
+ .debug_abbrev  0x00000000      0x39b ../../lib/c/libc.a(malloc.o)
+ .debug_loc     0x00000000     0x2b6f ../../lib/c/libc.a(malloc.o)
+ .debug_aranges
+                0x00000000       0x28 ../../lib/c/libc.a(malloc.o)
+ .debug_ranges  0x00000000      0x860 ../../lib/c/libc.a(malloc.o)
+ .debug_line    0x00000000      0x64f ../../lib/c/libc.a(malloc.o)
+ .debug_str     0x00000000      0x3e0 ../../lib/c/libc.a(malloc.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(malloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(malloc.o)
+ .eh_frame      0x00000000      0x264 ../../lib/c/libc.a(malloc.o)
+ .debug_info    0x00000000      0xabf ../../lib/c/libc.a(ns.o)
+ .debug_abbrev  0x00000000      0x215 ../../lib/c/libc.a(ns.o)
+ .debug_loc     0x00000000      0x32f ../../lib/c/libc.a(ns.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(ns.o)
+ .debug_ranges  0x00000000       0x18 ../../lib/c/libc.a(ns.o)
+ .debug_line    0x00000000      0x1aa ../../lib/c/libc.a(ns.o)
+ .debug_str     0x00000000      0x77c ../../lib/c/libc.a(ns.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(ns.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(ns.o)
+ .eh_frame      0x00000000      0x11c ../../lib/c/libc.a(ns.o)
+ .debug_info    0x00000000     0x9e41 ../../lib/c/libc.a(async.o)
+ .debug_abbrev  0x00000000      0x4d1 ../../lib/c/libc.a(async.o)
+ .debug_loc     0x00000000     0x6ffb ../../lib/c/libc.a(async.o)
+ .debug_aranges
+                0x00000000       0x30 ../../lib/c/libc.a(async.o)
+ .debug_ranges  0x00000000      0xf00 ../../lib/c/libc.a(async.o)
+ .debug_line    0x00000000     0x14dd ../../lib/c/libc.a(async.o)
+ .debug_str     0x00000000     0x166c ../../lib/c/libc.a(async.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(async.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(async.o)
+ .eh_frame      0x00000000     0x1018 ../../lib/c/libc.a(async.o)
+ .debug_info    0x00000000     0x10ce ../../lib/c/libc.a(loader.o)
+ .debug_abbrev  0x00000000      0x297 ../../lib/c/libc.a(loader.o)
+ .debug_loc     0x00000000      0x7a0 ../../lib/c/libc.a(loader.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(loader.o)
+ .debug_line    0x00000000      0x2ab ../../lib/c/libc.a(loader.o)
+ .debug_str     0x00000000      0x8e4 ../../lib/c/libc.a(loader.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(loader.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(loader.o)
+ .eh_frame      0x00000000      0x210 ../../lib/c/libc.a(loader.o)
+ .debug_info    0x00000000      0x23c ../../lib/c/libc.a(list.o)
+ .debug_abbrev  0x00000000      0x143 ../../lib/c/libc.a(list.o)
+ .debug_loc     0x00000000      0x209 ../../lib/c/libc.a(list.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(list.o)
+ .debug_ranges  0x00000000       0x30 ../../lib/c/libc.a(list.o)
+ .debug_line    0x00000000       0xb3 ../../lib/c/libc.a(list.o)
+ .debug_str     0x00000000      0x144 ../../lib/c/libc.a(list.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(list.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(list.o)
+ .eh_frame      0x00000000       0x88 ../../lib/c/libc.a(list.o)
+ .debug_info    0x00000000     0x151a ../../lib/c/libc.a(hash_table.o)
+ .debug_abbrev  0x00000000      0x404 ../../lib/c/libc.a(hash_table.o)
+ .debug_loc     0x00000000     0x10c4 ../../lib/c/libc.a(hash_table.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(hash_table.o)
+ .debug_ranges  0x00000000      0x420 ../../lib/c/libc.a(hash_table.o)
+ .debug_line    0x00000000      0x4e7 ../../lib/c/libc.a(hash_table.o)
+ .debug_str     0x00000000      0x3d1 ../../lib/c/libc.a(hash_table.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(hash_table.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(hash_table.o)
+ .eh_frame      0x00000000      0x30c ../../lib/c/libc.a(hash_table.o)
+ .debug_info    0x00000000     0x20b5 ../../lib/c/libc.a(time.o)
+ .debug_abbrev  0x00000000      0x443 ../../lib/c/libc.a(time.o)
+ .debug_loc     0x00000000     0x2266 ../../lib/c/libc.a(time.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(time.o)
+ .debug_ranges  0x00000000      0x8b8 ../../lib/c/libc.a(time.o)
+ .debug_line    0x00000000      0x7b4 ../../lib/c/libc.a(time.o)
+ .debug_str     0x00000000      0x94f ../../lib/c/libc.a(time.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(time.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(time.o)
+ .eh_frame      0x00000000      0x390 ../../lib/c/libc.a(time.o)
+ .debug_info    0x00000000     0x477c ../../lib/c/libc.a(vfs.o)
+ .debug_abbrev  0x00000000      0x4a6 ../../lib/c/libc.a(vfs.o)
+ .debug_loc     0x00000000     0x191c ../../lib/c/libc.a(vfs.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(vfs.o)
+ .debug_ranges  0x00000000      0x538 ../../lib/c/libc.a(vfs.o)
+ .debug_line    0x00000000      0x96a ../../lib/c/libc.a(vfs.o)
+ .debug_str     0x00000000      0xca7 ../../lib/c/libc.a(vfs.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(vfs.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(vfs.o)
+ .eh_frame      0x00000000      0x610 ../../lib/c/libc.a(vfs.o)
+ .debug_info    0x00000000      0x504 ../../lib/c/libc.a(canonify.o)
+ .debug_abbrev  0x00000000      0x1e8 ../../lib/c/libc.a(canonify.o)
+ .debug_loc     0x00000000      0x2bc ../../lib/c/libc.a(canonify.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(canonify.o)
+ .debug_ranges  0x00000000       0x40 ../../lib/c/libc.a(canonify.o)
+ .debug_line    0x00000000       0xfd ../../lib/c/libc.a(canonify.o)
+ .debug_str     0x00000000      0x223 ../../lib/c/libc.a(canonify.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(canonify.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(canonify.o)
+ .eh_frame      0x00000000      0x148 ../../lib/c/libc.a(canonify.o)
+ .debug_info    0x00000000      0x110 ../../lib/c/libc.a(stack.o)
+ .debug_abbrev  0x00000000       0xa5 ../../lib/c/libc.a(stack.o)
+ .debug_loc     0x00000000       0x38 ../../lib/c/libc.a(stack.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(stack.o)
+ .debug_line    0x00000000       0x9b ../../lib/c/libc.a(stack.o)
+ .debug_str     0x00000000      0x10e ../../lib/c/libc.a(stack.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(stack.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(stack.o)
+ .eh_frame      0x00000000       0x38 ../../lib/c/libc.a(stack.o)
+ .debug_info    0x00000000      0x3c9 ../../lib/c/libc.a(stacktrace.o)
+ .debug_abbrev  0x00000000      0x1ad ../../lib/c/libc.a(stacktrace.o)
+ .debug_loc     0x00000000       0xe5 ../../lib/c/libc.a(stacktrace.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(stacktrace.o)
+ .debug_ranges  0x00000000       0x30 ../../lib/c/libc.a(stacktrace.o)
+ .debug_line    0x00000000       0xd4 ../../lib/c/libc.a(stacktrace.o)
+ .debug_str     0x00000000      0x1c3 ../../lib/c/libc.a(stacktrace.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(stacktrace.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(stacktrace.o)
+ .eh_frame      0x00000000       0x90 ../../lib/c/libc.a(stacktrace.o)
+ .debug_info    0x00000000      0x21f ../../lib/c/libc.a(assert.o)
+ .debug_abbrev  0x00000000      0x153 ../../lib/c/libc.a(assert.o)
+ .debug_loc     0x00000000       0x4b ../../lib/c/libc.a(assert.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(assert.o)
+ .debug_line    0x00000000       0xfc ../../lib/c/libc.a(assert.o)
+ .debug_str     0x00000000      0x156 ../../lib/c/libc.a(assert.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(assert.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(assert.o)
+ .eh_frame      0x00000000       0x38 ../../lib/c/libc.a(assert.o)
+ .debug_line    0x00000000       0x6f ../../lib/c/libc.a(syscall.o)
+ .debug_info    0x00000000       0x70 ../../lib/c/libc.a(syscall.o)
+ .debug_abbrev  0x00000000       0x14 ../../lib/c/libc.a(syscall.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(syscall.o)
+ .debug_line    0x00000000       0x5b ../../lib/c/libc.a(fibril.o)
+ .debug_info    0x00000000       0x6f ../../lib/c/libc.a(fibril.o)
+ .debug_abbrev  0x00000000       0x14 ../../lib/c/libc.a(fibril.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(fibril.o)
+ .debug_info    0x00000000      0x427 ../../lib/c/libc.a(tls.o)
+ .debug_abbrev  0x00000000      0x194 ../../lib/c/libc.a(tls.o)
+ .debug_loc     0x00000000       0xdc ../../lib/c/libc.a(tls.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(tls.o)
+ .debug_line    0x00000000       0xe8 ../../lib/c/libc.a(tls.o)
+ .debug_str     0x00000000      0x59c ../../lib/c/libc.a(tls.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(tls.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(tls.o)
+ .eh_frame      0x00000000       0x7c ../../lib/c/libc.a(tls.o)
+ .debug_info    0x00000000      0x1cb ../../lib/c/libc.a(stacktrace.o)
+ .debug_abbrev  0x00000000       0xe1 ../../lib/c/libc.a(stacktrace.o)
+ .debug_loc     0x00000000       0xa8 ../../lib/c/libc.a(stacktrace.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(stacktrace.o)
+ .debug_line    0x00000000       0xb1 ../../lib/c/libc.a(stacktrace.o)
+ .debug_str     0x00000000      0x138 ../../lib/c/libc.a(stacktrace.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(stacktrace.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(stacktrace.o)
+ .eh_frame      0x00000000       0x78 ../../lib/c/libc.a(stacktrace.o)
+ .debug_line    0x00000000       0x52 ../../lib/c/libc.a(stacktrace_asm.o)
+ .debug_info    0x00000000       0x77 ../../lib/c/libc.a(stacktrace_asm.o)
+ .debug_abbrev  0x00000000       0x14 ../../lib/c/libc.a(stacktrace_asm.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(stacktrace_asm.o)
+ .debug_info    0x00000000      0xe97 ../../lib/c/libc.a(ddi.o)
+ .debug_abbrev  0x00000000      0x260 ../../lib/c/libc.a(ddi.o)
+ .debug_loc     0x00000000      0x6f8 ../../lib/c/libc.a(ddi.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(ddi.o)
+ .debug_ranges  0x00000000       0xb0 ../../lib/c/libc.a(ddi.o)
+ .debug_line    0x00000000      0x28a ../../lib/c/libc.a(ddi.o)
+ .debug_str     0x00000000      0x84a ../../lib/c/libc.a(ddi.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(ddi.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(ddi.o)
+ .eh_frame      0x00000000      0x274 ../../lib/c/libc.a(ddi.o)
+ .debug_info    0x00000000      0x46d ../../lib/c/libc.a(as.o)
+ .debug_abbrev  0x00000000       0xcc ../../lib/c/libc.a(as.o)
+ .debug_loc     0x00000000      0x118 ../../lib/c/libc.a(as.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(as.o)
+ .debug_line    0x00000000       0xc1 ../../lib/c/libc.a(as.o)
+ .debug_str     0x00000000      0x539 ../../lib/c/libc.a(as.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(as.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(as.o)
+ .eh_frame      0x00000000       0xb8 ../../lib/c/libc.a(as.o)
+ .debug_info    0x00000000      0x705 ../../lib/c/libc.a(clock_dev.o)
+ .debug_abbrev  0x00000000      0x19e ../../lib/c/libc.a(clock_dev.o)
+ .debug_loc     0x00000000      0x192 ../../lib/c/libc.a(clock_dev.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(clock_dev.o)
+ .debug_line    0x00000000      0x199 ../../lib/c/libc.a(clock_dev.o)
+ .debug_str     0x00000000      0x71f ../../lib/c/libc.a(clock_dev.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(clock_dev.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(clock_dev.o)
+ .eh_frame      0x00000000       0x80 ../../lib/c/libc.a(clock_dev.o)
+ .debug_info    0x00000000      0x23e ../../lib/c/libc.a(errno.o)
+ .debug_abbrev  0x00000000       0xa9 ../../lib/c/libc.a(errno.o)
+ .debug_loc     0x00000000       0x38 ../../lib/c/libc.a(errno.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(errno.o)
+ .debug_line    0x00000000       0xa8 ../../lib/c/libc.a(errno.o)
+ .debug_str     0x00000000      0x4be ../../lib/c/libc.a(errno.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(errno.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(errno.o)
+ .eh_frame      0x00000000       0x38 ../../lib/c/libc.a(errno.o)
+ .debug_info    0x00000000     0x49b8 ../../lib/c/libc.a(loc.o)
+ .debug_abbrev  0x00000000      0x4b8 ../../lib/c/libc.a(loc.o)
+ .debug_loc     0x00000000     0x2c0e ../../lib/c/libc.a(loc.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(loc.o)
+ .debug_ranges  0x00000000     0x15c0 ../../lib/c/libc.a(loc.o)
+ .debug_line    0x00000000      0xb86 ../../lib/c/libc.a(loc.o)
+ .debug_str     0x00000000      0xf52 ../../lib/c/libc.a(loc.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(loc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(loc.o)
+ .eh_frame      0x00000000      0x62c ../../lib/c/libc.a(loc.o)
+ .debug_info    0x00000000      0x4d6 ../../lib/c/libc.a(mem.o)
+ .debug_abbrev  0x00000000      0x1aa ../../lib/c/libc.a(mem.o)
+ .debug_loc     0x00000000      0xa94 ../../lib/c/libc.a(mem.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(mem.o)
+ .debug_ranges  0x00000000      0x110 ../../lib/c/libc.a(mem.o)
+ .debug_line    0x00000000      0x199 ../../lib/c/libc.a(mem.o)
+ .debug_str     0x00000000      0x169 ../../lib/c/libc.a(mem.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(mem.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(mem.o)
+ .eh_frame      0x00000000       0xe4 ../../lib/c/libc.a(mem.o)
+ .debug_info    0x00000000      0x289 ../../lib/c/libc.a(power_of_ten.o)
+ .debug_abbrev  0x00000000      0x14e ../../lib/c/libc.a(power_of_ten.o)
+ .debug_loc     0x00000000       0x8b ../../lib/c/libc.a(power_of_ten.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(power_of_ten.o)
+ .debug_ranges  0x00000000       0x18 ../../lib/c/libc.a(power_of_ten.o)
+ .debug_line    0x00000000       0xd3 ../../lib/c/libc.a(power_of_ten.o)
+ .debug_str     0x00000000      0x1ac ../../lib/c/libc.a(power_of_ten.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(power_of_ten.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(power_of_ten.o)
+ .eh_frame      0x00000000       0x44 ../../lib/c/libc.a(power_of_ten.o)
+ .debug_info    0x00000000      0x86b ../../lib/c/libc.a(sysinfo.o)
+ .debug_abbrev  0x00000000      0x1a8 ../../lib/c/libc.a(sysinfo.o)
+ .debug_loc     0x00000000      0x444 ../../lib/c/libc.a(sysinfo.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(sysinfo.o)
+ .debug_ranges  0x00000000       0x20 ../../lib/c/libc.a(sysinfo.o)
+ .debug_line    0x00000000      0x167 ../../lib/c/libc.a(sysinfo.o)
+ .debug_str     0x00000000      0x64e ../../lib/c/libc.a(sysinfo.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(sysinfo.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(sysinfo.o)
+ .eh_frame      0x00000000      0x124 ../../lib/c/libc.a(sysinfo.o)
+ .debug_info    0x00000000     0x18bc ../../lib/c/libc.a(ipc.o)
+ .debug_abbrev  0x00000000      0x3f1 ../../lib/c/libc.a(ipc.o)
+ .debug_loc     0x00000000      0xe78 ../../lib/c/libc.a(ipc.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(ipc.o)
+ .debug_ranges  0x00000000      0x2e8 ../../lib/c/libc.a(ipc.o)
+ .debug_line    0x00000000      0x3f1 ../../lib/c/libc.a(ipc.o)
+ .debug_str     0x00000000      0x877 ../../lib/c/libc.a(ipc.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(ipc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(ipc.o)
+ .eh_frame      0x00000000      0x2a0 ../../lib/c/libc.a(ipc.o)
+ .debug_info    0x00000000      0xa2a ../../lib/c/libc.a(pio_trace.o)
+ .debug_abbrev  0x00000000      0x281 ../../lib/c/libc.a(pio_trace.o)
+ .debug_loc     0x00000000      0x208 ../../lib/c/libc.a(pio_trace.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/c/libc.a(pio_trace.o)
+ .debug_ranges  0x00000000       0x70 ../../lib/c/libc.a(pio_trace.o)
+ .debug_line    0x00000000      0x1ad ../../lib/c/libc.a(pio_trace.o)
+ .debug_str     0x00000000      0x705 ../../lib/c/libc.a(pio_trace.o)
+ .comment       0x00000000       0x12 ../../lib/c/libc.a(pio_trace.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/c/libc.a(pio_trace.o)
+ .eh_frame      0x00000000       0xa0 ../../lib/c/libc.a(pio_trace.o)
+ .debug_info    0x00000000      0xa1d ../../lib/softint/libsoftint.a(division.o)
+ .debug_abbrev  0x00000000      0x13f ../../lib/softint/libsoftint.a(division.o)
+ .debug_loc     0x00000000      0xc03 ../../lib/softint/libsoftint.a(division.o)
+ .debug_aranges
+                0x00000000       0x20 ../../lib/softint/libsoftint.a(division.o)
+ .debug_ranges  0x00000000      0x390 ../../lib/softint/libsoftint.a(division.o)
+ .debug_line    0x00000000      0x296 ../../lib/softint/libsoftint.a(division.o)
+ .debug_str     0x00000000      0x134 ../../lib/softint/libsoftint.a(division.o)
+ .comment       0x00000000       0x12 ../../lib/softint/libsoftint.a(division.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../../lib/softint/libsoftint.a(division.o)
+ .eh_frame      0x00000000      0x294 ../../lib/softint/libsoftint.a(division.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+                0x00001094                . = (0x1000 + SIZEOF_HEADERS)
+
+.init           0x00001094       0x2c
+ *(.init)
+ .init          0x00001094       0x2c /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+                0x00001094                __entry
+
+.text           0x000010c0    0x204fc
+ *(.text .text.*)
+ .text          0x000010c0        0x0 /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .text          0x000010c0      0x19c devctl.o
+ *fill*         0x0000125c        0x4 
+ .text.startup  0x00001260      0x1af devctl.o
+                0x00001260                main
+ *fill*         0x0000140f        0x1 
+ .text          0x00001410      0x18c ../../lib/c/libc.a(libc.o)
+                0x00001410                exit
+                0x00001490                abort
+                0x000014e0                __main
+ *fill*         0x0000159c        0x4 
+ .text          0x000015a0     0x1d1f ../../lib/c/libc.a(devman.o)
+                0x00001620                devman_exchange_begin_blocking
+                0x00001820                devman_exchange_begin
+                0x00001910                devman_exchange_end
+                0x00001920                devman_driver_register
+                0x00001b60                devman_add_function
+                0x00001e20                devman_add_device_to_category
+                0x00001fc0                devman_device_connect
+                0x00002000                devman_remove_function
+                0x00002170                devman_drv_fun_online
+                0x00002260                devman_drv_fun_offline
+                0x00002350                devman_parent_device_connect
+                0x00002390                devman_fun_get_handle
+                0x000025e0                devman_fun_get_path
+                0x000027c0                devman_fun_get_name
+                0x000029a0                devman_fun_get_driver_name
+                0x00002b80                devman_fun_online
+                0x00002c70                devman_fun_offline
+                0x00002d60                devman_fun_get_child
+                0x00002e50                devman_dev_get_functions
+                0x000031d0                devman_fun_sid_to_handle
+ *fill*         0x000032bf        0x1 
+ .text          0x000032c0     0x3186 ../../lib/c/libc.a(str.o)
+                0x00003730                str_decode
+                0x00003830                str_decode_reverse
+                0x00003a80                chr_encode
+                0x00003b70                str_size
+                0x00003b90                wstr_size
+                0x00003bb0                str_lsize
+                0x00003ca0                str_nsize
+                0x00003cd0                wstr_nsize
+                0x00003d10                wstr_lsize
+                0x00003d50                str_length
+                0x00003e30                wstr_length
+                0x00003e50                str_nlength
+                0x00003f50                wstr_nlength
+                0x00003f90                chr_width
+                0x00003fa0                str_width
+                0x00004080                ascii_check
+                0x00004090                chr_check
+                0x000040a0                str_cmp
+                0x000042d0                str_lcmp
+                0x00004520                str_test_prefix
+                0x00004720                str_cpy
+                0x00004910                str_ncpy
+                0x00004b40                str_append
+                0x00004b80                spascii_to_str
+                0x00004c30                wstr_to_str
+                0x00004d80                utf16_to_str
+                0x00004f30                str_to_utf16
+                0x000050b0                wstr_to_astr
+                0x000052d0                str_to_wstr
+                0x00005400                str_to_awstr
+                0x00005510                str_chr
+                0x00005610                str_rtrim
+                0x00005740                str_ltrim
+                0x00005870                str_rchr
+                0x00005970                wstr_linsert
+                0x000059d0                wstr_remove
+                0x00005a20                stricmp
+                0x00005ad0                strtol
+                0x00005b10                str_dup
+                0x00005b70                str_ndup
+                0x00005be0                strtoul
+                0x00005c10                strtok_r
+                0x00005e50                strtok
+                0x00005e80                str_uint8_t
+                0x00005f20                str_uint16_t
+                0x00005fc0                str_uint32_t
+                0x00006060                str_uint64_t
+                0x000060e0                str_size_t
+                0x00006180                order_suffix
+                0x00006340                bin_order_suffix
+ *fill*         0x00006446        0xa 
+ .text          0x00006450       0xab ../../lib/c/libc.a(str_error.o)
+                0x00006450                str_error
+ *fill*         0x000064fb        0x5 
+ .text          0x00006500      0x70b ../../lib/c/libc.a(fibril.o)
+                0x00006500                fibril_setup
+                0x00006580                fibril_teardown
+                0x00006670                fibril_switch
+                0x00006960                fibril_create
+                0x00006a70                fibril_destroy
+                0x00006aa0                fibril_add_ready
+                0x00006b10                fibril_add_manager
+                0x00006b60                fibril_remove_manager
+                0x00006bb0                fibril_get_id
+                0x00006bc0                fibril_inc_sercount
+                0x00006be0                fibril_dec_sercount
+                0x00006c00                fibril_get_sercount
+ *fill*         0x00006c0b        0x5 
+ .text          0x00006c10     0x14bb ../../lib/c/libc.a(fibril_synch.o)
+                0x00006e20                fibril_mutex_initialize
+                0x00006e40                fibril_mutex_lock
+                0x00006f10                fibril_mutex_trylock
+                0x00006f60                fibril_mutex_unlock
+                0x00007070                fibril_mutex_is_locked
+                0x000070b0                fibril_rwlock_initialize
+                0x000070e0                fibril_rwlock_read_lock
+                0x000071c0                fibril_rwlock_write_lock
+                0x000072a0                fibril_rwlock_read_unlock
+                0x00007300                fibril_rwlock_write_unlock
+                0x00007380                fibril_rwlock_is_read_locked
+                0x000073c0                fibril_rwlock_is_write_locked
+                0x00007420                fibril_rwlock_is_locked
+                0x000074b0                fibril_condvar_initialize
+                0x000074c0                fibril_condvar_wait_timeout
+                0x00007a90                fibril_condvar_wait
+                0x00007ae0                fibril_condvar_signal
+                0x00007b60                fibril_condvar_broadcast
+                0x00007bf0                fibril_timer_create
+                0x00007c70                fibril_timer_destroy
+                0x00007df0                fibril_timer_set
+                0x00007f60                fibril_timer_clear
+ *fill*         0x000080cb        0x1 
+ .text          0x000080cc        0x0 ../../lib/c/libc.a(pcb.o)
+ *fill*         0x000080cc        0x4 
+ .text          0x000080d0      0x122 ../../lib/c/libc.a(tls.o)
+                0x000080d0                __make_tls
+                0x00008150                __free_tls
+                0x00008180                tls_alloc_variant_2
+                0x000081d0                tls_free_variant_2
+ *fill*         0x000081f2        0xe 
+ .text          0x00008200      0x611 ../../lib/c/libc.a(task.o)
+                0x00008200                task_get_id
+                0x00008250                task_set_name
+                0x000082d0                task_kill
+                0x00008320                task_spawnvf
+                0x000083f0                task_spawnv
+                0x000084a0                task_spawn
+                0x000085a0                task_spawnl
+                0x000086b0                task_wait
+                0x00008790                task_retval
+ *fill*         0x00008811        0xf 
+ .text          0x00008820       0xeb ../../lib/c/libc.a(futex.o)
+                0x00008820                futex_initialize
+                0x00008830                futex_trydown
+                0x00008850                futex_down
+                0x000088b0                futex_up
+ *fill*         0x0000890b        0x5 
+ .text          0x00008910     0x248d ../../lib/c/libc.a(io.o)
+                0x000089e0                __stdio_init
+                0x00008c70                __stdio_done
+                0x00008e40                setvbuf
+                0x00008e70                fopen
+                0x00009060                fdopen
+                0x00009160                fclose
+                0x00009310                fread
+                0x00009540                fgetc
+                0x000097c0                fgets
+                0x00009af0                getchar
+                0x00009db0                fseek
+                0x00009ef0                ftell
+                0x0000a020                rewind
+                0x0000a150                fflush
+                0x0000a440                fwrite
+                0x0000a5f0                fputs
+                0x0000a7a0                puts
+                0x0000a950                fputc
+                0x0000ab10                putchar
+                0x0000acd0                feof
+                0x0000ace0                ferror
+                0x0000acf0                clearerr
+                0x0000ad10                fileno
+                0x0000ad40                fsession
+                0x0000ad80                fhandle
+ *fill*         0x0000ad9d        0x3 
+ .text          0x0000ada0       0x4a ../../lib/c/libc.a(printf.o)
+                0x0000ada0                fprintf
+                0x0000add0                printf
+ *fill*         0x0000adea        0x6 
+ .text          0x0000adf0      0x276 ../../lib/c/libc.a(klog.o)
+                0x0000af00                klog_write
+                0x0000af50                klog_update
+                0x0000afa0                klog_command
+                0x0000aff0                klog_printf
+                0x0000b030                klog_vprintf
+ *fill*         0x0000b066        0xa 
+ .text          0x0000b070       0x28 ../../lib/c/libc.a(snprintf.o)
+                0x0000b070                snprintf
+ *fill*         0x0000b098        0x8 
+ .text          0x0000b0a0      0x145 ../../lib/c/libc.a(vprintf.o)
+                0x0000b130                vfprintf
+                0x0000b190                vprintf
+ *fill*         0x0000b1e5        0xb 
+ .text          0x0000b1f0      0x1cf ../../lib/c/libc.a(vsnprintf.o)
+                0x0000b370                vsnprintf
+ *fill*         0x0000b3bf        0x1 
+ .text          0x0000b3c0     0x261c ../../lib/c/libc.a(printf_core.o)
+                0x0000c310                printf_core
+ *fill*         0x0000d9dc        0x4 
+ .text          0x0000d9e0       0xe5 ../../lib/c/libc.a(ieee_double.o)
+                0x0000d9e0                extract_ieee_double
+ *fill*         0x0000dac5        0xb 
+ .text          0x0000dad0     0x14e5 ../../lib/c/libc.a(double_to_str.o)
+                0x0000dad0                double_to_short_str
+                0x0000eaf0                double_to_fixed_str
+ .text.unlikely
+                0x0000efb5       0x22 ../../lib/c/libc.a(double_to_str.o)
+ *fill*         0x0000efd7        0x9 
+ .text          0x0000efe0     0x13f0 ../../lib/c/libc.a(malloc.o)
+                0x0000fb50                __malloc_init
+                0x0000fbf0                calloc
+                0x0000fc50                malloc
+                0x0000fc90                memalign
+                0x0000fd60                free
+                0x0000ffb0                realloc
+                0x000102f0                heap_check
+ .text.unlikely
+                0x000103d0       0x2e ../../lib/c/libc.a(malloc.o)
+ *fill*         0x000103fe        0x2 
+ .text          0x00010400      0x364 ../../lib/c/libc.a(ns.o)
+                0x00010400                service_register
+                0x00010460                service_connect
+                0x000104e0                service_connect_blocking
+                0x00010560                service_bind
+                0x00010650                ns_ping
+                0x000106e0                ns_intro
+ *fill*         0x00010764        0xc 
+ .text          0x00010770     0x4891 ../../lib/c/libc.a(async.o)
+                0x00010960                reply_received
+                0x00010e70                awaiter_initialize
+                0x00010ec0                async_set_client_data_constructor
+                0x00010f00                async_set_client_data_destructor
+                0x00010f40                async_set_client_connection
+                0x00010f80                async_set_interrupt_received
+                0x00010f90                async_insert_timeout
+                0x00011160                async_get_call_timeout
+                0x00011380                async_get_client_data
+                0x000113c0                async_get_client_data_by_id
+                0x000114a0                async_put_client_data_by_id
+                0x00011610                async_new_connection
+                0x00011a20                async_create_manager
+                0x00011a50                async_destroy_manager
+                0x00011a60                __async_init
+                0x00011b30                async_send_fast
+                0x00011c10                async_send_slow
+                0x00011d00                async_wait_for
+                0x00011de0                async_wait_timeout
+                0x00011f50                async_forget
+                0x00012010                async_usleep
+                0x00012140                async_req_fast
+                0x00012340                async_req_slow
+                0x00012550                async_msg_0
+                0x000125b0                async_msg_1
+                0x00012610                async_msg_2
+                0x00012670                async_msg_3
+                0x000126d0                async_msg_4
+                0x00012730                async_msg_5
+                0x00012790                async_answer_0
+                0x000127d0                async_answer_1
+                0x00012810                async_answer_2
+                0x00012850                async_answer_3
+                0x00012890                async_answer_4
+                0x000128a0                async_answer_5
+                0x000128b0                async_forward_fast
+                0x000128e0                async_forward_slow
+                0x00012930                async_connect_to_me
+                0x00012bb0                async_clone_establish
+                0x00012e20                async_connect_me_to
+                0x00012ef0                async_sess_args_set
+                0x00012f10                async_connect_me_to_blocking
+                0x00012fe0                async_connect_kbox
+                0x00013090                async_hangup
+                0x00013180                async_poke
+                0x00013190                async_exchange_begin
+                0x00013500                async_exchange_end
+                0x00013590                async_share_in_start
+                0x00013750                async_share_in_receive
+                0x000137c0                async_share_in_finalize
+                0x00013800                async_share_out_start
+                0x000139a0                async_share_out_receive
+                0x00013a40                async_share_out_finalize
+                0x00013a80                async_data_read
+                0x00013b60                async_data_read_start
+                0x00013d00                async_data_read_receive
+                0x00013d60                async_data_read_finalize
+                0x00013da0                async_data_read_forward_fast
+                0x00014080                async_data_write_start
+                0x00014220                async_data_write_receive
+                0x00014270                async_data_write_finalize
+                0x000142b0                async_data_write_accept
+                0x00014420                async_data_write_void
+                0x00014460                async_data_write_forward_fast
+                0x00014740                async_exchange_clone
+                0x000148f0                async_clone_receive
+                0x00014a30                async_callback_receive
+                0x00014b70                async_callback_receive_start
+                0x00014c00                async_state_change_start
+                0x00014dc0                async_state_change_receive
+                0x00014e40                async_state_change_finalize
+                0x00014e80                async_remote_state_acquire
+                0x00014ea0                async_remote_state_update
+                0x00014ef0                async_remote_state_release
+                0x00014f40                async_remote_state_release_exchange
+ .text.unlikely
+                0x00015001       0x44 ../../lib/c/libc.a(async.o)
+ *fill*         0x00015045        0xb 
+ .text          0x00015050      0x711 ../../lib/c/libc.a(loader.o)
+                0x00015050                loader_spawn
+                0x000150b0                loader_connect
+                0x00015110                loader_get_task_id
+                0x000151c0                loader_set_cwd
+                0x000152e0                loader_set_pathname
+                0x000153c0                loader_set_args
+                0x00015500                loader_set_files
+                0x00015610                loader_load_program
+                0x000156a0                loader_run
+                0x00015740                loader_abort
+ *fill*         0x00015761        0xf 
+ .text          0x00015770       0x7a ../../lib/c/libc.a(list.o)
+                0x00015770                list_member
+                0x000157a0                list_concat
+                0x000157d0                list_count
+ *fill*         0x000157ea        0x6 
+ .text          0x000157f0      0xc34 ../../lib/c/libc.a(hash_table.o)
+                0x00015970                hash_table_create
+                0x00015aa0                hash_table_destroy
+                0x00015bb0                hash_table_empty
+                0x00015bf0                hash_table_size
+                0x00015c30                hash_table_clear
+                0x00015d50                hash_table_insert
+                0x00015e20                hash_table_insert_unique
+                0x00015f80                hash_table_find
+                0x00016020                hash_table_find_next
+                0x000160d0                hash_table_remove
+                0x00016200                hash_table_remove_item
+                0x000162e0                hash_table_apply
+ *fill*         0x00016424        0xc 
+ .text          0x00016430     0x1906 ../../lib/c/libc.a(time.o)
+                0x00016c60                tv_add
+                0x00016cc0                tv_sub
+                0x00016d00                tv_gt
+                0x00016d30                tv_gteq
+                0x00016d60                getuptime
+                0x00016e30                gettimeofday
+                0x00016ff0                time
+                0x00017030                usleep
+                0x00017080                udelay
+                0x000170d0                sleep
+                0x00017150                mktime
+                0x000171c0                strftime
+                0x00017a10                time_utc2tm
+                0x00017a80                time_utc2str
+                0x00017b50                time_tm2str
+                0x00017c00                time_local2tm
+                0x00017c50                time_local2str
+                0x00017d20                difftime
+ *fill*         0x00017d36        0xa 
+ .text          0x00017d40     0x236d ../../lib/c/libc.a(vfs.o)
+                0x00017d40                vfs_exchange_begin
+                0x00017db0                vfs_exchange_end
+                0x00017dc0                absolutize
+                0x00018030                mount
+                0x00018370                unmount
+                0x000184b0                open
+                0x000185f0                close
+                0x000186d0                read
+                0x000187e0                write
+                0x00018900                read_all
+                0x00018a50                write_all
+                0x00018bc0                fsync
+                0x00018ca0                lseek
+                0x00018d80                ftruncate
+                0x00018e60                fstat
+                0x00018f70                stat
+                0x000190d0                opendir
+                0x00019240                readdir
+                0x00019370                rewinddir
+                0x00019450                closedir
+                0x00019530                mkdir
+                0x00019670                unlink
+                0x00019680                rmdir
+                0x000196a0                rename
+                0x00019840                chdir
+                0x00019aa0                getcwd
+                0x00019b20                fd_session
+                0x00019c70                dup2
+                0x00019d50                fd_wait
+                0x00019e30                get_mtab_list
+ *fill*         0x0001a0ad        0x3 
+ .text          0x0001a0b0      0x279 ../../lib/c/libc.a(canonify.o)
+                0x0001a1a0                canonify
+ *fill*         0x0001a329        0x7 
+ .text          0x0001a330       0x31 ../../lib/c/libc.a(stack.o)
+                0x0001a330                stack_size_get
+ *fill*         0x0001a361        0xf 
+ .text          0x0001a370      0x139 ../../lib/c/libc.a(stacktrace.o)
+                0x0001a390                stacktrace_print_fp_pc
+                0x0001a410                stacktrace_print
+ *fill*         0x0001a4a9        0x7 
+ .text          0x0001a4b0       0x5d ../../lib/c/libc.a(assert.o)
+                0x0001a4b0                assert_abort
+ *fill*         0x0001a50d        0x3 
+ .text          0x0001a510       0x5b ../../lib/c/libc.a(syscall.o)
+                0x0001a510                __syscall_slow
+                0x0001a537                __syscall_fast
+ *fill*         0x0001a56b        0x1 
+ .text          0x0001a56c       0x4c ../../lib/c/libc.a(fibril.o)
+                0x0001a56c                context_save
+                0x0001a591                context_restore
+ *fill*         0x0001a5b8        0x8 
+ .text          0x0001a5c0       0x51 ../../lib/c/libc.a(tls.o)
+                0x0001a5c0                __alloc_tls
+                0x0001a5d0                __free_tls_arch
+                0x0001a5e0                ___tls_get_addr
+ *fill*         0x0001a611        0xf 
+ .text          0x0001a620       0x4a ../../lib/c/libc.a(stacktrace.o)
+                0x0001a620                stacktrace_fp_valid
+                0x0001a630                stacktrace_fp_prev
+                0x0001a650                stacktrace_ra_get
+ *fill*         0x0001a66a        0x2 
+ .text          0x0001a66c        0x8 ../../lib/c/libc.a(stacktrace_asm.o)
+                0x0001a66c                stacktrace_prepare
+                0x0001a66d                stacktrace_fp_get
+                0x0001a670                stacktrace_pc_get
+ *fill*         0x0001a674        0xc 
+ .text          0x0001a680      0x503 ../../lib/c/libc.a(ddi.o)
+                0x0001a680                device_assign_devno
+                0x0001a6d0                physmem_map
+                0x0001a710                dmamem_map
+                0x0001a760                dmamem_map_anonymous
+                0x0001a7b0                dmamem_unmap
+                0x0001a800                dmamem_unmap_anonymous
+                0x0001a850                pio_enable
+                0x0001a940                pio_write_8
+                0x0001a990                pio_write_16
+                0x0001a9e0                pio_write_32
+                0x0001aa30                pio_read_8
+                0x0001aa70                pio_read_16
+                0x0001aab0                pio_read_32
+                0x0001aaf0                irq_register
+                0x0001ab40                irq_unregister
+ *fill*         0x0001ab83        0xd 
+ .text          0x0001ab90      0x183 ../../lib/c/libc.a(as.o)
+                0x0001ab90                as_area_create
+                0x0001abe0                as_area_resize
+                0x0001ac30                as_area_destroy
+                0x0001ac80                as_area_change_flags
+                0x0001acd0                as_get_physical_mapping
+ *fill*         0x0001ad13        0xd 
+ .text          0x0001ad20      0x15a ../../lib/c/libc.a(clock_dev.o)
+                0x0001ad20                clock_dev_time_get
+                0x0001add0                clock_dev_time_set
+ *fill*         0x0001ae7a        0x6 
+ .text          0x0001ae80       0x10 ../../lib/c/libc.a(errno.o)
+                0x0001ae80                __errno
+ .text          0x0001ae90     0x296b ../../lib/c/libc.a(loc.o)
+                0x0001b570                loc_exchange_begin_blocking
+                0x0001b770                loc_exchange_begin
+                0x0001b860                loc_exchange_end
+                0x0001b870                loc_server_register
+                0x0001bab0                loc_service_register_with_iface
+                0x0001bc80                loc_service_register
+                0x0001be50                loc_service_unregister
+                0x0001bfc0                loc_service_get_id
+                0x0001c220                loc_category_get_name
+                0x0001c240                loc_service_get_name
+                0x0001c260                loc_service_get_server_name
+                0x0001c280                loc_namespace_get_id
+                0x0001c4e0                loc_category_get_id
+                0x0001c740                loc_id_probe
+                0x0001c8b0                loc_service_connect
+                0x0001c8f0                loc_null_create
+                0x0001ca60                loc_null_destroy
+                0x0001cbc0                loc_service_add_to_cat
+                0x0001cd30                loc_count_namespaces
+                0x0001cea0                loc_count_services
+                0x0001d010                loc_get_namespaces
+                0x0001d2f0                loc_get_services
+                0x0001d5d0                loc_category_get_svcs
+                0x0001d5f0                loc_get_categories
+                0x0001d610                loc_register_cat_change_cb
+ *fill*         0x0001d7fb        0x5 
+ .text          0x0001d800      0x6d7 ../../lib/c/libc.a(mem.o)
+                0x0001d800                memset
+                0x0001d980                memcpy
+                0x0001db70                memmove
+                0x0001dea0                bcmp
+ *fill*         0x0001ded7        0x9 
+ .text          0x0001dee0      0x108 ../../lib/c/libc.a(power_of_ten.o)
+                0x0001dee0                get_power_of_ten
+ *fill*         0x0001dfe8        0x8 
+ .text          0x0001dff0      0x36b ../../lib/c/libc.a(sysinfo.o)
+                0x0001dff0                sysinfo_get_keys
+                0x0001e0d0                sysinfo_get_val_type
+                0x0001e130                sysinfo_get_value
+                0x0001e180                sysinfo_get_data
+                0x0001e260                sysinfo_get_property
+ *fill*         0x0001e35b        0x5 
+ .text          0x0001e360      0xab0 ../../lib/c/libc.a(ipc.o)
+                0x0001e4a0                ipc_call_async_fast
+                0x0001e6f0                ipc_call_async_slow
+                0x0001e8d0                ipc_answer_fast
+                0x0001e910                ipc_answer_slow
+                0x0001e980                ipc_wait_cycle
+                0x0001ea80                ipc_poke
+                0x0001ead0                ipc_wait_for_call_timeout
+                0x0001ebc0                ipc_trywait_for_call
+                0x0001ecc0                ipc_hangup
+                0x0001ed10                ipc_forward_fast
+                0x0001ed50                ipc_forward_slow
+                0x0001edc0                ipc_connect_kbox
+ .text          0x0001ee10      0x1cf ../../lib/c/libc.a(pio_trace.o)
+                0x0001ee10                pio_trace_log
+                0x0001eed0                pio_trace_enable
+                0x0001ef60                pio_trace_disable
+ *fill*         0x0001efdf        0x1 
+ .text          0x0001efe0      0x8e2 ../../lib/softint/libsoftint.a(division.o)
+                0x0001efe0                __divsi3
+                0x0001f060                __divdi3
+                0x0001f1b0                __udivsi3
+                0x0001f200                __udivdi3
+                0x0001f2f0                __modsi3
+                0x0001f350                __moddi3
+                0x0001f440                __umodsi3
+                0x0001f480                __umoddi3
+                0x0001f510                __divmodsi3
+                0x0001f5a0                __udivmodsi3
+                0x0001f610                __divmoddi3
+                0x0001f7c0                __udivmoddi3
+ *(.rodata .rodata.*)
+ .rodata.str1.1
+                0x0001f8c2       0x3e devctl.o
+                                 0x42 (size before relaxing)
+ .rodata.str1.4
+                0x0001f900      0x17c devctl.o
+ .rodata.str1.1
+                0x0001fa7c       0x2a ../../lib/c/libc.a(devman.o)
+ .rodata.str1.1
+                0x0001faa6       0x59 ../../lib/c/libc.a(str.o)
+                                 0x64 (size before relaxing)
+ *fill*         0x0001faff        0x1 
+ .rodata        0x0001fb00      0x140 ../../lib/c/libc.a(str.o)
+ .rodata.str1.1
+                0x0001fc40      0x190 ../../lib/c/libc.a(str_error.o)
+ .rodata.str1.4
+                0x0001fdd0       0x21 ../../lib/c/libc.a(str_error.o)
+ *fill*         0x0001fdf1        0xf 
+ .rodata        0x0001fe00       0x48 ../../lib/c/libc.a(str_error.o)
+ .rodata.str1.1
+                0x0001fe48       0x89 ../../lib/c/libc.a(fibril_synch.o)
+ *fill*         0x0001fed1        0x3 
+ .rodata.str1.4
+                0x0001fed4       0xb3 ../../lib/c/libc.a(fibril_synch.o)
+ .rodata.str1.1
+                0x0001ff87       0x21 ../../lib/c/libc.a(task.o)
+ .rodata.str1.1
+                0x0001ffa8       0x88 ../../lib/c/libc.a(printf_core.o)
+ .rodata.str1.4
+                0x00020030       0x26 ../../lib/c/libc.a(printf_core.o)
+ *fill*         0x00020056        0x2 
+ .rodata        0x00020058      0x23d ../../lib/c/libc.a(printf_core.o)
+ .rodata.str1.1
+                0x00020295       0xd7 ../../lib/c/libc.a(double_to_str.o)
+                                 0xe6 (size before relaxing)
+ .rodata.str1.4
+                0x0002036c      0x1d1 ../../lib/c/libc.a(double_to_str.o)
+ .rodata.str1.1
+                0x0002053d       0xf1 ../../lib/c/libc.a(malloc.o)
+ *fill*         0x0002062e        0x2 
+ .rodata.str1.4
+                0x00020630      0x162 ../../lib/c/libc.a(malloc.o)
+ .rodata.str1.1
+                0x00020792       0x8e ../../lib/c/libc.a(async.o)
+                                 0x98 (size before relaxing)
+ .rodata.str1.4
+                0x00020820       0xd8 ../../lib/c/libc.a(async.o)
+ .rodata.str1.1
+                0x00000000        0x2 ../../lib/c/libc.a(loader.o)
+ .rodata.str1.1
+                0x000208f8       0x5c ../../lib/c/libc.a(hash_table.o)
+                                 0x60 (size before relaxing)
+ .rodata.str1.4
+                0x00020954       0x99 ../../lib/c/libc.a(hash_table.o)
+ .rodata.str1.1
+                0x000209ed      0x1ee ../../lib/c/libc.a(time.o)
+                                0x20b (size before relaxing)
+ *fill*         0x00020bdb        0x5 
+ .rodata        0x00020be0      0x32c ../../lib/c/libc.a(time.o)
+ .rodata.str1.1
+                0x00020f0c        0x8 ../../lib/c/libc.a(vfs.o)
+                                  0x9 (size before relaxing)
+ *fill*         0x00020f14        0xc 
+ .rodata        0x00020f20       0xc0 ../../lib/c/libc.a(canonify.o)
+ .rodata.str1.1
+                0x00020fe0       0x13 ../../lib/c/libc.a(stack.o)
+ .rodata.str1.1
+                0x00020ff3       0x24 ../../lib/c/libc.a(stacktrace.o)
+ *fill*         0x00021017        0x1 
+ .rodata.str1.4
+                0x00021018       0x2e ../../lib/c/libc.a(assert.o)
+ .rodata.str1.1
+                0x00021046       0x2a ../../lib/c/libc.a(loc.o)
+ .rodata.str1.1
+                0x00021070       0x17 ../../lib/c/libc.a(power_of_ten.o)
+                                 0x1d (size before relaxing)
+ *fill*         0x00021087        0x1 
+ .rodata.str1.4
+                0x00021088       0xa4 ../../lib/c/libc.a(power_of_ten.o)
+ *fill*         0x0002112c       0x14 
+ .rodata        0x00021140      0x468 ../../lib/c/libc.a(power_of_ten.o)
+ .rodata.str1.1
+                0x000215a8       0x14 ../../lib/c/libc.a(pio_trace.o)
+                                 0x17 (size before relaxing)
+                0x000225bc                . = (. + 0x1000)
+
+.data           0x000225c0      0x238
+ *(.data)
+ .data          0x000225c0        0x0 /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .data          0x000225c0        0x0 devctl.o
+ .data          0x000225c0        0x0 ../../lib/c/libc.a(libc.o)
+ .data          0x000225c0       0x40 ../../lib/c/libc.a(devman.o)
+ .data          0x00022600        0x0 ../../lib/c/libc.a(str.o)
+ .data          0x00022600        0x0 ../../lib/c/libc.a(str_error.o)
+ .data          0x00022600       0x1c ../../lib/c/libc.a(fibril.o)
+ .data          0x0002261c        0x0 ../../lib/c/libc.a(fibril_synch.o)
+ .data          0x0002261c        0x0 ../../lib/c/libc.a(pcb.o)
+ .data          0x0002261c        0x0 ../../lib/c/libc.a(tls.o)
+ .data          0x0002261c        0x0 ../../lib/c/libc.a(task.o)
+ .data          0x0002261c        0x0 ../../lib/c/libc.a(futex.o)
+ *fill*         0x0002261c        0x4 
+ .data          0x00022620       0xb8 ../../lib/c/libc.a(io.o)
+ .data          0x000226d8        0x0 ../../lib/c/libc.a(printf.o)
+ .data          0x000226d8        0x0 ../../lib/c/libc.a(klog.o)
+ .data          0x000226d8        0x0 ../../lib/c/libc.a(snprintf.o)
+ .data          0x000226d8       0x10 ../../lib/c/libc.a(vprintf.o)
+ .data          0x000226e8        0x0 ../../lib/c/libc.a(vsnprintf.o)
+ .data          0x000226e8        0x0 ../../lib/c/libc.a(printf_core.o)
+ .data          0x000226e8        0x0 ../../lib/c/libc.a(ieee_double.o)
+ .data          0x000226e8        0x0 ../../lib/c/libc.a(double_to_str.o)
+ .data          0x000226e8        0x4 ../../lib/c/libc.a(malloc.o)
+ .data          0x000226ec        0x0 ../../lib/c/libc.a(ns.o)
+ .data          0x000226ec       0x64 ../../lib/c/libc.a(async.o)
+                0x000226ec                async_futex
+ .data          0x00022750        0x0 ../../lib/c/libc.a(loader.o)
+ .data          0x00022750        0x0 ../../lib/c/libc.a(list.o)
+ .data          0x00022750        0x0 ../../lib/c/libc.a(hash_table.o)
+ .data          0x00022750        0x0 ../../lib/c/libc.a(time.o)
+ .data          0x00022750       0x24 ../../lib/c/libc.a(vfs.o)
+ .data          0x00022774        0x0 ../../lib/c/libc.a(canonify.o)
+ .data          0x00022774        0x0 ../../lib/c/libc.a(stack.o)
+ .data          0x00022774        0x0 ../../lib/c/libc.a(stacktrace.o)
+ .data          0x00022774        0x0 ../../lib/c/libc.a(assert.o)
+ .data          0x00022774        0x4 ../../lib/c/libc.a(syscall.o)
+                0x00022774                __syscall_fast_func
+ .data          0x00022778        0x0 ../../lib/c/libc.a(fibril.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(tls.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(stacktrace.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(stacktrace_asm.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(ddi.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(as.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(clock_dev.o)
+ .data          0x00022778        0x0 ../../lib/c/libc.a(errno.o)
+ .data          0x00022778       0x50 ../../lib/c/libc.a(loc.o)
+ .data          0x000227c8        0x0 ../../lib/c/libc.a(mem.o)
+ .data          0x000227c8        0x0 ../../lib/c/libc.a(power_of_ten.o)
+ .data          0x000227c8        0x0 ../../lib/c/libc.a(sysinfo.o)
+ .data          0x000227c8       0x14 ../../lib/c/libc.a(ipc.o)
+                0x000227c8                queued_calls
+                0x000227d0                dispatched_calls
+ .data          0x000227dc       0x1c ../../lib/c/libc.a(pio_trace.o)
+ .data          0x000227f8        0x0 ../../lib/softint/libsoftint.a(division.o)
+
+.tdata          0x000227f8       0x4c
+                0x000227f8                _tdata_start = .
+ *(.tdata)
+ *(.gnu.linkonce.tb.*)
+                0x000227f8                _tdata_end = .
+                0x000227f8                _tbss_start = .
+ *(.tbss)
+ .tbss          0x000227f8       0x40 ../../lib/c/libc.a(str_error.o)
+ .tbss          0x00022838        0x4 ../../lib/c/libc.a(fibril.o)
+ .tbss          0x0002283c        0x4 ../../lib/c/libc.a(async.o)
+ .tbss          0x00022840        0x4 ../../lib/c/libc.a(errno.o)
+                0x00022844                _tbss_end = .
+                0x00000004                _tls_alignment = ALIGNOF (.tdata)
+
+.bss            0x00022800      0x8b0
+ *(.dynbss)
+ *(COMMON)
+ COMMON         0x00022800      0x800 devctl.o
+                0x00022800                name
+                0x00022c00                drv_name
+ COMMON         0x00023000        0x4 ../../lib/c/libc.a(pcb.o)
+                0x00023000                __pcb
+ COMMON         0x00023004        0x4 ../../lib/c/libc.a(async.o)
+                0x00023004                session_ns
+ *(.bss)
+ .bss           0x00023008        0x0 /home/pratik/HelenOS_Emacs/helenos/uspace/lib/c/arch/ia32/src/entry.o
+ .bss           0x00023008        0x0 devctl.o
+ .bss           0x00023008        0x1 ../../lib/c/libc.a(libc.o)
+ *fill*         0x00023009        0x3 
+ .bss           0x0002300c       0x10 ../../lib/c/libc.a(devman.o)
+ .bss           0x0002301c        0x4 ../../lib/c/libc.a(str.o)
+ .bss           0x00023020        0x0 ../../lib/c/libc.a(str_error.o)
+ .bss           0x00023020        0x8 ../../lib/c/libc.a(fibril.o)
+ .bss           0x00023028        0x0 ../../lib/c/libc.a(fibril_synch.o)
+ .bss           0x00023028        0x0 ../../lib/c/libc.a(pcb.o)
+ .bss           0x00023028        0x0 ../../lib/c/libc.a(tls.o)
+ .bss           0x00023028        0x0 ../../lib/c/libc.a(task.o)
+ .bss           0x00023028        0x0 ../../lib/c/libc.a(futex.o)
+ .bss           0x00023028        0xc ../../lib/c/libc.a(io.o)
+                0x00023028                stderr
+                0x0002302c                stdout
+                0x00023030                stdin
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(printf.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(klog.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(snprintf.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(vprintf.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(vsnprintf.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(printf_core.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(ieee_double.o)
+ .bss           0x00023034        0x0 ../../lib/c/libc.a(double_to_str.o)
+ .bss           0x00023034        0xc ../../lib/c/libc.a(malloc.o)
+ .bss           0x00023040        0x0 ../../lib/c/libc.a(ns.o)
+ .bss           0x00023040       0x3c ../../lib/c/libc.a(async.o)
+                0x00023040                threads_in_ipc_wait
+ .bss           0x0002307c        0x0 ../../lib/c/libc.a(loader.o)
+ .bss           0x0002307c        0x0 ../../lib/c/libc.a(list.o)
+ .bss           0x0002307c        0x0 ../../lib/c/libc.a(hash_table.o)
+ .bss           0x0002307c        0x8 ../../lib/c/libc.a(time.o)
+                0x0002307c                ktime
+ .bss           0x00023084        0xc ../../lib/c/libc.a(vfs.o)
+ .bss           0x00023090        0x0 ../../lib/c/libc.a(canonify.o)
+ .bss           0x00023090        0x4 ../../lib/c/libc.a(stack.o)
+ .bss           0x00023094        0x0 ../../lib/c/libc.a(stacktrace.o)
+ .bss           0x00023094        0x4 ../../lib/c/libc.a(assert.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(syscall.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(fibril.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(tls.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(stacktrace.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(stacktrace_asm.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(ddi.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(as.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(clock_dev.o)
+ .bss           0x00023098        0x0 ../../lib/c/libc.a(errno.o)
+ .bss           0x00023098       0x15 ../../lib/c/libc.a(loc.o)
+ *fill*         0x000230ad        0x3 
+ .bss           0x000230b0        0x0 ../../lib/c/libc.a(mem.o)
+ .bss           0x000230b0        0x0 ../../lib/c/libc.a(power_of_ten.o)
+ .bss           0x000230b0        0x0 ../../lib/c/libc.a(sysinfo.o)
+ .bss           0x000230b0        0x0 ../../lib/c/libc.a(ipc.o)
+ .bss           0x000230b0        0x0 ../../lib/c/libc.a(pio_trace.o)
+ .bss           0x000230b0        0x0 ../../lib/softint/libsoftint.a(division.o)
+
+/DISCARD/
+ *(*)
+LOAD devctl.o
+LOAD ../../lib/c/libc.a
+LOAD ../../lib/softint/libsoftint.a
+OUTPUT(devctl elf32-i386)

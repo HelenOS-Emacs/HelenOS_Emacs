@@ -1,0 +1,31 @@
+# DO NOT DELETE
+
+gxe_bd.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/sys/types.h
+gxe_bd.o: ../../../lib/c/include/libarch/types.h
+gxe_bd.o: ../../../lib/c/include/libarch/common.h
+gxe_bd.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+gxe_bd.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+gxe_bd.o: ../../../lib/c/include/abi/bool.h
+gxe_bd.o: ../../../lib/c/include/io/verify.h
+gxe_bd.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/ddi.h
+gxe_bd.o: ../../../lib/c/include/sys/time.h
+gxe_bd.o: ../../../lib/c/include/abi/ddi/irq.h ../../../lib/c/include/task.h
+gxe_bd.o: ../../../lib/c/include/abi/proc/task.h
+gxe_bd.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+gxe_bd.o: ../../../lib/c/include/abi/ipc/ipc.h
+gxe_bd.o: ../../../lib/c/include/atomic.h
+gxe_bd.o: ../../../lib/c/include/libarch/atomic.h
+gxe_bd.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+gxe_bd.o: ../../../lib/c/include/fibril.h
+gxe_bd.o: ../../../lib/c/include/libarch/fibril.h
+gxe_bd.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+gxe_bd.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+gxe_bd.o: ../../../lib/c/include/libarch/config.h
+gxe_bd.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+gxe_bd.o: ../../../lib/c/include/abi/syscall.h
+gxe_bd.o: ../../../lib/c/include/libarch/syscall.h
+gxe_bd.o: ../../../lib/c/include/as.h ../../../lib/c/include/abi/mm/as.h
+gxe_bd.o: ../../../lib/c/include/bd_srv.h
+gxe_bd.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+gxe_bd.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/errno.h
+gxe_bd.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/macros.h

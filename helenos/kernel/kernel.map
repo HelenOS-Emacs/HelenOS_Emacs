@@ -1,0 +1,2816 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+exc_table           0x700             generic/src/interrupt/interrupt.o
+test_quiet          0x1               test/test.o
+irq_uspace_hash_table
+                    0x10              generic/src/ddi/irq.o
+nrdy                0x4               generic/src/proc/scheduler.o
+ctx                 0x1c              generic/src/main/main.o
+ap_completion_wq    0x1c              generic/src/smp/smp.o
+e820table           0x280             arch/ia32/src/boot/memmap.o
+threads_tree        0xc               generic/src/proc/thread.o
+cpus                0x4               generic/src/cpu/cpu.o
+uptime              0x4               generic/src/time/clock.o
+fpu_context_slab    0x4               generic/src/proc/thread.o
+zones               0x394             generic/src/mm/frame.o
+klog                0x8000            generic/src/console/console.o
+tasks_tree          0xc               generic/src/proc/task.o
+
+Discarded input sections
+
+ .comment       0x00000000       0x12 arch/ia32/src/debug/stacktrace.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/debug/stacktrace.o
+ .eh_frame      0x00000000       0xd8 arch/ia32/src/debug/stacktrace.o
+ .comment       0x00000000       0x12 arch/ia32/src/proc/scheduler.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/proc/scheduler.o
+ .eh_frame      0x00000000       0x7c arch/ia32/src/proc/scheduler.o
+ .comment       0x00000000       0x12 arch/ia32/src/proc/task.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/proc/task.o
+ .eh_frame      0x00000000       0x60 arch/ia32/src/proc/task.o
+ .comment       0x00000000       0x12 arch/ia32/src/proc/thread.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/proc/thread.o
+ .eh_frame      0x00000000       0x38 arch/ia32/src/proc/thread.o
+ .comment       0x00000000       0x12 arch/ia32/src/bios/bios.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/bios/bios.o
+ .eh_frame      0x00000000       0x38 arch/ia32/src/bios/bios.o
+ .comment       0x00000000       0x12 arch/ia32/src/smp/apic.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/smp/apic.o
+ .eh_frame      0x00000000      0x25c arch/ia32/src/smp/apic.o
+ .comment       0x00000000       0x12 arch/ia32/src/smp/mps.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/smp/mps.o
+ .eh_frame      0x00000000       0xf8 arch/ia32/src/smp/mps.o
+ .comment       0x00000000       0x12 arch/ia32/src/smp/smp.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/smp/smp.o
+ .eh_frame      0x00000000       0x90 arch/ia32/src/smp/smp.o
+ .comment       0x00000000       0x12 arch/ia32/src/smp/ipi.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/smp/ipi.o
+ .eh_frame      0x00000000       0x38 arch/ia32/src/smp/ipi.o
+ .comment       0x00000000       0x12 arch/ia32/src/ia32.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/ia32.o
+ .eh_frame      0x00000000      0x1a4 arch/ia32/src/ia32.o
+ .comment       0x00000000       0x12 arch/ia32/src/interrupt.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/interrupt.o
+ .eh_frame      0x00000000      0x1ec arch/ia32/src/interrupt.o
+ .comment       0x00000000       0x12 arch/ia32/src/pm.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/pm.o
+ .eh_frame      0x00000000      0x100 arch/ia32/src/pm.o
+ .comment       0x00000000       0x12 arch/ia32/src/userspace.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/userspace.o
+ .eh_frame      0x00000000       0x38 arch/ia32/src/userspace.o
+ .comment       0x00000000       0x12 arch/ia32/src/cpu/cpu.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/cpu/cpu.o
+ .eh_frame      0x00000000       0xd8 arch/ia32/src/cpu/cpu.o
+ .comment       0x00000000       0x12 arch/ia32/src/mm/km.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/mm/km.o
+ .eh_frame      0x00000000       0x78 arch/ia32/src/mm/km.o
+ .comment       0x00000000       0x12 arch/ia32/src/mm/as.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/mm/as.o
+ .eh_frame      0x00000000       0x38 arch/ia32/src/mm/as.o
+ .comment       0x00000000       0x12 arch/ia32/src/mm/frame.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/mm/frame.o
+ .eh_frame      0x00000000       0xb8 arch/ia32/src/mm/frame.o
+ .comment       0x00000000       0x12 arch/ia32/src/mm/page.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/mm/page.o
+ .eh_frame      0x00000000       0x74 arch/ia32/src/mm/page.o
+ .comment       0x00000000       0x12 arch/ia32/src/mm/tlb.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/mm/tlb.o
+ .eh_frame      0x00000000       0xb8 arch/ia32/src/mm/tlb.o
+ .comment       0x00000000       0x12 arch/ia32/src/ddi/ddi.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/ddi/ddi.o
+ .eh_frame      0x00000000       0x78 arch/ia32/src/ddi/ddi.o
+ .comment       0x00000000       0x12 arch/ia32/src/drivers/i8254.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/drivers/i8254.o
+ .eh_frame      0x00000000       0xcc arch/ia32/src/drivers/i8254.o
+ .comment       0x00000000       0x12 arch/ia32/src/drivers/i8259.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/drivers/i8259.o
+ .eh_frame      0x00000000       0xc4 arch/ia32/src/drivers/i8259.o
+ .comment       0x00000000       0x12 arch/ia32/src/boot/memmap.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/boot/memmap.o
+ .comment       0x00000000       0x12 arch/ia32/src/fpu_context.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/fpu_context.o
+ .eh_frame      0x00000000      0x138 arch/ia32/src/fpu_context.o
+ .comment       0x00000000       0x12 arch/ia32/src/syscall.o
+ .note.GNU-stack
+                0x00000000        0x0 arch/ia32/src/syscall.o
+ .eh_frame      0x00000000       0x38 arch/ia32/src/syscall.o
+ .comment       0x00000000       0x12 genarch/src/acpi/acpi.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/acpi/acpi.o
+ .eh_frame      0x00000000       0xa8 genarch/src/acpi/acpi.o
+ .comment       0x00000000       0x12 genarch/src/acpi/madt.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/acpi/madt.o
+ .eh_frame      0x00000000       0xfc genarch/src/acpi/madt.o
+ .comment       0x00000000       0x12 genarch/src/mm/page_pt.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/mm/page_pt.o
+ .eh_frame      0x00000000       0xf0 genarch/src/mm/page_pt.o
+ .comment       0x00000000       0x12 genarch/src/mm/as_pt.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/mm/as_pt.o
+ .eh_frame      0x00000000       0xe4 genarch/src/mm/as_pt.o
+ .comment       0x00000000       0x12 genarch/src/softint/division.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/softint/division.o
+ .eh_frame      0x00000000      0x28c genarch/src/softint/division.o
+ .comment       0x00000000       0x12 genarch/src/softint/multiplication.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/softint/multiplication.o
+ .eh_frame      0x00000000       0x48 genarch/src/softint/multiplication.o
+ .comment       0x00000000       0x12 genarch/src/fb/font-8x16.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/fb/font-8x16.o
+ .eh_frame      0x00000000      0x290 genarch/src/fb/font-8x16.o
+ .comment       0x00000000       0x12 genarch/src/fb/logo-196x66.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/fb/logo-196x66.o
+ .comment       0x00000000       0x12 genarch/src/fb/fb.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/fb/fb.o
+ .eh_frame      0x00000000      0x28c genarch/src/fb/fb.o
+ .comment       0x00000000       0x12 genarch/src/fb/bfb.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/fb/bfb.o
+ .eh_frame      0x00000000       0x50 genarch/src/fb/bfb.o
+ .comment       0x00000000       0x12 genarch/src/drivers/i8042/i8042.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/drivers/i8042/i8042.o
+ .eh_frame      0x00000000       0xec genarch/src/drivers/i8042/i8042.o
+ .comment       0x00000000       0x12 genarch/src/kbrd/kbrd.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/kbrd/kbrd.o
+ .eh_frame      0x00000000       0x88 genarch/src/kbrd/kbrd.o
+ .comment       0x00000000       0x12 genarch/src/kbrd/scanc_pc.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/kbrd/scanc_pc.o
+ .comment       0x00000000       0x12 genarch/src/multiboot/multiboot.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/multiboot/multiboot.o
+ .eh_frame      0x00000000       0xb0 genarch/src/multiboot/multiboot.o
+ .comment       0x00000000       0x12 genarch/src/multiboot/multiboot2.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/multiboot/multiboot2.o
+ .eh_frame      0x00000000       0x48 genarch/src/multiboot/multiboot2.o
+ .comment       0x00000000       0x12 genarch/src/drivers/ega/ega.o
+ .note.GNU-stack
+                0x00000000        0x0 genarch/src/drivers/ega/ega.o
+ .eh_frame      0x00000000       0xa4 genarch/src/drivers/ega/ega.o
+ .comment       0x00000000       0x12 generic/src/adt/avl.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/adt/avl.o
+ .eh_frame      0x00000000      0x198 generic/src/adt/avl.o
+ .comment       0x00000000       0x12 generic/src/adt/bitmap.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/adt/bitmap.o
+ .eh_frame      0x00000000       0xe8 generic/src/adt/bitmap.o
+ .comment       0x00000000       0x12 generic/src/adt/btree.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/adt/btree.o
+ .eh_frame      0x00000000      0x2c0 generic/src/adt/btree.o
+ .comment       0x00000000       0x12 generic/src/adt/hash_table.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/adt/hash_table.o
+ .eh_frame      0x00000000       0xf4 generic/src/adt/hash_table.o
+ .comment       0x00000000       0x12 generic/src/adt/list.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/adt/list.o
+ .eh_frame      0x00000000       0x88 generic/src/adt/list.o
+ .comment       0x00000000       0x12 generic/src/console/chardev.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/console/chardev.o
+ .eh_frame      0x00000000       0xf8 generic/src/console/chardev.o
+ .comment       0x00000000       0x12 generic/src/console/console.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/console/console.o
+ .eh_frame      0x00000000      0x234 generic/src/console/console.o
+ .comment       0x00000000       0x12 generic/src/console/prompt.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/console/prompt.o
+ .eh_frame      0x00000000       0x78 generic/src/console/prompt.o
+ .comment       0x00000000       0x12 generic/src/cpu/cpu.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/cpu/cpu.o
+ .eh_frame      0x00000000       0x70 generic/src/cpu/cpu.o
+ .comment       0x00000000       0x12 generic/src/ddi/ddi.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ddi/ddi.o
+ .eh_frame      0x00000000      0x164 generic/src/ddi/ddi.o
+ .comment       0x00000000       0x12 generic/src/ddi/irq.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ddi/irq.o
+ .eh_frame      0x00000000      0x1c8 generic/src/ddi/irq.o
+ .comment       0x00000000       0x12 generic/src/ddi/device.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ddi/device.o
+ .eh_frame      0x00000000       0x50 generic/src/ddi/device.o
+ .comment       0x00000000       0x12 generic/src/debug/symtab.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/debug/symtab.o
+ .eh_frame      0x00000000      0x144 generic/src/debug/symtab.o
+ .comment       0x00000000       0x12 generic/src/debug/stacktrace.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/debug/stacktrace.o
+ .eh_frame      0x00000000       0xac generic/src/debug/stacktrace.o
+ .comment       0x00000000       0x12 generic/src/debug/panic.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/debug/panic.o
+ .eh_frame      0x00000000       0x38 generic/src/debug/panic.o
+ .comment       0x00000000       0x12 generic/src/debug/debug.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/debug/debug.o
+ .comment       0x00000000       0x12 generic/src/interrupt/interrupt.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/interrupt/interrupt.o
+ .eh_frame      0x00000000      0x184 generic/src/interrupt/interrupt.o
+ .comment       0x00000000       0x12 generic/src/main/main.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/main/main.o
+ .eh_frame      0x00000000       0x98 generic/src/main/main.o
+ .comment       0x00000000       0x12 generic/src/main/kinit.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/main/kinit.o
+ .eh_frame      0x00000000       0x48 generic/src/main/kinit.o
+ .comment       0x00000000       0x12 generic/src/main/uinit.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/main/uinit.o
+ .eh_frame      0x00000000       0x34 generic/src/main/uinit.o
+ .comment       0x00000000       0x12 generic/src/main/version.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/main/version.o
+ .eh_frame      0x00000000       0x38 generic/src/main/version.o
+ .comment       0x00000000       0x12 generic/src/main/shutdown.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/main/shutdown.o
+ .eh_frame      0x00000000       0x34 generic/src/main/shutdown.o
+ .comment       0x00000000       0x12 generic/src/proc/program.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/proc/program.o
+ .eh_frame      0x00000000      0x118 generic/src/proc/program.o
+ .comment       0x00000000       0x12 generic/src/proc/scheduler.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/proc/scheduler.o
+ .eh_frame      0x00000000      0x100 generic/src/proc/scheduler.o
+ .comment       0x00000000       0x12 generic/src/proc/thread.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/proc/thread.o
+ .eh_frame      0x00000000      0x4b8 generic/src/proc/thread.o
+ .comment       0x00000000       0x12 generic/src/proc/task.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/proc/task.o
+ .eh_frame      0x00000000      0x2dc generic/src/proc/task.o
+ .comment       0x00000000       0x12 generic/src/proc/the.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/proc/the.o
+ .eh_frame      0x00000000       0x64 generic/src/proc/the.o
+ .comment       0x00000000       0x12 generic/src/syscall/syscall.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/syscall/syscall.o
+ .eh_frame      0x00000000       0x48 generic/src/syscall/syscall.o
+ .comment       0x00000000       0x12 generic/src/syscall/copy.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/syscall/copy.o
+ .eh_frame      0x00000000       0x98 generic/src/syscall/copy.o
+ .comment       0x00000000       0x12 generic/src/mm/km.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/km.o
+ .eh_frame      0x00000000      0x1d8 generic/src/mm/km.o
+ .comment       0x00000000       0x12 generic/src/mm/reserve.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/reserve.o
+ .eh_frame      0x00000000       0xa4 generic/src/mm/reserve.o
+ .comment       0x00000000       0x12 generic/src/mm/buddy.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/buddy.o
+ .eh_frame      0x00000000      0x134 generic/src/mm/buddy.o
+ .comment       0x00000000       0x12 generic/src/mm/frame.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/frame.o
+ .eh_frame      0x00000000      0x6f4 generic/src/mm/frame.o
+ .comment       0x00000000       0x12 generic/src/mm/page.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/page.o
+ .eh_frame      0x00000000      0x144 generic/src/mm/page.o
+ .comment       0x00000000       0x12 generic/src/mm/tlb.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/tlb.o
+ .eh_frame      0x00000000       0xd8 generic/src/mm/tlb.o
+ .comment       0x00000000       0x12 generic/src/mm/as.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/as.o
+ .eh_frame      0x00000000      0x67c generic/src/mm/as.o
+ .comment       0x00000000       0x12 generic/src/mm/backend_anon.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/backend_anon.o
+ .eh_frame      0x00000000      0x180 generic/src/mm/backend_anon.o
+ .comment       0x00000000       0x12 generic/src/mm/backend_elf.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/backend_elf.o
+ .eh_frame      0x00000000      0x1b4 generic/src/mm/backend_elf.o
+ .comment       0x00000000       0x12 generic/src/mm/backend_phys.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/backend_phys.o
+ .eh_frame      0x00000000      0x100 generic/src/mm/backend_phys.o
+ .comment       0x00000000       0x12 generic/src/mm/slab.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/mm/slab.o
+ .eh_frame      0x00000000      0x350 generic/src/mm/slab.o
+ .comment       0x00000000       0x12 generic/src/lib/func.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/func.o
+ .eh_frame      0x00000000       0x34 generic/src/lib/func.o
+ .comment       0x00000000       0x12 generic/src/lib/memstr.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/memstr.o
+ .eh_frame      0x00000000       0xb4 generic/src/lib/memstr.o
+ .comment       0x00000000       0x12 generic/src/lib/memfnc.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/memfnc.o
+ .eh_frame      0x00000000       0x78 generic/src/lib/memfnc.o
+ .comment       0x00000000       0x12 generic/src/lib/sort.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/sort.o
+ .eh_frame      0x00000000       0xc4 generic/src/lib/sort.o
+ .comment       0x00000000       0x12 generic/src/lib/str.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/str.o
+ .eh_frame      0x00000000      0x4d4 generic/src/lib/str.o
+ .comment       0x00000000       0x12 generic/src/lib/elf.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/elf.o
+ .eh_frame      0x00000000       0x6c generic/src/lib/elf.o
+ .comment       0x00000000       0x12 generic/src/lib/ra.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/ra.o
+ .eh_frame      0x00000000      0x138 generic/src/lib/ra.o
+ .comment       0x00000000       0x12 generic/src/lib/rd.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/lib/rd.o
+ .eh_frame      0x00000000       0x44 generic/src/lib/rd.o
+ .comment       0x00000000       0x12 generic/src/printf/printf_core.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/printf/printf_core.o
+ .eh_frame      0x00000000       0x48 generic/src/printf/printf_core.o
+ .comment       0x00000000       0x12 generic/src/printf/printf.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/printf/printf.o
+ .eh_frame      0x00000000       0x38 generic/src/printf/printf.o
+ .comment       0x00000000       0x12 generic/src/printf/snprintf.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/printf/snprintf.o
+ .eh_frame      0x00000000       0x38 generic/src/printf/snprintf.o
+ .comment       0x00000000       0x12 generic/src/printf/vprintf.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/printf/vprintf.o
+ .eh_frame      0x00000000       0xc4 generic/src/printf/vprintf.o
+ .comment       0x00000000       0x12 generic/src/printf/vsnprintf.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/printf/vsnprintf.o
+ .eh_frame      0x00000000       0xbc generic/src/printf/vsnprintf.o
+ .comment       0x00000000       0x12 generic/src/time/clock.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/time/clock.o
+ .eh_frame      0x00000000       0x7c generic/src/time/clock.o
+ .comment       0x00000000       0x12 generic/src/time/timeout.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/time/timeout.o
+ .eh_frame      0x00000000       0xf0 generic/src/time/timeout.o
+ .comment       0x00000000       0x12 generic/src/time/delay.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/time/delay.o
+ .eh_frame      0x00000000       0x4c generic/src/time/delay.o
+ .comment       0x00000000       0x12 generic/src/preempt/preemption.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/preempt/preemption.o
+ .eh_frame      0x00000000       0x54 generic/src/preempt/preemption.o
+ .comment       0x00000000       0x12 generic/src/synch/spinlock.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/spinlock.o
+ .eh_frame      0x00000000      0x228 generic/src/synch/spinlock.o
+ .comment       0x00000000       0x12 generic/src/synch/condvar.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/condvar.o
+ .eh_frame      0x00000000       0xa4 generic/src/synch/condvar.o
+ .comment       0x00000000       0x12 generic/src/synch/mutex.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/mutex.o
+ .eh_frame      0x00000000       0xb8 generic/src/synch/mutex.o
+ .comment       0x00000000       0x12 generic/src/synch/semaphore.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/semaphore.o
+ .eh_frame      0x00000000       0xa0 generic/src/synch/semaphore.o
+ .comment       0x00000000       0x12 generic/src/synch/smc.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/smc.o
+ .eh_frame      0x00000000       0x54 generic/src/synch/smc.o
+ .comment       0x00000000       0x12 generic/src/synch/waitq.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/waitq.o
+ .eh_frame      0x00000000      0x248 generic/src/synch/waitq.o
+ .comment       0x00000000       0x12 generic/src/synch/futex.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/synch/futex.o
+ .eh_frame      0x00000000      0x14c generic/src/synch/futex.o
+ .comment       0x00000000       0x12 generic/src/smp/ipi.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/smp/ipi.o
+ .eh_frame      0x00000000       0x40 generic/src/smp/ipi.o
+ .comment       0x00000000       0x12 generic/src/smp/smp.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/smp/smp.o
+ .comment       0x00000000       0x12 generic/src/ipc/ipc.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ipc.o
+ .eh_frame      0x00000000      0x45c generic/src/ipc/ipc.o
+ .comment       0x00000000       0x12 generic/src/ipc/sysipc.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/sysipc.o
+ .eh_frame      0x00000000      0x2e8 generic/src/ipc/sysipc.o
+ .comment       0x00000000       0x12 generic/src/ipc/sysipc_ops.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/sysipc_ops.o
+ .eh_frame      0x00000000       0xf8 generic/src/ipc/sysipc_ops.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/clnestab.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/clnestab.o
+ .eh_frame      0x00000000       0x98 generic/src/ipc/ops/clnestab.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/conctmeto.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/conctmeto.o
+ .eh_frame      0x00000000       0xac generic/src/ipc/ops/conctmeto.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/concttome.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/concttome.o
+ .eh_frame      0x00000000       0xa4 generic/src/ipc/ops/concttome.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/connclone.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/connclone.o
+ .eh_frame      0x00000000       0xbc generic/src/ipc/ops/connclone.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/dataread.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/dataread.o
+ .eh_frame      0x00000000       0x94 generic/src/ipc/ops/dataread.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/datawrite.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/datawrite.o
+ .eh_frame      0x00000000       0x74 generic/src/ipc/ops/datawrite.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/debug.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/debug.o
+ .eh_frame      0x00000000       0x5c generic/src/ipc/ops/debug.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/sharein.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/sharein.o
+ .eh_frame      0x00000000       0x40 generic/src/ipc/ops/sharein.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/shareout.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/shareout.o
+ .eh_frame      0x00000000       0x80 generic/src/ipc/ops/shareout.o
+ .comment       0x00000000       0x12 generic/src/ipc/ops/stchngath.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ops/stchngath.o
+ .eh_frame      0x00000000       0x7c generic/src/ipc/ops/stchngath.o
+ .comment       0x00000000       0x12 generic/src/ipc/ipcrsc.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/ipcrsc.o
+ .eh_frame      0x00000000       0xf4 generic/src/ipc/ipcrsc.o
+ .comment       0x00000000       0x12 generic/src/ipc/irq.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/irq.o
+ .eh_frame      0x00000000      0x16c generic/src/ipc/irq.o
+ .comment       0x00000000       0x12 generic/src/ipc/event.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/event.o
+ .eh_frame      0x00000000      0x1fc generic/src/ipc/event.o
+ .comment       0x00000000       0x12 generic/src/security/cap.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/security/cap.o
+ .eh_frame      0x00000000       0xd4 generic/src/security/cap.o
+ .comment       0x00000000       0x12 generic/src/sysinfo/sysinfo.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/sysinfo/sysinfo.o
+ .eh_frame      0x00000000      0x42c generic/src/sysinfo/sysinfo.o
+ .comment       0x00000000       0x12 generic/src/sysinfo/stats.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/sysinfo/stats.o
+ .eh_frame      0x00000000      0x35c generic/src/sysinfo/stats.o
+ .comment       0x00000000       0x12 generic/src/console/kconsole.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/console/kconsole.o
+ .eh_frame      0x00000000      0x154 generic/src/console/kconsole.o
+ .comment       0x00000000       0x12 generic/src/console/cmd.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/console/cmd.o
+ .eh_frame      0x00000000      0x6e8 generic/src/console/cmd.o
+ .comment       0x00000000       0x12 generic/src/ipc/kbox.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/ipc/kbox.o
+ .eh_frame      0x00000000       0x9c generic/src/ipc/kbox.o
+ .comment       0x00000000       0x12 generic/src/udebug/udebug.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/udebug/udebug.o
+ .eh_frame      0x00000000      0x1e0 generic/src/udebug/udebug.o
+ .comment       0x00000000       0x12 generic/src/udebug/udebug_ops.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/udebug/udebug_ops.o
+ .eh_frame      0x00000000      0x21c generic/src/udebug/udebug_ops.o
+ .comment       0x00000000       0x12 generic/src/udebug/udebug_ipc.o
+ .note.GNU-stack
+                0x00000000        0x0 generic/src/udebug/udebug_ipc.o
+ .eh_frame      0x00000000       0x78 generic/src/udebug/udebug_ipc.o
+ .comment       0x00000000       0x12 test/test.o
+ .note.GNU-stack
+                0x00000000        0x0 test/test.o
+ .comment       0x00000000       0x12 test/atomic/atomic1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/atomic/atomic1.o
+ .eh_frame      0x00000000       0x40 test/atomic/atomic1.o
+ .comment       0x00000000       0x12 test/btree/btree1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/btree/btree1.o
+ .eh_frame      0x00000000       0x48 test/btree/btree1.o
+ .comment       0x00000000       0x12 test/avltree/avltree1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/avltree/avltree1.o
+ .eh_frame      0x00000000      0x15c test/avltree/avltree1.o
+ .comment       0x00000000       0x12 test/fault/fault1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/fault/fault1.o
+ .eh_frame      0x00000000       0x38 test/fault/fault1.o
+ .comment       0x00000000       0x12 test/mm/falloc1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/mm/falloc1.o
+ .eh_frame      0x00000000       0x74 test/mm/falloc1.o
+ .comment       0x00000000       0x12 test/mm/falloc2.o
+ .note.GNU-stack
+                0x00000000        0x0 test/mm/falloc2.o
+ .eh_frame      0x00000000       0x80 test/mm/falloc2.o
+ .comment       0x00000000       0x12 test/mm/mapping1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/mm/mapping1.o
+ .eh_frame      0x00000000       0x54 test/mm/mapping1.o
+ .comment       0x00000000       0x12 test/mm/slab1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/mm/slab1.o
+ .eh_frame      0x00000000       0xd4 test/mm/slab1.o
+ .comment       0x00000000       0x12 test/mm/slab2.o
+ .note.GNU-stack
+                0x00000000        0x0 test/mm/slab2.o
+ .eh_frame      0x00000000       0xe0 test/mm/slab2.o
+ .comment       0x00000000       0x12 test/synch/semaphore1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/synch/semaphore1.o
+ .eh_frame      0x00000000       0x88 test/synch/semaphore1.o
+ .comment       0x00000000       0x12 test/synch/semaphore2.o
+ .note.GNU-stack
+                0x00000000        0x0 test/synch/semaphore2.o
+ .eh_frame      0x00000000       0x90 test/synch/semaphore2.o
+ .comment       0x00000000       0x12 test/print/print1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/print/print1.o
+ .eh_frame      0x00000000       0x38 test/print/print1.o
+ .comment       0x00000000       0x12 test/print/print2.o
+ .note.GNU-stack
+                0x00000000        0x0 test/print/print2.o
+ .eh_frame      0x00000000       0x38 test/print/print2.o
+ .comment       0x00000000       0x12 test/print/print3.o
+ .note.GNU-stack
+                0x00000000        0x0 test/print/print3.o
+ .eh_frame      0x00000000       0x40 test/print/print3.o
+ .comment       0x00000000       0x12 test/print/print4.o
+ .note.GNU-stack
+                0x00000000        0x0 test/print/print4.o
+ .eh_frame      0x00000000       0x58 test/print/print4.o
+ .comment       0x00000000       0x12 test/print/print5.o
+ .note.GNU-stack
+                0x00000000        0x0 test/print/print5.o
+ .eh_frame      0x00000000       0x38 test/print/print5.o
+ .comment       0x00000000       0x12 test/thread/thread1.o
+ .note.GNU-stack
+                0x00000000        0x0 test/thread/thread1.o
+ .eh_frame      0x00000000       0x64 test/thread/thread1.o
+ .comment       0x00000000       0x12 test/debug/mips1_skip.o
+ .note.GNU-stack
+                0x00000000        0x0 test/debug/mips1_skip.o
+ .eh_frame      0x00000000       0x38 test/debug/mips1_skip.o
+ .comment       0x00000000       0x12 test/mm/purge1_skip.o
+ .note.GNU-stack
+                0x00000000        0x0 test/mm/purge1_skip.o
+ .eh_frame      0x00000000       0x38 test/mm/purge1_skip.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.unmapped       0x00108000     0x2083 load address 0x00000000
+                0x00108000                unmapped_ktext_start = .
+ *(K_TEXT_START)
+ K_TEXT_START   0x00108000       0x4a arch/ia32/src/smp/ap.o
+                0x00108000                unmapped_ap_boot
+ *fill*         0x0010804a        0x2 
+ K_TEXT_START   0x0010804c      0xae4 arch/ia32/src/boot/multiboot.o
+                0x0010806c                multiboot_image_start
+                0x0010821e                map_kernel_pse
+                0x00108264                map_kernel_non_pse
+ K_TEXT_START   0x00108b30       0xf4 arch/ia32/src/boot/multiboot2.o
+                0x00108bac                multiboot2_image_start
+                0x00108c24                unmapped_ktext_end = .
+                0x00108c24                unmapped_kdata_start = .
+ *(K_DATA_START)
+ K_DATA_START   0x00108c24        0x6 arch/ia32/src/smp/ap.o
+                0x00108c24                unmapped_ap_gdtr
+ *fill*         0x00108c2a      0x3d6 
+ K_DATA_START   0x00109000     0x1083 arch/ia32/src/boot/multiboot.o
+                0x0010a000                bootstrap_idtr
+                0x0010a006                bootstrap_gdtr
+                0x0010a00c                multiboot_eax
+                0x0010a010                multiboot_ebx
+                0x0010a083                unmapped_kdata_end = .
+
+.mapped         0x8010a083    0x8bf1d load address 0x00002083
+                0x8010a083                ktext_start = .
+ *(.text .text.*)
+ *fill*         0x8010a083        0x1 
+ .text          0x8010a084       0x37 arch/ia32/src/context.o
+                0x8010a084                context_save_arch
+                0x8010a0a0                context_restore_arch
+ *fill*         0x8010a0bb        0x1 
+ .text          0x8010a0bc       0xa0 arch/ia32/src/debug/stacktrace.o
+                0x8010a0bc                kernel_stack_trace_context_validate
+                0x8010a0cb                kernel_frame_pointer_prev
+                0x8010a0e1                kernel_return_address_get
+                0x8010a0f8                uspace_stack_trace_context_validate
+                0x8010a107                uspace_frame_pointer_prev
+                0x8010a130                uspace_return_address_get
+ .text          0x8010a15c        0x7 arch/ia32/src/debug/stacktrace_asm.o
+                0x8010a15c                frame_pointer_get
+                0x8010a15f                program_counter_get
+ *fill*         0x8010a163        0x1 
+ .text          0x8010a164       0x12 arch/ia32/src/delay.o
+                0x8010a164                asm_delay_loop
+                0x8010a16d                asm_fake_loop
+ *fill*         0x8010a176        0x2 
+ .text          0x8010a178     0x252f arch/ia32/src/asm.o
+                0x8010a178                memcpy_to_uspace
+                0x8010a178                memcpy_from_uspace
+                0x8010a1a1                memcpy_to_uspace_failover_address
+                0x8010a1a1                memcpy_from_uspace_failover_address
+                0x8010a1a8                paging_on
+                0x8010a1bd                enable_l_apic_in_msr
+                0x8010a1d1                sysenter_handler
+                0x8010a22d                int_syscall
+                0x8010a2a6                int_0
+                0x8010a336                int_1
+                0x8010a3c6                int_2
+                0x8010a456                int_3
+                0x8010a4e6                int_4
+                0x8010a576                int_5
+                0x8010a606                int_6
+                0x8010a696                int_7
+                0x8010a726                int_8
+                0x8010a7b6                int_9
+                0x8010a846                int_10
+                0x8010a8d6                int_11
+                0x8010a966                int_12
+                0x8010a9f6                int_13
+                0x8010aa86                int_14
+                0x8010ab16                int_15
+                0x8010aba6                int_16
+                0x8010ac36                int_17
+                0x8010acc6                int_18
+                0x8010ad56                int_19
+                0x8010ade6                int_20
+                0x8010ae76                int_21
+                0x8010af06                int_22
+                0x8010af96                int_23
+                0x8010b026                int_24
+                0x8010b0b6                int_25
+                0x8010b146                int_26
+                0x8010b1d6                int_27
+                0x8010b266                int_28
+                0x8010b2f6                int_29
+                0x8010b386                int_30
+                0x8010b416                int_31
+                0x8010b4a6                int_32
+                0x8010b536                int_33
+                0x8010b5c6                int_34
+                0x8010b656                int_35
+                0x8010b6e6                int_36
+                0x8010b776                int_37
+                0x8010b806                int_38
+                0x8010b896                int_39
+                0x8010b926                int_40
+                0x8010b9b6                int_41
+                0x8010ba46                int_42
+                0x8010bad6                int_43
+                0x8010bb66                int_44
+                0x8010bbf6                int_45
+                0x8010bc86                int_46
+                0x8010bd16                int_47
+                0x8010bda6                int_48
+                0x8010be36                int_49
+                0x8010bec6                int_50
+                0x8010bf56                int_51
+                0x8010bfe6                int_52
+                0x8010c076                int_53
+                0x8010c106                int_54
+                0x8010c196                int_55
+                0x8010c226                int_56
+                0x8010c2b6                int_57
+                0x8010c346                int_58
+                0x8010c3d6                int_59
+                0x8010c466                int_60
+                0x8010c4f6                int_61
+                0x8010c586                int_62
+                0x8010c616                int_63
+                0x8010c6a6                early_putchar
+ *fill*         0x8010c6a7        0x1 
+ .text          0x8010c6a8       0x8a arch/ia32/src/proc/scheduler.o
+                0x8010c6a8                before_task_runs_arch
+                0x8010c6b1                before_thread_runs_arch
+                0x8010c72d                after_thread_ran_arch
+ *fill*         0x8010c732        0x2 
+ .text          0x8010c734       0x4d arch/ia32/src/proc/task.o
+                0x8010c734                task_create_arch
+                0x8010c766                task_destroy_arch
+ *fill*         0x8010c781        0x3 
+ .text          0x8010c784       0x12 arch/ia32/src/proc/thread.o
+                0x8010c784                thread_create_arch
+ *fill*         0x8010c796        0x2 
+ .text          0x8010c798       0x14 arch/ia32/src/bios/bios.o
+                0x8010c798                bios_init
+ .text          0x8010c7ac        0x0 arch/ia32/src/smp/ap.o
+ *fill*         0x8010c7ac        0x4 
+ .text          0x8010c7b0     0x160d arch/ia32/src/smp/apic.o
+                0x8010c7ba                l_apic_eoi
+                0x8010c7ce                io_apic_enable_irqs
+                0x8010cca4                io_apic_disable_irqs
+                0x8010d1d6                l_apic_broadcast_custom_ipi
+                0x8010d2f5                l_apic_send_init_ipi
+                0x8010d5ce                l_apic_init
+                0x8010d77c                apic_init
+                0x8010dd0e                l_apic_debug
+                0x8010dd13                io_apic_read
+                0x8010dd27                io_apic_write
+                0x8010dd3e                io_apic_change_ioredtbl
+ *fill*         0x8010ddbd        0x3 
+ .text          0x8010ddc0      0x796 arch/ia32/src/smp/mps.o
+                0x8010df64                mps_init
+ *fill*         0x8010e556        0x2 
+ .text          0x8010e558      0x360 arch/ia32/src/smp/smp.o
+                0x8010e558                smp_init
+                0x8010e5e1                kmp
+                0x8010e851                smp_irq_to_pin
+ .text          0x8010e8b8       0x18 arch/ia32/src/atomic.o
+                0x8010e8b8                spinlock_arch
+ .text          0x8010e8d0       0x10 arch/ia32/src/smp/ipi.o
+                0x8010e8d0                ipi_broadcast_arch
+ .text          0x8010e8e0      0x215 arch/ia32/src/ia32.o
+                0x8010e8e0                arch_pre_main
+                0x8010e929                arch_pre_mm_init
+                0x8010e950                arch_post_mm_init
+                0x8010e9ab                arch_post_cpu_init
+                0x8010e9c7                arch_pre_smp_init
+                0x8010e9dc                arch_post_smp_init
+                0x8010ea92                calibrate_delay_loop
+                0x8010eaaf                sys_tls_set
+                0x8010ead4                arch_construct_function
+                0x8010eadc                arch_reboot
+                0x8010eaf0                irq_initialize_arch
+ *fill*         0x8010eaf5        0xb 
+ .text          0x8010eb00      0x78f arch/ia32/src/interrupt.o
+                0x8010ee29                istate_decode
+                0x8010eefe                interrupt_init
+                0x8010f205                trap_virtual_enable_irqs
+                0x8010f24a                trap_virtual_disable_irqs
+ .text.unlikely
+                0x8010f28f       0x32 arch/ia32/src/interrupt.o
+ *fill*         0x8010f2c1        0x3 
+ .text          0x8010f2c4      0x6ff arch/ia32/src/pm.o
+                0x8010f2c4                gdt_setbase
+                0x8010f2e6                gdt_setlimit
+                0x8010f30c                idt_setoffset
+                0x8010f32b                tss_initialize
+                0x8010f34e                idt_init
+                0x8010f887                pm_init
+                0x8010f996                set_tls_desc
+ *fill*         0x8010f9c3        0x1 
+ .text          0x8010f9c4       0x35 arch/ia32/src/userspace.o
+                0x8010f9c4                userspace
+ *fill*         0x8010f9f9        0x7 
+ .text          0x8010fa00      0x22b arch/ia32/src/cpu/cpu.o
+                0x8010fa00                fpu_disable
+                0x8010fa0e                fpu_enable
+                0x8010fa1c                cpu_arch_init
+                0x8010faf7                cpu_identify
+                0x8010fbd0                cpu_print_report
+ *fill*         0x8010fc2b        0x1 
+ .text          0x8010fc2c       0x44 arch/ia32/src/mm/km.o
+                0x8010fc2c                km_identity_arch_init
+                0x8010fc45                km_non_identity_arch_init
+                0x8010fc61                km_is_non_identity_arch
+ .text          0x8010fc70        0xf arch/ia32/src/mm/as.o
+                0x8010fc70                as_arch_init
+ *fill*         0x8010fc7f        0x1 
+ .text          0x8010fc80      0x320 arch/ia32/src/mm/frame.o
+                0x8010feab                physmem_print
+                0x8010ff26                frame_low_arch_init
+                0x8010ff87                frame_high_arch_init
+ .text          0x8010ffa0      0x1aa arch/ia32/src/mm/page.o
+                0x8010ffa0                page_fault
+                0x80110039                page_arch_init
+ *fill*         0x8011014a        0x2 
+ .text          0x8011014c       0x40 arch/ia32/src/mm/tlb.o
+                0x8011014c                tlb_invalidate_all
+                0x80110157                tlb_invalidate_asid
+                0x80110162                tlb_invalidate_pages
+                0x80110182                tlb_arch_init
+                0x80110187                tlb_print
+ .text          0x8011018c      0x299 arch/ia32/src/ddi/ddi.o
+                0x8011018c                ddi_iospace_enable_arch
+                0x80110297                io_perm_bitmap_install
+ *fill*         0x80110425        0x3 
+ .text          0x80110428      0x216 arch/ia32/src/drivers/i8254.o
+                0x8011046a                i8254_init
+                0x801104ed                i8254_normal_operation
+                0x80110529                i8254_calibrate_delay_loop
+ *fill*         0x8011063e        0x2 
+ .text          0x80110640      0x140 arch/ia32/src/drivers/i8259.o
+                0x80110640                pic_enable_irqs
+                0x8011066d                pic_disable_irqs
+                0x80110692                pic_eoi
+                0x801106c8                i8259_init
+ .text          0x80110780        0x0 arch/ia32/src/boot/multiboot.o
+ .text          0x80110780        0x0 arch/ia32/src/boot/multiboot2.o
+ .text          0x80110780        0x0 arch/ia32/src/boot/memmap.o
+ .text          0x80110780       0x98 arch/ia32/src/fpu_context.o
+                0x801107aa                fpu_fxsr
+                0x801107c3                fpu_fsr
+                0x801107dc                fpu_context_save
+                0x801107e7                fpu_context_restore
+                0x801107f2                fpu_init
+ .text          0x80110818       0x1c arch/ia32/src/syscall.o
+                0x80110818                syscall_setup_cpu
+ *fill*         0x80110834        0xc 
+ .text          0x80110840      0x92e genarch/src/acpi/acpi.o
+                0x80110840                acpi_sdt_check
+                0x8011093c                acpi_init
+ *fill*         0x8011116e        0x2 
+ .text          0x80111170      0x3f3 genarch/src/acpi/madt.o
+                0x8011130e                acpi_madt_parse
+ *fill*         0x80111563        0x1 
+ .text          0x80111564      0x4c7 genarch/src/mm/page_pt.o
+ *fill*         0x80111a2b        0x1 
+ .text          0x80111a2c      0x123 genarch/src/mm/as_pt.o
+ *fill*         0x80111b4f        0x1 
+ .text          0x80111b50      0x820 genarch/src/softint/division.o
+                0x80111b50                __divsi3
+                0x80111bc8                __divdi3
+                0x80111d0d                __udivsi3
+                0x80111d5c                __udivdi3
+                0x80111e4e                __modsi3
+                0x80111e96                __moddi3
+                0x80111f4a                __umodsi3
+                0x80111f87                __umoddi3
+                0x80112014                __divmodsi3
+                0x80112098                __udivmodsi3
+                0x801120ff                __divmoddi3
+                0x80112273                __udivmoddi3
+ .text          0x80112370      0x169 genarch/src/softint/multiplication.o
+                0x80112370                __muldi3
+ *fill*         0x801124d9        0x7 
+ .text          0x801124e0      0x884 genarch/src/fb/font-8x16.o
+                0x801124e0                fb_font_glyph
+ .text          0x80112d64        0x0 genarch/src/fb/logo-196x66.o
+ *fill*         0x80112d64        0xc 
+ .text          0x80112d70     0x2013 genarch/src/fb/fb.o
+                0x80114618                fb_init
+ *fill*         0x80114d83        0x1 
+ .text          0x80114d84      0x10b genarch/src/fb/bfb.o
+                0x80114d84                bfb_init
+ *fill*         0x80114e8f        0x1 
+ .text          0x80114e90      0x32f genarch/src/drivers/i8042/i8042.o
+                0x80114f04                i8042_init
+                0x80114f61                i8042_wire
+                0x80115099                i8042_cpu_reset
+ *fill*         0x801151bf        0x1 
+ .text          0x801151c0      0x2b5 genarch/src/kbrd/kbrd.o
+                0x80115333                kbrd_init
+                0x801153ec                kbrd_wire
+ *fill*         0x80115475        0x3 
+ .text          0x80115478        0x0 genarch/src/kbrd/scanc_pc.o
+ *fill*         0x80115478        0x8 
+ .text          0x80115480      0x342 genarch/src/multiboot/multiboot.o
+                0x80115480                multiboot_extract_command
+                0x801154f1                multiboot_extract_argument
+                0x80115575                multiboot_info_parse
+ *fill*         0x801157c2        0xe 
+ .text          0x801157d0      0x1df genarch/src/multiboot/multiboot2.o
+                0x801157d0                multiboot2_info_parse
+ *fill*         0x801159af        0x1 
+ .text          0x801159b0     0x1331 genarch/src/drivers/ega/ega.o
+                0x80116778                ega_init
+ *fill*         0x80116ce1        0xf 
+ .text          0x80116cf0      0xae0 generic/src/adt/avl.o
+                0x80116f70                avltree_search
+                0x80116fa6                avltree_find_min
+                0x80116fc1                avltree_insert
+                0x801172a5                avltree_delete
+                0x80117786                avltree_delete_min
+                0x801177b6                avltree_walk
+ .text.unlikely
+                0x801177d0       0x52 generic/src/adt/avl.o
+ *fill*         0x80117822        0x2 
+ .text          0x80117824      0x368 generic/src/adt/bitmap.o
+                0x80117824                bitmap_initialize
+                0x80117837                bitmap_set_range
+                0x80117972                bitmap_clear_range
+                0x80117aad                bitmap_copy
+ *fill*         0x80117b8c        0x4 
+ .text          0x80117b90     0x1ef6 generic/src/adt/btree.o
+                0x80118d0c                btree_init
+                0x80118d4d                btree_create
+                0x80118e74                btree_destroy
+                0x80118e82                btree_insert
+                0x80119006                btree_remove
+                0x80119675                btree_search
+                0x80119722                btree_leaf_node_left_neighbour
+                0x80119794                btree_leaf_node_right_neighbour
+                0x80119806                btree_print
+ *fill*         0x80119a86        0x2 
+ .text          0x80119a88      0x582 generic/src/adt/hash_table.o
+                0x80119a88                hash_table_create
+                0x80119bf3                hash_table_insert
+                0x80119d00                hash_table_find
+                0x80119e2c                hash_table_remove
+ *fill*         0x8011a00a        0x6 
+ .text          0x8011a010       0x76 generic/src/adt/list.o
+                0x8011a010                list_member
+                0x8011a03d                list_concat
+                0x8011a06b                list_count
+ *fill*         0x8011a086        0x2 
+ .text          0x8011a088      0x267 generic/src/console/chardev.o
+                0x8011a088                indev_initialize
+                0x8011a0d8                indev_push_character
+                0x8011a1a1                indev_pop_character
+                0x8011a289                outdev_initialize
+                0x8011a2ce                check_poll
+ *fill*         0x8011a2ef        0x1 
+ .text          0x8011a2f0      0x714 generic/src/console/console.o
+                0x8011a36a                klog_update
+                0x8011a3e6                stdin_wire
+                0x8011a423                stdout_wire
+                0x8011a481                klog_init
+                0x8011a50d                grab_console
+                0x8011a55d                release_console
+                0x8011a569                sys_debug_activate_console
+                0x8011a5be                putchar
+                0x8011a77a                getc
+                0x8011a79b                gets
+                0x8011a85f                sys_klog
+ *fill*         0x8011aa04        0xc 
+ .text          0x8011aa10      0x1a7 generic/src/console/prompt.o
+                0x8011aa10                console_prompt_display_all_hints
+                0x8011aad9                console_prompt_more_hints
+ *fill*         0x8011abb7        0x1 
+ .text          0x8011abb8      0x4e2 generic/src/cpu/cpu.o
+                0x8011abb8                cpu_init
+                0x8011b040                cpu_list
+ *fill*         0x8011b09a        0x2 
+ .text          0x8011b09c      0x60d generic/src/ddi/ddi.o
+                0x8011b09c                ddi_init
+                0x8011b0c4                ddi_parea_register
+                0x8011b122                sys_physmem_map
+                0x8011b360                sys_physmem_unmap
+                0x8011b367                sys_iospace_enable
+                0x8011b473                sys_iospace_disable
+                0x8011b47d                sys_dmamem_map
+                0x8011b6a2                sys_dmamem_unmap
+ *fill*         0x8011b6a9        0x3 
+ .text          0x8011b6ac      0x40e generic/src/ddi/irq.o
+                0x8011b7e1                irq_init
+                0x8011b88f                irq_initialize
+                0x8011b8fa                irq_register
+                0x8011b97a                irq_dispatch_and_lock
+ *fill*         0x8011baba        0x2 
+ .text          0x8011babc       0xc8 generic/src/ddi/device.o
+                0x8011babc                device_assign_devno
+                0x8011bb20                sys_device_assign_devno
+ *fill*         0x8011bb84        0xc 
+ .text          0x8011bb90      0x727 generic/src/debug/symtab.o
+                0x8011bb90                symtab_name_lookup
+                0x8011bc36                symtab_fmt_name_lookup
+                0x8011bcb1                symtab_addr_lookup
+                0x8011bdb1                symtab_print_search
+                0x8011be84                symtab_compl
+ *fill*         0x8011c2b7        0x1 
+ .text          0x8011c2b8      0x17f generic/src/debug/stacktrace.o
+                0x8011c2de                stack_trace_ctx
+                0x8011c3c1                stack_trace
+                0x8011c3f8                stack_trace_istate
+ *fill*         0x8011c437        0x9 
+ .text          0x8011c440      0x228 generic/src/debug/panic.o
+                0x8011c440                panic_common
+ .text          0x8011c668        0x0 generic/src/debug/debug.o
+ .text          0x8011c668      0x76a generic/src/interrupt/interrupt.o
+                0x8011c8d5                exc_register
+                0x8011c9bc                exc_dispatch
+                0x8011cca1                fault_from_uspace
+                0x8011ccb5                fault_if_from_uspace
+                0x8011cd1c                istate_get
+                0x8011cd2f                exc_init
+ *fill*         0x8011cdd2        0xe 
+ .text          0x8011cde0      0x557 generic/src/main/main.o
+                0x8011cfb5                main_bsp
+                0x8011d25d                main_ap
+ *fill*         0x8011d337        0x1 
+ .text          0x8011d338      0x5a8 generic/src/main/kinit.o
+                0x8011d338                kinit
+ .text          0x8011d8e0       0x59 generic/src/main/uinit.o
+                0x8011d8e0                uinit
+ *fill*         0x8011d939        0x3 
+ .text          0x8011d93c       0x4c generic/src/main/version.o
+                0x8011d93c                version_print
+ .text          0x8011d988       0x21 generic/src/main/shutdown.o
+                0x8011d988                reboot
+ *fill*         0x8011d9a9        0x3 
+ .text          0x8011d9ac      0x3da generic/src/proc/program.o
+                0x8011d9ac                program_create
+                0x8011dad9                program_create_from_image
+                0x8011db9a                program_create_loader
+                0x8011dc4d                program_ready
+                0x8011dc5f                sys_program_spawn_loader
+ *fill*         0x8011dd86        0xa 
+ .text          0x8011dd90     0x1570 generic/src/proc/scheduler.o
+                0x8011eab3                scheduler_fpu_lazy_request
+                0x8011ec91                scheduler_init
+                0x8011ec96                scheduler
+                0x8011ee6b                kcpulb
+                0x8011f10b                sched_print_list
+ .text          0x8011f300     0x15f7 generic/src/proc/thread.o
+                0x8011f5db                thread_init
+                0x8011f68b                thread_wire
+                0x8011f6d0                thread_ready
+                0x8011f834                thread_create
+                0x8011fb2f                thread_destroy
+                0x8011fce3                thread_attach
+                0x8011fd6f                thread_exit
+                0x8011fe4e                thread_migration_disable
+                0x8011febf                thread_migration_enable
+                0x8011ff63                thread_sleep
+                0x8011ffb2                thread_join_timeout
+                0x80120076                thread_detach
+                0x80120127                thread_usleep
+                0x80120156                thread_print_list
+                0x801201c8                thread_exists
+                0x80120265                thread_update_accounting
+                0x801204fe                thread_find_by_id
+                0x801205b3                thread_stack_trace
+                0x80120738                sys_thread_create
+                0x80120878                sys_thread_exit
+                0x80120883                sys_thread_get_id
+                0x801208b1                sys_thread_usleep
+                0x801208e2                sys_thread_udelay
+ *fill*         0x801208f7        0x9 
+ .text          0x80120900      0xe56 generic/src/proc/task.o
+                0x80120af1                task_init
+                0x80120b5e                task_done
+                0x80120be0                task_create
+                0x80120de9                task_destroy
+                0x80120e63                task_hold
+                0x80120e6f                task_release
+                0x80120efe                sys_task_get_id
+                0x80120f2a                sys_task_set_name
+                0x80121011                task_find_by_id
+                0x801210af                task_get_accounting
+                0x80121361                task_kill
+                0x8012152a                sys_task_kill
+                0x80121564                task_kill_self
+                0x801216cc                sys_task_exit
+                0x801216e4                task_print_list
+ *fill*         0x80121756        0x2 
+ .text          0x80121758       0xa2 generic/src/proc/the.o
+                0x80121758                the_initialize
+                0x80121789                the_copy
+ *fill*         0x801217fa        0x2 
+ .text          0x801217fc      0x209 generic/src/syscall/syscall.o
+                0x801217fc                syscall_handler
+ *fill*         0x80121a05        0x3 
+ .text          0x80121a08      0x290 generic/src/syscall/copy.o
+                0x80121a08                copy_from_uspace
+                0x80121b50                copy_to_uspace
+ .text          0x80121c98      0x6c1 generic/src/mm/km.o
+                0x80121e62                km_identity_init
+                0x80121e76                km_non_identity_init
+                0x80121ee4                km_is_non_identity
+                0x80121eed                km_non_identity_span_add
+                0x80121f73                km_page_alloc
+                0x80121f96                km_page_free
+                0x80121fb9                km_map
+                0x80121ff1                km_unmap
+                0x801220c4                km_temporary_page_get
+                0x801221f1                km_temporary_page_put
+ *fill*         0x80122359        0x3 
+ .text          0x8012235c      0x1d5 generic/src/mm/reserve.o
+                0x8012235c                reserve_init
+                0x80122375                reserve_try_alloc
+                0x801224ab                reserve_force_alloc
+                0x801224ee                reserve_free
+ *fill*         0x80122531        0xf 
+ .text          0x80122540      0x58b generic/src/mm/buddy.o
+                0x80122540                buddy_conf_size
+                0x8012254f                buddy_system_create
+                0x8012268f                buddy_system_can_alloc
+                0x801226c5                buddy_system_free
+                0x8012281b                buddy_system_alloc
+                0x80122952                buddy_system_alloc_block
+ *fill*         0x80122acb        0x5 
+ .text          0x80122ad0     0x352d generic/src/mm/frame.o
+                0x801233d9                frame_total_free_get
+                0x8012343d                find_zone
+                0x801234a6                zone_merge
+                0x80123f90                zone_merge_all
+                0x80123fbf                zone_conf_size
+                0x8012402c                zone_create
+                0x801247d6                frame_set_parent
+                0x801248df                frame_get_parent
+                0x801249e3                frame_alloc_generic
+                0x80125002                zone_external_conf_alloc
+                0x8012513c                frame_alloc
+                0x80125160                frame_alloc_noreserve
+                0x80125189                frame_free_generic
+                0x801252e3                frame_free
+                0x801252fe                frame_free_noreserve
+                0x80125319                frame_reference_add
+                0x801253f9                frame_mark_unavailable
+                0x801254a0                frame_init
+                0x8012594b                frame_adjust_zone_bounds
+                0x801259b9                zones_total_size
+                0x80125a37                zones_stats
+                0x80125bd1                zones_print_list
+                0x80125d50                zone_print_one
+ .text.unlikely
+                0x80125ffd       0xa4 generic/src/mm/frame.o
+ *fill*         0x801260a1        0x3 
+ .text          0x801260a4      0x43c generic/src/mm/page.o
+                0x801260a4                page_init
+                0x801260ad                page_mapping_insert
+                0x80126169                page_mapping_remove
+                0x80126214                page_mapping_find
+                0x801262cd                page_mapping_make_global
+                0x80126350                page_find_mapping
+                0x8012640d                sys_page_find_mapping
+ .text          0x801264e0      0x37d generic/src/mm/tlb.o
+                0x801264e0                tlb_init
+                0x801264e9                tlb_shootdown_start
+                0x80126614                tlb_shootdown_finalize
+                0x80126646                tlb_shootdown_ipi_send
+                0x8012665a                tlb_shootdown_ipi_recv
+ *fill*         0x8012685d        0x3 
+ .text          0x80126860     0x4897 generic/src/mm/as.o
+                0x80127291                as_init
+                0x80127391                as_create
+                0x80127455                as_hold
+                0x80127461                as_area_create
+                0x801278a2                as_area_destroy
+                0x80127bc9                as_destroy
+                0x80127dd4                as_release
+                0x80127df1                as_area_share
+                0x8012801c                as_area_check_access
+                0x801280a6                as_area_change_flags
+                0x801285d6                as_page_fault
+                0x8012893d                as_switch
+                0x80128ad5                as_area_get_flags
+                0x80128b77                page_table_create
+                0x80128bf3                page_table_destroy
+                0x80128c70                page_table_lock
+                0x80128ce7                page_table_unlock
+                0x80128d5e                page_table_locked
+                0x80128ddb                as_area_get_size
+                0x80128edf                used_space_insert
+                0x80129ede                used_space_remove
+                0x8012a6e2                as_area_resize
+                0x8012ad39                sys_as_area_create
+                0x8012ad9b                sys_as_area_resize
+                0x8012adcb                sys_as_area_change_flags
+                0x8012adf3                sys_as_area_destroy
+                0x8012ae14                as_get_area_info
+                0x8012aff9                as_print
+ .text.unlikely
+                0x8012b0f7       0xa4 generic/src/mm/as.o
+ *fill*         0x8012b19b        0x5 
+ .text          0x8012b1a0      0x62e generic/src/mm/backend_anon.o
+ *fill*         0x8012b7ce        0x2 
+ .text          0x8012b7d0      0xa5d generic/src/mm/backend_elf.o
+ *fill*         0x8012c22d        0x3 
+ .text          0x8012c230      0x20f generic/src/mm/backend_phys.o
+ *fill*         0x8012c43f        0x1 
+ .text          0x8012c440     0x1a30 generic/src/mm/slab.o
+                0x8012d121                slab_cache_destroy
+                0x8012d26e                slab_alloc
+                0x8012d2a4                slab_free
+                0x8012d2d9                slab_reclaim
+                0x8012d348                slab_print_list
+                0x8012d47f                malloc
+                0x8012d8b6                slab_cache_create
+                0x8012d928                slab_cache_init
+                0x8012daba                slab_enable_cpucache
+                0x8012dc16                realloc
+                0x8012de0e                free
+ .text          0x8012de70       0x8e generic/src/lib/func.o
+                0x8012de70                halt
+ *fill*         0x8012defe        0x2 
+ .text          0x8012df00      0x1cc generic/src/lib/memstr.o
+                0x8012df00                memsetb
+                0x8012df16                memsetw
+                0x8012dfc4                memmove
+ .text          0x8012e0cc      0x172 generic/src/lib/memfnc.o
+                0x8012e0cc                memset
+                0x8012e1a5                memcpy
+ *fill*         0x8012e23e        0x2 
+ .text          0x8012e240      0x3de generic/src/lib/sort.o
+                0x8012e440                gsort
+                0x8012e553                qsort
+ *fill*         0x8012e61e        0x2 
+ .text          0x8012e620     0x16ef generic/src/lib/str.o
+                0x8012e620                str_decode
+                0x8012e702                chr_encode
+                0x8012e7d6                str_size
+                0x8012e7ee                wstr_size
+                0x8012e80c                str_lsize
+                0x8012e8f9                wstr_lsize
+                0x8012e92c                str_length
+                0x8012e9fd                wstr_length
+                0x8012ea17                str_nlength
+                0x8012eaff                wstr_nlength
+                0x8012eb31                ascii_check
+                0x8012eb3d                chr_check
+                0x8012eb4c                str_cmp
+                0x8012ed6c                str_lcmp
+                0x8012efb1                str_cpy
+                0x8012f1a4                str_ncpy
+                0x8012f3e5                str_dup
+                0x8012f487                str_ndup
+                0x8012f53d                wstr_to_str
+                0x8012f69e                str_chr
+                0x8012f795                wstr_linsert
+                0x8012f7ee                wstr_remove
+                0x8012f82b                str_uint64_t
+                0x8012fa75                order_suffix
+                0x8012fc1b                bin_order_suffix
+ *fill*         0x8012fd0f        0x1 
+ .text          0x8012fd10      0x1fb generic/src/lib/elf.o
+                0x8012fd10                elf_load
+                0x8012fea8                elf_error
+ *fill*         0x8012ff0b        0x5 
+ .text          0x8012ff10      0xc08 generic/src/lib/ra.o
+                0x8012ff35                ra_arena_create
+                0x8012ff74                ra_span_add
+                0x801301ac                ra_alloc
+                0x80130692                ra_free
+                0x80130ad7                ra_init
+ .text          0x80130b18      0x101 generic/src/lib/rd.o
+                0x80130b18                init_rd
+ *fill*         0x80130c19        0x7 
+ .text          0x80130c20     0x1189 generic/src/printf/printf_core.o
+                0x80130c20                printf_core
+ *fill*         0x80131da9        0x3 
+ .text          0x80131dac       0x1a generic/src/printf/printf.o
+                0x80131dac                printf
+ *fill*         0x80131dc6        0x2 
+ .text          0x80131dc8       0x28 generic/src/printf/snprintf.o
+                0x80131dc8                snprintf
+ .text          0x80131df0      0x105 generic/src/printf/vprintf.o
+                0x80131e78                puts
+                0x80131ebf                vprintf
+ *fill*         0x80131ef5        0x3 
+ .text          0x80131ef8      0x1b2 generic/src/printf/vsnprintf.o
+                0x8013205b                vsnprintf
+ *fill*         0x801320aa        0x2 
+ .text          0x801320ac      0x4ce generic/src/time/clock.o
+                0x801320ac                clock_counter_init
+                0x8013216a                clock
+ *fill*         0x8013257a        0x2 
+ .text          0x8013257c      0x4a6 generic/src/time/timeout.o
+                0x8013257c                timeout_init
+                0x801325c3                timeout_reinitialize
+                0x801325fc                timeout_initialize
+                0x8013264d                timeout_register
+                0x801328a4                timeout_unregister
+ *fill*         0x80132a22        0x2 
+ .text          0x80132a24       0x58 generic/src/time/delay.o
+                0x80132a24                delay
+ .text          0x80132a7c       0x7c generic/src/preempt/preemption.o
+                0x80132a7c                preemption_disable
+                0x80132a8e                preemption_enable
+ .text          0x80132af8      0x7c1 generic/src/synch/spinlock.o
+                0x80132af8                spinlock_initialize
+                0x80132b0c                spinlock_lock_debug
+                0x80132bc0                spinlock_unlock_debug
+                0x80132be0                spinlock_trylock
+                0x80132c13                spinlock_locked
+                0x80132c22                irq_spinlock_initialize
+                0x80132c41                irq_spinlock_lock
+                0x80132e3c                irq_spinlock_unlock
+                0x80132f29                irq_spinlock_trylock
+                0x80132fdb                irq_spinlock_pass
+                0x8013314a                irq_spinlock_exchange
+                0x801332aa                irq_spinlock_locked
+ .text.unlikely
+                0x801332b9       0x59 generic/src/synch/spinlock.o
+ *fill*         0x80133312        0x2 
+ .text          0x80133314       0xb4 generic/src/synch/condvar.o
+                0x80133314                condvar_initialize
+                0x8013331d                condvar_signal
+                0x80133338                condvar_broadcast
+                0x80133353                _condvar_wait_timeout
+ *fill*         0x801333c8        0x8 
+ .text          0x801333d0      0x1ca generic/src/synch/mutex.o
+                0x801333d0                mutex_initialize
+                0x801333ee                mutex_locked
+                0x80133409                _mutex_lock_timeout
+                0x8013358d                mutex_unlock
+ *fill*         0x8013359a        0x2 
+ .text          0x8013359c       0x54 generic/src/synch/semaphore.o
+                0x8013359c                semaphore_initialize
+                0x801335c3                _semaphore_down_timeout
+                0x801335cc                semaphore_up
+                0x801335e7                semaphore_count_get
+ .text          0x801335f0       0x7e generic/src/synch/smc.o
+                0x801335f0                sys_smc_coherence
+ *fill*         0x8013366e        0x2 
+ .text          0x80133670      0xaed generic/src/synch/waitq.o
+                0x801337f2                waitq_initialize
+                0x80133822                waitq_interrupt_sleep
+                0x801339a6                waitq_unsleep
+                0x80133aec                waitq_sleep_prepare
+                0x80133b9b                waitq_sleep_finish
+                0x80133bca                waitq_sleep_timeout_unsafe
+                0x80133e07                waitq_sleep_timeout
+                0x80133ec2                _waitq_wakeup_unsafe
+                0x801340b1                waitq_wakeup
+                0x801340f0                waitq_count_get
+                0x80134127                waitq_count_set
+ *fill*         0x8013415d        0x3 
+ .text          0x80134160      0x544 generic/src/synch/futex.o
+                0x801343a6                futex_init
+                0x801343e6                sys_futex_sleep
+                0x801344d6                sys_futex_wakeup
+                0x801345b0                futex_cleanup
+ .text          0x801346a4       0x14 generic/src/smp/ipi.o
+                0x801346a4                ipi_broadcast
+ .text          0x801346b8        0x0 generic/src/smp/smp.o
+ *fill*         0x801346b8        0x8 
+ .text          0x801346c0     0x1bcc generic/src/ipc/ipc.o
+                0x801349ee                ipc_call_hold
+                0x801349fa                ipc_call_release
+                0x80134a3f                ipc_call_alloc
+                0x80134aad                ipc_call_free
+                0x80134af2                ipc_answerbox_init
+                0x80134b6c                ipc_phone_connect
+                0x80134bf2                ipc_phone_init
+                0x80134c2d                _ipc_answer_free_call
+                0x80134e08                ipc_answer
+                0x80134e6f                ipc_backsend_err
+                0x80134efc                ipc_call
+                0x8013506e                ipc_phone_hangup
+                0x801351a4                ipc_forward
+                0x801353b9                ipc_wait_for_call
+                0x80135621                ipc_cleanup_call_list
+                0x801357cf                ipc_answerbox_slam_phones
+                0x80135c29                ipc_cleanup
+                0x80135fdc                ipc_init
+                0x80136056                ipc_print_task
+ *fill*         0x8013628c        0x4 
+ .text          0x80136290      0xa05 generic/src/ipc/sysipc.o
+                0x80136290                answer_preprocess
+                0x801365c2                sys_ipc_call_async_fast
+                0x80136685                sys_ipc_call_async_slow
+                0x80136751                sys_ipc_forward_fast
+                0x8013679b                sys_ipc_forward_slow
+                0x80136802                sys_ipc_answer_fast
+                0x801368d6                sys_ipc_answer_slow
+                0x8013699e                sys_ipc_hangup
+                0x801369d2                sys_ipc_wait_for_call
+                0x80136b86                sys_ipc_poke
+                0x80136ba5                sys_irq_register
+                0x80136c07                sys_irq_unregister
+                0x80136c5b                sys_ipc_connect_kbox
+ *fill*         0x80136c95        0x3 
+ .text          0x80136c98       0x4d generic/src/ipc/sysipc_ops.o
+                0x80136c98                null_request_preprocess
+                0x80136c9f                null_request_forget
+                0x80136ca6                null_request_process
+                0x80136cad                null_answer_cleanup
+                0x80136cb4                null_answer_preprocess
+                0x80136cbb                null_answer_process
+                0x80136cc2                sysipc_ops_get
+ *fill*         0x80136ce5        0x3 
+ .text          0x80136ce8      0x14c generic/src/ipc/ops/clnestab.o
+ .text          0x80136e34       0xca generic/src/ipc/ops/conctmeto.o
+ *fill*         0x80136efe        0x2 
+ .text          0x80136f00       0xd8 generic/src/ipc/ops/concttome.o
+ *fill*         0x80136fd8        0x8 
+ .text          0x80136fe0      0x2f4 generic/src/ipc/ops/connclone.o
+ .text          0x801372d4      0x11c generic/src/ipc/ops/dataread.o
+ .text          0x801373f0       0xfa generic/src/ipc/ops/datawrite.o
+ *fill*         0x801374ea        0x2 
+ .text          0x801374ec       0x40 generic/src/ipc/ops/debug.o
+ .text          0x8013752c       0x96 generic/src/ipc/ops/sharein.o
+ *fill*         0x801375c2        0x2 
+ .text          0x801375c4       0xe8 generic/src/ipc/ops/shareout.o
+ .text          0x801376ac      0x165 generic/src/ipc/ops/stchngath.o
+ *fill*         0x80137811        0x3 
+ .text          0x80137814      0x27a generic/src/ipc/ipcrsc.o
+                0x80137814                get_call
+                0x801378b0                phone_get
+                0x801378eb                phone_alloc
+                0x80137985                phone_dealloc
+                0x80137a04                phone_connect
+ *fill*         0x80137a8e        0x2 
+ .text          0x80137a90      0xe54 generic/src/ipc/irq.o
+                0x80137a90                ipc_irq_top_half_claim
+                0x80137cd1                ipc_irq_top_half_handler
+                0x80137e28                ipc_irq_register
+                0x801383c7                ipc_irq_unregister
+                0x801385c3                ipc_irq_cleanup
+                0x801387e4                ipc_irq_send_msg
+ .text          0x801388e4      0x6c1 generic/src/ipc/event.o
+                0x80138a15                event_init
+                0x80138ae6                event_task_init
+                0x80138b3b                event_cleanup_answerbox
+                0x80138c22                event_set_unmask_callback
+                0x80138cad                event_task_set_unmask_callback
+                0x80138d4a                event_notify
+                0x80138df0                event_task_notify
+                0x80138ea3                sys_event_subscribe
+                0x80138f33                sys_event_unmask
+ .text.unlikely
+                0x80138fa5       0x52 generic/src/ipc/event.o
+ *fill*         0x80138ff7        0x1 
+ .text          0x80138ff8      0x2e9 generic/src/security/cap.o
+                0x80138ff8                cap_set
+                0x80139033                cap_get
+                0x8013906d                sys_cap_grant
+                0x80139196                sys_cap_revoke
+ *fill*         0x801392e1        0xf 
+ .text          0x801392f0     0x109a generic/src/sysinfo/sysinfo.o
+                0x80139dd9                sysinfo_init
+                0x80139e2e                sysinfo_set_item_val
+                0x80139e90                sysinfo_set_item_data
+                0x80139efc                sysinfo_set_item_gen_val
+                0x80139f68                sysinfo_set_item_gen_data
+                0x80139fd4                sysinfo_set_item_undefined
+                0x8013a02e                sysinfo_set_subtree_fn
+                0x8013a0a0                sysinfo_dump
+                0x8013a0ee                sys_sysinfo_get_keys_size
+                0x8013a149                sys_sysinfo_get_keys
+                0x8013a1d8                sys_sysinfo_get_val_type
+                0x8013a21e                sys_sysinfo_get_value
+                0x8013a27e                sys_sysinfo_get_data_size
+                0x8013a2e7                sys_sysinfo_get_data
+ *fill*         0x8013a38a        0x2 
+ .text          0x8013a38c      0xf28 generic/src/sysinfo/stats.o
+                0x8013b049                kload
+                0x8013b130                stats_init
+ *fill*         0x8013b2b4        0xc 
+ .text          0x8013b2c0     0x125a generic/src/console/kconsole.o
+                0x8013b591                kconsole_init
+                0x8013b602                cmd_register
+                0x8013b6fd                kconsole_check_poll
+                0x8013b712                kconsole
+                0x8013c4f6                kconsole_thread
+ *fill*         0x8013c51a        0x6 
+ .text          0x8013c520     0x15af generic/src/console/cmd.o
+                0x8013da17                cmd_initialize
+                0x8013da47                cmd_init
+ *fill*         0x8013dacf        0x1 
+ .text          0x8013dad0      0x538 generic/src/ipc/kbox.o
+                0x8013dcb7                ipc_kbox_cleanup
+                0x8013de69                ipc_connect_kbox
+ .text          0x8013e008      0xc41 generic/src/udebug/udebug.o
+                0x8013e008                udebug_task_init
+                0x8013e044                udebug_thread_initialize
+                0x8013e09b                udebug_stoppable_begin
+                0x8013e317                udebug_stoppable_end
+                0x8013e4ba                udebug_before_thread_runs
+                0x8013e4cb                udebug_syscall_event
+                0x8013e702                udebug_thread_b_event_attach
+                0x8013e884                udebug_thread_e_event
+                0x8013e983                udebug_task_cleanup
+                0x8013eb17                udebug_thread_fault
+ *fill*         0x8013ec49        0x7 
+ .text          0x8013ec50      0x8d8 generic/src/udebug/udebug_ops.o
+                0x8013ed84                udebug_begin
+                0x8013eef4                udebug_end
+                0x8013ef52                udebug_set_evmask
+                0x8013efd5                udebug_go
+                0x8013f036                udebug_stop
+                0x8013f122                udebug_thread_read
+                0x8013f2b0                udebug_name_read
+                0x8013f30f                udebug_args_read
+                0x8013f3cd                udebug_regs_read
+                0x8013f47e                udebug_mem_read
+ *fill*         0x8013f528        0x8 
+ .text          0x8013f530      0x25f generic/src/udebug/udebug_ipc.o
+                0x8013f530                udebug_request_preprocess
+                0x8013f537                udebug_call_receive
+ *fill*         0x8013f78f        0x1 
+ .text          0x8013f790        0x0 test/test.o
+ .text          0x8013f790       0xa7 test/atomic/atomic1.o
+                0x8013f790                test_atomic1
+ *fill*         0x8013f837        0x1 
+ .text          0x8013f838      0xfea test/btree/btree1.o
+                0x8013f838                test_btree1
+ *fill*         0x80140822        0xe 
+ .text          0x80140830     0x11cb test/avltree/avltree1.o
+                0x801415a7                test_avltree1
+ *fill*         0x801419fb        0x1 
+ .text          0x801419fc       0x14 test/fault/fault1.o
+                0x801419fc                test_fault1
+ .text          0x80141a10      0x206 test/mm/falloc1.o
+                0x80141a10                test_falloc1
+ *fill*         0x80141c16        0xa 
+ .text          0x80141c20      0x64a test/mm/falloc2.o
+                0x80141fba                test_falloc2
+ *fill*         0x8014226a        0x2 
+ .text          0x8014226c      0x239 test/mm/mapping1.o
+                0x8014226c                test_mapping1
+ *fill*         0x801424a5        0x3 
+ .text          0x801424a8      0xe48 test/mm/slab1.o
+                0x80142c00                test_slab1
+ .text          0x801432f0      0xac1 test/mm/slab2.o
+                0x80143d3c                test_slab2
+ *fill*         0x80143db1        0x3 
+ .text          0x80143db4      0x30a test/synch/semaphore1.o
+                0x80143e94                test_semaphore1
+ *fill*         0x801440be        0x2 
+ .text          0x801440c0      0x3a3 test/synch/semaphore2.o
+                0x80144324                test_semaphore2
+ *fill*         0x80144463        0x1 
+ .text          0x80144464      0x1b8 test/print/print1.o
+                0x80144464                test_print1
+ .text          0x8014461c      0x2d7 test/print/print2.o
+                0x8014461c                test_print2
+ *fill*         0x801448f3        0x1 
+ .text          0x801448f4      0x1da test/print/print3.o
+                0x801448f4                test_print3
+ *fill*         0x80144ace        0x2 
+ .text          0x80144ad0      0x3cc test/print/print4.o
+                0x80144ad0                test_print4
+ .text          0x80144e9c       0xbf test/print/print5.o
+                0x80144e9c                test_print5
+ *fill*         0x80144f5b        0x5 
+ .text          0x80144f60      0x28c test/thread/thread1.o
+                0x80144fdd                test_thread1
+ .text          0x801451ec        0x7 test/debug/mips1_skip.o
+                0x801451ec                test_mips1
+ *fill*         0x801451f3        0x1 
+ .text          0x801451f4        0x7 test/mm/purge1_skip.o
+                0x801451f4                test_purge1
+ *fill*         0x801451fb        0x1 
+ .text          0x801451fc        0x0 generic/src/debug/real_map.o
+                0x801451fc                ktext_end = .
+                0x801451fc                kdata_start = .
+ *(.data)
+ .data          0x801451fc        0x0 arch/ia32/src/context.o
+ .data          0x801451fc        0x0 arch/ia32/src/debug/stacktrace.o
+ .data          0x801451fc        0x0 arch/ia32/src/debug/stacktrace_asm.o
+ .data          0x801451fc        0x0 arch/ia32/src/delay.o
+ .data          0x801451fc        0x0 arch/ia32/src/asm.o
+ .data          0x801451fc        0x0 arch/ia32/src/proc/scheduler.o
+ .data          0x801451fc        0x0 arch/ia32/src/proc/task.o
+ .data          0x801451fc        0x0 arch/ia32/src/proc/thread.o
+ .data          0x801451fc        0x0 arch/ia32/src/bios/bios.o
+ .data          0x801451fc        0x0 arch/ia32/src/smp/ap.o
+ .data          0x801451fc        0x8 arch/ia32/src/smp/apic.o
+                0x801451fc                io_apic
+                0x80145200                l_apic
+ .data          0x80145204       0x10 arch/ia32/src/smp/mps.o
+                0x80145204                mps_config_operations
+ .data          0x80145214        0x0 arch/ia32/src/smp/smp.o
+ .data          0x80145214        0x0 arch/ia32/src/atomic.o
+ .data          0x80145214        0x0 arch/ia32/src/smp/ipi.o
+ .data          0x80145214        0x0 arch/ia32/src/ia32.o
+ .data          0x80145214        0x0 arch/ia32/src/interrupt.o
+ *fill*         0x80145214        0xc 
+ .data          0x80145220       0x60 arch/ia32/src/pm.o
+                0x80145220                gdtr
+                0x80145240                gdt
+ .data          0x80145280        0x0 arch/ia32/src/userspace.o
+ .data          0x80145280        0x0 arch/ia32/src/cpu/cpu.o
+ .data          0x80145280        0x0 arch/ia32/src/mm/km.o
+ .data          0x80145280        0x0 arch/ia32/src/mm/as.o
+ .data          0x80145280        0x0 arch/ia32/src/mm/frame.o
+ .data          0x80145280        0x0 arch/ia32/src/mm/page.o
+ .data          0x80145280        0x0 arch/ia32/src/mm/tlb.o
+ .data          0x80145280        0x0 arch/ia32/src/ddi/ddi.o
+ .data          0x80145280        0x0 arch/ia32/src/drivers/i8254.o
+ .data          0x80145280        0x0 arch/ia32/src/drivers/i8259.o
+ .data          0x80145280        0x0 arch/ia32/src/boot/multiboot.o
+ .data          0x80145280        0x0 arch/ia32/src/boot/multiboot2.o
+ .data          0x80145280        0x0 arch/ia32/src/boot/memmap.o
+ .data          0x80145280        0x0 arch/ia32/src/fpu_context.o
+ .data          0x80145280        0x0 arch/ia32/src/syscall.o
+ .data          0x80145280        0xc genarch/src/acpi/acpi.o
+                0x80145280                signature_map
+ *fill*         0x8014528c       0x14 
+ .data          0x801452a0       0xa0 genarch/src/acpi/madt.o
+                0x801452a0                madt_config_operations
+                0x801452c0                entry
+ .data          0x80145340       0x10 genarch/src/mm/page_pt.o
+                0x80145340                pt_mapping_operations
+ .data          0x80145350       0x14 genarch/src/mm/as_pt.o
+                0x80145350                as_pt_operations
+ .data          0x80145364        0x0 genarch/src/softint/division.o
+ .data          0x80145364        0x0 genarch/src/softint/multiplication.o
+ *fill*         0x80145364       0x1c 
+ .data          0x80145380     0xb530 genarch/src/fb/font-8x16.o
+                0x80145380                fb_font
+ *fill*         0x801508b0       0x10 
+ .data          0x801508c0     0xca20 genarch/src/fb/logo-196x66.o
+                0x801508c0                fb_logo
+ .data          0x8015d2e0        0x8 genarch/src/fb/fb.o
+ .data          0x8015d2e8        0x0 genarch/src/fb/bfb.o
+ .data          0x8015d2e8        0x0 genarch/src/drivers/i8042/i8042.o
+ .data          0x8015d2e8        0x0 genarch/src/kbrd/kbrd.o
+ *fill*         0x8015d2e8       0x18 
+ .data          0x8015d300      0x400 genarch/src/kbrd/scanc_pc.o
+                0x8015d300                sc_secondary_map
+                0x8015d500                sc_primary_map
+ .data          0x8015d700        0x0 genarch/src/multiboot/multiboot.o
+ .data          0x8015d700        0x0 genarch/src/multiboot/multiboot2.o
+ .data          0x8015d700        0x8 genarch/src/drivers/ega/ega.o
+ .data          0x8015d708        0x0 generic/src/adt/avl.o
+ .data          0x8015d708        0x0 generic/src/adt/bitmap.o
+ .data          0x8015d708        0x0 generic/src/adt/btree.o
+ .data          0x8015d708        0x0 generic/src/adt/hash_table.o
+ .data          0x8015d708        0x0 generic/src/adt/list.o
+ .data          0x8015d708        0x0 generic/src/console/chardev.o
+ .data          0x8015d708       0x10 generic/src/console/console.o
+ .data          0x8015d718        0x0 generic/src/console/prompt.o
+ .data          0x8015d718        0x0 generic/src/cpu/cpu.o
+ .data          0x8015d718        0x0 generic/src/ddi/ddi.o
+ .data          0x8015d718       0x38 generic/src/ddi/irq.o
+                0x8015d718                irq_uspace_hash_table_lock
+ .data          0x8015d750        0x0 generic/src/ddi/device.o
+ .data          0x8015d750        0x0 generic/src/debug/symtab.o
+ .data          0x8015d750       0x20 generic/src/debug/stacktrace.o
+                0x8015d750                ust_ops
+                0x8015d760                kst_ops
+ .data          0x8015d770        0x0 generic/src/debug/panic.o
+ .data          0x8015d770        0x0 generic/src/debug/debug.o
+ *fill*         0x8015d770       0x10 
+ .data          0x8015d780       0x5c generic/src/interrupt/interrupt.o
+                0x8015d780                exctbl_lock
+ .data          0x8015d7dc        0x0 generic/src/main/main.o
+ .data          0x8015d7dc        0x0 generic/src/main/kinit.o
+ .data          0x8015d7dc        0x0 generic/src/main/uinit.o
+ .data          0x8015d7dc        0x0 generic/src/main/version.o
+ .data          0x8015d7dc        0x0 generic/src/main/shutdown.o
+ .data          0x8015d7dc        0x0 generic/src/proc/program.o
+ .data          0x8015d7dc        0x0 generic/src/proc/scheduler.o
+ .data          0x8015d7dc       0x3c generic/src/proc/thread.o
+                0x8015d7dc                threads_lock
+                0x8015d7ec                thread_states
+ .data          0x8015d818       0x10 generic/src/proc/task.o
+                0x8015d818                tasks_lock
+ .data          0x8015d828        0x0 generic/src/proc/the.o
+ *fill*         0x8015d828       0x18 
+ .data          0x8015d840       0xc8 generic/src/syscall/syscall.o
+                0x8015d840                syscall_table
+ .data          0x8015d908        0x0 generic/src/syscall/copy.o
+ .data          0x8015d908        0x0 generic/src/mm/km.o
+ .data          0x8015d908       0x10 generic/src/mm/reserve.o
+ .data          0x8015d918        0x0 generic/src/mm/buddy.o
+ *fill*         0x8015d918        0x8 
+ .data          0x8015d920       0x20 generic/src/mm/frame.o
+ .data          0x8015d940        0x0 generic/src/mm/page.o
+ .data          0x8015d940       0x10 generic/src/mm/tlb.o
+ .data          0x8015d950       0x10 generic/src/mm/as.o
+                0x8015d950                inactive_as_with_asid_list
+                0x8015d958                asidlock
+ .data          0x8015d960       0x20 generic/src/mm/backend_anon.o
+                0x8015d960                anon_backend
+ .data          0x8015d980       0x20 generic/src/mm/backend_elf.o
+                0x8015d980                elf_backend
+ .data          0x8015d9a0       0x20 generic/src/mm/backend_phys.o
+                0x8015d9a0                phys_backend
+ .data          0x8015d9c0       0x18 generic/src/mm/slab.o
+ .data          0x8015d9d8        0x0 generic/src/lib/func.o
+ .data          0x8015d9d8        0x0 generic/src/lib/memstr.o
+ .data          0x8015d9d8        0x0 generic/src/lib/memfnc.o
+ .data          0x8015d9d8        0x0 generic/src/lib/sort.o
+ .data          0x8015d9d8        0x0 generic/src/lib/str.o
+ .data          0x8015d9d8        0x0 generic/src/lib/elf.o
+ .data          0x8015d9d8        0xc generic/src/lib/ra.o
+ .data          0x8015d9e4        0x0 generic/src/lib/rd.o
+ .data          0x8015d9e4        0x0 generic/src/printf/printf_core.o
+ .data          0x8015d9e4        0x0 generic/src/printf/printf.o
+ .data          0x8015d9e4        0x0 generic/src/printf/snprintf.o
+ .data          0x8015d9e4        0x0 generic/src/printf/vprintf.o
+ .data          0x8015d9e4        0x0 generic/src/printf/vsnprintf.o
+ .data          0x8015d9e4        0x0 generic/src/time/clock.o
+ .data          0x8015d9e4        0x0 generic/src/time/timeout.o
+ .data          0x8015d9e4        0x0 generic/src/time/delay.o
+ .data          0x8015d9e4        0x0 generic/src/preempt/preemption.o
+ .data          0x8015d9e4        0x0 generic/src/synch/spinlock.o
+ .data          0x8015d9e4        0x0 generic/src/synch/condvar.o
+ .data          0x8015d9e4        0x0 generic/src/synch/mutex.o
+ .data          0x8015d9e4        0x0 generic/src/synch/semaphore.o
+ .data          0x8015d9e4        0x0 generic/src/synch/smc.o
+ .data          0x8015d9e4        0x0 generic/src/synch/waitq.o
+ .data          0x8015d9e4        0xc generic/src/synch/futex.o
+ .data          0x8015d9f0        0x0 generic/src/smp/ipi.o
+ .data          0x8015d9f0        0x0 generic/src/smp/smp.o
+ .data          0x8015d9f0        0x0 generic/src/ipc/ipc.o
+ .data          0x8015d9f0        0x0 generic/src/ipc/sysipc.o
+ .data          0x8015d9f0       0x18 generic/src/ipc/sysipc_ops.o
+ .data          0x8015da08       0x18 generic/src/ipc/ops/clnestab.o
+                0x8015da08                ipc_m_clone_establish_ops
+ .data          0x8015da20       0x18 generic/src/ipc/ops/conctmeto.o
+                0x8015da20                ipc_m_connect_me_to_ops
+ .data          0x8015da38       0x18 generic/src/ipc/ops/concttome.o
+                0x8015da38                ipc_m_connect_to_me_ops
+ .data          0x8015da50       0x18 generic/src/ipc/ops/connclone.o
+                0x8015da50                ipc_m_connection_clone_ops
+ .data          0x8015da68       0x18 generic/src/ipc/ops/dataread.o
+                0x8015da68                ipc_m_data_read_ops
+ .data          0x8015da80       0x18 generic/src/ipc/ops/datawrite.o
+                0x8015da80                ipc_m_data_write_ops
+ .data          0x8015da98       0x18 generic/src/ipc/ops/debug.o
+                0x8015da98                ipc_m_debug_ops
+ .data          0x8015dab0       0x18 generic/src/ipc/ops/sharein.o
+                0x8015dab0                ipc_m_share_in_ops
+ .data          0x8015dac8       0x18 generic/src/ipc/ops/shareout.o
+                0x8015dac8                ipc_m_share_out_ops
+ .data          0x8015dae0       0x18 generic/src/ipc/ops/stchngath.o
+                0x8015dae0                ipc_m_state_change_authorize_ops
+ .data          0x8015daf8        0x0 generic/src/ipc/ipcrsc.o
+ .data          0x8015daf8        0x0 generic/src/ipc/irq.o
+ .data          0x8015daf8        0x0 generic/src/ipc/event.o
+ .data          0x8015daf8        0x0 generic/src/security/cap.o
+ .data          0x8015daf8        0x0 generic/src/sysinfo/sysinfo.o
+ .data          0x8015daf8        0x0 generic/src/sysinfo/stats.o
+ .data          0x8015daf8       0x10 generic/src/console/kconsole.o
+                0x8015daf8                cmd_list
+                0x8015db00                cmd_lock
+ *fill*         0x8015db08       0x18 
+ .data          0x8015db20      0xbc8 generic/src/console/cmd.o
+                0x8015db20                version_info
+                0x8015db60                cpus_info
+                0x8015dba0                tlb_info
+                0x8015dbe0                physmem_info
+ .data          0x8015e6e8        0x0 generic/src/ipc/kbox.o
+ .data          0x8015e6e8        0x0 generic/src/udebug/udebug.o
+ .data          0x8015e6e8        0x0 generic/src/udebug/udebug_ops.o
+ .data          0x8015e6e8        0x0 generic/src/udebug/udebug_ipc.o
+ *fill*         0x8015e6e8       0x18 
+ .data          0x8015e700      0x130 test/test.o
+                0x8015e700                tests
+ .data          0x8015e830        0x0 test/atomic/atomic1.o
+ .data          0x8015e830        0x0 test/btree/btree1.o
+ .data          0x8015e830        0x0 test/avltree/avltree1.o
+ .data          0x8015e830        0x0 test/fault/fault1.o
+ .data          0x8015e830        0x0 test/mm/falloc1.o
+ .data          0x8015e830        0x0 test/mm/falloc2.o
+ .data          0x8015e830        0x0 test/mm/mapping1.o
+ .data          0x8015e830        0x0 test/mm/slab1.o
+ .data          0x8015e830        0x0 test/mm/slab2.o
+ .data          0x8015e830        0x0 test/synch/semaphore1.o
+ .data          0x8015e830        0xc test/synch/semaphore2.o
+                0x8015e830                sem_lock
+ .data          0x8015e83c        0x0 test/print/print1.o
+ .data          0x8015e83c        0x0 test/print/print2.o
+ .data          0x8015e83c        0x0 test/print/print3.o
+ .data          0x8015e83c        0x0 test/print/print4.o
+ .data          0x8015e83c        0x0 test/print/print5.o
+ .data          0x8015e83c        0x0 test/thread/thread1.o
+ .data          0x8015e83c        0x0 test/debug/mips1_skip.o
+ .data          0x8015e83c        0x0 test/mm/purge1_skip.o
+ .data          0x8015e83c        0x0 generic/src/debug/real_map.o
+ *(.rodata .rodata.*)
+ .rodata.str1.4
+                0x8015e83c       0x20 arch/ia32/src/smp/apic.o
+ .rodata.str1.1
+                0x8015e85c       0xf9 arch/ia32/src/smp/apic.o
+ .rodata        0x8015e955        0xc arch/ia32/src/smp/apic.o
+ .rodata.str1.1
+                0x8015e961       0x95 arch/ia32/src/smp/mps.o
+                                 0xa7 (size before relaxing)
+ *fill*         0x8015e9f6        0x2 
+ .rodata.str1.4
+                0x8015e9f8       0xb2 arch/ia32/src/smp/mps.o
+ *fill*         0x8015eaaa        0x2 
+ .rodata        0x8015eaac       0x46 arch/ia32/src/smp/mps.o
+ .rodata.str1.1
+                0x8015eaf2       0x42 arch/ia32/src/smp/smp.o
+                                 0x54 (size before relaxing)
+ .rodata.str1.4
+                0x8015eb34       0x8c arch/ia32/src/smp/smp.o
+ .rodata        0x8015ebc0       0x17 arch/ia32/src/smp/smp.o
+ .rodata.str1.1
+                0x8015ebd7        0x9 arch/ia32/src/ia32.o
+                                  0xc (size before relaxing)
+ .rodata.str1.4
+                0x8015ebe0      0x139 arch/ia32/src/interrupt.o
+ .rodata.str1.1
+                0x8015ed19      0x130 arch/ia32/src/interrupt.o
+                                0x142 (size before relaxing)
+ .rodata        0x8015ee49        0xe arch/ia32/src/interrupt.o
+ .rodata.str1.1
+                0x8015ee57       0x15 arch/ia32/src/pm.o
+ .rodata.str1.4
+                0x8015ee6c       0x34 arch/ia32/src/cpu/cpu.o
+ .rodata.str1.1
+                0x8015eea0       0x19 arch/ia32/src/cpu/cpu.o
+ *fill*         0x8015eeb9        0x3 
+ .rodata        0x8015eebc        0xc arch/ia32/src/cpu/cpu.o
+ .rodata.str1.1
+                0x8015eec8       0x43 arch/ia32/src/mm/frame.o
+ *fill*         0x8015ef0b        0x1 
+ .rodata.str1.4
+                0x8015ef0c       0x31 arch/ia32/src/mm/frame.o
+ *fill*         0x8015ef3d        0x3 
+ .rodata        0x8015ef40       0x18 arch/ia32/src/mm/frame.o
+ .rodata.str1.4
+                0x8015ef58       0x24 arch/ia32/src/mm/page.o
+ .rodata.str1.1
+                0x8015ef7c       0x1c arch/ia32/src/mm/page.o
+ .rodata.str1.1
+                0x8015ef98       0x2d arch/ia32/src/ddi/ddi.o
+                                 0x3f (size before relaxing)
+ .rodata        0x8015efc5       0x17 arch/ia32/src/ddi/ddi.o
+ .rodata.str1.4
+                0x8015efdc       0x1f arch/ia32/src/drivers/i8259.o
+ .rodata.str1.1
+                0x8015effb        0x6 arch/ia32/src/drivers/i8259.o
+                                 0x13 (size before relaxing)
+ .rodata.str1.1
+                0x8015f001       0x31 genarch/src/acpi/acpi.o
+                                 0x36 (size before relaxing)
+ *fill*         0x8015f032        0x2 
+ .rodata.str1.4
+                0x8015f034       0x20 genarch/src/acpi/acpi.o
+ .rodata.str1.1
+                0x8015f054       0xbe genarch/src/acpi/madt.o
+                                 0xd0 (size before relaxing)
+ *fill*         0x8015f112        0x2 
+ .rodata.str1.4
+                0x8015f114       0xb2 genarch/src/acpi/madt.o
+ *fill*         0x8015f1c6        0x2 
+ .rodata        0x8015f1c8       0x72 genarch/src/acpi/madt.o
+ .rodata.str1.1
+                0x8015f23a       0x38 genarch/src/mm/page_pt.o
+                                 0x4a (size before relaxing)
+ *fill*         0x8015f272        0x2 
+ .rodata.str1.4
+                0x8015f274       0x20 genarch/src/mm/page_pt.o
+ .rodata        0x8015f294       0x4b genarch/src/mm/page_pt.o
+ .rodata.str1.1
+                0x8015f2df       0xa4 genarch/src/fb/fb.o
+                                 0xb6 (size before relaxing)
+ *fill*         0x8015f383        0x1 
+ .rodata        0x8015f384       0x40 genarch/src/fb/fb.o
+ .rodata.str1.1
+                0x8015f3c4       0x10 genarch/src/drivers/i8042/i8042.o
+                                 0x22 (size before relaxing)
+ .rodata.str1.4
+                0x8015f3d4       0x22 genarch/src/drivers/i8042/i8042.o
+ .rodata        0x8015f3f6        0xb genarch/src/drivers/i8042/i8042.o
+ .rodata.str1.1
+                0x8015f401       0x39 genarch/src/kbrd/kbrd.o
+                                 0x59 (size before relaxing)
+ .rodata        0x8015f43a        0xa genarch/src/kbrd/kbrd.o
+ .rodata.str1.1
+                0x00000000       0x39 genarch/src/multiboot/multiboot.o
+                                  0x1 (size before relaxing)
+ .rodata.str1.1
+                0x8015f444       0x26 genarch/src/drivers/ega/ega.o
+                                 0x58 (size before relaxing)
+ .rodata.str1.1
+                0x8015f46a       0x54 generic/src/adt/avl.o
+                                 0x6d (size before relaxing)
+ .rodata        0x8015f4be       0x25 generic/src/adt/avl.o
+ .rodata.str1.1
+                0x8015f4e3       0x5a generic/src/adt/bitmap.o
+                                 0x6c (size before relaxing)
+ .rodata        0x8015f53d       0x30 generic/src/adt/bitmap.o
+ *fill*         0x8015f56d        0x3 
+ .rodata.str1.4
+                0x8015f570       0x99 generic/src/adt/btree.o
+ .rodata.str1.1
+                0x8015f609       0xbc generic/src/adt/btree.o
+                                 0xd8 (size before relaxing)
+ *fill*         0x8015f6c5       0x1b 
+ .rodata        0x8015f6e0       0x8c generic/src/adt/btree.o
+ .rodata.str1.1
+                0x8015f76c       0x77 generic/src/adt/hash_table.o
+                                 0xa3 (size before relaxing)
+ *fill*         0x8015f7e3        0x1 
+ .rodata.str1.4
+                0x8015f7e4       0x27 generic/src/adt/hash_table.o
+ .rodata        0x8015f80b       0x46 generic/src/adt/hash_table.o
+ .rodata.str1.1
+                0x8015f851       0x74 generic/src/console/chardev.o
+                                 0x86 (size before relaxing)
+ .rodata        0x8015f8c5       0x15 generic/src/console/chardev.o
+ .rodata.str1.1
+                0x8015f8da       0x2d generic/src/console/console.o
+                                 0x30 (size before relaxing)
+ .rodata.str1.1
+                0x8015f907       0x52 generic/src/console/prompt.o
+                                 0x6e (size before relaxing)
+ *fill*         0x8015f959        0x3 
+ .rodata.str1.4
+                0x8015f95c       0x29 generic/src/console/prompt.o
+ *fill*         0x8015f985       0x1b 
+ .rodata        0x8015f9a0       0x3b generic/src/console/prompt.o
+ *fill*         0x8015f9db        0x1 
+ .rodata.str1.4
+                0x8015f9dc       0x20 generic/src/cpu/cpu.o
+ .rodata.str1.1
+                0x8015f9fc       0x30 generic/src/cpu/cpu.o
+ .rodata.str1.1
+                0x8015fa2c       0x1b generic/src/ddi/ddi.o
+                                 0x2d (size before relaxing)
+ .rodata        0x8015fa47       0x2c generic/src/ddi/ddi.o
+ .rodata.str1.1
+                0x8015fa73       0x3f generic/src/ddi/irq.o
+ .rodata.str1.1
+                0x8015fab2       0x24 generic/src/ddi/device.o
+                                 0x36 (size before relaxing)
+ .rodata        0x8015fad6       0x14 generic/src/ddi/device.o
+ .rodata.str1.1
+                0x8015faea        0x8 generic/src/debug/symtab.o
+                                 0x16 (size before relaxing)
+ .rodata.str1.1
+                0x8015faf2       0x21 generic/src/debug/stacktrace.o
+ .rodata.str1.1
+                0x8015fb13       0xe6 generic/src/debug/panic.o
+                                 0xe8 (size before relaxing)
+ *fill*         0x8015fbf9        0x3 
+ .rodata.str1.4
+                0x8015fbfc       0x2d generic/src/debug/panic.o
+ .rodata.str1.1
+                0x8015fc29       0x82 generic/src/interrupt/interrupt.o
+                                 0x97 (size before relaxing)
+ *fill*         0x8015fcab        0x1 
+ .rodata.str1.4
+                0x8015fcac      0x12b generic/src/interrupt/interrupt.o
+ .rodata        0x8015fdd7       0x1a generic/src/interrupt/interrupt.o
+ *fill*         0x8015fdf1        0x3 
+ .rodata.str1.4
+                0x8015fdf4       0x29 generic/src/main/main.o
+ .rodata.str1.1
+                0x8015fe1d       0x56 generic/src/main/main.o
+                                 0x5d (size before relaxing)
+ .rodata.str1.1
+                0x8015fe73       0x89 generic/src/main/kinit.o
+                                 0x9b (size before relaxing)
+ .rodata.str1.4
+                0x8015fefc      0x100 generic/src/main/kinit.o
+ .rodata        0x8015fffc        0xa generic/src/main/kinit.o
+ *fill*         0x80160006        0x2 
+ .rodata.str1.4
+                0x80160008       0x9d generic/src/main/version.o
+ .rodata.str1.1
+                0x801600a5       0x38 generic/src/main/version.o
+ .rodata.str1.1
+                0x801600dd       0x16 generic/src/main/shutdown.o
+ .rodata.str1.1
+                0x801600f3       0x36 generic/src/proc/program.o
+ *fill*         0x80160129        0x3 
+ .rodata.str1.4
+                0x8016012c       0x2c generic/src/proc/program.o
+ .rodata.str1.4
+                0x80160158       0xaa generic/src/proc/scheduler.o
+ .rodata.str1.1
+                0x80160202       0x7e generic/src/proc/scheduler.o
+                                 0x92 (size before relaxing)
+ .rodata        0x80160280       0x35 generic/src/proc/scheduler.o
+ .rodata.str1.1
+                0x801602b5      0x133 generic/src/proc/thread.o
+                                0x153 (size before relaxing)
+ .rodata.str1.4
+                0x801603e8      0x1bf generic/src/proc/thread.o
+ .rodata        0x801605a7       0xa8 generic/src/proc/thread.o
+ .rodata.str1.1
+                0x8016064f       0x75 generic/src/proc/task.o
+                                 0x9f (size before relaxing)
+ .rodata.str1.4
+                0x801606c4       0xe7 generic/src/proc/task.o
+ .rodata        0x801607ab       0x24 generic/src/proc/task.o
+ .rodata.str1.1
+                0x801607cf       0x2b generic/src/proc/the.o
+                                 0x3d (size before relaxing)
+ .rodata        0x801607fa        0x9 generic/src/proc/the.o
+ *fill*         0x80160803        0x1 
+ .rodata.str1.4
+                0x80160804       0x1f generic/src/syscall/syscall.o
+ .rodata.str1.1
+                0x80160823       0x53 generic/src/syscall/copy.o
+                                 0x6c (size before relaxing)
+ .rodata        0x80160876       0x20 generic/src/syscall/copy.o
+ *fill*         0x80160896        0x2 
+ .rodata.str1.4
+                0x80160898       0x9e generic/src/mm/km.o
+ .rodata.str1.1
+                0x80160936       0x3a generic/src/mm/km.o
+                                 0x58 (size before relaxing)
+ .rodata        0x80160970       0x7a generic/src/mm/km.o
+ .rodata.str1.1
+                0x801609ea       0x3a generic/src/mm/reserve.o
+                                 0x4c (size before relaxing)
+ .rodata        0x80160a24       0x12 generic/src/mm/reserve.o
+ *fill*         0x80160a36        0x2 
+ .rodata.str1.4
+                0x80160a38       0x48 generic/src/mm/buddy.o
+ .rodata.str1.1
+                0x80160a80       0x86 generic/src/mm/buddy.o
+                                 0x9d (size before relaxing)
+ .rodata        0x80160b06       0x52 generic/src/mm/buddy.o
+ .rodata.str1.1
+                0x80160b58      0x16b generic/src/mm/frame.o
+                                0x17f (size before relaxing)
+ *fill*         0x80160cc3        0x1 
+ .rodata.str1.4
+                0x80160cc4      0x3bd generic/src/mm/frame.o
+ .rodata        0x80161081       0xf9 generic/src/mm/frame.o
+ .rodata.str1.1
+                0x8016117a       0x2e generic/src/mm/page.o
+                                 0x56 (size before relaxing)
+ .rodata.str1.4
+                0x801611a8       0xa5 generic/src/mm/page.o
+                                 0xc5 (size before relaxing)
+ .rodata        0x8016124d       0x53 generic/src/mm/page.o
+ .rodata.str1.1
+                0x801612a0       0x34 generic/src/mm/tlb.o
+                                 0x4c (size before relaxing)
+ .rodata.str1.4
+                0x801612d4       0x31 generic/src/mm/tlb.o
+ .rodata        0x80161305       0x17 generic/src/mm/tlb.o
+ .rodata.str1.1
+                0x8016131c      0x12b generic/src/mm/as.o
+                                0x14c (size before relaxing)
+ *fill*         0x80161447        0x1 
+ .rodata.str1.4
+                0x80161448      0x243 generic/src/mm/as.o
+                                0x28b (size before relaxing)
+ .rodata        0x8016168b      0x154 generic/src/mm/as.o
+ .rodata.str1.1
+                0x801617df       0x88 generic/src/mm/backend_anon.o
+                                 0xb4 (size before relaxing)
+ *fill*         0x80161867        0x1 
+ .rodata.str1.4
+                0x80161868       0x52 generic/src/mm/backend_anon.o
+ .rodata        0x801618ba       0x2b generic/src/mm/backend_anon.o
+ .rodata.str1.1
+                0x801618e5       0x1d generic/src/mm/backend_elf.o
+                                 0xc8 (size before relaxing)
+ *fill*         0x80161902        0x2 
+ .rodata.str1.4
+                0x80161904       0x57 generic/src/mm/backend_elf.o
+                                 0x82 (size before relaxing)
+ .rodata        0x8016195b       0x28 generic/src/mm/backend_elf.o
+ .rodata.str1.1
+                0x80161983       0x1e generic/src/mm/backend_phys.o
+                                 0x98 (size before relaxing)
+ *fill*         0x801619a1        0x3 
+ .rodata.str1.4
+                0x801619a4       0x3b generic/src/mm/backend_phys.o
+ .rodata        0x801619df       0x1b generic/src/mm/backend_phys.o
+ *fill*         0x801619fa        0x2 
+ .rodata.str1.4
+                0x801619fc      0x11d generic/src/mm/slab.o
+ .rodata.str1.1
+                0x80161b19      0x199 generic/src/mm/slab.o
+                                0x1b2 (size before relaxing)
+ *fill*         0x80161cb2        0xe 
+ .rodata        0x80161cc0       0xbb generic/src/mm/slab.o
+ *fill*         0x80161d7b        0x1 
+ .rodata.str1.4
+                0x80161d7c       0x24 generic/src/lib/func.o
+ .rodata.str1.1
+                0x80161da0       0x22 generic/src/lib/func.o
+ .rodata.str1.1
+                0x80161dc2       0x42 generic/src/lib/str.o
+                                 0x5f (size before relaxing)
+ .rodata        0x80161e04      0x117 generic/src/lib/str.o
+ *fill*         0x80161f1b        0x1 
+ .rodata.str1.4
+                0x80161f1c       0x2a generic/src/lib/elf.o
+ .rodata.str1.1
+                0x80161f46       0x7f generic/src/lib/elf.o
+                                 0x91 (size before relaxing)
+ *fill*         0x80161fc5        0x3 
+ .rodata        0x80161fc8       0x24 generic/src/lib/elf.o
+ .rodata.str1.1
+                0x80161fec       0xb5 generic/src/lib/ra.o
+                                 0xc7 (size before relaxing)
+ *fill*         0x801620a1        0x3 
+ .rodata.str1.4
+                0x801620a4       0xf7 generic/src/lib/ra.o
+ .rodata        0x8016219b       0x24 generic/src/lib/ra.o
+ .rodata.str1.1
+                0x801621bf       0x4a generic/src/lib/rd.o
+                                 0x5f (size before relaxing)
+ *fill*         0x80162209        0x3 
+ .rodata.str1.4
+                0x8016220c       0x21 generic/src/lib/rd.o
+ .rodata        0x8016222d        0x8 generic/src/lib/rd.o
+ .rodata.str1.1
+                0x80162235       0x29 generic/src/printf/printf_core.o
+ *fill*         0x8016225e        0x2 
+ .rodata        0x80162260      0x1b1 generic/src/printf/printf_core.o
+ *fill*         0x80162411        0x3 
+ .rodata.str1.4
+                0x80162414       0x20 generic/src/time/clock.o
+ .rodata.str1.1
+                0x80162434        0xc generic/src/time/clock.o
+ .rodata.str1.1
+                0x80162440       0x28 generic/src/time/timeout.o
+ .rodata.str1.4
+                0x80162468       0x1f generic/src/time/timeout.o
+                                 0x66 (size before relaxing)
+ .rodata        0x80162487       0x13 generic/src/time/timeout.o
+ .rodata.str1.1
+                0x8016249a       0x14 generic/src/preempt/preemption.o
+                                 0x26 (size before relaxing)
+ *fill*         0x801624ae        0x2 
+ .rodata.str1.4
+                0x801624b0       0x21 generic/src/preempt/preemption.o
+ .rodata        0x801624d1       0x12 generic/src/preempt/preemption.o
+ .rodata.str1.1
+                0x801624e3       0x85 generic/src/synch/spinlock.o
+                                 0xa7 (size before relaxing)
+ .rodata.str1.4
+                0x80162568       0x32 generic/src/synch/spinlock.o
+ .rodata        0x8016259a       0x79 generic/src/synch/spinlock.o
+ *fill*         0x80162613        0x1 
+ .rodata.str1.4
+                0x80162614       0x77 generic/src/synch/mutex.o
+ .rodata.str1.1
+                0x8016268b       0x33 generic/src/synch/mutex.o
+                                 0x5c (size before relaxing)
+ .rodata        0x801626be       0x14 generic/src/synch/mutex.o
+ .rodata.str1.1
+                0x801626d2       0x47 generic/src/synch/waitq.o
+                                 0x6f (size before relaxing)
+ *fill*         0x80162719        0x3 
+ .rodata.str1.4
+                0x8016271c       0x5b generic/src/synch/waitq.o
+                                 0xa3 (size before relaxing)
+ .rodata        0x80162777       0x63 generic/src/synch/waitq.o
+ .rodata.str1.1
+                0x801627da       0x24 generic/src/synch/futex.o
+                                 0x36 (size before relaxing)
+ .rodata        0x801627fe       0x11 generic/src/synch/futex.o
+ .rodata.str1.1
+                0x8016280f      0x14e generic/src/ipc/ipc.o
+                                0x162 (size before relaxing)
+ *fill*         0x8016295d        0x3 
+ .rodata.str1.4
+                0x80162960       0xc4 generic/src/ipc/ipc.o
+                                0x10c (size before relaxing)
+ *fill*         0x80162a24       0x1c 
+ .rodata        0x80162a40       0x40 generic/src/ipc/ipc.o
+ .rodata.str1.1
+                0x80162a80       0x28 generic/src/ipc/sysipc.o
+                                 0x3a (size before relaxing)
+ .rodata        0x80162aa8       0x12 generic/src/ipc/sysipc.o
+ *fill*         0x80162aba        0x6 
+ .rodata        0x80162ac0       0x2c generic/src/ipc/sysipc_ops.o
+ .rodata.str1.1
+                0x80162aec       0x10 generic/src/ipc/ops/dataread.o
+                                 0x22 (size before relaxing)
+ .rodata.str1.4
+                0x80162afc       0x1f generic/src/ipc/ops/dataread.o
+ .rodata        0x80162b1b       0x12 generic/src/ipc/ops/dataread.o
+ .rodata.str1.1
+                0x00000000       0x10 generic/src/ipc/ops/datawrite.o
+                                 0x21 (size before relaxing)
+ *fill*         0x80162b2d        0x3 
+ .rodata.str1.4
+                0x80162b30       0x20 generic/src/ipc/ops/datawrite.o
+ .rodata        0x80162b50       0x12 generic/src/ipc/ops/datawrite.o
+ *fill*         0x80162b62        0x2 
+ .rodata.str1.4
+                0x80162b64       0x25 generic/src/ipc/ipcrsc.o
+ .rodata.str1.1
+                0x80162b89       0x19 generic/src/ipc/ipcrsc.o
+                                 0x2b (size before relaxing)
+ .rodata        0x80162ba2       0x1d generic/src/ipc/ipcrsc.o
+ *fill*         0x80162bbf        0x1 
+ .rodata        0x80162bc0       0x9c generic/src/ipc/irq.o
+ .rodata.str1.1
+                0x80162c5c       0x16 generic/src/ipc/irq.o
+                                 0x42 (size before relaxing)
+ *fill*         0x80162c72        0x2 
+ .rodata.str1.4
+                0x80162c74       0x40 generic/src/ipc/irq.o
+ .rodata.str1.1
+                0x80162cb4       0x62 generic/src/ipc/event.o
+                                 0x74 (size before relaxing)
+ *fill*         0x80162d16        0x2 
+ .rodata        0x80162d18       0x66 generic/src/ipc/event.o
+ .rodata.str1.1
+                0x80162d7e      0x100 generic/src/sysinfo/sysinfo.o
+                                0x130 (size before relaxing)
+ *fill*         0x80162e7e        0x2 
+ .rodata        0x80162e80       0x7e generic/src/sysinfo/sysinfo.o
+ .rodata.str1.1
+                0x80162efe       0x7f generic/src/sysinfo/stats.o
+                                 0xa7 (size before relaxing)
+ .rodata.str1.4
+                0x00000000       0x45 generic/src/sysinfo/stats.o
+ .rodata        0x80162f7d       0x28 generic/src/sysinfo/stats.o
+ .rodata.str1.1
+                0x80162fa5      0x12a generic/src/console/kconsole.o
+                                0x14b (size before relaxing)
+ *fill*         0x801630cf        0x1 
+ .rodata.str1.4
+                0x801630d0       0xbe generic/src/console/kconsole.o
+ .rodata        0x8016318e        0xf generic/src/console/kconsole.o
+ *fill*         0x8016319d        0x3 
+ .rodata.str1.4
+                0x801631a0      0x5f2 generic/src/console/cmd.o
+                                0x616 (size before relaxing)
+ .rodata.str1.1
+                0x80163792      0x38b generic/src/console/cmd.o
+                                0x42f (size before relaxing)
+ *fill*         0x80163b1d        0x3 
+ .rodata        0x80163b20       0x9b generic/src/console/cmd.o
+ .rodata.str1.1
+                0x80163bbb        0x5 generic/src/ipc/kbox.o
+ .rodata.str1.1
+                0x80163bc0       0x2c generic/src/udebug/udebug.o
+                                 0x4a (size before relaxing)
+ .rodata.str1.4
+                0x80163bec       0x69 generic/src/udebug/udebug.o
+ .rodata        0x80163c55       0x40 generic/src/udebug/udebug.o
+ *fill*         0x80163c95        0x3 
+ .rodata        0x80163c98       0x34 generic/src/udebug/udebug_ipc.o
+ .rodata.str1.1
+                0x80163ccc      0x1c1 test/test.o
+ *fill*         0x80163e8d        0x3 
+ .rodata.str1.4
+                0x80163e90       0x21 test/test.o
+ *fill*         0x80163eb1        0x3 
+ .rodata.str1.4
+                0x80163eb4       0xd2 test/atomic/atomic1.o
+ .rodata.str1.1
+                0x80163f86       0x5e test/atomic/atomic1.o
+ .rodata.str1.1
+                0x80163fe4       0x21 test/btree/btree1.o
+ .rodata.str1.1
+                0x80164005       0x6d test/avltree/avltree1.o
+                                 0x73 (size before relaxing)
+ *fill*         0x80164072        0x2 
+ .rodata.str1.4
+                0x80164074       0x88 test/avltree/avltree1.o
+ .rodata.str1.1
+                0x801640fc       0x10 test/fault/fault1.o
+ .rodata.str1.1
+                0x8016410c       0x69 test/mm/falloc1.o
+                                 0x70 (size before relaxing)
+ *fill*         0x80164175        0x3 
+ .rodata.str1.4
+                0x80164178       0x52 test/mm/falloc1.o
+ *fill*         0x801641ca        0x2 
+ .rodata.str1.4
+                0x801641cc      0x14f test/mm/falloc2.o
+ .rodata.str1.1
+                0x8016431b       0x2e test/mm/falloc2.o
+                                 0x42 (size before relaxing)
+ *fill*         0x80164349        0x3 
+ .rodata.str1.4
+                0x8016434c      0x12b test/mm/mapping1.o
+ .rodata.str1.1
+                0x80164477       0xa9 test/mm/slab1.o
+                                 0xb0 (size before relaxing)
+ .rodata.str1.4
+                0x80164520       0x22 test/mm/slab1.o
+ .rodata.str1.1
+                0x80164542       0xcd test/mm/slab2.o
+                                0x137 (size before relaxing)
+ *fill*         0x8016460f        0x1 
+ .rodata.str1.4
+                0x80164610       0xae test/mm/slab2.o
+ *fill*         0x801646be        0x2 
+ .rodata.str1.4
+                0x801646c0       0x5c test/synch/semaphore1.o
+ .rodata.str1.1
+                0x8016471c       0x52 test/synch/semaphore1.o
+ .rodata.str1.1
+                0x8016476e       0x95 test/synch/semaphore2.o
+                                 0x9e (size before relaxing)
+ *fill*         0x80164803        0x1 
+ .rodata.str1.4
+                0x80164804      0x11a test/print/print1.o
+ .rodata.str1.1
+                0x8016491e       0xd1 test/print/print1.o
+                                 0xd6 (size before relaxing)
+ .rodata.str1.1
+                0x801649ef       0x59 test/print/print2.o
+ .rodata.str1.4
+                0x80164a48      0x48f test/print/print2.o
+ *fill*         0x80164ed7        0x1 
+ .rodata.str1.4
+                0x80164ed8      0x327 test/print/print3.o
+ .rodata.str1.1
+                0x801651ff        0xa test/print/print3.o
+                                  0xf (size before relaxing)
+ *fill*         0x80165209        0x3 
+ .rodata.str1.4
+                0x8016520c      0x2c3 test/print/print4.o
+ .rodata.str1.1
+                0x801654cf       0xd7 test/print/print4.o
+                                 0xdf (size before relaxing)
+ *fill*         0x801655a6        0x2 
+ .rodata.str4.4
+                0x801655a8      0x45c test/print/print4.o
+ .rodata.str1.1
+                0x80165a04       0x51 test/print/print5.o
+ *fill*         0x80165a55        0x3 
+ .rodata.str1.4
+                0x80165a58       0xb6 test/print/print5.o
+ .rodata.str1.1
+                0x80165b0e       0x11 test/thread/thread1.o
+                                 0x3f (size before relaxing)
+ *fill*         0x80165b1f        0x1 
+ .rodata.str1.4
+                0x80165b20       0x24 test/thread/thread1.o
+                                 0x23 (size before relaxing)
+ *(COMMON)
+ *fill*         0x80165b44       0x1c 
+ COMMON         0x80165b60      0x280 arch/ia32/src/boot/memmap.o
+                0x80165b60                e820table
+ *fill*         0x80165de0      0x220 
+ COMMON         0x80166000     0x8000 generic/src/console/console.o
+                0x80166000                klog
+ COMMON         0x8016e000        0x4 generic/src/cpu/cpu.o
+                0x8016e000                cpus
+ COMMON         0x8016e004       0x10 generic/src/ddi/irq.o
+                0x8016e004                irq_uspace_hash_table
+ *fill*         0x8016e014        0xc 
+ COMMON         0x8016e020      0x700 generic/src/interrupt/interrupt.o
+                0x8016e020                exc_table
+ COMMON         0x8016e720       0x1c generic/src/main/main.o
+                0x8016e720                ctx
+ COMMON         0x8016e73c        0x4 generic/src/proc/scheduler.o
+                0x8016e73c                nrdy
+ COMMON         0x8016e740       0x10 generic/src/proc/thread.o
+                0x8016e740                threads_tree
+                0x8016e74c                fpu_context_slab
+ COMMON         0x8016e750        0xc generic/src/proc/task.o
+                0x8016e750                tasks_tree
+ *fill*         0x8016e75c        0x4 
+ COMMON         0x8016e760      0x394 generic/src/mm/frame.o
+                0x8016e760                zones
+ COMMON         0x8016eaf4        0x4 generic/src/time/clock.o
+                0x8016eaf4                uptime
+ COMMON         0x8016eaf8       0x1c generic/src/smp/smp.o
+                0x8016eaf8                ap_completion_wq
+ COMMON         0x8016eb14        0x0 generic/src/ipc/sysipc_ops.o
+ COMMON         0x8016eb14        0x1 test/test.o
+                0x8016eb14                test_quiet
+                0x8016eb15                hardcoded_load_address = .
+                0x8016eb15        0x4 LONG 0x80108000
+                0x8016eb19                hardcoded_ktext_size = .
+                0x8016eb19        0x4 LONG 0x3bd9d ((ktext_end - ktext_start) + (unmapped_ktext_end - unmapped_ktext_start))
+                0x8016eb1d                hardcoded_kdata_size = .
+                0x8016eb1d        0x4 LONG 0x52203 ((kdata_end - kdata_start) + (unmapped_kdata_end - unmapped_kdata_start))
+                0x8016eb21                hardcoded_unmapped_ktext_size = .
+                0x8016eb21        0x4 LONG 0xc24 (unmapped_ktext_end - unmapped_ktext_start)
+                0x8016eb25                hardcoded_unmapped_kdata_size = .
+                0x8016eb25        0x4 LONG 0x145f (unmapped_kdata_end - unmapped_kdata_start)
+                0x8016eb30                . = ALIGN (0x8)
+ *fill*         0x8016eb29        0x7 
+                0x8016eb30                symbol_table = .
+ *(symtab.*)
+ symtab.data    0x8016eb30    0x177c0 generic/src/debug/real_map.o
+ *(.bss)
+ .bss           0x801862f0        0x0 arch/ia32/src/context.o
+ .bss           0x801862f0        0x0 arch/ia32/src/debug/stacktrace.o
+ .bss           0x801862f0        0x0 arch/ia32/src/debug/stacktrace_asm.o
+ .bss           0x801862f0        0x0 arch/ia32/src/delay.o
+ .bss           0x801862f0        0x0 arch/ia32/src/asm.o
+ .bss           0x801862f0        0x0 arch/ia32/src/proc/scheduler.o
+ .bss           0x801862f0        0x0 arch/ia32/src/proc/task.o
+ .bss           0x801862f0        0x0 arch/ia32/src/proc/thread.o
+ .bss           0x801862f0        0x4 arch/ia32/src/bios/bios.o
+                0x801862f0                ebda
+ .bss           0x801862f4        0x0 arch/ia32/src/smp/ap.o
+ *fill*         0x801862f4        0xc 
+ .bss           0x80186300       0x90 arch/ia32/src/smp/apic.o
+                0x80186300                bsp_l_apic
+                0x80186304                apic_id_mask
+ .bss           0x80186390       0x34 arch/ia32/src/smp/mps.o
+ .bss           0x801863c4        0x4 arch/ia32/src/smp/smp.o
+ .bss           0x801863c8        0x0 arch/ia32/src/atomic.o
+ .bss           0x801863c8        0x0 arch/ia32/src/smp/ipi.o
+ .bss           0x801863c8        0x0 arch/ia32/src/ia32.o
+ .bss           0x801863c8       0x10 arch/ia32/src/interrupt.o
+                0x801863c8                irqs_info
+                0x801863cc                eoi_function
+                0x801863d0                enable_irqs_function
+                0x801863d4                disable_irqs_function
+ *fill*         0x801863d8        0x8 
+ .bss           0x801863e0     0x2289 arch/ia32/src/pm.o
+                0x801863e0                tss_p
+ *fill*         0x80188669        0x3 
+ .bss           0x8018866c        0x0 arch/ia32/src/userspace.o
+ .bss           0x8018866c        0x0 arch/ia32/src/cpu/cpu.o
+ .bss           0x8018866c        0x0 arch/ia32/src/mm/km.o
+ .bss           0x8018866c        0x0 arch/ia32/src/mm/as.o
+ .bss           0x8018866c        0x8 arch/ia32/src/mm/frame.o
+ .bss           0x80188674        0x0 arch/ia32/src/mm/page.o
+ .bss           0x80188674        0x0 arch/ia32/src/mm/tlb.o
+ .bss           0x80188674        0x0 arch/ia32/src/ddi/ddi.o
+ *fill*         0x80188674        0xc 
+ .bss           0x80188680       0x70 arch/ia32/src/drivers/i8254.o
+ .bss           0x801886f0        0x0 arch/ia32/src/drivers/i8259.o
+ .bss           0x801886f0        0x0 arch/ia32/src/boot/multiboot.o
+ .bss           0x801886f0        0x0 arch/ia32/src/boot/multiboot2.o
+ .bss           0x801886f0        0x1 arch/ia32/src/boot/memmap.o
+                0x801886f0                e820counter
+ *fill*         0x801886f1        0x3 
+ .bss           0x801886f4        0x8 arch/ia32/src/fpu_context.o
+ .bss           0x801886fc        0x0 arch/ia32/src/syscall.o
+ .bss           0x801886fc        0xc genarch/src/acpi/acpi.o
+                0x801886fc                acpi_xsdt
+                0x80188700                acpi_rsdt
+                0x80188704                acpi_rsdp
+ .bss           0x80188708       0x20 genarch/src/acpi/madt.o
+                0x80188708                madt_io_apic_entries
+                0x8018870c                madt_l_apic_entries
+                0x80188710                acpi_madt
+ .bss           0x80188728        0x0 genarch/src/mm/page_pt.o
+ .bss           0x80188728        0x0 genarch/src/mm/as_pt.o
+ .bss           0x80188728        0x0 genarch/src/softint/division.o
+ .bss           0x80188728        0x0 genarch/src/softint/multiplication.o
+ .bss           0x80188728        0x0 genarch/src/fb/font-8x16.o
+ .bss           0x80188728        0x0 genarch/src/fb/logo-196x66.o
+ .bss           0x80188728        0x0 genarch/src/fb/fb.o
+ .bss           0x80188728       0x2c genarch/src/fb/bfb.o
+                0x80188728                bfb_blue_size
+                0x8018872c                bfb_blue_pos
+                0x80188730                bfb_green_size
+                0x80188734                bfb_green_pos
+                0x80188738                bfb_red_size
+                0x8018873c                bfb_red_pos
+                0x80188740                bfb_scanline
+                0x80188744                bfb_bpp
+                0x80188748                bfb_height
+                0x8018874c                bfb_width
+                0x80188750                bfb_addr
+ .bss           0x80188754        0x0 genarch/src/drivers/i8042/i8042.o
+ .bss           0x80188754        0x4 genarch/src/kbrd/kbrd.o
+ .bss           0x80188758        0x0 genarch/src/kbrd/scanc_pc.o
+ .bss           0x80188758        0x0 genarch/src/multiboot/multiboot.o
+ .bss           0x80188758        0x0 genarch/src/multiboot/multiboot2.o
+ .bss           0x80188758        0x0 genarch/src/drivers/ega/ega.o
+ .bss           0x80188758        0x0 generic/src/adt/avl.o
+ .bss           0x80188758        0x0 generic/src/adt/bitmap.o
+ .bss           0x80188758        0x4 generic/src/adt/btree.o
+ .bss           0x8018875c        0x0 generic/src/adt/hash_table.o
+ .bss           0x8018875c        0x0 generic/src/adt/list.o
+ .bss           0x8018875c        0x0 generic/src/console/chardev.o
+ *fill*         0x8018875c        0x4 
+ .bss           0x80188760      0x8cc generic/src/console/console.o
+                0x80188760                stdout
+                0x80188764                stdin
+                0x80188768                console_override
+ .bss           0x8018902c        0x0 generic/src/console/prompt.o
+ .bss           0x8018902c        0x0 generic/src/cpu/cpu.o
+ *fill*         0x8018902c       0x14 
+ .bss           0x80189040       0x40 generic/src/ddi/ddi.o
+ .bss           0x80189080       0x18 generic/src/ddi/irq.o
+                0x80189080                last_inr
+ .bss           0x80189098        0x4 generic/src/ddi/device.o
+ .bss           0x8018909c        0x0 generic/src/debug/symtab.o
+ .bss           0x8018909c        0x0 generic/src/debug/stacktrace.o
+ .bss           0x8018909c        0x0 generic/src/debug/panic.o
+ .bss           0x8018909c        0x0 generic/src/debug/debug.o
+ *fill*         0x8018909c        0x4 
+ .bss           0x801890a0      0x101 generic/src/interrupt/interrupt.o
+ *fill*         0x801891a1       0x1f 
+ .bss           0x801891c0      0xd70 generic/src/main/main.o
+                0x801891c0                stack_safe
+                0x801891c4                ballocs
+                0x801891e0                init
+                0x80189f00                config
+ .bss           0x80189f30        0x0 generic/src/main/kinit.o
+ .bss           0x80189f30        0x0 generic/src/main/uinit.o
+ .bss           0x80189f30        0x0 generic/src/main/version.o
+ .bss           0x80189f30        0x0 generic/src/main/shutdown.o
+ .bss           0x80189f30        0x4 generic/src/proc/program.o
+                0x80189f30                program_loader
+ .bss           0x80189f34        0x0 generic/src/proc/scheduler.o
+ *fill*         0x80189f34        0x4 
+ .bss           0x80189f38       0x10 generic/src/proc/thread.o
+ .bss           0x80189f48       0x10 generic/src/proc/task.o
+ .bss           0x80189f58        0x0 generic/src/proc/the.o
+ .bss           0x80189f58        0x0 generic/src/syscall/syscall.o
+ .bss           0x80189f58        0x0 generic/src/syscall/copy.o
+ *fill*         0x80189f58        0x8 
+ .bss           0x80189f60     0x1020 generic/src/mm/km.o
+ .bss           0x8018af80        0x5 generic/src/mm/reserve.o
+ *fill*         0x8018af85        0x3 
+ .bss           0x8018af88        0x0 generic/src/mm/buddy.o
+ *fill*         0x8018af88       0x18 
+ .bss           0x8018afa0       0x44 generic/src/mm/frame.o
+ .bss           0x8018afe4        0x4 generic/src/mm/page.o
+                0x8018afe4                page_mapping_operations
+ .bss           0x8018afe8        0x0 generic/src/mm/tlb.o
+ .bss           0x8018afe8        0xc generic/src/mm/as.o
+                0x8018afe8                AS_KERNEL
+                0x8018afec                as_operations
+ .bss           0x8018aff4        0x0 generic/src/mm/backend_anon.o
+ .bss           0x8018aff4        0x0 generic/src/mm/backend_elf.o
+ .bss           0x8018aff4        0x0 generic/src/mm/backend_phys.o
+ *fill*         0x8018aff4        0xc 
+ .bss           0x8018b000      0x14c generic/src/mm/slab.o
+ .bss           0x8018b14c        0x4 generic/src/lib/func.o
+                0x8018b14c                haltstate
+ .bss           0x8018b150        0x0 generic/src/lib/memstr.o
+ .bss           0x8018b150        0x0 generic/src/lib/memfnc.o
+ .bss           0x8018b150        0x0 generic/src/lib/sort.o
+ .bss           0x8018b150        0x0 generic/src/lib/str.o
+ .bss           0x8018b150        0x0 generic/src/lib/elf.o
+ .bss           0x8018b150        0x4 generic/src/lib/ra.o
+ .bss           0x8018b154       0x14 generic/src/lib/rd.o
+ .bss           0x8018b168        0x0 generic/src/printf/printf_core.o
+ .bss           0x8018b168        0x0 generic/src/printf/printf.o
+ .bss           0x8018b168        0x0 generic/src/printf/snprintf.o
+ .bss           0x8018b168        0x0 generic/src/printf/vprintf.o
+ .bss           0x8018b168        0x0 generic/src/printf/vsnprintf.o
+ .bss           0x8018b168       0x18 generic/src/time/clock.o
+ .bss           0x8018b180        0x0 generic/src/time/timeout.o
+ .bss           0x8018b180        0x0 generic/src/time/delay.o
+ .bss           0x8018b180        0x0 generic/src/preempt/preemption.o
+ .bss           0x8018b180        0x0 generic/src/synch/spinlock.o
+ .bss           0x8018b180        0x0 generic/src/synch/condvar.o
+ .bss           0x8018b180        0x0 generic/src/synch/mutex.o
+ .bss           0x8018b180        0x0 generic/src/synch/semaphore.o
+ .bss           0x8018b180        0x0 generic/src/synch/smc.o
+ .bss           0x8018b180        0x0 generic/src/synch/waitq.o
+ .bss           0x8018b180       0x30 generic/src/synch/futex.o
+ .bss           0x8018b1b0        0x0 generic/src/smp/ipi.o
+ .bss           0x8018b1b0        0x0 generic/src/smp/smp.o
+ .bss           0x8018b1b0        0xc generic/src/ipc/ipc.o
+                0x8018b1b0                ipc_phone_0
+ .bss           0x8018b1bc        0x0 generic/src/ipc/sysipc.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/sysipc_ops.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/clnestab.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/conctmeto.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/concttome.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/connclone.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/dataread.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/datawrite.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/debug.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/sharein.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/shareout.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ops/stchngath.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/ipcrsc.o
+ .bss           0x8018b1bc        0x0 generic/src/ipc/irq.o
+ *fill*         0x8018b1bc        0x4 
+ .bss           0x8018b1c0       0x54 generic/src/ipc/event.o
+ .bss           0x8018b214        0x0 generic/src/security/cap.o
+ *fill*         0x8018b214        0xc 
+ .bss           0x8018b220       0x44 generic/src/sysinfo/sysinfo.o
+                0x8018b220                fb_exported
+ *fill*         0x8018b264       0x1c 
+ .bss           0x8018b280       0x2c generic/src/sysinfo/stats.o
+ *fill*         0x8018b2ac       0x14 
+ .bss           0x8018b2c0     0x2804 generic/src/console/kconsole.o
+ *fill*         0x8018dac4       0x1c 
+ .bss           0x8018dae0      0xa01 generic/src/console/cmd.o
+ *fill*         0x8018e4e1        0x3 
+ .bss           0x8018e4e4        0x0 generic/src/ipc/kbox.o
+ .bss           0x8018e4e4        0x0 generic/src/udebug/udebug.o
+ .bss           0x8018e4e4        0x0 generic/src/udebug/udebug_ops.o
+ .bss           0x8018e4e4        0x0 generic/src/udebug/udebug_ipc.o
+ .bss           0x8018e4e4        0x0 test/test.o
+ .bss           0x8018e4e4        0x0 test/atomic/atomic1.o
+ .bss           0x8018e4e4        0x0 test/btree/btree1.o
+ *fill*         0x8018e4e4       0x1c 
+ .bss           0x8018e500      0x984 test/avltree/avltree1.o
+ .bss           0x8018ee84        0x0 test/fault/fault1.o
+ .bss           0x8018ee84        0x0 test/mm/falloc1.o
+ .bss           0x8018ee84        0x8 test/mm/falloc2.o
+ .bss           0x8018ee8c        0x0 test/mm/mapping1.o
+ *fill*         0x8018ee8c       0x14 
+ .bss           0x8018eea0     0x7020 test/mm/slab1.o
+ .bss           0x80195ec0       0x60 test/mm/slab2.o
+ .bss           0x80195f20       0x40 test/synch/semaphore1.o
+ .bss           0x80195f60       0x38 test/synch/semaphore2.o
+ .bss           0x80195f98        0x0 test/print/print1.o
+ .bss           0x80195f98        0x0 test/print/print2.o
+ .bss           0x80195f98        0x0 test/print/print3.o
+ .bss           0x80195f98        0x0 test/print/print4.o
+ .bss           0x80195f98        0x0 test/print/print5.o
+ .bss           0x80195f98        0x8 test/thread/thread1.o
+ .bss           0x80195fa0        0x0 test/debug/mips1_skip.o
+ .bss           0x80195fa0        0x0 test/mm/purge1_skip.o
+ .bss           0x80195fa0        0x0 generic/src/debug/real_map.o
+                0x80195fa0                kdata_end = .
+
+/DISCARD/
+ *(*)
+                0x00002083                _hardcoded_unmapped_size = ((unmapped_ktext_end - unmapped_ktext_start) + (unmapped_kdata_end - unmapped_kdata_start))
+                0x00008000                ap_boot = ((unmapped_ap_boot - 0x108000) + 0x8000)
+                0x00008c24                ap_gdtr = ((unmapped_ap_gdtr - 0x108000) + 0x8000)
+                0x80008c24                protected_ap_gdtr = (ap_gdtr + 0x80000000)
+LOAD arch/ia32/src/context.o
+LOAD arch/ia32/src/debug/stacktrace.o
+LOAD arch/ia32/src/debug/stacktrace_asm.o
+LOAD arch/ia32/src/delay.o
+LOAD arch/ia32/src/asm.o
+LOAD arch/ia32/src/proc/scheduler.o
+LOAD arch/ia32/src/proc/task.o
+LOAD arch/ia32/src/proc/thread.o
+LOAD arch/ia32/src/bios/bios.o
+LOAD arch/ia32/src/smp/ap.o
+LOAD arch/ia32/src/smp/apic.o
+LOAD arch/ia32/src/smp/mps.o
+LOAD arch/ia32/src/smp/smp.o
+LOAD arch/ia32/src/atomic.o
+LOAD arch/ia32/src/smp/ipi.o
+LOAD arch/ia32/src/ia32.o
+LOAD arch/ia32/src/interrupt.o
+LOAD arch/ia32/src/pm.o
+LOAD arch/ia32/src/userspace.o
+LOAD arch/ia32/src/cpu/cpu.o
+LOAD arch/ia32/src/mm/km.o
+LOAD arch/ia32/src/mm/as.o
+LOAD arch/ia32/src/mm/frame.o
+LOAD arch/ia32/src/mm/page.o
+LOAD arch/ia32/src/mm/tlb.o
+LOAD arch/ia32/src/ddi/ddi.o
+LOAD arch/ia32/src/drivers/i8254.o
+LOAD arch/ia32/src/drivers/i8259.o
+LOAD arch/ia32/src/boot/multiboot.o
+LOAD arch/ia32/src/boot/multiboot2.o
+LOAD arch/ia32/src/boot/memmap.o
+LOAD arch/ia32/src/fpu_context.o
+LOAD arch/ia32/src/syscall.o
+LOAD genarch/src/acpi/acpi.o
+LOAD genarch/src/acpi/madt.o
+LOAD genarch/src/mm/page_pt.o
+LOAD genarch/src/mm/as_pt.o
+LOAD genarch/src/softint/division.o
+LOAD genarch/src/softint/multiplication.o
+LOAD genarch/src/fb/font-8x16.o
+LOAD genarch/src/fb/logo-196x66.o
+LOAD genarch/src/fb/fb.o
+LOAD genarch/src/fb/bfb.o
+LOAD genarch/src/drivers/i8042/i8042.o
+LOAD genarch/src/kbrd/kbrd.o
+LOAD genarch/src/kbrd/scanc_pc.o
+LOAD genarch/src/multiboot/multiboot.o
+LOAD genarch/src/multiboot/multiboot2.o
+LOAD genarch/src/drivers/ega/ega.o
+LOAD generic/src/adt/avl.o
+LOAD generic/src/adt/bitmap.o
+LOAD generic/src/adt/btree.o
+LOAD generic/src/adt/hash_table.o
+LOAD generic/src/adt/list.o
+LOAD generic/src/console/chardev.o
+LOAD generic/src/console/console.o
+LOAD generic/src/console/prompt.o
+LOAD generic/src/cpu/cpu.o
+LOAD generic/src/ddi/ddi.o
+LOAD generic/src/ddi/irq.o
+LOAD generic/src/ddi/device.o
+LOAD generic/src/debug/symtab.o
+LOAD generic/src/debug/stacktrace.o
+LOAD generic/src/debug/panic.o
+LOAD generic/src/debug/debug.o
+LOAD generic/src/interrupt/interrupt.o
+LOAD generic/src/main/main.o
+LOAD generic/src/main/kinit.o
+LOAD generic/src/main/uinit.o
+LOAD generic/src/main/version.o
+LOAD generic/src/main/shutdown.o
+LOAD generic/src/proc/program.o
+LOAD generic/src/proc/scheduler.o
+LOAD generic/src/proc/thread.o
+LOAD generic/src/proc/task.o
+LOAD generic/src/proc/the.o
+LOAD generic/src/syscall/syscall.o
+LOAD generic/src/syscall/copy.o
+LOAD generic/src/mm/km.o
+LOAD generic/src/mm/reserve.o
+LOAD generic/src/mm/buddy.o
+LOAD generic/src/mm/frame.o
+LOAD generic/src/mm/page.o
+LOAD generic/src/mm/tlb.o
+LOAD generic/src/mm/as.o
+LOAD generic/src/mm/backend_anon.o
+LOAD generic/src/mm/backend_elf.o
+LOAD generic/src/mm/backend_phys.o
+LOAD generic/src/mm/slab.o
+LOAD generic/src/lib/func.o
+LOAD generic/src/lib/memstr.o
+LOAD generic/src/lib/memfnc.o
+LOAD generic/src/lib/sort.o
+LOAD generic/src/lib/str.o
+LOAD generic/src/lib/elf.o
+LOAD generic/src/lib/ra.o
+LOAD generic/src/lib/rd.o
+LOAD generic/src/printf/printf_core.o
+LOAD generic/src/printf/printf.o
+LOAD generic/src/printf/snprintf.o
+LOAD generic/src/printf/vprintf.o
+LOAD generic/src/printf/vsnprintf.o
+LOAD generic/src/time/clock.o
+LOAD generic/src/time/timeout.o
+LOAD generic/src/time/delay.o
+LOAD generic/src/preempt/preemption.o
+LOAD generic/src/synch/spinlock.o
+LOAD generic/src/synch/condvar.o
+LOAD generic/src/synch/mutex.o
+LOAD generic/src/synch/semaphore.o
+LOAD generic/src/synch/smc.o
+LOAD generic/src/synch/waitq.o
+LOAD generic/src/synch/futex.o
+LOAD generic/src/smp/ipi.o
+LOAD generic/src/smp/smp.o
+LOAD generic/src/ipc/ipc.o
+LOAD generic/src/ipc/sysipc.o
+LOAD generic/src/ipc/sysipc_ops.o
+LOAD generic/src/ipc/ops/clnestab.o
+LOAD generic/src/ipc/ops/conctmeto.o
+LOAD generic/src/ipc/ops/concttome.o
+LOAD generic/src/ipc/ops/connclone.o
+LOAD generic/src/ipc/ops/dataread.o
+LOAD generic/src/ipc/ops/datawrite.o
+LOAD generic/src/ipc/ops/debug.o
+LOAD generic/src/ipc/ops/sharein.o
+LOAD generic/src/ipc/ops/shareout.o
+LOAD generic/src/ipc/ops/stchngath.o
+LOAD generic/src/ipc/ipcrsc.o
+LOAD generic/src/ipc/irq.o
+LOAD generic/src/ipc/event.o
+LOAD generic/src/security/cap.o
+LOAD generic/src/sysinfo/sysinfo.o
+LOAD generic/src/sysinfo/stats.o
+LOAD generic/src/console/kconsole.o
+LOAD generic/src/console/cmd.o
+LOAD generic/src/ipc/kbox.o
+LOAD generic/src/udebug/udebug.o
+LOAD generic/src/udebug/udebug_ops.o
+LOAD generic/src/udebug/udebug_ipc.o
+LOAD test/test.o
+LOAD test/atomic/atomic1.o
+LOAD test/btree/btree1.o
+LOAD test/avltree/avltree1.o
+LOAD test/fault/fault1.o
+LOAD test/mm/falloc1.o
+LOAD test/mm/falloc2.o
+LOAD test/mm/mapping1.o
+LOAD test/mm/slab1.o
+LOAD test/mm/slab2.o
+LOAD test/synch/semaphore1.o
+LOAD test/synch/semaphore2.o
+LOAD test/print/print1.o
+LOAD test/print/print2.o
+LOAD test/print/print3.o
+LOAD test/print/print4.o
+LOAD test/print/print5.o
+LOAD test/thread/thread1.o
+LOAD test/debug/mips1_skip.o
+LOAD test/mm/purge1_skip.o
+LOAD generic/src/debug/real_map.o
+OUTPUT(kernel.raw elf32-i386)

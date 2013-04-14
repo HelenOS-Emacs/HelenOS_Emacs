@@ -1,0 +1,103 @@
+# DO NOT DELETE
+
+codec/tga.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+codec/tga.o: ../../lib/c/include/sys/types.h
+codec/tga.o: ../../lib/c/include/libarch/types.h
+codec/tga.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+codec/tga.o: ../../lib/c/include/sys/time.h
+codec/tga.o: ../../lib/c/include/libarch/config.h
+codec/tga.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+codec/tga.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+codec/tga.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+codec/tga.o: ../../lib/c/include/align.h ../../lib/softrend/pixconv.h
+codec/tga.o: ../../lib/c/include/io/pixel.h codec/tga.h surface.h
+codec/tga.o: ../../lib/c/include/io/pixelmap.h
+cursor/embedded.o: ../../lib/c/include/assert.h
+cursor/embedded.o: ../../lib/c/include/sys/types.h
+cursor/embedded.o: ../../lib/c/include/libarch/types.h
+cursor/embedded.o: ../../lib/c/include/libarch/common.h
+cursor/embedded.o: ../../lib/c/include/malloc.h gfx/cursor-11x18.h
+cursor/embedded.o: cursor/embedded.h cursor.h surface.h
+cursor/embedded.o: ../../lib/c/include/stdbool.h
+cursor/embedded.o: ../../lib/c/include/abi/bool.h
+cursor/embedded.o: ../../lib/c/include/io/pixelmap.h
+cursor/embedded.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+cursor/embedded.o: ../../lib/c/include/sys/time.h
+cursor/embedded.o: ../../lib/c/include/libarch/config.h
+cursor/embedded.o: ../../lib/c/include/io/pixel.h surface.h
+font/embedded.o: ../../lib/c/include/assert.h ../../lib/c/include/sys/types.h
+font/embedded.o: ../../lib/c/include/libarch/types.h
+font/embedded.o: ../../lib/c/include/libarch/common.h
+font/embedded.o: ../../lib/c/include/malloc.h gfx/font-8x16.h
+font/embedded.o: cursor/embedded.h cursor.h surface.h
+font/embedded.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+font/embedded.o: ../../lib/c/include/io/pixelmap.h
+font/embedded.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+font/embedded.o: ../../lib/c/include/sys/time.h
+font/embedded.o: ../../lib/c/include/libarch/config.h
+font/embedded.o: ../../lib/c/include/io/pixel.h drawctx.h
+font/embedded.o: ../../lib/softrend/compose.h source.h
+font/embedded.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+font/embedded.o: path.h ../../lib/c/include/adt/list.h font.h
+gfx/font-8x16.o: ../../lib/c/include/sys/types.h
+gfx/font-8x16.o: ../../lib/c/include/libarch/types.h
+gfx/font-8x16.o: ../../lib/c/include/libarch/common.h gfx/font-8x16.h
+gfx/cursor-11x18.o: gfx/cursor-11x18.h ../../lib/c/include/sys/types.h
+gfx/cursor-11x18.o: ../../lib/c/include/libarch/types.h
+gfx/cursor-11x18.o: ../../lib/c/include/libarch/common.h
+drawctx.o: ../../lib/c/include/assert.h ../../lib/c/include/adt/list.h
+drawctx.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+drawctx.o: ../../lib/c/include/libarch/types.h
+drawctx.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+drawctx.o: ../../lib/c/include/sys/time.h
+drawctx.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+drawctx.o: drawctx.h ../../lib/c/include/stdbool.h
+drawctx.o: ../../lib/c/include/abi/bool.h ../../lib/softrend/compose.h
+drawctx.o: ../../lib/c/include/io/pixel.h surface.h
+drawctx.o: ../../lib/c/include/io/pixelmap.h source.h
+drawctx.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h path.h
+drawctx.o: font.h
+cursor.o: ../../lib/c/include/malloc.h ../../lib/c/include/sys/types.h
+cursor.o: ../../lib/c/include/libarch/types.h
+cursor.o: ../../lib/c/include/libarch/common.h cursor.h surface.h
+cursor.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+cursor.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/unistd.h
+cursor.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+cursor.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/io/pixel.h
+cursor.o: cursor/embedded.h cursor.h
+font.o: ../../lib/c/include/assert.h ../../lib/c/include/malloc.h
+font.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+font.o: ../../lib/c/include/libarch/common.h font.h surface.h
+font.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+font.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/unistd.h
+font.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+font.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/io/pixel.h
+font.o: source.h ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+font.o: font/embedded.h font.h drawctx.h ../../lib/softrend/compose.h path.h
+font.o: ../../lib/c/include/adt/list.h
+path.o: ../../lib/c/include/assert.h ../../lib/c/include/stdbool.h
+path.o: ../../lib/c/include/libarch/types.h
+path.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+path.o: ../../lib/c/include/malloc.h ../../lib/c/include/sys/types.h path.h
+path.o: ../../lib/c/include/adt/list.h ../../lib/c/include/unistd.h
+path.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+path.o: ../../lib/c/include/libarch/config.h
+source.o: ../../lib/c/include/assert.h source.h
+source.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+source.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+source.o: ../../lib/c/include/abi/bool.h ../../lib/softrend/transform.h
+source.o: ../../lib/softrend/filter.h ../../lib/c/include/io/pixelmap.h
+source.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+source.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+source.o: ../../lib/c/include/io/pixel.h surface.h
+surface.o: ../../lib/c/include/malloc.h ../../lib/c/include/sys/types.h
+surface.o: ../../lib/c/include/libarch/types.h
+surface.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/mem.h
+surface.o: ../../lib/c/include/as.h ../../lib/c/include/abi/mm/as.h
+surface.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+surface.o: ../../lib/c/include/stdarg.h ../../lib/c/include/libarch/config.h
+surface.o: ../../lib/c/include/assert.h surface.h
+surface.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+surface.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/unistd.h
+surface.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+surface.o: ../../lib/c/include/io/pixel.h

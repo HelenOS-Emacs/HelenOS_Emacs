@@ -1,0 +1,32 @@
+# DO NOT DELETE
+
+block.o: ../../srv/vfs/vfs.h ../../lib/c/include/async.h
+block.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/sys/types.h
+block.o: ../../lib/c/include/libarch/types.h
+block.o: ../../lib/c/include/libarch/common.h
+block.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+block.o: ../../lib/c/include/libarch/atomic.h
+block.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+block.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+block.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+block.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+block.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+block.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+block.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+block.o: ../../lib/c/include/libarch/config.h
+block.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+block.o: ../../lib/c/include/abi/syscall.h
+block.o: ../../lib/c/include/libarch/syscall.h
+block.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+block.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/loc.h
+block.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/vfs.h
+block.o: ../../lib/c/include/ipc/services.h ../../lib/c/include/fourcc.h
+block.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+block.o: ../../lib/c/include/sys/mman.h ../../lib/c/include/as.h
+block.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/bd.h
+block.o: ../../lib/c/include/mem.h ../../lib/c/include/malloc.h
+block.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+block.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+block.o: ../../lib/c/include/sys/typefmt.h ../../lib/c/include/inttypes.h
+block.o: ../../lib/c/include/libarch/inttypes.h
+block.o: ../../lib/c/include/stacktrace.h block.h

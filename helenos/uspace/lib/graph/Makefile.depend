@@ -1,0 +1,29 @@
+# DO NOT DELETE
+
+graph.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+graph.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/inttypes.h
+graph.o: ../../lib/c/include/libarch/inttypes.h ../../lib/c/include/stdio.h
+graph.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+graph.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+graph.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+graph.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+graph.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+graph.o: ../../lib/c/include/malloc.h ../../lib/c/include/as.h
+graph.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/task.h
+graph.o: ../../lib/c/include/abi/proc/task.h
+graph.o: ../../lib/c/include/libarch/config.h graph.h
+graph.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+graph.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+graph.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+graph.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+graph.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+graph.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+graph.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+graph.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/tls.h
+graph.o: ../../lib/c/include/libc.h ../../lib/c/include/abi/syscall.h
+graph.o: ../../lib/c/include/libarch/syscall.h
+graph.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/io/mode.h
+graph.o: ../../lib/c/include/abi/fb/visuals.h ../../lib/c/include/io/pixel.h
+graph.o: ../../lib/c/include/io/charfield.h ../../lib/c/include/io/color.h
+graph.o: ../../lib/c/include/io/style.h ../../lib/c/include/io/pixelmap.h
+graph.o: ../../lib/c/include/ipc/graph.h

@@ -1,0 +1,47 @@
+# DO NOT DELETE
+
+console.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+console.o: ../../../lib/c/include/sys/types.h
+console.o: ../../../lib/c/include/libarch/types.h
+console.o: ../../../lib/c/include/libarch/common.h
+console.o: ../../../lib/c/include/abi/ipc/ipc.h
+console.o: ../../../lib/c/include/atomic.h
+console.o: ../../../lib/c/include/libarch/atomic.h
+console.o: ../../../lib/c/include/atomicdflt.h
+console.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+console.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+console.o: ../../../lib/c/include/abi/proc/task.h
+console.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+console.o: ../../../lib/c/include/libarch/fibril.h
+console.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+console.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+console.o: ../../../lib/c/include/sys/time.h
+console.o: ../../../lib/c/include/libarch/config.h
+console.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+console.o: ../../../lib/c/include/abi/syscall.h
+console.o: ../../../lib/c/include/libarch/syscall.h
+console.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+console.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+console.o: ../../../lib/c/include/abi/klog.h
+console.o: ../../../lib/c/include/adt/prodcons.h
+console.o: ../../../lib/c/include/fibril_synch.h
+console.o: ../../../lib/c/include/io/input.h
+console.o: ../../../lib/c/include/io/kbd_event.h
+console.o: ../../../lib/c/include/io/keycode.h
+console.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/c/include/errno.h
+console.o: ../../../lib/c/include/abi/errno.h
+console.o: ../../../lib/c/include/str_error.h ../../../lib/c/include/loc.h
+console.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/event.h
+console.o: ../../../lib/c/include/abi/ipc/event.h
+console.o: ../../../lib/c/include/io/con_srv.h
+console.o: ../../../lib/c/include/io/color.h
+console.o: ../../../lib/c/include/io/concaps.h
+console.o: ../../../lib/c/include/io/pixel.h
+console.o: ../../../lib/c/include/io/style.h
+console.o: ../../../lib/c/include/io/chargrid.h
+console.o: ../../../lib/c/include/io/charfield.h
+console.o: ../../../lib/c/include/io/output.h
+console.o: ../../../lib/c/include/ipc/output.h
+console.o: ../../../lib/c/include/io/console.h ../../../lib/c/include/align.h
+console.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/as.h
+console.o: ../../../lib/c/include/abi/mm/as.h console.h

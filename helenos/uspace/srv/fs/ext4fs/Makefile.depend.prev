@@ -1,0 +1,82 @@
+# DO NOT DELETE
+
+ext4fs.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+ext4fs.o: ../../../lib/c/include/sys/types.h
+ext4fs.o: ../../../lib/c/include/libarch/types.h
+ext4fs.o: ../../../lib/c/include/libarch/common.h
+ext4fs.o: ../../../lib/c/include/abi/ipc/ipc.h
+ext4fs.o: ../../../lib/c/include/atomic.h
+ext4fs.o: ../../../lib/c/include/libarch/atomic.h
+ext4fs.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ext4fs.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+ext4fs.o: ../../../lib/c/include/task.h
+ext4fs.o: ../../../lib/c/include/abi/proc/task.h
+ext4fs.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+ext4fs.o: ../../../lib/c/include/libarch/fibril.h
+ext4fs.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ext4fs.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ext4fs.o: ../../../lib/c/include/sys/time.h
+ext4fs.o: ../../../lib/c/include/libarch/config.h
+ext4fs.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ext4fs.o: ../../../lib/c/include/abi/syscall.h
+ext4fs.o: ../../../lib/c/include/libarch/syscall.h
+ext4fs.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+ext4fs.o: ../../../lib/fs/libfs.h ../../../lib/c/include/ipc/vfs.h
+ext4fs.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+ext4fs.o: ../../../lib/c/include/ns.h ../../../lib/c/include/ipc/services.h
+ext4fs.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/stdio.h
+ext4fs.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+ext4fs.o: ../../../lib/c/include/io/verify.h
+ext4fs.o: ../../../lib/c/include/abi/klog.h ext4fs.h ../../vfs/vfs.h
+ext4fs.o: ../../../lib/c/include/adt/hash_table.h
+ext4fs.o: ../../../lib/c/include/macros.h
+ext4fs.o: ../../../lib/c/include/fibril_synch.h
+ext4fs_ops.o: ../../../lib/c/include/errno.h
+ext4fs_ops.o: ../../../lib/c/include/abi/errno.h
+ext4fs_ops.o: ../../../lib/c/include/fibril_synch.h
+ext4fs_ops.o: ../../../lib/c/include/fibril.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/fibril.h
+ext4fs_ops.o: ../../../lib/c/include/sys/types.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/types.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/common.h
+ext4fs_ops.o: ../../../lib/c/include/adt/list.h
+ext4fs_ops.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+ext4fs_ops.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/config.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/tls.h
+ext4fs_ops.o: ../../../lib/c/include/libc.h
+ext4fs_ops.o: ../../../lib/c/include/abi/syscall.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/syscall.h
+ext4fs_ops.o: ../../../lib/c/include/stdbool.h
+ext4fs_ops.o: ../../../lib/c/include/abi/bool.h ../../../lib/ext4/libext4.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_balloc.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_types.h ../../../lib/block/block.h
+ext4fs_ops.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/async.h
+ext4fs_ops.o: ../../../lib/c/include/ipc/common.h
+ext4fs_ops.o: ../../../lib/c/include/abi/ipc/ipc.h
+ext4fs_ops.o: ../../../lib/c/include/atomic.h
+ext4fs_ops.o: ../../../lib/c/include/libarch/atomic.h
+ext4fs_ops.o: ../../../lib/c/include/atomicdflt.h
+ext4fs_ops.o: ../../../lib/c/include/task.h
+ext4fs_ops.o: ../../../lib/c/include/abi/proc/task.h
+ext4fs_ops.o: ../../../lib/c/include/stdarg.h ../../../srv/vfs/vfs.h
+ext4fs_ops.o: ../../../lib/c/include/adt/hash_table.h
+ext4fs_ops.o: ../../../lib/c/include/macros.h ../../../lib/c/include/loc.h
+ext4fs_ops.o: ../../../lib/c/include/ipc/loc.h
+ext4fs_ops.o: ../../../lib/c/include/ipc/vfs.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_bitmap.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_block_group.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_crc.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_directory.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_directory_index.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_extent.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_filesystem.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_hash.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_ialloc.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_inode.h
+ext4fs_ops.o: ../../../lib/ext4/libext4_superblock.h
+ext4fs_ops.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ext4fs_ops.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ext4fs_ops.o: ../../../lib/c/include/abi/klog.h ../../../lib/fs/libfs.h
+ext4fs_ops.o: ../../../lib/c/include/malloc.h
+ext4fs_ops.o: ../../../lib/c/include/adt/hash.h ext4fs.h ../../vfs/vfs.h

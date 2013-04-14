@@ -1,0 +1,522 @@
+# DO NOT DELETE
+
+endpoint_list.o: ../../../../lib/c/include/errno.h
+endpoint_list.o: ../../../../lib/c/include/abi/errno.h
+endpoint_list.o: ../../../../lib/usb/include/usb/debug.h
+endpoint_list.o: ../../../../lib/c/include/stdio.h
+endpoint_list.o: ../../../../lib/c/include/sys/types.h
+endpoint_list.o: ../../../../lib/c/include/libarch/types.h
+endpoint_list.o: ../../../../lib/c/include/libarch/common.h
+endpoint_list.o: ../../../../lib/c/include/stdarg.h
+endpoint_list.o: ../../../../lib/c/include/str.h
+endpoint_list.o: ../../../../lib/c/include/mem.h
+endpoint_list.o: ../../../../lib/c/include/stdbool.h
+endpoint_list.o: ../../../../lib/c/include/abi/bool.h
+endpoint_list.o: ../../../../lib/c/include/io/verify.h
+endpoint_list.o: ../../../../lib/c/include/abi/klog.h
+endpoint_list.o: ../../../../lib/c/include/inttypes.h
+endpoint_list.o: ../../../../lib/c/include/libarch/inttypes.h
+endpoint_list.o: ../../../../lib/usb/include/usb/usb.h
+endpoint_list.o: ../../../../lib/c/include/byteorder.h
+endpoint_list.o: ../../../../lib/c/include/stdint.h
+endpoint_list.o: ../../../../lib/c/include/io/log.h
+endpoint_list.o: ../../../../lib/c/include/assert.h
+endpoint_list.o: ../../../../lib/c/include/libarch/barrier.h
+endpoint_list.o: ../../../../lib/c/include/trace.h endpoint_list.h
+endpoint_list.o: ../../../../lib/c/include/fibril_synch.h
+endpoint_list.o: ../../../../lib/c/include/fibril.h
+endpoint_list.o: ../../../../lib/c/include/libarch/fibril.h
+endpoint_list.o: ../../../../lib/c/include/adt/list.h
+endpoint_list.o: ../../../../lib/c/include/unistd.h
+endpoint_list.o: ../../../../lib/c/include/time.h
+endpoint_list.o: ../../../../lib/c/include/sys/time.h
+endpoint_list.o: ../../../../lib/c/include/libarch/config.h
+endpoint_list.o: ../../../../lib/c/include/libarch/tls.h
+endpoint_list.o: ../../../../lib/c/include/libc.h
+endpoint_list.o: ../../../../lib/c/include/abi/syscall.h
+endpoint_list.o: ../../../../lib/c/include/libarch/syscall.h ohci_endpoint.h
+endpoint_list.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+endpoint_list.o: ../../../../lib/usbhost/include/usb/host/hcd.h
+endpoint_list.o: ../../../../lib/drv/include/usbhc_iface.h
+endpoint_list.o: ../../../../lib/drv/include/ddf/driver.h
+endpoint_list.o: ../../../../lib/c/include/async.h
+endpoint_list.o: ../../../../lib/c/include/ipc/common.h
+endpoint_list.o: ../../../../lib/c/include/abi/ipc/ipc.h
+endpoint_list.o: ../../../../lib/c/include/atomic.h
+endpoint_list.o: ../../../../lib/c/include/libarch/atomic.h
+endpoint_list.o: ../../../../lib/c/include/atomicdflt.h
+endpoint_list.o: ../../../../lib/c/include/task.h
+endpoint_list.o: ../../../../lib/c/include/abi/proc/task.h
+endpoint_list.o: ../../../../lib/c/include/ipc/devman.h
+endpoint_list.o: ../../../../lib/c/include/malloc.h
+endpoint_list.o: ../../../../lib/c/include/ipc/dev_iface.h
+endpoint_list.o: ../../../../lib/drv/include/dev_iface.h
+endpoint_list.o: ../../../../lib/usbhost/include/usb/host/usb_device_manager.h
+endpoint_list.o: ../../../../lib/c/include/devman.h
+endpoint_list.o: ../../../../lib/c/include/ipc/loc.h
+endpoint_list.o: ../../../../lib/usbhost/include/usb/host/usb_endpoint_manager.h
+endpoint_list.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h
+endpoint_list.o: hw_struct/endpoint_descriptor.h utils/malloc32.h
+endpoint_list.o: ../../../../lib/c/include/as.h
+endpoint_list.o: ../../../../lib/c/include/abi/mm/as.h
+endpoint_list.o: hw_struct/transfer_descriptor.h hw_struct/mem_access.h
+endpoint_list.o: hw_struct/completion_codes.h hw_struct/transfer_descriptor.h
+endpoint_list.o: utils/malloc32.h
+hc.o: ../../../../lib/c/include/errno.h ../../../../lib/c/include/abi/errno.h
+hc.o: ../../../../lib/c/include/str_error.h
+hc.o: ../../../../lib/c/include/adt/list.h ../../../../lib/c/include/assert.h
+hc.o: ../../../../lib/c/include/unistd.h
+hc.o: ../../../../lib/c/include/sys/types.h
+hc.o: ../../../../lib/c/include/libarch/types.h
+hc.o: ../../../../lib/c/include/libarch/common.h
+hc.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+hc.o: ../../../../lib/c/include/libarch/config.h
+hc.o: ../../../../lib/c/include/libarch/ddi.h
+hc.o: ../../../../lib/usb/include/usb/debug.h
+hc.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/stdarg.h
+hc.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/mem.h
+hc.o: ../../../../lib/c/include/stdbool.h
+hc.o: ../../../../lib/c/include/abi/bool.h
+hc.o: ../../../../lib/c/include/io/verify.h
+hc.o: ../../../../lib/c/include/abi/klog.h
+hc.o: ../../../../lib/c/include/inttypes.h
+hc.o: ../../../../lib/c/include/libarch/inttypes.h
+hc.o: ../../../../lib/usb/include/usb/usb.h
+hc.o: ../../../../lib/c/include/byteorder.h
+hc.o: ../../../../lib/c/include/stdint.h ../../../../lib/c/include/io/log.h
+hc.o: ../../../../lib/usb/include/usb/ddfiface.h
+hc.o: ../../../../lib/drv/include/usb_iface.h
+hc.o: ../../../../lib/drv/include/ddf/driver.h
+hc.o: ../../../../lib/c/include/async.h
+hc.o: ../../../../lib/c/include/ipc/common.h
+hc.o: ../../../../lib/c/include/abi/ipc/ipc.h
+hc.o: ../../../../lib/c/include/atomic.h
+hc.o: ../../../../lib/c/include/libarch/atomic.h
+hc.o: ../../../../lib/c/include/atomicdflt.h ../../../../lib/c/include/task.h
+hc.o: ../../../../lib/c/include/abi/proc/task.h
+hc.o: ../../../../lib/c/include/fibril.h
+hc.o: ../../../../lib/c/include/libarch/fibril.h
+hc.o: ../../../../lib/c/include/libarch/tls.h
+hc.o: ../../../../lib/c/include/libc.h
+hc.o: ../../../../lib/c/include/abi/syscall.h
+hc.o: ../../../../lib/c/include/libarch/syscall.h
+hc.o: ../../../../lib/c/include/ipc/devman.h
+hc.o: ../../../../lib/c/include/malloc.h
+hc.o: ../../../../lib/c/include/ipc/dev_iface.h
+hc.o: ../../../../lib/drv/include/dev_iface.h hc.h
+hc.o: ../../../../lib/c/include/fibril_synch.h
+hc.o: ../../../../lib/c/include/ddi.h ../../../../lib/c/include/abi/ddi/irq.h
+hc.o: ../../../../lib/usbhost/include/usb/host/hcd.h
+hc.o: ../../../../lib/drv/include/usbhc_iface.h
+hc.o: ../../../../lib/usbhost/include/usb/host/usb_device_manager.h
+hc.o: ../../../../lib/c/include/devman.h ../../../../lib/c/include/ipc/loc.h
+hc.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+hc.o: ../../../../lib/usbhost/include/usb/host/usb_endpoint_manager.h
+hc.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h
+hc.o: ohci_batch.h hw_struct/transfer_descriptor.h
+hc.o: hw_struct/endpoint_descriptor.h utils/malloc32.h
+hc.o: ../../../../lib/c/include/as.h ../../../../lib/c/include/abi/mm/as.h
+hc.o: hw_struct/transfer_descriptor.h hw_struct/mem_access.h
+hc.o: hw_struct/completion_codes.h ohci_regs.h root_hub.h
+hc.o: ../../../../lib/usbdev/include/usb/dev/driver.h
+hc.o: ../../../../lib/usb/include/usb/hc.h
+hc.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+hc.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+hc.o: ../../../../lib/usb/include/usb/descriptor.h endpoint_list.h
+hc.o: ohci_endpoint.h utils/malloc32.h hw_struct/hcca.h
+main.o: ../../../../lib/drv/include/ddf/driver.h
+main.o: ../../../../lib/c/include/async.h
+main.o: ../../../../lib/c/include/ipc/common.h
+main.o: ../../../../lib/c/include/sys/types.h
+main.o: ../../../../lib/c/include/libarch/types.h
+main.o: ../../../../lib/c/include/libarch/common.h
+main.o: ../../../../lib/c/include/abi/ipc/ipc.h
+main.o: ../../../../lib/c/include/atomic.h
+main.o: ../../../../lib/c/include/libarch/atomic.h
+main.o: ../../../../lib/c/include/atomicdflt.h
+main.o: ../../../../lib/c/include/stdint.h
+main.o: ../../../../lib/c/include/stdbool.h
+main.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+main.o: ../../../../lib/c/include/abi/proc/task.h
+main.o: ../../../../lib/c/include/stdarg.h ../../../../lib/c/include/fibril.h
+main.o: ../../../../lib/c/include/libarch/fibril.h
+main.o: ../../../../lib/c/include/adt/list.h
+main.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+main.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+main.o: ../../../../lib/c/include/libarch/config.h
+main.o: ../../../../lib/c/include/libarch/tls.h
+main.o: ../../../../lib/c/include/libc.h
+main.o: ../../../../lib/c/include/abi/syscall.h
+main.o: ../../../../lib/c/include/libarch/syscall.h
+main.o: ../../../../lib/c/include/ipc/devman.h
+main.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+main.o: ../../../../lib/c/include/ipc/dev_iface.h
+main.o: ../../../../lib/drv/include/dev_iface.h
+main.o: ../../../../lib/c/include/errno.h
+main.o: ../../../../lib/c/include/abi/errno.h
+main.o: ../../../../lib/c/include/str_error.h
+main.o: ../../../../lib/usb/include/usb/debug.h
+main.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+main.o: ../../../../lib/c/include/io/verify.h
+main.o: ../../../../lib/c/include/abi/klog.h
+main.o: ../../../../lib/c/include/inttypes.h
+main.o: ../../../../lib/c/include/libarch/inttypes.h
+main.o: ../../../../lib/usb/include/usb/usb.h
+main.o: ../../../../lib/c/include/byteorder.h
+main.o: ../../../../lib/c/include/io/log.h ohci.h
+main.o: ../../../../lib/c/include/ddi.h
+main.o: ../../../../lib/c/include/abi/ddi/irq.h
+ohci.o: ../../../../lib/c/include/errno.h
+ohci.o: ../../../../lib/c/include/abi/errno.h
+ohci.o: ../../../../lib/c/include/str_error.h
+ohci.o: ../../../../lib/drv/include/ddf/interrupt.h
+ohci.o: ../../../../lib/c/include/libarch/common.h
+ohci.o: ../../../../lib/c/include/libarch/types.h
+ohci.o: ../../../../lib/c/include/abi/ddi/irq.h
+ohci.o: ../../../../lib/c/include/adt/list.h
+ohci.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+ohci.o: ../../../../lib/c/include/sys/types.h
+ohci.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+ohci.o: ../../../../lib/c/include/libarch/config.h
+ohci.o: ../../../../lib/c/include/ddi.h ../../../../lib/c/include/stdbool.h
+ohci.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+ohci.o: ../../../../lib/c/include/abi/proc/task.h
+ohci.o: ../../../../lib/c/include/stdarg.h
+ohci.o: ../../../../lib/c/include/fibril_synch.h
+ohci.o: ../../../../lib/c/include/fibril.h
+ohci.o: ../../../../lib/c/include/libarch/fibril.h
+ohci.o: ../../../../lib/c/include/libarch/tls.h
+ohci.o: ../../../../lib/c/include/libc.h
+ohci.o: ../../../../lib/c/include/abi/syscall.h
+ohci.o: ../../../../lib/c/include/libarch/syscall.h
+ohci.o: ../../../../lib/drv/include/ddf/driver.h
+ohci.o: ../../../../lib/c/include/async.h
+ohci.o: ../../../../lib/c/include/ipc/common.h
+ohci.o: ../../../../lib/c/include/abi/ipc/ipc.h
+ohci.o: ../../../../lib/c/include/atomic.h
+ohci.o: ../../../../lib/c/include/libarch/atomic.h
+ohci.o: ../../../../lib/c/include/atomicdflt.h
+ohci.o: ../../../../lib/c/include/stdint.h
+ohci.o: ../../../../lib/c/include/ipc/devman.h
+ohci.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+ohci.o: ../../../../lib/c/include/ipc/dev_iface.h
+ohci.o: ../../../../lib/drv/include/dev_iface.h
+ohci.o: ../../../../lib/drv/include/usb_iface.h
+ohci.o: ../../../../lib/drv/include/ddf/driver.h
+ohci.o: ../../../../lib/usb/include/usb/usb.h
+ohci.o: ../../../../lib/c/include/byteorder.h
+ohci.o: ../../../../lib/usb/include/usb/ddfiface.h
+ohci.o: ../../../../lib/usb/include/usb/debug.h
+ohci.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+ohci.o: ../../../../lib/c/include/io/verify.h
+ohci.o: ../../../../lib/c/include/abi/klog.h
+ohci.o: ../../../../lib/c/include/inttypes.h
+ohci.o: ../../../../lib/c/include/libarch/inttypes.h
+ohci.o: ../../../../lib/c/include/io/log.h ohci.h res.h hc.h
+ohci.o: ../../../../lib/usbhost/include/usb/host/hcd.h
+ohci.o: ../../../../lib/drv/include/usbhc_iface.h
+ohci.o: ../../../../lib/usbhost/include/usb/host/usb_device_manager.h
+ohci.o: ../../../../lib/c/include/devman.h
+ohci.o: ../../../../lib/c/include/ipc/loc.h
+ohci.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+ohci.o: ../../../../lib/usbhost/include/usb/host/usb_endpoint_manager.h
+ohci.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h
+ohci.o: ohci_batch.h hw_struct/transfer_descriptor.h
+ohci.o: hw_struct/endpoint_descriptor.h utils/malloc32.h
+ohci.o: ../../../../lib/c/include/as.h ../../../../lib/c/include/abi/mm/as.h
+ohci.o: hw_struct/transfer_descriptor.h hw_struct/mem_access.h
+ohci.o: hw_struct/completion_codes.h ohci_regs.h root_hub.h
+ohci.o: ../../../../lib/usbdev/include/usb/dev/driver.h
+ohci.o: ../../../../lib/usb/include/usb/hc.h
+ohci.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+ohci.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+ohci.o: ../../../../lib/usb/include/usb/descriptor.h endpoint_list.h
+ohci.o: ohci_endpoint.h utils/malloc32.h hw_struct/hcca.h
+ohci_batch.o: ../../../../lib/c/include/errno.h
+ohci_batch.o: ../../../../lib/c/include/abi/errno.h
+ohci_batch.o: ../../../../lib/c/include/str_error.h
+ohci_batch.o: ../../../../lib/c/include/macros.h
+ohci_batch.o: ../../../../lib/usb/include/usb/usb.h
+ohci_batch.o: ../../../../lib/c/include/stdbool.h
+ohci_batch.o: ../../../../lib/c/include/libarch/types.h
+ohci_batch.o: ../../../../lib/c/include/libarch/common.h
+ohci_batch.o: ../../../../lib/c/include/abi/bool.h
+ohci_batch.o: ../../../../lib/c/include/sys/types.h
+ohci_batch.o: ../../../../lib/c/include/byteorder.h
+ohci_batch.o: ../../../../lib/c/include/stdint.h
+ohci_batch.o: ../../../../lib/usb/include/usb/debug.h
+ohci_batch.o: ../../../../lib/c/include/stdio.h
+ohci_batch.o: ../../../../lib/c/include/stdarg.h
+ohci_batch.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/mem.h
+ohci_batch.o: ../../../../lib/c/include/io/verify.h
+ohci_batch.o: ../../../../lib/c/include/abi/klog.h
+ohci_batch.o: ../../../../lib/c/include/inttypes.h
+ohci_batch.o: ../../../../lib/c/include/libarch/inttypes.h
+ohci_batch.o: ../../../../lib/c/include/io/log.h
+ohci_batch.o: ../../../../lib/c/include/assert.h ohci_batch.h
+ohci_batch.o: ../../../../lib/c/include/adt/list.h
+ohci_batch.o: ../../../../lib/c/include/unistd.h
+ohci_batch.o: ../../../../lib/c/include/time.h
+ohci_batch.o: ../../../../lib/c/include/sys/time.h
+ohci_batch.o: ../../../../lib/c/include/libarch/config.h
+ohci_batch.o: ../../../../lib/drv/include/usbhc_iface.h
+ohci_batch.o: ../../../../lib/drv/include/ddf/driver.h
+ohci_batch.o: ../../../../lib/c/include/async.h
+ohci_batch.o: ../../../../lib/c/include/ipc/common.h
+ohci_batch.o: ../../../../lib/c/include/abi/ipc/ipc.h
+ohci_batch.o: ../../../../lib/c/include/atomic.h
+ohci_batch.o: ../../../../lib/c/include/libarch/atomic.h
+ohci_batch.o: ../../../../lib/c/include/atomicdflt.h
+ohci_batch.o: ../../../../lib/c/include/task.h
+ohci_batch.o: ../../../../lib/c/include/abi/proc/task.h
+ohci_batch.o: ../../../../lib/c/include/fibril.h
+ohci_batch.o: ../../../../lib/c/include/libarch/fibril.h
+ohci_batch.o: ../../../../lib/c/include/libarch/tls.h
+ohci_batch.o: ../../../../lib/c/include/libc.h
+ohci_batch.o: ../../../../lib/c/include/abi/syscall.h
+ohci_batch.o: ../../../../lib/c/include/libarch/syscall.h
+ohci_batch.o: ../../../../lib/c/include/ipc/devman.h
+ohci_batch.o: ../../../../lib/c/include/malloc.h
+ohci_batch.o: ../../../../lib/c/include/ipc/dev_iface.h
+ohci_batch.o: ../../../../lib/drv/include/dev_iface.h
+ohci_batch.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h
+ohci_batch.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+ohci_batch.o: ../../../../lib/c/include/fibril_synch.h
+ohci_batch.o: hw_struct/transfer_descriptor.h hw_struct/endpoint_descriptor.h
+ohci_batch.o: utils/malloc32.h ../../../../lib/c/include/as.h
+ohci_batch.o: ../../../../lib/c/include/abi/mm/as.h
+ohci_batch.o: hw_struct/transfer_descriptor.h hw_struct/mem_access.h
+ohci_batch.o: hw_struct/completion_codes.h ohci_endpoint.h
+ohci_batch.o: ../../../../lib/usbhost/include/usb/host/hcd.h
+ohci_batch.o: ../../../../lib/usbhost/include/usb/host/usb_device_manager.h
+ohci_batch.o: ../../../../lib/c/include/devman.h
+ohci_batch.o: ../../../../lib/c/include/ipc/loc.h
+ohci_batch.o: ../../../../lib/usbhost/include/usb/host/usb_endpoint_manager.h
+ohci_batch.o: utils/malloc32.h
+ohci_endpoint.o: utils/malloc32.h ohci_endpoint.h
+ohci_endpoint.o: ../../../../lib/c/include/assert.h
+ohci_endpoint.o: ../../../../lib/c/include/adt/list.h
+ohci_endpoint.o: ../../../../lib/c/include/unistd.h
+ohci_endpoint.o: ../../../../lib/c/include/sys/types.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/types.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/common.h
+ohci_endpoint.o: ../../../../lib/c/include/time.h
+ohci_endpoint.o: ../../../../lib/c/include/sys/time.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/config.h
+ohci_endpoint.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+ohci_endpoint.o: ../../../../lib/c/include/stdbool.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/bool.h
+ohci_endpoint.o: ../../../../lib/c/include/fibril_synch.h
+ohci_endpoint.o: ../../../../lib/c/include/fibril.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/fibril.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/tls.h
+ohci_endpoint.o: ../../../../lib/c/include/libc.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/syscall.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/syscall.h
+ohci_endpoint.o: ../../../../lib/usb/include/usb/usb.h
+ohci_endpoint.o: ../../../../lib/c/include/byteorder.h
+ohci_endpoint.o: ../../../../lib/c/include/stdint.h
+ohci_endpoint.o: ../../../../lib/usbhost/include/usb/host/hcd.h
+ohci_endpoint.o: ../../../../lib/drv/include/usbhc_iface.h
+ohci_endpoint.o: ../../../../lib/drv/include/ddf/driver.h
+ohci_endpoint.o: ../../../../lib/c/include/async.h
+ohci_endpoint.o: ../../../../lib/c/include/ipc/common.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/ipc/ipc.h
+ohci_endpoint.o: ../../../../lib/c/include/atomic.h
+ohci_endpoint.o: ../../../../lib/c/include/libarch/atomic.h
+ohci_endpoint.o: ../../../../lib/c/include/atomicdflt.h
+ohci_endpoint.o: ../../../../lib/c/include/task.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/proc/task.h
+ohci_endpoint.o: ../../../../lib/c/include/stdarg.h
+ohci_endpoint.o: ../../../../lib/c/include/ipc/devman.h
+ohci_endpoint.o: ../../../../lib/c/include/malloc.h
+ohci_endpoint.o: ../../../../lib/c/include/mem.h
+ohci_endpoint.o: ../../../../lib/c/include/ipc/dev_iface.h
+ohci_endpoint.o: ../../../../lib/drv/include/dev_iface.h
+ohci_endpoint.o: ../../../../lib/usbhost/include/usb/host/usb_device_manager.h
+ohci_endpoint.o: ../../../../lib/c/include/devman.h
+ohci_endpoint.o: ../../../../lib/c/include/ipc/loc.h
+ohci_endpoint.o: ../../../../lib/usbhost/include/usb/host/usb_endpoint_manager.h
+ohci_endpoint.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h
+ohci_endpoint.o: hw_struct/endpoint_descriptor.h utils/malloc32.h
+ohci_endpoint.o: ../../../../lib/c/include/errno.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/errno.h
+ohci_endpoint.o: ../../../../lib/c/include/as.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/mm/as.h
+ohci_endpoint.o: hw_struct/transfer_descriptor.h hw_struct/mem_access.h
+ohci_endpoint.o: hw_struct/completion_codes.h hw_struct/transfer_descriptor.h
+ohci_endpoint.o: hc.h ../../../../lib/c/include/ddi.h
+ohci_endpoint.o: ../../../../lib/c/include/abi/ddi/irq.h ohci_batch.h
+ohci_endpoint.o: ohci_regs.h root_hub.h
+ohci_endpoint.o: ../../../../lib/usbdev/include/usb/dev/driver.h
+ohci_endpoint.o: ../../../../lib/usb/include/usb/hc.h
+ohci_endpoint.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+ohci_endpoint.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+ohci_endpoint.o: ../../../../lib/usb/include/usb/descriptor.h endpoint_list.h
+ohci_endpoint.o: hw_struct/hcca.h
+res.o: ../../../../lib/c/include/errno.h
+res.o: ../../../../lib/c/include/abi/errno.h
+res.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/devman.h
+res.o: ../../../../lib/c/include/ipc/devman.h
+res.o: ../../../../lib/c/include/ipc/common.h
+res.o: ../../../../lib/c/include/sys/types.h
+res.o: ../../../../lib/c/include/libarch/types.h
+res.o: ../../../../lib/c/include/libarch/common.h
+res.o: ../../../../lib/c/include/abi/ipc/ipc.h
+res.o: ../../../../lib/c/include/atomic.h
+res.o: ../../../../lib/c/include/libarch/atomic.h
+res.o: ../../../../lib/c/include/atomicdflt.h
+res.o: ../../../../lib/c/include/stdint.h ../../../../lib/c/include/stdbool.h
+res.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+res.o: ../../../../lib/c/include/abi/proc/task.h
+res.o: ../../../../lib/c/include/stdarg.h
+res.o: ../../../../lib/c/include/adt/list.h
+res.o: ../../../../lib/c/include/unistd.h ../../../../lib/c/include/time.h
+res.o: ../../../../lib/c/include/sys/time.h
+res.o: ../../../../lib/c/include/libarch/config.h
+res.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+res.o: ../../../../lib/c/include/ipc/loc.h ../../../../lib/c/include/async.h
+res.o: ../../../../lib/c/include/fibril.h
+res.o: ../../../../lib/c/include/libarch/fibril.h
+res.o: ../../../../lib/c/include/libarch/tls.h
+res.o: ../../../../lib/c/include/libc.h
+res.o: ../../../../lib/c/include/abi/syscall.h
+res.o: ../../../../lib/c/include/libarch/syscall.h
+res.o: ../../../../lib/c/include/device/hw_res_parsed.h
+res.o: ../../../../lib/c/include/device/hw_res.h
+res.o: ../../../../lib/c/include/ipc/dev_iface.h
+res.o: ../../../../lib/c/include/str.h
+res.o: ../../../../lib/usb/include/usb/debug.h
+res.o: ../../../../lib/c/include/stdio.h
+res.o: ../../../../lib/c/include/io/verify.h
+res.o: ../../../../lib/c/include/abi/klog.h
+res.o: ../../../../lib/c/include/inttypes.h
+res.o: ../../../../lib/c/include/libarch/inttypes.h
+res.o: ../../../../lib/usb/include/usb/usb.h
+res.o: ../../../../lib/c/include/byteorder.h
+res.o: ../../../../lib/c/include/io/log.h res.h
+res.o: ../../../../lib/drv/include/ddf/driver.h
+res.o: ../../../../lib/drv/include/dev_iface.h
+root_hub.o: ../../../../lib/c/include/assert.h
+root_hub.o: ../../../../lib/c/include/byteorder.h
+root_hub.o: ../../../../lib/c/include/stdint.h
+root_hub.o: ../../../../lib/c/include/libarch/types.h
+root_hub.o: ../../../../lib/c/include/libarch/common.h
+root_hub.o: ../../../../lib/c/include/errno.h
+root_hub.o: ../../../../lib/c/include/abi/errno.h
+root_hub.o: ../../../../lib/c/include/str_error.h
+root_hub.o: ../../../../lib/c/include/fibril_synch.h
+root_hub.o: ../../../../lib/c/include/fibril.h
+root_hub.o: ../../../../lib/c/include/libarch/fibril.h
+root_hub.o: ../../../../lib/c/include/sys/types.h
+root_hub.o: ../../../../lib/c/include/adt/list.h
+root_hub.o: ../../../../lib/c/include/unistd.h
+root_hub.o: ../../../../lib/c/include/time.h
+root_hub.o: ../../../../lib/c/include/sys/time.h
+root_hub.o: ../../../../lib/c/include/libarch/config.h
+root_hub.o: ../../../../lib/c/include/libarch/tls.h
+root_hub.o: ../../../../lib/c/include/libc.h
+root_hub.o: ../../../../lib/c/include/abi/syscall.h
+root_hub.o: ../../../../lib/c/include/libarch/syscall.h
+root_hub.o: ../../../../lib/c/include/stdbool.h
+root_hub.o: ../../../../lib/c/include/abi/bool.h
+root_hub.o: ../../../../lib/usb/include/usb/usb.h
+root_hub.o: ../../../../lib/usb/include/usb/debug.h
+root_hub.o: ../../../../lib/c/include/stdio.h
+root_hub.o: ../../../../lib/c/include/stdarg.h
+root_hub.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/mem.h
+root_hub.o: ../../../../lib/c/include/io/verify.h
+root_hub.o: ../../../../lib/c/include/abi/klog.h
+root_hub.o: ../../../../lib/c/include/inttypes.h
+root_hub.o: ../../../../lib/c/include/libarch/inttypes.h
+root_hub.o: ../../../../lib/c/include/io/log.h
+root_hub.o: ../../../../lib/usbdev/include/usb/dev/request.h
+root_hub.o: ../../../../lib/c/include/l18n/langs.h
+root_hub.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+root_hub.o: ../../../../lib/c/include/ipc/devman.h
+root_hub.o: ../../../../lib/c/include/ipc/common.h
+root_hub.o: ../../../../lib/c/include/abi/ipc/ipc.h
+root_hub.o: ../../../../lib/c/include/atomic.h
+root_hub.o: ../../../../lib/c/include/libarch/atomic.h
+root_hub.o: ../../../../lib/c/include/atomicdflt.h
+root_hub.o: ../../../../lib/c/include/task.h
+root_hub.o: ../../../../lib/c/include/abi/proc/task.h
+root_hub.o: ../../../../lib/c/include/malloc.h
+root_hub.o: ../../../../lib/drv/include/ddf/driver.h
+root_hub.o: ../../../../lib/c/include/async.h
+root_hub.o: ../../../../lib/c/include/ipc/dev_iface.h
+root_hub.o: ../../../../lib/drv/include/dev_iface.h
+root_hub.o: ../../../../lib/usb/include/usb/descriptor.h
+root_hub.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+root_hub.o: ../../../../lib/c/include/devman.h
+root_hub.o: ../../../../lib/c/include/ipc/loc.h
+root_hub.o: ../../../../lib/usb/include/usb/hc.h
+root_hub.o: ../../../../lib/usb/include/usb/classes/hub.h
+root_hub.o: ../../../../lib/usb/include/usb/classes/classes.h
+root_hub.o: ../../../../lib/usbdev/include/usb/dev/driver.h ohci_regs.h
+root_hub.o: root_hub.h
+root_hub.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h
+root_hub.o: ../../../../lib/drv/include/usbhc_iface.h
+root_hub.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+hw_struct/endpoint_descriptor.o: hw_struct/endpoint_descriptor.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/assert.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/stdint.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libarch/types.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libarch/common.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/stdbool.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/abi/bool.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/adt/list.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/unistd.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/sys/types.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/time.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/sys/time.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libarch/config.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/fibril_synch.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/fibril.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libarch/fibril.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libarch/tls.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libc.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/abi/syscall.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/libarch/syscall.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/usb/include/usb/usb.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/byteorder.h
+hw_struct/endpoint_descriptor.o: utils/malloc32.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/malloc.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/errno.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/abi/errno.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/mem.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/as.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/abi/mm/as.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/task.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/abi/proc/task.h
+hw_struct/endpoint_descriptor.o: ../../../../lib/c/include/stdarg.h
+hw_struct/endpoint_descriptor.o: hw_struct/transfer_descriptor.h
+hw_struct/endpoint_descriptor.o: hw_struct/mem_access.h
+hw_struct/endpoint_descriptor.o: hw_struct/completion_codes.h
+hw_struct/transfer_descriptor.o: ../../../../lib/usb/include/usb/usb.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/stdbool.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/libarch/types.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/libarch/common.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/abi/bool.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/sys/types.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/byteorder.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/stdint.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/mem.h
+hw_struct/transfer_descriptor.o: utils/malloc32.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/assert.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/malloc.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/unistd.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/time.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/sys/time.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/libarch/config.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/errno.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/abi/errno.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/as.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/abi/mm/as.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/task.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/abi/proc/task.h
+hw_struct/transfer_descriptor.o: ../../../../lib/c/include/stdarg.h
+hw_struct/transfer_descriptor.o: hw_struct/transfer_descriptor.h
+hw_struct/transfer_descriptor.o: hw_struct/mem_access.h
+hw_struct/transfer_descriptor.o: hw_struct/completion_codes.h

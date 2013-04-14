@@ -1,0 +1,63 @@
+# DO NOT DELETE
+
+i8237.o: ../../../lib/c/include/assert.h ../../../lib/c/include/stdbool.h
+i8237.o: ../../../lib/c/include/libarch/types.h
+i8237.o: ../../../lib/c/include/libarch/common.h
+i8237.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/errno.h
+i8237.o: ../../../lib/c/include/abi/errno.h
+i8237.o: ../../../lib/c/include/fibril_synch.h
+i8237.o: ../../../lib/c/include/fibril.h
+i8237.o: ../../../lib/c/include/libarch/fibril.h
+i8237.o: ../../../lib/c/include/sys/types.h ../../../lib/c/include/adt/list.h
+i8237.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+i8237.o: ../../../lib/c/include/sys/time.h
+i8237.o: ../../../lib/c/include/libarch/config.h
+i8237.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+i8237.o: ../../../lib/c/include/abi/syscall.h
+i8237.o: ../../../lib/c/include/libarch/syscall.h
+i8237.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/abi/ddi/irq.h
+i8237.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+i8237.o: ../../../lib/c/include/stdarg.h ../../../lib/drv/include/ddf/log.h
+i8237.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+i8237.o: ../../../lib/c/include/libarch/inttypes.h
+i8237.o: ../../../lib/c/include/io/verify.h i8237.h
+isa.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+isa.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+isa.o: ../../../lib/c/include/libarch/types.h
+isa.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/time.h
+isa.o: ../../../lib/c/include/sys/time.h
+isa.o: ../../../lib/c/include/libarch/config.h ../../../lib/c/include/stdio.h
+isa.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+isa.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+isa.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+isa.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+isa.o: ../../../lib/c/include/abi/errno.h
+isa.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/fibril.h
+isa.o: ../../../lib/c/include/libarch/fibril.h
+isa.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+isa.o: ../../../lib/c/include/abi/syscall.h
+isa.o: ../../../lib/c/include/libarch/syscall.h
+isa.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+isa.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/str_error.h
+isa.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/macros.h
+isa.o: ../../../lib/c/include/dirent.h ../../../lib/c/include/fcntl.h
+isa.o: ../../../lib/c/include/ipc/irc.h ../../../lib/c/include/ipc/common.h
+isa.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+isa.o: ../../../lib/c/include/libarch/atomic.h
+isa.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+isa.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+isa.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+isa.o: ../../../lib/c/include/sysinfo.h ../../../lib/c/include/abi/sysinfo.h
+isa.o: ../../../lib/c/include/abi/proc/thread.h ../../../lib/c/include/ns.h
+isa.o: ../../../lib/c/include/async.h ../../../lib/c/include/sys/stat.h
+isa.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/c/include/ipc/loc.h
+isa.o: ../../../lib/drv/include/ddf/driver.h
+isa.o: ../../../lib/c/include/ipc/devman.h
+isa.o: ../../../lib/c/include/ipc/dev_iface.h
+isa.o: ../../../lib/drv/include/dev_iface.h
+isa.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+isa.o: ../../../lib/c/include/inttypes.h
+isa.o: ../../../lib/c/include/libarch/inttypes.h
+isa.o: ../../../lib/drv/include/ops/hw_res.h
+isa.o: ../../../lib/c/include/device/hw_res.h
+isa.o: ../../../lib/drv/include/ddf/driver.h i8237.h

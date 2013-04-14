@@ -1,0 +1,289 @@
+# DO NOT DELETE
+
+main.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+main.o: ../../lib/c/include/libarch/types.h
+main.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+main.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+main.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+main.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+main.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+main.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+main.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+main.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/errno.h
+main.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/str_error.h
+main.o: ../../lib/usb/include/usb/usb.h ../../lib/c/include/byteorder.h
+main.o: ../../lib/c/include/stdint.h ../../lib/usb/include/usb/descriptor.h
+main.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+main.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+main.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+main.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+main.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+main.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+main.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+main.o: ../../lib/c/include/abi/syscall.h
+main.o: ../../lib/c/include/libarch/syscall.h
+main.o: ../../lib/usb/include/usb/debug.h ../../lib/c/include/inttypes.h
+main.o: ../../lib/c/include/libarch/inttypes.h ../../lib/c/include/io/log.h
+main.o: ../../lib/usb/include/usb/classes/classes.h
+main.o: ../../lib/usbhid/include/usb/hid/hid.h
+main.o: ../../lib/usbhid/include/usb/hid/hidparser.h
+main.o: ../../lib/usbhid/include/usb/hid/hid_report_items.h
+main.o: ../../lib/usbhid/include/usb/hid/hidpath.h
+main.o: ../../lib/usbhid/include/usb/hid/hidtypes.h
+main.o: ../../lib/usbhid/include/usb/hid/hiddescriptor.h
+main.o: ../../lib/usbvirt/include/usbvirt/device.h
+main.o: ../../lib/usbdev/include/usb/dev/request.h
+main.o: ../../lib/c/include/l18n/langs.h
+main.o: ../../lib/usbdev/include/usb/dev/pipes.h
+main.o: ../../lib/c/include/ipc/devman.h ../../lib/drv/include/ddf/driver.h
+main.o: ../../lib/c/include/ipc/dev_iface.h ../../lib/drv/include/dev_iface.h
+main.o: ../../lib/c/include/fibril_synch.h
+main.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+main.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+main.o: ../../lib/usb/include/usb/hc.h virthid.h ifaces.h stdreq.h
+device.o: virthid.h ../../lib/usb/include/usb/usb.h
+device.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+device.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+device.o: ../../lib/c/include/sys/types.h ../../lib/c/include/byteorder.h
+device.o: ../../lib/c/include/stdint.h
+device.o: ../../lib/usbvirt/include/usbvirt/device.h
+device.o: ../../lib/usbdev/include/usb/dev/request.h
+device.o: ../../lib/c/include/l18n/langs.h
+device.o: ../../lib/usbdev/include/usb/dev/pipes.h
+device.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/ipc/common.h
+device.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+device.o: ../../lib/c/include/libarch/atomic.h
+device.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+device.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+device.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+device.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+device.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+device.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+device.o: ../../lib/drv/include/ddf/driver.h ../../lib/c/include/async.h
+device.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+device.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+device.o: ../../lib/c/include/abi/syscall.h
+device.o: ../../lib/c/include/libarch/syscall.h
+device.o: ../../lib/c/include/ipc/dev_iface.h
+device.o: ../../lib/drv/include/dev_iface.h
+device.o: ../../lib/c/include/fibril_synch.h
+device.o: ../../lib/usb/include/usb/descriptor.h
+device.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+device.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+device.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+device.o: ../../lib/usb/include/usb/hc.h ../../lib/c/include/stdio.h
+device.o: ../../lib/c/include/str.h ../../lib/c/include/io/verify.h
+device.o: ../../lib/c/include/abi/klog.h
+device.o: ../../lib/usb/include/usb/classes/classes.h
+ifaces.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+ifaces.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+ifaces.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+ifaces.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+ifaces.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+ifaces.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+ifaces.o: ifaces.h virthid.h ../../lib/usb/include/usb/usb.h
+ifaces.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+ifaces.o: ../../lib/usbvirt/include/usbvirt/device.h
+ifaces.o: ../../lib/usbdev/include/usb/dev/request.h
+ifaces.o: ../../lib/c/include/l18n/langs.h
+ifaces.o: ../../lib/usbdev/include/usb/dev/pipes.h
+ifaces.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/ipc/common.h
+ifaces.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+ifaces.o: ../../lib/c/include/libarch/atomic.h
+ifaces.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+ifaces.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+ifaces.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+ifaces.o: ../../lib/c/include/mem.h ../../lib/drv/include/ddf/driver.h
+ifaces.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+ifaces.o: ../../lib/c/include/libarch/fibril.h
+ifaces.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+ifaces.o: ../../lib/c/include/abi/syscall.h
+ifaces.o: ../../lib/c/include/libarch/syscall.h
+ifaces.o: ../../lib/c/include/ipc/dev_iface.h
+ifaces.o: ../../lib/drv/include/dev_iface.h
+ifaces.o: ../../lib/c/include/fibril_synch.h
+ifaces.o: ../../lib/usb/include/usb/descriptor.h
+ifaces.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+ifaces.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+ifaces.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+ifaces.o: ../../lib/usb/include/usb/hc.h
+life.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+life.o: ../../lib/usb/include/usb/debug.h ../../lib/c/include/stdio.h
+life.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+life.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+life.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+life.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+life.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+life.o: ../../lib/c/include/inttypes.h ../../lib/c/include/libarch/inttypes.h
+life.o: ../../lib/usb/include/usb/usb.h ../../lib/c/include/byteorder.h
+life.o: ../../lib/c/include/stdint.h ../../lib/c/include/io/log.h
+life.o: ../../lib/c/include/assert.h virthid.h
+life.o: ../../lib/usbvirt/include/usbvirt/device.h
+life.o: ../../lib/usbdev/include/usb/dev/request.h
+life.o: ../../lib/c/include/l18n/langs.h
+life.o: ../../lib/usbdev/include/usb/dev/pipes.h
+life.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/ipc/common.h
+life.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+life.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+life.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+life.o: ../../lib/c/include/adt/list.h ../../lib/c/include/unistd.h
+life.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+life.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+life.o: ../../lib/drv/include/ddf/driver.h ../../lib/c/include/async.h
+life.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+life.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+life.o: ../../lib/c/include/abi/syscall.h
+life.o: ../../lib/c/include/libarch/syscall.h
+life.o: ../../lib/c/include/ipc/dev_iface.h ../../lib/drv/include/dev_iface.h
+life.o: ../../lib/c/include/fibril_synch.h
+life.o: ../../lib/usb/include/usb/descriptor.h
+life.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+life.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+life.o: ../../lib/usb/include/usb/hc.h
+stdreq.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+stdreq.o: ../../lib/usb/include/usb/debug.h ../../lib/c/include/stdio.h
+stdreq.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+stdreq.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+stdreq.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+stdreq.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+stdreq.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+stdreq.o: ../../lib/c/include/inttypes.h
+stdreq.o: ../../lib/c/include/libarch/inttypes.h
+stdreq.o: ../../lib/usb/include/usb/usb.h ../../lib/c/include/byteorder.h
+stdreq.o: ../../lib/c/include/stdint.h ../../lib/c/include/io/log.h
+stdreq.o: ../../lib/c/include/assert.h ../../lib/usb/include/usb/descriptor.h
+stdreq.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+stdreq.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+stdreq.o: ../../lib/c/include/libarch/atomic.h
+stdreq.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+stdreq.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/fibril.h
+stdreq.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+stdreq.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+stdreq.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+stdreq.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+stdreq.o: ../../lib/c/include/abi/syscall.h
+stdreq.o: ../../lib/c/include/libarch/syscall.h stdreq.h
+stdreq.o: ../../lib/usbvirt/include/usbvirt/device.h
+stdreq.o: ../../lib/usbdev/include/usb/dev/request.h
+stdreq.o: ../../lib/c/include/l18n/langs.h
+stdreq.o: ../../lib/usbdev/include/usb/dev/pipes.h
+stdreq.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/malloc.h
+stdreq.o: ../../lib/drv/include/ddf/driver.h
+stdreq.o: ../../lib/c/include/ipc/dev_iface.h
+stdreq.o: ../../lib/drv/include/dev_iface.h
+stdreq.o: ../../lib/c/include/fibril_synch.h
+stdreq.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+stdreq.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+stdreq.o: ../../lib/usb/include/usb/hc.h virthid.h
+hids/bootkbd.o: virthid.h ../../lib/usb/include/usb/usb.h
+hids/bootkbd.o: ../../lib/c/include/stdbool.h
+hids/bootkbd.o: ../../lib/c/include/libarch/types.h
+hids/bootkbd.o: ../../lib/c/include/libarch/common.h
+hids/bootkbd.o: ../../lib/c/include/abi/bool.h
+hids/bootkbd.o: ../../lib/c/include/sys/types.h
+hids/bootkbd.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+hids/bootkbd.o: ../../lib/usbvirt/include/usbvirt/device.h
+hids/bootkbd.o: ../../lib/usbdev/include/usb/dev/request.h
+hids/bootkbd.o: ../../lib/c/include/l18n/langs.h
+hids/bootkbd.o: ../../lib/usbdev/include/usb/dev/pipes.h
+hids/bootkbd.o: ../../lib/c/include/ipc/devman.h
+hids/bootkbd.o: ../../lib/c/include/ipc/common.h
+hids/bootkbd.o: ../../lib/c/include/abi/ipc/ipc.h
+hids/bootkbd.o: ../../lib/c/include/atomic.h
+hids/bootkbd.o: ../../lib/c/include/libarch/atomic.h
+hids/bootkbd.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+hids/bootkbd.o: ../../lib/c/include/abi/proc/task.h
+hids/bootkbd.o: ../../lib/c/include/stdarg.h ../../lib/c/include/adt/list.h
+hids/bootkbd.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+hids/bootkbd.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+hids/bootkbd.o: ../../lib/c/include/libarch/config.h
+hids/bootkbd.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+hids/bootkbd.o: ../../lib/drv/include/ddf/driver.h
+hids/bootkbd.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+hids/bootkbd.o: ../../lib/c/include/libarch/fibril.h
+hids/bootkbd.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+hids/bootkbd.o: ../../lib/c/include/abi/syscall.h
+hids/bootkbd.o: ../../lib/c/include/libarch/syscall.h
+hids/bootkbd.o: ../../lib/c/include/ipc/dev_iface.h
+hids/bootkbd.o: ../../lib/drv/include/dev_iface.h
+hids/bootkbd.o: ../../lib/c/include/fibril_synch.h
+hids/bootkbd.o: ../../lib/usb/include/usb/descriptor.h
+hids/bootkbd.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+hids/bootkbd.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+hids/bootkbd.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+hids/bootkbd.o: ../../lib/usb/include/usb/hc.h
+hids/bootkbd.o: ../../lib/usb/include/usb/debug.h ../../lib/c/include/stdio.h
+hids/bootkbd.o: ../../lib/c/include/str.h ../../lib/c/include/io/verify.h
+hids/bootkbd.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/inttypes.h
+hids/bootkbd.o: ../../lib/c/include/libarch/inttypes.h
+hids/bootkbd.o: ../../lib/c/include/io/log.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/hid.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/hidparser.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/hid_report_items.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/hidpath.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/hidtypes.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/hiddescriptor.h
+hids/bootkbd.o: ../../lib/usbhid/include/usb/hid/usages/core.h report.h
+hids/bootkbd.o: items.h
+hids/logitech_wireless.o: virthid.h ../../lib/usb/include/usb/usb.h
+hids/logitech_wireless.o: ../../lib/c/include/stdbool.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/types.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/common.h
+hids/logitech_wireless.o: ../../lib/c/include/abi/bool.h
+hids/logitech_wireless.o: ../../lib/c/include/sys/types.h
+hids/logitech_wireless.o: ../../lib/c/include/byteorder.h
+hids/logitech_wireless.o: ../../lib/c/include/stdint.h
+hids/logitech_wireless.o: ../../lib/usbvirt/include/usbvirt/device.h
+hids/logitech_wireless.o: ../../lib/usbdev/include/usb/dev/request.h
+hids/logitech_wireless.o: ../../lib/c/include/l18n/langs.h
+hids/logitech_wireless.o: ../../lib/usbdev/include/usb/dev/pipes.h
+hids/logitech_wireless.o: ../../lib/c/include/ipc/devman.h
+hids/logitech_wireless.o: ../../lib/c/include/ipc/common.h
+hids/logitech_wireless.o: ../../lib/c/include/abi/ipc/ipc.h
+hids/logitech_wireless.o: ../../lib/c/include/atomic.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/atomic.h
+hids/logitech_wireless.o: ../../lib/c/include/atomicdflt.h
+hids/logitech_wireless.o: ../../lib/c/include/task.h
+hids/logitech_wireless.o: ../../lib/c/include/abi/proc/task.h
+hids/logitech_wireless.o: ../../lib/c/include/stdarg.h
+hids/logitech_wireless.o: ../../lib/c/include/adt/list.h
+hids/logitech_wireless.o: ../../lib/c/include/assert.h
+hids/logitech_wireless.o: ../../lib/c/include/unistd.h
+hids/logitech_wireless.o: ../../lib/c/include/time.h
+hids/logitech_wireless.o: ../../lib/c/include/sys/time.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/config.h
+hids/logitech_wireless.o: ../../lib/c/include/malloc.h
+hids/logitech_wireless.o: ../../lib/c/include/mem.h
+hids/logitech_wireless.o: ../../lib/drv/include/ddf/driver.h
+hids/logitech_wireless.o: ../../lib/c/include/async.h
+hids/logitech_wireless.o: ../../lib/c/include/fibril.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/fibril.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/tls.h
+hids/logitech_wireless.o: ../../lib/c/include/libc.h
+hids/logitech_wireless.o: ../../lib/c/include/abi/syscall.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/syscall.h
+hids/logitech_wireless.o: ../../lib/c/include/ipc/dev_iface.h
+hids/logitech_wireless.o: ../../lib/drv/include/dev_iface.h
+hids/logitech_wireless.o: ../../lib/c/include/fibril_synch.h
+hids/logitech_wireless.o: ../../lib/usb/include/usb/descriptor.h
+hids/logitech_wireless.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+hids/logitech_wireless.o: ../../lib/c/include/errno.h
+hids/logitech_wireless.o: ../../lib/c/include/abi/errno.h
+hids/logitech_wireless.o: ../../lib/c/include/devman.h
+hids/logitech_wireless.o: ../../lib/c/include/ipc/loc.h
+hids/logitech_wireless.o: ../../lib/usb/include/usb/hc.h
+hids/logitech_wireless.o: ../../lib/usb/include/usb/debug.h
+hids/logitech_wireless.o: ../../lib/c/include/stdio.h
+hids/logitech_wireless.o: ../../lib/c/include/str.h
+hids/logitech_wireless.o: ../../lib/c/include/io/verify.h
+hids/logitech_wireless.o: ../../lib/c/include/abi/klog.h
+hids/logitech_wireless.o: ../../lib/c/include/inttypes.h
+hids/logitech_wireless.o: ../../lib/c/include/libarch/inttypes.h
+hids/logitech_wireless.o: ../../lib/c/include/io/log.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/hid.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/hidparser.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/hid_report_items.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/hidpath.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/hidtypes.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/hiddescriptor.h
+hids/logitech_wireless.o: ../../lib/usbhid/include/usb/hid/usages/core.h

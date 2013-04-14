@@ -1,0 +1,45 @@
+# DO NOT DELETE
+
+main.o: ../../lib/c/include/inttypes.h ../../lib/c/include/libarch/inttypes.h
+main.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+main.o: ../../lib/c/include/libarch/types.h
+main.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+main.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+main.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+main.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+main.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+main.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+main.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+main.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/errno.h
+main.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/str_error.h
+main.o: ../../lib/c/include/getopt.h ../../lib/c/include/devman.h
+main.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/ipc/common.h
+main.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+main.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+main.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+main.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/adt/list.h
+main.o: ../../lib/c/include/assert.h ../../lib/c/include/ipc/loc.h
+main.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+main.o: ../../lib/c/include/libarch/fibril.h
+main.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+main.o: ../../lib/c/include/abi/syscall.h
+main.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/loc.h
+main.o: ../../lib/usbdev/include/usb/dev/hub.h
+main.o: ../../lib/drv/include/ddf/driver.h
+main.o: ../../lib/c/include/ipc/dev_iface.h ../../lib/drv/include/dev_iface.h
+main.o: ../../lib/usb/include/usb/hc.h ../../lib/c/include/fibril_synch.h
+main.o: ../../lib/usb/include/usb/usb.h ../../lib/c/include/byteorder.h
+main.o: ../../lib/usbhid/include/usb/hid/iface.h
+main.o: ../../lib/usbdev/include/usb/dev/pipes.h
+main.o: ../../lib/usb/include/usb/descriptor.h
+main.o: ../../lib/usbdev/include/usb/dev/usb_device_connection.h
+main.o: ../../lib/usb/include/usb/dev.h
+main.o: ../../lib/usbhid/include/usb/hid/usages/core.h
+main.o: ../../lib/usbhid/include/usb/hid/hidparser.h
+main.o: ../../lib/usbhid/include/usb/hid/hid_report_items.h
+main.o: ../../lib/usbhid/include/usb/hid/hidpath.h
+main.o: ../../lib/usbhid/include/usb/hid/hidtypes.h
+main.o: ../../lib/usbhid/include/usb/hid/hiddescriptor.h
+main.o: ../../lib/usbhid/include/usb/hid/usages/consumer.h
+main.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+main.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h

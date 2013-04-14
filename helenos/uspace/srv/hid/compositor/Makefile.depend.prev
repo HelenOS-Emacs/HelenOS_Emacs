@@ -1,0 +1,69 @@
+# DO NOT DELETE
+
+compositor.o: ../../../lib/c/include/sys/types.h
+compositor.o: ../../../lib/c/include/libarch/types.h
+compositor.o: ../../../lib/c/include/libarch/common.h
+compositor.o: ../../../lib/c/include/stdbool.h
+compositor.o: ../../../lib/c/include/abi/bool.h
+compositor.o: ../../../lib/c/include/errno.h
+compositor.o: ../../../lib/c/include/abi/errno.h
+compositor.o: ../../../lib/c/include/str_error.h
+compositor.o: ../../../lib/c/include/byteorder.h
+compositor.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdio.h
+compositor.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+compositor.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+compositor.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/libc.h
+compositor.o: ../../../lib/c/include/abi/syscall.h
+compositor.o: ../../../lib/c/include/libarch/syscall.h
+compositor.o: ../../../lib/c/include/align.h ../../../lib/c/include/as.h
+compositor.o: ../../../lib/c/include/abi/mm/as.h
+compositor.o: ../../../lib/c/include/task.h
+compositor.o: ../../../lib/c/include/abi/proc/task.h
+compositor.o: ../../../lib/c/include/libarch/config.h
+compositor.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/atomic.h
+compositor.o: ../../../lib/c/include/libarch/atomic.h
+compositor.o: ../../../lib/c/include/atomicdflt.h
+compositor.o: ../../../lib/c/include/fibril_synch.h
+compositor.o: ../../../lib/c/include/fibril.h
+compositor.o: ../../../lib/c/include/libarch/fibril.h
+compositor.o: ../../../lib/c/include/adt/list.h
+compositor.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+compositor.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+compositor.o: ../../../lib/c/include/libarch/tls.h
+compositor.o: ../../../lib/c/include/adt/prodcons.h
+compositor.o: ../../../lib/c/include/io/input.h
+compositor.o: ../../../lib/c/include/async.h
+compositor.o: ../../../lib/c/include/ipc/common.h
+compositor.o: ../../../lib/c/include/abi/ipc/ipc.h
+compositor.o: ../../../lib/c/include/io/kbd_event.h
+compositor.o: ../../../lib/c/include/io/keycode.h
+compositor.o: ../../../lib/c/include/ipc/graph.h
+compositor.o: ../../../lib/c/include/ipc/window.h
+compositor.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/c/include/loc.h
+compositor.o: ../../../lib/c/include/ipc/loc.h
+compositor.o: ../../../lib/c/include/devman.h
+compositor.o: ../../../lib/c/include/ipc/devman.h
+compositor.o: ../../../lib/c/include/event.h
+compositor.o: ../../../lib/c/include/abi/ipc/event.h
+compositor.o: ../../../lib/c/include/device/graph_dev.h
+compositor.o: ../../../lib/c/include/io/mode.h
+compositor.o: ../../../lib/c/include/abi/fb/visuals.h
+compositor.o: ../../../lib/c/include/io/pixel.h
+compositor.o: ../../../lib/c/include/io/charfield.h
+compositor.o: ../../../lib/c/include/io/color.h
+compositor.o: ../../../lib/c/include/io/style.h
+compositor.o: ../../../lib/c/include/io/visualizer.h
+compositor.o: ../../../lib/c/include/io/window.h
+compositor.o: ../../../lib/c/include/io/console.h
+compositor.o: ../../../lib/c/include/io/concaps.h
+compositor.o: ../../../lib/softrend/transform.h
+compositor.o: ../../../lib/softrend/rectangle.h ../../../lib/draw/surface.h
+compositor.o: ../../../lib/c/include/io/pixelmap.h ../../../lib/draw/cursor.h
+compositor.o: ../../../lib/draw/source.h ../../../lib/softrend/filter.h
+compositor.o: ../../../lib/draw/drawctx.h ../../../lib/softrend/compose.h
+compositor.o: ../../../lib/draw/path.h ../../../lib/draw/font.h
+compositor.o: ../../../lib/draw/codec/tga.h ../../../lib/draw/surface.h
+compositor.o: images.h compositor.h
+images.o: images.h ../../../lib/c/include/sys/types.h
+images.o: ../../../lib/c/include/libarch/types.h
+images.o: ../../../lib/c/include/libarch/common.h

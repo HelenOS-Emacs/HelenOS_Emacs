@@ -1,0 +1,32 @@
+# DO NOT DELETE
+
+sata_bd.o: ../../../lib/c/include/sys/types.h
+sata_bd.o: ../../../lib/c/include/libarch/types.h
+sata_bd.o: ../../../lib/c/include/libarch/common.h
+sata_bd.o: ../../../lib/c/include/bd_srv.h ../../../lib/c/include/adt/list.h
+sata_bd.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+sata_bd.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+sata_bd.o: ../../../lib/c/include/libarch/config.h
+sata_bd.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+sata_bd.o: ../../../lib/c/include/abi/ipc/ipc.h
+sata_bd.o: ../../../lib/c/include/atomic.h
+sata_bd.o: ../../../lib/c/include/libarch/atomic.h
+sata_bd.o: ../../../lib/c/include/atomicdflt.h
+sata_bd.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+sata_bd.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+sata_bd.o: ../../../lib/c/include/abi/proc/task.h
+sata_bd.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+sata_bd.o: ../../../lib/c/include/libarch/fibril.h
+sata_bd.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+sata_bd.o: ../../../lib/c/include/abi/syscall.h
+sata_bd.o: ../../../lib/c/include/libarch/syscall.h
+sata_bd.o: ../../../lib/c/include/fibril_synch.h
+sata_bd.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+sata_bd.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+sata_bd.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+sata_bd.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/loc.h
+sata_bd.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/macros.h
+sata_bd.o: ../../../lib/c/include/device/ahci.h
+sata_bd.o: ../../../lib/c/include/devman.h
+sata_bd.o: ../../../lib/c/include/ipc/devman.h
+sata_bd.o: ../../../lib/c/include/malloc.h sata_bd.h

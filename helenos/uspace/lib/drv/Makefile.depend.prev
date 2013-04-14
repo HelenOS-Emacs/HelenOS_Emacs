@@ -1,0 +1,513 @@
+# DO NOT DELETE
+
+generic/driver.o: ../../lib/c/include/assert.h
+generic/driver.o: ../../lib/c/include/ipc/services.h
+generic/driver.o: ../../lib/c/include/fourcc.h
+generic/driver.o: ../../lib/c/include/libarch/common.h
+generic/driver.o: ../../lib/c/include/ipc/ns.h
+generic/driver.o: ../../lib/c/include/ipc/common.h
+generic/driver.o: ../../lib/c/include/sys/types.h
+generic/driver.o: ../../lib/c/include/libarch/types.h
+generic/driver.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/driver.o: ../../lib/c/include/atomic.h
+generic/driver.o: ../../lib/c/include/libarch/atomic.h
+generic/driver.o: ../../lib/c/include/atomicdflt.h
+generic/driver.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/driver.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/driver.o: ../../lib/c/include/abi/proc/task.h
+generic/driver.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+generic/driver.o: ../../lib/c/include/fibril.h
+generic/driver.o: ../../lib/c/include/libarch/fibril.h
+generic/driver.o: ../../lib/c/include/adt/list.h ../../lib/c/include/unistd.h
+generic/driver.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/driver.o: ../../lib/c/include/libarch/config.h
+generic/driver.o: ../../lib/c/include/libarch/tls.h
+generic/driver.o: ../../lib/c/include/libc.h
+generic/driver.o: ../../lib/c/include/abi/syscall.h
+generic/driver.o: ../../lib/c/include/libarch/syscall.h
+generic/driver.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/driver.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+generic/driver.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/errno.h
+generic/driver.o: ../../lib/c/include/abi/errno.h
+generic/driver.o: ../../lib/c/include/fibril_synch.h
+generic/driver.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/driver.o: ../../lib/c/include/stacktrace.h
+generic/driver.o: ../../lib/c/include/str_error.h ../../lib/c/include/ctype.h
+generic/driver.o: ../../lib/c/include/inttypes.h
+generic/driver.o: ../../lib/c/include/libarch/inttypes.h
+generic/driver.o: ../../lib/c/include/devman.h
+generic/driver.o: ../../lib/c/include/ipc/devman.h
+generic/driver.o: ../../lib/c/include/ipc/loc.h
+generic/driver.o: ../../lib/c/include/ipc/driver.h include/dev_iface.h
+generic/driver.o: ../../lib/c/include/ipc/dev_iface.h include/ddf/driver.h
+generic/driver.o: include/dev_iface.h include/ddf/interrupt.h
+generic/driver.o: ../../lib/c/include/abi/ddi/irq.h ../../lib/c/include/ddi.h
+generic/driver.o: include/ddf/driver.h generic/private/driver.h
+generic/dev_iface.o: ../../lib/c/include/assert.h include/dev_iface.h
+generic/dev_iface.o: ../../lib/c/include/ipc/common.h
+generic/dev_iface.o: ../../lib/c/include/sys/types.h
+generic/dev_iface.o: ../../lib/c/include/libarch/types.h
+generic/dev_iface.o: ../../lib/c/include/libarch/common.h
+generic/dev_iface.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/dev_iface.o: ../../lib/c/include/atomic.h
+generic/dev_iface.o: ../../lib/c/include/libarch/atomic.h
+generic/dev_iface.o: ../../lib/c/include/atomicdflt.h
+generic/dev_iface.o: ../../lib/c/include/stdint.h
+generic/dev_iface.o: ../../lib/c/include/stdbool.h
+generic/dev_iface.o: ../../lib/c/include/abi/bool.h
+generic/dev_iface.o: ../../lib/c/include/task.h
+generic/dev_iface.o: ../../lib/c/include/abi/proc/task.h
+generic/dev_iface.o: ../../lib/c/include/stdarg.h
+generic/dev_iface.o: ../../lib/c/include/ipc/dev_iface.h
+generic/dev_iface.o: ../../lib/c/include/malloc.h
+generic/dev_iface.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/dev_iface.o: ../../lib/c/include/sys/time.h
+generic/dev_iface.o: ../../lib/c/include/libarch/config.h
+generic/dev_iface.o: include/remote_hw_res.h include/remote_char_dev.h
+generic/dev_iface.o: include/remote_clock_dev.h include/remote_battery_dev.h
+generic/dev_iface.o: include/remote_graph_dev.h include/remote_nic.h
+generic/dev_iface.o: include/remote_usb.h include/remote_usbhc.h
+generic/dev_iface.o: include/remote_usbhid.h include/remote_pci.h
+generic/dev_iface.o: include/remote_ahci.h
+generic/interrupt.o: ../../lib/c/include/async.h
+generic/interrupt.o: ../../lib/c/include/ipc/common.h
+generic/interrupt.o: ../../lib/c/include/sys/types.h
+generic/interrupt.o: ../../lib/c/include/libarch/types.h
+generic/interrupt.o: ../../lib/c/include/libarch/common.h
+generic/interrupt.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/interrupt.o: ../../lib/c/include/atomic.h
+generic/interrupt.o: ../../lib/c/include/libarch/atomic.h
+generic/interrupt.o: ../../lib/c/include/atomicdflt.h
+generic/interrupt.o: ../../lib/c/include/stdint.h
+generic/interrupt.o: ../../lib/c/include/stdbool.h
+generic/interrupt.o: ../../lib/c/include/abi/bool.h
+generic/interrupt.o: ../../lib/c/include/task.h
+generic/interrupt.o: ../../lib/c/include/abi/proc/task.h
+generic/interrupt.o: ../../lib/c/include/stdarg.h
+generic/interrupt.o: ../../lib/c/include/fibril.h
+generic/interrupt.o: ../../lib/c/include/libarch/fibril.h
+generic/interrupt.o: ../../lib/c/include/adt/list.h
+generic/interrupt.o: ../../lib/c/include/assert.h
+generic/interrupt.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/interrupt.o: ../../lib/c/include/sys/time.h
+generic/interrupt.o: ../../lib/c/include/libarch/config.h
+generic/interrupt.o: ../../lib/c/include/libarch/tls.h
+generic/interrupt.o: ../../lib/c/include/libc.h
+generic/interrupt.o: ../../lib/c/include/abi/syscall.h
+generic/interrupt.o: ../../lib/c/include/libarch/syscall.h
+generic/interrupt.o: ../../lib/c/include/errno.h
+generic/interrupt.o: ../../lib/c/include/abi/errno.h include/ddf/interrupt.h
+generic/interrupt.o: ../../lib/c/include/abi/ddi/irq.h
+generic/interrupt.o: ../../lib/c/include/ddi.h
+generic/interrupt.o: ../../lib/c/include/fibril_synch.h include/ddf/driver.h
+generic/interrupt.o: include/dev_iface.h generic/private/driver.h
+generic/interrupt.o: ../../lib/c/include/ipc/devman.h
+generic/interrupt.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+generic/interrupt.o: ../../lib/c/include/ipc/dev_iface.h include/dev_iface.h
+generic/log.o: ../../lib/c/include/io/log.h ../../lib/c/include/stdarg.h
+generic/log.o: ../../lib/c/include/sys/types.h
+generic/log.o: ../../lib/c/include/libarch/types.h
+generic/log.o: ../../lib/c/include/libarch/common.h
+generic/log.o: ../../lib/c/include/inttypes.h
+generic/log.o: ../../lib/c/include/libarch/inttypes.h
+generic/log.o: ../../lib/c/include/io/verify.h include/ddf/log.h
+generic/logbuf.o: ../../lib/c/include/libarch/common.h
+generic/logbuf.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+generic/logbuf.o: ../../lib/c/include/libarch/types.h
+generic/logbuf.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/logbuf.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/logbuf.o: ../../lib/c/include/abi/bool.h
+generic/logbuf.o: ../../lib/c/include/io/verify.h
+generic/logbuf.o: ../../lib/c/include/abi/klog.h include/ddf/log.h
+generic/logbuf.o: ../../lib/c/include/io/log.h ../../lib/c/include/inttypes.h
+generic/logbuf.o: ../../lib/c/include/libarch/inttypes.h
+generic/logbuf.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/logbuf.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/logbuf.o: ../../lib/c/include/libarch/config.h
+generic/remote_hw_res.o: ../../lib/c/include/async.h
+generic/remote_hw_res.o: ../../lib/c/include/ipc/common.h
+generic/remote_hw_res.o: ../../lib/c/include/sys/types.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/types.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/common.h
+generic/remote_hw_res.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_hw_res.o: ../../lib/c/include/atomic.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_hw_res.o: ../../lib/c/include/atomicdflt.h
+generic/remote_hw_res.o: ../../lib/c/include/stdint.h
+generic/remote_hw_res.o: ../../lib/c/include/stdbool.h
+generic/remote_hw_res.o: ../../lib/c/include/abi/bool.h
+generic/remote_hw_res.o: ../../lib/c/include/task.h
+generic/remote_hw_res.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_hw_res.o: ../../lib/c/include/stdarg.h
+generic/remote_hw_res.o: ../../lib/c/include/fibril.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_hw_res.o: ../../lib/c/include/adt/list.h
+generic/remote_hw_res.o: ../../lib/c/include/assert.h
+generic/remote_hw_res.o: ../../lib/c/include/unistd.h
+generic/remote_hw_res.o: ../../lib/c/include/time.h
+generic/remote_hw_res.o: ../../lib/c/include/sys/time.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/config.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/tls.h
+generic/remote_hw_res.o: ../../lib/c/include/libc.h
+generic/remote_hw_res.o: ../../lib/c/include/abi/syscall.h
+generic/remote_hw_res.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_hw_res.o: ../../lib/c/include/errno.h
+generic/remote_hw_res.o: ../../lib/c/include/abi/errno.h include/ops/hw_res.h
+generic/remote_hw_res.o: ../../lib/c/include/device/hw_res.h
+generic/remote_hw_res.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_hw_res.o: ../../lib/c/include/malloc.h include/ddf/driver.h
+generic/remote_hw_res.o: ../../lib/c/include/ipc/devman.h
+generic/remote_hw_res.o: ../../lib/c/include/mem.h include/dev_iface.h
+generic/remote_hw_res.o: include/ddf/driver.h
+generic/remote_char_dev.o: ../../lib/c/include/async.h
+generic/remote_char_dev.o: ../../lib/c/include/ipc/common.h
+generic/remote_char_dev.o: ../../lib/c/include/sys/types.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/types.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/common.h
+generic/remote_char_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_char_dev.o: ../../lib/c/include/atomic.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_char_dev.o: ../../lib/c/include/atomicdflt.h
+generic/remote_char_dev.o: ../../lib/c/include/stdint.h
+generic/remote_char_dev.o: ../../lib/c/include/stdbool.h
+generic/remote_char_dev.o: ../../lib/c/include/abi/bool.h
+generic/remote_char_dev.o: ../../lib/c/include/task.h
+generic/remote_char_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_char_dev.o: ../../lib/c/include/stdarg.h
+generic/remote_char_dev.o: ../../lib/c/include/fibril.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_char_dev.o: ../../lib/c/include/adt/list.h
+generic/remote_char_dev.o: ../../lib/c/include/assert.h
+generic/remote_char_dev.o: ../../lib/c/include/unistd.h
+generic/remote_char_dev.o: ../../lib/c/include/time.h
+generic/remote_char_dev.o: ../../lib/c/include/sys/time.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/config.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/tls.h
+generic/remote_char_dev.o: ../../lib/c/include/libc.h
+generic/remote_char_dev.o: ../../lib/c/include/abi/syscall.h
+generic/remote_char_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_char_dev.o: ../../lib/c/include/errno.h
+generic/remote_char_dev.o: ../../lib/c/include/abi/errno.h
+generic/remote_char_dev.o: include/ops/char_dev.h include/ddf/driver.h
+generic/remote_char_dev.o: ../../lib/c/include/ipc/devman.h
+generic/remote_char_dev.o: ../../lib/c/include/malloc.h
+generic/remote_char_dev.o: ../../lib/c/include/mem.h
+generic/remote_char_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_char_dev.o: include/dev_iface.h include/ddf/driver.h
+generic/remote_graph_dev.o: ../../lib/c/include/errno.h
+generic/remote_graph_dev.o: ../../lib/c/include/abi/errno.h
+generic/remote_graph_dev.o: ../../lib/c/include/async.h
+generic/remote_graph_dev.o: ../../lib/c/include/ipc/common.h
+generic/remote_graph_dev.o: ../../lib/c/include/sys/types.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/types.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/common.h
+generic/remote_graph_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_graph_dev.o: ../../lib/c/include/atomic.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_graph_dev.o: ../../lib/c/include/atomicdflt.h
+generic/remote_graph_dev.o: ../../lib/c/include/stdint.h
+generic/remote_graph_dev.o: ../../lib/c/include/stdbool.h
+generic/remote_graph_dev.o: ../../lib/c/include/abi/bool.h
+generic/remote_graph_dev.o: ../../lib/c/include/task.h
+generic/remote_graph_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_graph_dev.o: ../../lib/c/include/stdarg.h
+generic/remote_graph_dev.o: ../../lib/c/include/fibril.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_graph_dev.o: ../../lib/c/include/adt/list.h
+generic/remote_graph_dev.o: ../../lib/c/include/assert.h
+generic/remote_graph_dev.o: ../../lib/c/include/unistd.h
+generic/remote_graph_dev.o: ../../lib/c/include/time.h
+generic/remote_graph_dev.o: ../../lib/c/include/sys/time.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/config.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/tls.h
+generic/remote_graph_dev.o: ../../lib/c/include/libc.h
+generic/remote_graph_dev.o: ../../lib/c/include/abi/syscall.h
+generic/remote_graph_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_graph_dev.o: include/ops/graph_dev.h include/ddf/driver.h
+generic/remote_graph_dev.o: ../../lib/c/include/ipc/devman.h
+generic/remote_graph_dev.o: ../../lib/c/include/malloc.h
+generic/remote_graph_dev.o: ../../lib/c/include/mem.h
+generic/remote_graph_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_graph_dev.o: include/dev_iface.h include/ddf/driver.h
+generic/remote_nic.o: ../../lib/c/include/assert.h
+generic/remote_nic.o: ../../lib/c/include/async.h
+generic/remote_nic.o: ../../lib/c/include/ipc/common.h
+generic/remote_nic.o: ../../lib/c/include/sys/types.h
+generic/remote_nic.o: ../../lib/c/include/libarch/types.h
+generic/remote_nic.o: ../../lib/c/include/libarch/common.h
+generic/remote_nic.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_nic.o: ../../lib/c/include/atomic.h
+generic/remote_nic.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_nic.o: ../../lib/c/include/atomicdflt.h
+generic/remote_nic.o: ../../lib/c/include/stdint.h
+generic/remote_nic.o: ../../lib/c/include/stdbool.h
+generic/remote_nic.o: ../../lib/c/include/abi/bool.h
+generic/remote_nic.o: ../../lib/c/include/task.h
+generic/remote_nic.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_nic.o: ../../lib/c/include/stdarg.h
+generic/remote_nic.o: ../../lib/c/include/fibril.h
+generic/remote_nic.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_nic.o: ../../lib/c/include/adt/list.h
+generic/remote_nic.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/remote_nic.o: ../../lib/c/include/sys/time.h
+generic/remote_nic.o: ../../lib/c/include/libarch/config.h
+generic/remote_nic.o: ../../lib/c/include/libarch/tls.h
+generic/remote_nic.o: ../../lib/c/include/libc.h
+generic/remote_nic.o: ../../lib/c/include/abi/syscall.h
+generic/remote_nic.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_nic.o: ../../lib/c/include/errno.h
+generic/remote_nic.o: ../../lib/c/include/abi/errno.h
+generic/remote_nic.o: ../../lib/c/include/ipc/services.h
+generic/remote_nic.o: ../../lib/c/include/fourcc.h include/ops/nic.h
+generic/remote_nic.o: ../../lib/c/include/nic/nic.h
+generic/remote_nic.o: ../../lib/c/include/nic/eth_phys.h include/ddf/driver.h
+generic/remote_nic.o: ../../lib/c/include/ipc/devman.h
+generic/remote_nic.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+generic/remote_nic.o: ../../lib/c/include/ipc/dev_iface.h include/dev_iface.h
+generic/remote_usb.o: ../../lib/c/include/async.h
+generic/remote_usb.o: ../../lib/c/include/ipc/common.h
+generic/remote_usb.o: ../../lib/c/include/sys/types.h
+generic/remote_usb.o: ../../lib/c/include/libarch/types.h
+generic/remote_usb.o: ../../lib/c/include/libarch/common.h
+generic/remote_usb.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_usb.o: ../../lib/c/include/atomic.h
+generic/remote_usb.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_usb.o: ../../lib/c/include/atomicdflt.h
+generic/remote_usb.o: ../../lib/c/include/stdint.h
+generic/remote_usb.o: ../../lib/c/include/stdbool.h
+generic/remote_usb.o: ../../lib/c/include/abi/bool.h
+generic/remote_usb.o: ../../lib/c/include/task.h
+generic/remote_usb.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_usb.o: ../../lib/c/include/stdarg.h
+generic/remote_usb.o: ../../lib/c/include/fibril.h
+generic/remote_usb.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_usb.o: ../../lib/c/include/adt/list.h
+generic/remote_usb.o: ../../lib/c/include/assert.h
+generic/remote_usb.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/remote_usb.o: ../../lib/c/include/sys/time.h
+generic/remote_usb.o: ../../lib/c/include/libarch/config.h
+generic/remote_usb.o: ../../lib/c/include/libarch/tls.h
+generic/remote_usb.o: ../../lib/c/include/libc.h
+generic/remote_usb.o: ../../lib/c/include/abi/syscall.h
+generic/remote_usb.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_usb.o: ../../lib/c/include/errno.h
+generic/remote_usb.o: ../../lib/c/include/abi/errno.h include/usb_iface.h
+generic/remote_usb.o: include/ddf/driver.h ../../lib/c/include/ipc/devman.h
+generic/remote_usb.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+generic/remote_usb.o: ../../lib/c/include/ipc/dev_iface.h include/dev_iface.h
+generic/remote_usb.o: ../../lib/usb/include/usb/usb.h
+generic/remote_usb.o: ../../lib/c/include/byteorder.h
+generic/remote_pci.o: ../../lib/c/include/assert.h
+generic/remote_pci.o: ../../lib/c/include/async.h
+generic/remote_pci.o: ../../lib/c/include/ipc/common.h
+generic/remote_pci.o: ../../lib/c/include/sys/types.h
+generic/remote_pci.o: ../../lib/c/include/libarch/types.h
+generic/remote_pci.o: ../../lib/c/include/libarch/common.h
+generic/remote_pci.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_pci.o: ../../lib/c/include/atomic.h
+generic/remote_pci.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_pci.o: ../../lib/c/include/atomicdflt.h
+generic/remote_pci.o: ../../lib/c/include/stdint.h
+generic/remote_pci.o: ../../lib/c/include/stdbool.h
+generic/remote_pci.o: ../../lib/c/include/abi/bool.h
+generic/remote_pci.o: ../../lib/c/include/task.h
+generic/remote_pci.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_pci.o: ../../lib/c/include/stdarg.h
+generic/remote_pci.o: ../../lib/c/include/fibril.h
+generic/remote_pci.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_pci.o: ../../lib/c/include/adt/list.h
+generic/remote_pci.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/remote_pci.o: ../../lib/c/include/sys/time.h
+generic/remote_pci.o: ../../lib/c/include/libarch/config.h
+generic/remote_pci.o: ../../lib/c/include/libarch/tls.h
+generic/remote_pci.o: ../../lib/c/include/libc.h
+generic/remote_pci.o: ../../lib/c/include/abi/syscall.h
+generic/remote_pci.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_pci.o: ../../lib/c/include/errno.h
+generic/remote_pci.o: ../../lib/c/include/abi/errno.h include/pci_dev_iface.h
+generic/remote_pci.o: include/ddf/driver.h ../../lib/c/include/ipc/devman.h
+generic/remote_pci.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+generic/remote_pci.o: ../../lib/c/include/ipc/dev_iface.h include/dev_iface.h
+generic/remote_usbhc.o: ../../lib/c/include/async.h
+generic/remote_usbhc.o: ../../lib/c/include/ipc/common.h
+generic/remote_usbhc.o: ../../lib/c/include/sys/types.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/types.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/common.h
+generic/remote_usbhc.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_usbhc.o: ../../lib/c/include/atomic.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_usbhc.o: ../../lib/c/include/atomicdflt.h
+generic/remote_usbhc.o: ../../lib/c/include/stdint.h
+generic/remote_usbhc.o: ../../lib/c/include/stdbool.h
+generic/remote_usbhc.o: ../../lib/c/include/abi/bool.h
+generic/remote_usbhc.o: ../../lib/c/include/task.h
+generic/remote_usbhc.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_usbhc.o: ../../lib/c/include/stdarg.h
+generic/remote_usbhc.o: ../../lib/c/include/fibril.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_usbhc.o: ../../lib/c/include/adt/list.h
+generic/remote_usbhc.o: ../../lib/c/include/assert.h
+generic/remote_usbhc.o: ../../lib/c/include/unistd.h
+generic/remote_usbhc.o: ../../lib/c/include/time.h
+generic/remote_usbhc.o: ../../lib/c/include/sys/time.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/config.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/tls.h
+generic/remote_usbhc.o: ../../lib/c/include/libc.h
+generic/remote_usbhc.o: ../../lib/c/include/abi/syscall.h
+generic/remote_usbhc.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_usbhc.o: ../../lib/c/include/errno.h
+generic/remote_usbhc.o: ../../lib/c/include/abi/errno.h include/usbhc_iface.h
+generic/remote_usbhc.o: include/ddf/driver.h ../../lib/c/include/ipc/devman.h
+generic/remote_usbhc.o: ../../lib/c/include/malloc.h
+generic/remote_usbhc.o: ../../lib/c/include/mem.h
+generic/remote_usbhc.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_usbhc.o: include/dev_iface.h ../../lib/usb/include/usb/usb.h
+generic/remote_usbhc.o: ../../lib/c/include/byteorder.h
+generic/remote_usbhid.o: ../../lib/c/include/async.h
+generic/remote_usbhid.o: ../../lib/c/include/ipc/common.h
+generic/remote_usbhid.o: ../../lib/c/include/sys/types.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/types.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/common.h
+generic/remote_usbhid.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_usbhid.o: ../../lib/c/include/atomic.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_usbhid.o: ../../lib/c/include/atomicdflt.h
+generic/remote_usbhid.o: ../../lib/c/include/stdint.h
+generic/remote_usbhid.o: ../../lib/c/include/stdbool.h
+generic/remote_usbhid.o: ../../lib/c/include/abi/bool.h
+generic/remote_usbhid.o: ../../lib/c/include/task.h
+generic/remote_usbhid.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_usbhid.o: ../../lib/c/include/stdarg.h
+generic/remote_usbhid.o: ../../lib/c/include/fibril.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_usbhid.o: ../../lib/c/include/adt/list.h
+generic/remote_usbhid.o: ../../lib/c/include/assert.h
+generic/remote_usbhid.o: ../../lib/c/include/unistd.h
+generic/remote_usbhid.o: ../../lib/c/include/time.h
+generic/remote_usbhid.o: ../../lib/c/include/sys/time.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/config.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/tls.h
+generic/remote_usbhid.o: ../../lib/c/include/libc.h
+generic/remote_usbhid.o: ../../lib/c/include/abi/syscall.h
+generic/remote_usbhid.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_usbhid.o: ../../lib/c/include/errno.h
+generic/remote_usbhid.o: ../../lib/c/include/abi/errno.h
+generic/remote_usbhid.o: ../../lib/c/include/stdio.h
+generic/remote_usbhid.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/remote_usbhid.o: ../../lib/c/include/io/verify.h
+generic/remote_usbhid.o: ../../lib/c/include/abi/klog.h
+generic/remote_usbhid.o: include/usbhid_iface.h include/ddf/driver.h
+generic/remote_usbhid.o: ../../lib/c/include/ipc/devman.h
+generic/remote_usbhid.o: ../../lib/c/include/malloc.h
+generic/remote_usbhid.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_usbhid.o: include/dev_iface.h ../../lib/usb/include/usb/usb.h
+generic/remote_usbhid.o: ../../lib/c/include/byteorder.h
+generic/remote_clock_dev.o: ../../lib/c/include/async.h
+generic/remote_clock_dev.o: ../../lib/c/include/ipc/common.h
+generic/remote_clock_dev.o: ../../lib/c/include/sys/types.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/types.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/common.h
+generic/remote_clock_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_clock_dev.o: ../../lib/c/include/atomic.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_clock_dev.o: ../../lib/c/include/atomicdflt.h
+generic/remote_clock_dev.o: ../../lib/c/include/stdint.h
+generic/remote_clock_dev.o: ../../lib/c/include/stdbool.h
+generic/remote_clock_dev.o: ../../lib/c/include/abi/bool.h
+generic/remote_clock_dev.o: ../../lib/c/include/task.h
+generic/remote_clock_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_clock_dev.o: ../../lib/c/include/stdarg.h
+generic/remote_clock_dev.o: ../../lib/c/include/fibril.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_clock_dev.o: ../../lib/c/include/adt/list.h
+generic/remote_clock_dev.o: ../../lib/c/include/assert.h
+generic/remote_clock_dev.o: ../../lib/c/include/unistd.h
+generic/remote_clock_dev.o: ../../lib/c/include/time.h
+generic/remote_clock_dev.o: ../../lib/c/include/sys/time.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/config.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/tls.h
+generic/remote_clock_dev.o: ../../lib/c/include/libc.h
+generic/remote_clock_dev.o: ../../lib/c/include/abi/syscall.h
+generic/remote_clock_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_clock_dev.o: ../../lib/c/include/errno.h
+generic/remote_clock_dev.o: ../../lib/c/include/abi/errno.h
+generic/remote_clock_dev.o: include/ops/clock_dev.h include/ddf/driver.h
+generic/remote_clock_dev.o: ../../lib/c/include/ipc/devman.h
+generic/remote_clock_dev.o: ../../lib/c/include/malloc.h
+generic/remote_clock_dev.o: ../../lib/c/include/mem.h
+generic/remote_clock_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_clock_dev.o: include/dev_iface.h include/ddf/driver.h
+generic/remote_battery_dev.o: ../../lib/c/include/async.h
+generic/remote_battery_dev.o: ../../lib/c/include/ipc/common.h
+generic/remote_battery_dev.o: ../../lib/c/include/sys/types.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/types.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/common.h
+generic/remote_battery_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_battery_dev.o: ../../lib/c/include/atomic.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_battery_dev.o: ../../lib/c/include/atomicdflt.h
+generic/remote_battery_dev.o: ../../lib/c/include/stdint.h
+generic/remote_battery_dev.o: ../../lib/c/include/stdbool.h
+generic/remote_battery_dev.o: ../../lib/c/include/abi/bool.h
+generic/remote_battery_dev.o: ../../lib/c/include/task.h
+generic/remote_battery_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_battery_dev.o: ../../lib/c/include/stdarg.h
+generic/remote_battery_dev.o: ../../lib/c/include/fibril.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_battery_dev.o: ../../lib/c/include/adt/list.h
+generic/remote_battery_dev.o: ../../lib/c/include/assert.h
+generic/remote_battery_dev.o: ../../lib/c/include/unistd.h
+generic/remote_battery_dev.o: ../../lib/c/include/time.h
+generic/remote_battery_dev.o: ../../lib/c/include/sys/time.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/config.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/tls.h
+generic/remote_battery_dev.o: ../../lib/c/include/libc.h
+generic/remote_battery_dev.o: ../../lib/c/include/abi/syscall.h
+generic/remote_battery_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_battery_dev.o: ../../lib/c/include/errno.h
+generic/remote_battery_dev.o: ../../lib/c/include/abi/errno.h
+generic/remote_battery_dev.o: include/ops/battery_dev.h include/ddf/driver.h
+generic/remote_battery_dev.o: ../../lib/c/include/ipc/devman.h
+generic/remote_battery_dev.o: ../../lib/c/include/malloc.h
+generic/remote_battery_dev.o: ../../lib/c/include/mem.h
+generic/remote_battery_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_battery_dev.o: include/dev_iface.h
+generic/remote_battery_dev.o: ../../lib/c/include/device/battery_dev.h
+generic/remote_battery_dev.o: include/ddf/driver.h
+generic/remote_ahci.o: ../../lib/c/include/async.h
+generic/remote_ahci.o: ../../lib/c/include/ipc/common.h
+generic/remote_ahci.o: ../../lib/c/include/sys/types.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/types.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/common.h
+generic/remote_ahci.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/remote_ahci.o: ../../lib/c/include/atomic.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/atomic.h
+generic/remote_ahci.o: ../../lib/c/include/atomicdflt.h
+generic/remote_ahci.o: ../../lib/c/include/stdint.h
+generic/remote_ahci.o: ../../lib/c/include/stdbool.h
+generic/remote_ahci.o: ../../lib/c/include/abi/bool.h
+generic/remote_ahci.o: ../../lib/c/include/task.h
+generic/remote_ahci.o: ../../lib/c/include/abi/proc/task.h
+generic/remote_ahci.o: ../../lib/c/include/stdarg.h
+generic/remote_ahci.o: ../../lib/c/include/fibril.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/fibril.h
+generic/remote_ahci.o: ../../lib/c/include/adt/list.h
+generic/remote_ahci.o: ../../lib/c/include/assert.h
+generic/remote_ahci.o: ../../lib/c/include/unistd.h
+generic/remote_ahci.o: ../../lib/c/include/time.h
+generic/remote_ahci.o: ../../lib/c/include/sys/time.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/config.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/tls.h
+generic/remote_ahci.o: ../../lib/c/include/libc.h
+generic/remote_ahci.o: ../../lib/c/include/abi/syscall.h
+generic/remote_ahci.o: ../../lib/c/include/libarch/syscall.h
+generic/remote_ahci.o: ../../lib/c/include/errno.h
+generic/remote_ahci.o: ../../lib/c/include/abi/errno.h
+generic/remote_ahci.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/remote_ahci.o: ../../lib/c/include/mem.h
+generic/remote_ahci.o: ../../lib/c/include/io/verify.h
+generic/remote_ahci.o: ../../lib/c/include/abi/klog.h include/ahci_iface.h
+generic/remote_ahci.o: include/ddf/driver.h ../../lib/c/include/ipc/devman.h
+generic/remote_ahci.o: ../../lib/c/include/malloc.h
+generic/remote_ahci.o: ../../lib/c/include/ipc/dev_iface.h
+generic/remote_ahci.o: include/dev_iface.h

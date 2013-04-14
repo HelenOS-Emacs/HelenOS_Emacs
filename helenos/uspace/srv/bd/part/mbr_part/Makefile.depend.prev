@@ -1,0 +1,52 @@
+# DO NOT DELETE
+
+mbr_part.o: ../../../../lib/c/include/stdio.h
+mbr_part.o: ../../../../lib/c/include/sys/types.h
+mbr_part.o: ../../../../lib/c/include/libarch/types.h
+mbr_part.o: ../../../../lib/c/include/libarch/common.h
+mbr_part.o: ../../../../lib/c/include/stdarg.h
+mbr_part.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/mem.h
+mbr_part.o: ../../../../lib/c/include/stdbool.h
+mbr_part.o: ../../../../lib/c/include/abi/bool.h
+mbr_part.o: ../../../../lib/c/include/io/verify.h
+mbr_part.o: ../../../../lib/c/include/abi/klog.h
+mbr_part.o: ../../../../lib/c/include/stdlib.h
+mbr_part.o: ../../../../lib/c/include/unistd.h
+mbr_part.o: ../../../../lib/c/include/time.h
+mbr_part.o: ../../../../lib/c/include/sys/time.h
+mbr_part.o: ../../../../lib/c/include/libarch/config.h
+mbr_part.o: ../../../../lib/c/include/malloc.h
+mbr_part.o: ../../../../lib/c/include/stacktrace.h
+mbr_part.o: ../../../../lib/c/include/async.h
+mbr_part.o: ../../../../lib/c/include/ipc/common.h
+mbr_part.o: ../../../../lib/c/include/abi/ipc/ipc.h
+mbr_part.o: ../../../../lib/c/include/atomic.h
+mbr_part.o: ../../../../lib/c/include/libarch/atomic.h
+mbr_part.o: ../../../../lib/c/include/atomicdflt.h
+mbr_part.o: ../../../../lib/c/include/stdint.h
+mbr_part.o: ../../../../lib/c/include/task.h
+mbr_part.o: ../../../../lib/c/include/abi/proc/task.h
+mbr_part.o: ../../../../lib/c/include/fibril.h
+mbr_part.o: ../../../../lib/c/include/libarch/fibril.h
+mbr_part.o: ../../../../lib/c/include/adt/list.h
+mbr_part.o: ../../../../lib/c/include/assert.h
+mbr_part.o: ../../../../lib/c/include/libarch/tls.h
+mbr_part.o: ../../../../lib/c/include/libc.h
+mbr_part.o: ../../../../lib/c/include/abi/syscall.h
+mbr_part.o: ../../../../lib/c/include/libarch/syscall.h
+mbr_part.o: ../../../../lib/c/include/as.h
+mbr_part.o: ../../../../lib/c/include/abi/mm/as.h
+mbr_part.o: ../../../../lib/c/include/bd_srv.h
+mbr_part.o: ../../../../lib/c/include/fibril_synch.h
+mbr_part.o: ../../../../lib/c/include/loc.h
+mbr_part.o: ../../../../lib/c/include/ipc/loc.h
+mbr_part.o: ../../../../lib/c/include/sys/typefmt.h
+mbr_part.o: ../../../../lib/c/include/inttypes.h
+mbr_part.o: ../../../../lib/c/include/libarch/inttypes.h
+mbr_part.o: ../../../../lib/block/block.h ../../../../srv/vfs/vfs.h
+mbr_part.o: ../../../../lib/c/include/adt/hash_table.h
+mbr_part.o: ../../../../lib/c/include/macros.h
+mbr_part.o: ../../../../lib/c/include/ipc/vfs.h
+mbr_part.o: ../../../../lib/c/include/errno.h
+mbr_part.o: ../../../../lib/c/include/abi/errno.h
+mbr_part.o: ../../../../lib/c/include/byteorder.h

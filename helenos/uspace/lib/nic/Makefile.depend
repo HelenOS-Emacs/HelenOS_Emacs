@@ -1,0 +1,207 @@
+# DO NOT DELETE
+
+src/nic_driver.o: ../../lib/c/include/assert.h
+src/nic_driver.o: ../../lib/c/include/fibril_synch.h
+src/nic_driver.o: ../../lib/c/include/fibril.h
+src/nic_driver.o: ../../lib/c/include/libarch/fibril.h
+src/nic_driver.o: ../../lib/c/include/sys/types.h
+src/nic_driver.o: ../../lib/c/include/libarch/types.h
+src/nic_driver.o: ../../lib/c/include/libarch/common.h
+src/nic_driver.o: ../../lib/c/include/adt/list.h ../../lib/c/include/unistd.h
+src/nic_driver.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/nic_driver.o: ../../lib/c/include/libarch/config.h
+src/nic_driver.o: ../../lib/c/include/libarch/tls.h
+src/nic_driver.o: ../../lib/c/include/libc.h
+src/nic_driver.o: ../../lib/c/include/abi/syscall.h
+src/nic_driver.o: ../../lib/c/include/libarch/syscall.h
+src/nic_driver.o: ../../lib/c/include/stdbool.h
+src/nic_driver.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/ns.h
+src/nic_driver.o: ../../lib/c/include/ipc/services.h
+src/nic_driver.o: ../../lib/c/include/fourcc.h ../../lib/c/include/task.h
+src/nic_driver.o: ../../lib/c/include/abi/proc/task.h
+src/nic_driver.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+src/nic_driver.o: ../../lib/c/include/ipc/common.h
+src/nic_driver.o: ../../lib/c/include/abi/ipc/ipc.h
+src/nic_driver.o: ../../lib/c/include/atomic.h
+src/nic_driver.o: ../../lib/c/include/libarch/atomic.h
+src/nic_driver.o: ../../lib/c/include/atomicdflt.h
+src/nic_driver.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdio.h
+src/nic_driver.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+src/nic_driver.o: ../../lib/c/include/io/verify.h
+src/nic_driver.o: ../../lib/c/include/abi/klog.h
+src/nic_driver.o: ../../lib/c/include/str_error.h
+src/nic_driver.o: ../../lib/c/include/ipc/ns.h ../../lib/c/include/ipc/irc.h
+src/nic_driver.o: ../../lib/c/include/sysinfo.h
+src/nic_driver.o: ../../lib/c/include/abi/sysinfo.h
+src/nic_driver.o: ../../lib/c/include/abi/proc/thread.h
+src/nic_driver.o: ../../lib/c/include/as.h ../../lib/c/include/abi/mm/as.h
+src/nic_driver.o: ../../lib/drv/include/ddf/interrupt.h
+src/nic_driver.o: ../../lib/c/include/abi/ddi/irq.h ../../lib/c/include/ddi.h
+src/nic_driver.o: ../../lib/drv/include/ddf/driver.h
+src/nic_driver.o: ../../lib/c/include/ipc/devman.h
+src/nic_driver.o: ../../lib/c/include/malloc.h
+src/nic_driver.o: ../../lib/c/include/ipc/dev_iface.h
+src/nic_driver.o: ../../lib/drv/include/dev_iface.h
+src/nic_driver.o: ../../lib/drv/include/ops/nic.h
+src/nic_driver.o: ../../lib/c/include/nic/nic.h
+src/nic_driver.o: ../../lib/c/include/nic/eth_phys.h
+src/nic_driver.o: ../../lib/drv/include/ddf/driver.h
+src/nic_driver.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+src/nic_driver.o: include/nic_driver.h include/nic.h
+src/nic_driver.o: ../../lib/c/include/adt/hash_table.h
+src/nic_driver.o: ../../lib/c/include/macros.h
+src/nic_driver.o: ../../lib/drv/include/ddf/driver.h
+src/nic_driver.o: ../../lib/c/include/device/hw_res_parsed.h
+src/nic_driver.o: ../../lib/c/include/device/hw_res.h
+src/nic_driver.o: include/nic_rx_control.h include/nic_addr_db.h
+src/nic_driver.o: include/nic_wol_virtues.h include/nic_ev.h
+src/nic_driver.o: include/nic_impl.h
+src/nic_ev.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+src/nic_ev.o: ../../lib/c/include/sys/types.h
+src/nic_ev.o: ../../lib/c/include/libarch/types.h
+src/nic_ev.o: ../../lib/c/include/libarch/common.h
+src/nic_ev.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+src/nic_ev.o: ../../lib/c/include/libarch/atomic.h
+src/nic_ev.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+src/nic_ev.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/nic_ev.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+src/nic_ev.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+src/nic_ev.o: ../../lib/c/include/libarch/fibril.h
+src/nic_ev.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+src/nic_ev.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+src/nic_ev.o: ../../lib/c/include/sys/time.h
+src/nic_ev.o: ../../lib/c/include/libarch/config.h
+src/nic_ev.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+src/nic_ev.o: ../../lib/c/include/abi/syscall.h
+src/nic_ev.o: ../../lib/c/include/libarch/syscall.h
+src/nic_ev.o: ../../lib/c/include/device/nic.h ../../lib/c/include/nic/nic.h
+src/nic_ev.o: ../../lib/c/include/nic/eth_phys.h ../../lib/c/include/errno.h
+src/nic_ev.o: ../../lib/c/include/abi/errno.h include/nic_ev.h
+src/nic_addr_db.o: include/nic_addr_db.h ../../lib/c/include/adt/hash_table.h
+src/nic_addr_db.o: ../../lib/c/include/adt/list.h
+src/nic_addr_db.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+src/nic_addr_db.o: ../../lib/c/include/sys/types.h
+src/nic_addr_db.o: ../../lib/c/include/libarch/types.h
+src/nic_addr_db.o: ../../lib/c/include/libarch/common.h
+src/nic_addr_db.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/nic_addr_db.o: ../../lib/c/include/libarch/config.h
+src/nic_addr_db.o: ../../lib/c/include/stdbool.h
+src/nic_addr_db.o: ../../lib/c/include/abi/bool.h
+src/nic_addr_db.o: ../../lib/c/include/macros.h ../../lib/c/include/stdlib.h
+src/nic_addr_db.o: ../../lib/c/include/malloc.h
+src/nic_addr_db.o: ../../lib/c/include/stacktrace.h
+src/nic_addr_db.o: ../../lib/c/include/errno.h
+src/nic_addr_db.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/mem.h
+src/nic_addr_db.o: ../../lib/c/include/stdint.h
+src/nic_rx_control.o: ../../lib/c/include/assert.h
+src/nic_rx_control.o: ../../lib/c/include/stdlib.h
+src/nic_rx_control.o: ../../lib/c/include/unistd.h
+src/nic_rx_control.o: ../../lib/c/include/sys/types.h
+src/nic_rx_control.o: ../../lib/c/include/libarch/types.h
+src/nic_rx_control.o: ../../lib/c/include/libarch/common.h
+src/nic_rx_control.o: ../../lib/c/include/time.h
+src/nic_rx_control.o: ../../lib/c/include/sys/time.h
+src/nic_rx_control.o: ../../lib/c/include/libarch/config.h
+src/nic_rx_control.o: ../../lib/c/include/malloc.h
+src/nic_rx_control.o: ../../lib/c/include/stacktrace.h
+src/nic_rx_control.o: ../../lib/c/include/stdbool.h
+src/nic_rx_control.o: ../../lib/c/include/abi/bool.h
+src/nic_rx_control.o: ../../lib/c/include/errno.h
+src/nic_rx_control.o: ../../lib/c/include/abi/errno.h
+src/nic_rx_control.o: ../../lib/c/include/mem.h ../../lib/c/include/nic/nic.h
+src/nic_rx_control.o: ../../lib/c/include/nic/eth_phys.h
+src/nic_rx_control.o: include/nic_rx_control.h
+src/nic_rx_control.o: ../../lib/c/include/adt/hash_table.h
+src/nic_rx_control.o: ../../lib/c/include/adt/list.h
+src/nic_rx_control.o: ../../lib/c/include/macros.h
+src/nic_rx_control.o: ../../lib/c/include/fibril_synch.h
+src/nic_rx_control.o: ../../lib/c/include/fibril.h
+src/nic_rx_control.o: ../../lib/c/include/libarch/fibril.h
+src/nic_rx_control.o: ../../lib/c/include/libarch/tls.h
+src/nic_rx_control.o: ../../lib/c/include/libc.h
+src/nic_rx_control.o: ../../lib/c/include/abi/syscall.h
+src/nic_rx_control.o: ../../lib/c/include/libarch/syscall.h
+src/nic_rx_control.o: include/nic_addr_db.h
+src/nic_wol_virtues.o: include/nic_wol_virtues.h
+src/nic_wol_virtues.o: ../../lib/c/include/nic/nic.h
+src/nic_wol_virtues.o: ../../lib/c/include/nic/eth_phys.h
+src/nic_wol_virtues.o: ../../lib/c/include/sys/types.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/types.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/common.h
+src/nic_wol_virtues.o: ../../lib/c/include/stdbool.h
+src/nic_wol_virtues.o: ../../lib/c/include/abi/bool.h
+src/nic_wol_virtues.o: ../../lib/c/include/adt/hash_table.h
+src/nic_wol_virtues.o: ../../lib/c/include/adt/list.h
+src/nic_wol_virtues.o: ../../lib/c/include/assert.h
+src/nic_wol_virtues.o: ../../lib/c/include/unistd.h
+src/nic_wol_virtues.o: ../../lib/c/include/time.h
+src/nic_wol_virtues.o: ../../lib/c/include/sys/time.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/config.h
+src/nic_wol_virtues.o: ../../lib/c/include/macros.h include/nic.h
+src/nic_wol_virtues.o: ../../lib/drv/include/ddf/driver.h
+src/nic_wol_virtues.o: ../../lib/c/include/device/hw_res_parsed.h
+src/nic_wol_virtues.o: ../../lib/c/include/device/hw_res.h
+src/nic_wol_virtues.o: ../../lib/c/include/ipc/dev_iface.h
+src/nic_wol_virtues.o: ../../lib/c/include/malloc.h
+src/nic_wol_virtues.o: ../../lib/c/include/async.h
+src/nic_wol_virtues.o: ../../lib/c/include/ipc/common.h
+src/nic_wol_virtues.o: ../../lib/c/include/abi/ipc/ipc.h
+src/nic_wol_virtues.o: ../../lib/c/include/atomic.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/atomic.h
+src/nic_wol_virtues.o: ../../lib/c/include/atomicdflt.h
+src/nic_wol_virtues.o: ../../lib/c/include/stdint.h
+src/nic_wol_virtues.o: ../../lib/c/include/task.h
+src/nic_wol_virtues.o: ../../lib/c/include/abi/proc/task.h
+src/nic_wol_virtues.o: ../../lib/c/include/stdarg.h
+src/nic_wol_virtues.o: ../../lib/c/include/fibril.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/fibril.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/tls.h
+src/nic_wol_virtues.o: ../../lib/c/include/libc.h
+src/nic_wol_virtues.o: ../../lib/c/include/abi/syscall.h
+src/nic_wol_virtues.o: ../../lib/c/include/libarch/syscall.h
+src/nic_wol_virtues.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+src/nic_wol_virtues.o: ../../lib/drv/include/ops/nic.h
+src/nic_wol_virtues.o: ../../lib/c/include/ipc/services.h
+src/nic_wol_virtues.o: ../../lib/c/include/fourcc.h
+src/nic_wol_virtues.o: ../../lib/drv/include/ddf/driver.h
+src/nic_wol_virtues.o: ../../lib/c/include/errno.h
+src/nic_wol_virtues.o: ../../lib/c/include/abi/errno.h
+src/nic_impl.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+src/nic_impl.o: ../../lib/c/include/str_error.h
+src/nic_impl.o: ../../lib/c/include/ipc/services.h
+src/nic_impl.o: ../../lib/c/include/fourcc.h
+src/nic_impl.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/ns.h
+src/nic_impl.o: ../../lib/c/include/sys/types.h
+src/nic_impl.o: ../../lib/c/include/libarch/types.h
+src/nic_impl.o: ../../lib/c/include/task.h
+src/nic_impl.o: ../../lib/c/include/abi/proc/task.h
+src/nic_impl.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+src/nic_impl.o: ../../lib/c/include/ipc/common.h
+src/nic_impl.o: ../../lib/c/include/abi/ipc/ipc.h
+src/nic_impl.o: ../../lib/c/include/atomic.h
+src/nic_impl.o: ../../lib/c/include/libarch/atomic.h
+src/nic_impl.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+src/nic_impl.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/nic_impl.o: ../../lib/c/include/fibril.h
+src/nic_impl.o: ../../lib/c/include/libarch/fibril.h
+src/nic_impl.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+src/nic_impl.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+src/nic_impl.o: ../../lib/c/include/sys/time.h
+src/nic_impl.o: ../../lib/c/include/libarch/config.h
+src/nic_impl.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+src/nic_impl.o: ../../lib/c/include/abi/syscall.h
+src/nic_impl.o: ../../lib/c/include/libarch/syscall.h include/nic_driver.h
+src/nic_impl.o: ../../lib/c/include/fibril_synch.h
+src/nic_impl.o: ../../lib/c/include/nic/nic.h
+src/nic_impl.o: ../../lib/c/include/nic/eth_phys.h include/nic.h
+src/nic_impl.o: ../../lib/c/include/adt/hash_table.h
+src/nic_impl.o: ../../lib/c/include/macros.h
+src/nic_impl.o: ../../lib/drv/include/ddf/driver.h
+src/nic_impl.o: ../../lib/c/include/device/hw_res_parsed.h
+src/nic_impl.o: ../../lib/c/include/device/hw_res.h
+src/nic_impl.o: ../../lib/c/include/ipc/dev_iface.h
+src/nic_impl.o: ../../lib/c/include/malloc.h ../../lib/c/include/str.h
+src/nic_impl.o: ../../lib/c/include/mem.h ../../lib/drv/include/ops/nic.h
+src/nic_impl.o: ../../lib/drv/include/ddf/driver.h include/nic_rx_control.h
+src/nic_impl.o: include/nic_addr_db.h include/nic_wol_virtues.h
+src/nic_impl.o: include/nic_ev.h include/nic_impl.h

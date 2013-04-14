@@ -1,0 +1,75 @@
+# DO NOT DELETE
+
+ns.o: ../../lib/c/include/ipc/ipc.h ../../lib/c/include/sys/types.h
+ns.o: ../../lib/c/include/libarch/types.h
+ns.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/ipc/common.h
+ns.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+ns.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+ns.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+ns.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+ns.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+ns.o: ../../lib/c/include/abi/ipc/methods.h ../../lib/c/include/abi/synch.h
+ns.o: ../../lib/c/include/ipc/ns.h ../../lib/c/include/stdio.h
+ns.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+ns.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+ns.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+ns.o: ../../lib/c/include/macros.h ns.h service.h clonable.h
+service.o: ../../lib/c/include/ipc/ipc.h ../../lib/c/include/sys/types.h
+service.o: ../../lib/c/include/libarch/types.h
+service.o: ../../lib/c/include/libarch/common.h
+service.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+service.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+service.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+service.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+service.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+service.o: ../../lib/c/include/stdarg.h ../../lib/c/include/abi/ipc/methods.h
+service.o: ../../lib/c/include/abi/synch.h
+service.o: ../../lib/c/include/adt/hash_table.h
+service.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+service.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+service.o: ../../lib/c/include/sys/time.h
+service.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/macros.h
+service.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+service.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+service.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+service.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/malloc.h
+service.o: service.h ns.h
+clonable.o: ../../lib/c/include/ipc/ipc.h ../../lib/c/include/sys/types.h
+clonable.o: ../../lib/c/include/libarch/types.h
+clonable.o: ../../lib/c/include/libarch/common.h
+clonable.o: ../../lib/c/include/ipc/common.h
+clonable.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+clonable.o: ../../lib/c/include/libarch/atomic.h
+clonable.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+clonable.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+clonable.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+clonable.o: ../../lib/c/include/stdarg.h
+clonable.o: ../../lib/c/include/abi/ipc/methods.h
+clonable.o: ../../lib/c/include/abi/synch.h
+clonable.o: ../../lib/c/include/ipc/services.h ../../lib/c/include/fourcc.h
+clonable.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+clonable.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+clonable.o: ../../lib/c/include/sys/time.h
+clonable.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/errno.h
+clonable.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/stdio.h
+clonable.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+clonable.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+clonable.o: ../../lib/c/include/malloc.h ../../lib/c/include/loader/loader.h
+clonable.o: clonable.h ns.h
+task.o: ../../lib/c/include/ipc/ipc.h ../../lib/c/include/sys/types.h
+task.o: ../../lib/c/include/libarch/types.h
+task.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/ipc/common.h
+task.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+task.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+task.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+task.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+task.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+task.o: ../../lib/c/include/abi/ipc/methods.h ../../lib/c/include/abi/synch.h
+task.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/adt/list.h
+task.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+task.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+task.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/macros.h
+task.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+task.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+task.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+task.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/malloc.h ns.h

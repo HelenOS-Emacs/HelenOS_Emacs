@@ -1,0 +1,46 @@
+# DO NOT DELETE
+
+ahci.o: ../../../lib/c/include/as.h ../../../lib/c/include/sys/types.h
+ahci.o: ../../../lib/c/include/libarch/types.h
+ahci.o: ../../../lib/c/include/libarch/common.h
+ahci.o: ../../../lib/c/include/abi/mm/as.h ../../../lib/c/include/task.h
+ahci.o: ../../../lib/c/include/abi/proc/task.h
+ahci.o: ../../../lib/c/include/stdarg.h
+ahci.o: ../../../lib/c/include/libarch/config.h
+ahci.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+ahci.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ahci.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+ahci.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/io/verify.h
+ahci.o: ../../../lib/c/include/abi/klog.h
+ahci.o: ../../../lib/drv/include/ddf/interrupt.h
+ahci.o: ../../../lib/c/include/abi/ddi/irq.h
+ahci.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ahci.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ahci.o: ../../../lib/c/include/sys/time.h ../../../lib/c/include/ddi.h
+ahci.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/fibril.h
+ahci.o: ../../../lib/c/include/libarch/fibril.h
+ahci.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+ahci.o: ../../../lib/c/include/abi/syscall.h
+ahci.o: ../../../lib/c/include/libarch/syscall.h
+ahci.o: ../../../lib/drv/include/ddf/driver.h ../../../lib/c/include/async.h
+ahci.o: ../../../lib/c/include/ipc/common.h
+ahci.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+ahci.o: ../../../lib/c/include/libarch/atomic.h
+ahci.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+ahci.o: ../../../lib/c/include/ipc/devman.h ../../../lib/c/include/malloc.h
+ahci.o: ../../../lib/c/include/ipc/dev_iface.h
+ahci.o: ../../../lib/drv/include/dev_iface.h
+ahci.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+ahci.o: ../../../lib/c/include/inttypes.h
+ahci.o: ../../../lib/c/include/libarch/inttypes.h
+ahci.o: ../../../lib/c/include/device/hw_res_parsed.h
+ahci.o: ../../../lib/c/include/device/hw_res.h
+ahci.o: ../../../lib/c/include/device/pci.h ../../../lib/c/include/sysinfo.h
+ahci.o: ../../../lib/c/include/abi/sysinfo.h
+ahci.o: ../../../lib/c/include/abi/proc/thread.h
+ahci.o: ../../../lib/c/include/ipc/irc.h ../../../lib/c/include/ns.h
+ahci.o: ../../../lib/c/include/ipc/services.h ../../../lib/c/include/fourcc.h
+ahci.o: ../../../lib/drv/include/ahci_iface.h
+ahci.o: ../../../lib/drv/include/ddf/driver.h ahci.h
+ahci.o: ../../../lib/c/include/devman.h ../../../lib/c/include/ipc/loc.h
+ahci.o: ahci_hw.h ahci_sata.h

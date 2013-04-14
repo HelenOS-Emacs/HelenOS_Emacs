@@ -1,0 +1,49 @@
+# DO NOT DELETE
+
+nano.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+nano.o: ../../lib/c/include/libarch/types.h
+nano.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+nano.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+nano.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+nano.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+nano.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+nano.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+nano.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+nano.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/vfs/vfs.h
+nano.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/common.h
+nano.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+nano.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+nano.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+nano.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/ipc/loc.h
+nano.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+nano.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+nano.o: ../../lib/c/include/libarch/fibril.h
+nano.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+nano.o: ../../lib/c/include/abi/syscall.h
+nano.o: ../../lib/c/include/libarch/syscall.h
+nano.o: ../../lib/c/include/vfs/vfs_mtab.h ../../lib/c/include/io/console.h
+nano.o: ../../lib/c/include/io/concaps.h ../../lib/c/include/io/kbd_event.h
+nano.o: ../../lib/c/include/io/keycode.h ../../lib/c/include/io/style.h
+nano.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+nano.o: ../../lib/c/include/align.h ../../lib/c/include/macros.h
+nano.o: ../../lib/c/include/clipboard.h ../../lib/c/include/bool.h sheet.h
+sheet.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+sheet.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+sheet.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+sheet.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+sheet.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+sheet.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+sheet.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+sheet.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+sheet.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+sheet.o: ../../lib/c/include/align.h ../../lib/c/include/macros.h sheet.h
+sheet.o: sheet_impl.h
+search.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+search.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+search.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+search.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+search.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+search.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+search.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+search.o: search.h ../../lib/c/include/str.h ../../lib/c/include/mem.h
+search.o: search_impl.h

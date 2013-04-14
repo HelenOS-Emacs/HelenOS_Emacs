@@ -1,0 +1,33 @@
+# DO NOT DELETE
+
+vterm.o: ../../lib/c/include/stdbool.h ../../lib/c/include/libarch/types.h
+vterm.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+vterm.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+vterm.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+vterm.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+vterm.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/io/pixel.h
+vterm.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+vterm.o: ../../lib/gui/window.h ../../lib/c/include/async.h
+vterm.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+vterm.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+vterm.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+vterm.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+vterm.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+vterm.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+vterm.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+vterm.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+vterm.o: ../../lib/c/include/abi/syscall.h
+vterm.o: ../../lib/c/include/libarch/syscall.h
+vterm.o: ../../lib/c/include/adt/prodcons.h
+vterm.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/ipc/window.h
+vterm.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/io/window.h
+vterm.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+vterm.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+vterm.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/io/keycode.h
+vterm.o: ../../lib/draw/surface.h ../../lib/c/include/io/pixelmap.h
+vterm.o: ../../lib/gui/widget.h ../../lib/gui/terminal.h
+vterm.o: ../../lib/draw/font.h ../../lib/draw/source.h
+vterm.o: ../../lib/softrend/transform.h ../../lib/softrend/filter.h
+vterm.o: ../../lib/c/include/io/chargrid.h ../../lib/c/include/io/charfield.h
+vterm.o: ../../lib/c/include/io/color.h ../../lib/c/include/io/style.h
+vterm.o: ../../lib/c/include/io/con_srv.h

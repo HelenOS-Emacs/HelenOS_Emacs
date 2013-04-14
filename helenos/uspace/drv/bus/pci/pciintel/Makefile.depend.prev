@@ -1,0 +1,56 @@
+# DO NOT DELETE
+
+pci.o: ../../../../lib/c/include/assert.h
+pci.o: ../../../../lib/c/include/byteorder.h
+pci.o: ../../../../lib/c/include/stdint.h
+pci.o: ../../../../lib/c/include/libarch/types.h
+pci.o: ../../../../lib/c/include/libarch/common.h
+pci.o: ../../../../lib/c/include/stdio.h
+pci.o: ../../../../lib/c/include/sys/types.h
+pci.o: ../../../../lib/c/include/stdarg.h ../../../../lib/c/include/str.h
+pci.o: ../../../../lib/c/include/mem.h ../../../../lib/c/include/stdbool.h
+pci.o: ../../../../lib/c/include/abi/bool.h
+pci.o: ../../../../lib/c/include/io/verify.h
+pci.o: ../../../../lib/c/include/abi/klog.h ../../../../lib/c/include/errno.h
+pci.o: ../../../../lib/c/include/abi/errno.h
+pci.o: ../../../../lib/c/include/fibril_synch.h
+pci.o: ../../../../lib/c/include/fibril.h
+pci.o: ../../../../lib/c/include/libarch/fibril.h
+pci.o: ../../../../lib/c/include/adt/list.h
+pci.o: ../../../../lib/c/include/unistd.h ../../../../lib/c/include/time.h
+pci.o: ../../../../lib/c/include/sys/time.h
+pci.o: ../../../../lib/c/include/libarch/config.h
+pci.o: ../../../../lib/c/include/libarch/tls.h
+pci.o: ../../../../lib/c/include/libc.h
+pci.o: ../../../../lib/c/include/abi/syscall.h
+pci.o: ../../../../lib/c/include/libarch/syscall.h
+pci.o: ../../../../lib/c/include/ctype.h ../../../../lib/c/include/macros.h
+pci.o: ../../../../lib/c/include/str_error.h
+pci.o: ../../../../lib/drv/include/ddf/driver.h
+pci.o: ../../../../lib/c/include/async.h
+pci.o: ../../../../lib/c/include/ipc/common.h
+pci.o: ../../../../lib/c/include/abi/ipc/ipc.h
+pci.o: ../../../../lib/c/include/atomic.h
+pci.o: ../../../../lib/c/include/libarch/atomic.h
+pci.o: ../../../../lib/c/include/atomicdflt.h
+pci.o: ../../../../lib/c/include/task.h
+pci.o: ../../../../lib/c/include/abi/proc/task.h
+pci.o: ../../../../lib/c/include/ipc/devman.h
+pci.o: ../../../../lib/c/include/malloc.h
+pci.o: ../../../../lib/c/include/ipc/dev_iface.h
+pci.o: ../../../../lib/drv/include/dev_iface.h
+pci.o: ../../../../lib/drv/include/ddf/log.h
+pci.o: ../../../../lib/c/include/io/log.h
+pci.o: ../../../../lib/c/include/inttypes.h
+pci.o: ../../../../lib/c/include/libarch/inttypes.h
+pci.o: ../../../../lib/c/include/ipc/irc.h ../../../../lib/c/include/ns.h
+pci.o: ../../../../lib/c/include/ipc/services.h
+pci.o: ../../../../lib/c/include/fourcc.h ../../../../lib/c/include/sysinfo.h
+pci.o: ../../../../lib/c/include/abi/sysinfo.h
+pci.o: ../../../../lib/c/include/abi/proc/thread.h
+pci.o: ../../../../lib/drv/include/ops/hw_res.h
+pci.o: ../../../../lib/c/include/device/hw_res.h
+pci.o: ../../../../lib/drv/include/ddf/driver.h
+pci.o: ../../../../lib/c/include/ddi.h
+pci.o: ../../../../lib/c/include/abi/ddi/irq.h
+pci.o: ../../../../lib/drv/include/pci_dev_iface.h pci.h pci_regs.h

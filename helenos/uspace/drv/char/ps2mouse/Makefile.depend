@@ -1,0 +1,100 @@
+# DO NOT DELETE
+
+chardev.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+chardev.o: ../../../lib/c/include/mem.h ../../../lib/c/include/sys/types.h
+chardev.o: ../../../lib/c/include/libarch/types.h
+chardev.o: ../../../lib/c/include/libarch/common.h
+chardev.o: ../../../lib/c/include/ipc/dev_iface.h
+chardev.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/unistd.h
+chardev.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+chardev.o: ../../../lib/c/include/libarch/config.h
+chardev.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+chardev.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/inttypes.h
+chardev.o: ../../../lib/c/include/libarch/inttypes.h
+chardev.o: ../../../lib/c/include/io/verify.h chardev.h
+chardev.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+chardev.o: ../../../lib/c/include/abi/ipc/ipc.h
+chardev.o: ../../../lib/c/include/atomic.h
+chardev.o: ../../../lib/c/include/libarch/atomic.h
+chardev.o: ../../../lib/c/include/atomicdflt.h
+chardev.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+chardev.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+chardev.o: ../../../lib/c/include/abi/proc/task.h
+chardev.o: ../../../lib/c/include/fibril.h
+chardev.o: ../../../lib/c/include/libarch/fibril.h
+chardev.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+chardev.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+chardev.o: ../../../lib/c/include/abi/syscall.h
+chardev.o: ../../../lib/c/include/libarch/syscall.h
+main.o: ../../../lib/c/include/libarch/inttypes.h
+main.o: ../../../lib/drv/include/ddf/driver.h ../../../lib/c/include/async.h
+main.o: ../../../lib/c/include/ipc/common.h
+main.o: ../../../lib/c/include/sys/types.h
+main.o: ../../../lib/c/include/libarch/types.h
+main.o: ../../../lib/c/include/libarch/common.h
+main.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+main.o: ../../../lib/c/include/libarch/atomic.h
+main.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+main.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+main.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+main.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+main.o: ../../../lib/c/include/libarch/fibril.h
+main.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+main.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+main.o: ../../../lib/c/include/sys/time.h
+main.o: ../../../lib/c/include/libarch/config.h
+main.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+main.o: ../../../lib/c/include/abi/syscall.h
+main.o: ../../../lib/c/include/libarch/syscall.h
+main.o: ../../../lib/c/include/ipc/devman.h ../../../lib/c/include/malloc.h
+main.o: ../../../lib/c/include/mem.h ../../../lib/c/include/ipc/dev_iface.h
+main.o: ../../../lib/drv/include/dev_iface.h
+main.o: ../../../lib/c/include/device/hw_res_parsed.h
+main.o: ../../../lib/c/include/device/hw_res.h ../../../lib/c/include/str.h
+main.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+main.o: ../../../lib/c/include/str_error.h ../../../lib/drv/include/ddf/log.h
+main.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+main.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/stdio.h
+main.o: ../../../lib/c/include/abi/klog.h ps2mouse.h
+ps2mouse.o: ../../../lib/c/include/stdbool.h
+ps2mouse.o: ../../../lib/c/include/libarch/types.h
+ps2mouse.o: ../../../lib/c/include/libarch/common.h
+ps2mouse.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/errno.h
+ps2mouse.o: ../../../lib/c/include/abi/errno.h
+ps2mouse.o: ../../../lib/drv/include/ddf/log.h
+ps2mouse.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+ps2mouse.o: ../../../lib/c/include/sys/types.h
+ps2mouse.o: ../../../lib/c/include/inttypes.h
+ps2mouse.o: ../../../lib/c/include/libarch/inttypes.h
+ps2mouse.o: ../../../lib/c/include/io/verify.h
+ps2mouse.o: ../../../lib/c/include/io/keycode.h
+ps2mouse.o: ../../../lib/c/include/io/console.h
+ps2mouse.o: ../../../lib/c/include/sys/time.h
+ps2mouse.o: ../../../lib/c/include/io/concaps.h
+ps2mouse.o: ../../../lib/c/include/io/kbd_event.h
+ps2mouse.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+ps2mouse.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+ps2mouse.o: ../../../lib/c/include/libarch/config.h
+ps2mouse.o: ../../../lib/c/include/async.h
+ps2mouse.o: ../../../lib/c/include/ipc/common.h
+ps2mouse.o: ../../../lib/c/include/abi/ipc/ipc.h
+ps2mouse.o: ../../../lib/c/include/atomic.h
+ps2mouse.o: ../../../lib/c/include/libarch/atomic.h
+ps2mouse.o: ../../../lib/c/include/atomicdflt.h
+ps2mouse.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+ps2mouse.o: ../../../lib/c/include/abi/proc/task.h
+ps2mouse.o: ../../../lib/c/include/fibril.h
+ps2mouse.o: ../../../lib/c/include/libarch/fibril.h
+ps2mouse.o: ../../../lib/c/include/libarch/tls.h
+ps2mouse.o: ../../../lib/c/include/libc.h
+ps2mouse.o: ../../../lib/c/include/abi/syscall.h
+ps2mouse.o: ../../../lib/c/include/libarch/syscall.h
+ps2mouse.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ps2mouse.o: ../../../lib/c/include/mem.h ../../../lib/c/include/abi/klog.h
+ps2mouse.o: ../../../lib/c/include/ipc/mouseev.h
+ps2mouse.o: ../../../lib/c/include/ipc/dev_iface.h
+ps2mouse.o: ../../../lib/c/include/malloc.h
+ps2mouse.o: ../../../lib/c/include/abi/ipc/methods.h ps2mouse.h
+ps2mouse.o: ../../../lib/drv/include/ddf/driver.h
+ps2mouse.o: ../../../lib/c/include/ipc/devman.h
+ps2mouse.o: ../../../lib/drv/include/dev_iface.h chardev.h

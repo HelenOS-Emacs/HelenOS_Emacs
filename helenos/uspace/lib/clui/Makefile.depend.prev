@@ -1,0 +1,31 @@
+# DO NOT DELETE
+
+tinput.o: ../../lib/c/include/sort.h ../../lib/c/include/sys/types.h
+tinput.o: ../../lib/c/include/libarch/types.h
+tinput.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+tinput.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/stdio.h
+tinput.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+tinput.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+tinput.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+tinput.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+tinput.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+tinput.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+tinput.o: ../../lib/c/include/io/console.h ../../lib/c/include/io/concaps.h
+tinput.o: ../../lib/c/include/io/kbd_event.h ../../lib/c/include/adt/list.h
+tinput.o: ../../lib/c/include/assert.h ../../lib/c/include/io/keycode.h
+tinput.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+tinput.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+tinput.o: ../../lib/c/include/libarch/atomic.h
+tinput.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+tinput.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+tinput.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+tinput.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+tinput.o: ../../lib/c/include/abi/syscall.h
+tinput.o: ../../lib/c/include/libarch/syscall.h
+tinput.o: ../../lib/c/include/io/style.h ../../lib/c/include/io/color.h
+tinput.o: ../../lib/c/include/vfs/vfs.h ../../lib/c/include/ipc/vfs.h
+tinput.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/vfs/vfs_mtab.h
+tinput.o: ../../lib/c/include/clipboard.h ../../lib/c/include/macros.h
+tinput.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+tinput.o: ./tinput.h ../../lib/c/include/inttypes.h
+tinput.o: ../../lib/c/include/libarch/inttypes.h

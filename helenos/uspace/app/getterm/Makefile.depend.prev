@@ -1,0 +1,32 @@
+# DO NOT DELETE
+
+getterm.o: ../../lib/c/include/sys/types.h
+getterm.o: ../../lib/c/include/libarch/types.h
+getterm.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/fcntl.h
+getterm.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+getterm.o: ../../lib/c/include/sys/time.h
+getterm.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/stdio.h
+getterm.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+getterm.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+getterm.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/verify.h
+getterm.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/task.h
+getterm.o: ../../lib/c/include/abi/proc/task.h
+getterm.o: ../../lib/c/include/str_error.h ../../lib/c/include/errno.h
+getterm.o: ../../lib/c/include/abi/errno.h version.h welcome.h
+version.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+version.o: ../../lib/c/include/libarch/types.h
+version.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+version.o: ../../lib/c/include/sys/time.h
+version.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/stdio.h
+version.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+version.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+version.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/verify.h
+version.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/macros.h
+version.o: getterm.h version.h
+welcome.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+welcome.o: ../../lib/c/include/libarch/types.h
+welcome.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+welcome.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+welcome.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+welcome.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+welcome.o: welcome.h

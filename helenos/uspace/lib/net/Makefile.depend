@@ -1,0 +1,40 @@
+# DO NOT DELETE
+
+tl/socket_core.o: include/socket_core.h ../../lib/c/include/sys/types.h
+tl/socket_core.o: ../../lib/c/include/libarch/types.h
+tl/socket_core.o: ../../lib/c/include/libarch/common.h
+tl/socket_core.o: ../../lib/c/include/adt/generic_char_map.h
+tl/socket_core.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+tl/socket_core.o: ../../lib/c/include/sys/time.h
+tl/socket_core.o: ../../lib/c/include/libarch/config.h
+tl/socket_core.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+tl/socket_core.o: ../../lib/c/include/adt/char_map.h
+tl/socket_core.o: ../../lib/c/include/adt/generic_field.h
+tl/socket_core.o: ../../lib/c/include/malloc.h ../../lib/c/include/mem.h
+tl/socket_core.o: ../../lib/c/include/adt/dynamic_fifo.h
+tl/socket_core.o: ../../lib/c/include/adt/int_map.h
+tl/socket_core.o: ../../lib/c/include/net/in.h ../../lib/c/include/net/inet.h
+tl/socket_core.o: ../../lib/c/include/byteorder.h
+tl/socket_core.o: ../../lib/c/include/stdint.h
+tl/socket_core.o: ../../lib/c/include/net/ip_protocols.h
+tl/socket_core.o: ../../lib/c/include/net/device.h
+tl/socket_core.o: ../../lib/c/include/nic/nic.h
+tl/socket_core.o: ../../lib/c/include/nic/eth_phys.h
+tl/socket_core.o: ../../lib/c/include/stdbool.h
+tl/socket_core.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/async.h
+tl/socket_core.o: ../../lib/c/include/ipc/common.h
+tl/socket_core.o: ../../lib/c/include/abi/ipc/ipc.h
+tl/socket_core.o: ../../lib/c/include/atomic.h
+tl/socket_core.o: ../../lib/c/include/libarch/atomic.h
+tl/socket_core.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+tl/socket_core.o: ../../lib/c/include/abi/proc/task.h
+tl/socket_core.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+tl/socket_core.o: ../../lib/c/include/libarch/fibril.h
+tl/socket_core.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+tl/socket_core.o: ../../lib/c/include/libarch/tls.h
+tl/socket_core.o: ../../lib/c/include/libc.h
+tl/socket_core.o: ../../lib/c/include/abi/syscall.h
+tl/socket_core.o: ../../lib/c/include/libarch/syscall.h
+tl/socket_core.o: ../../lib/c/include/net/socket_codes.h
+tl/socket_core.o: ../../lib/c/include/stdlib.h
+tl/socket_core.o: ../../lib/c/include/stacktrace.h

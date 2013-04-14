@@ -1,0 +1,285 @@
+# DO NOT DELETE
+
+addrobj.o: ../../../lib/c/include/bitops.h ../../../lib/c/include/sys/types.h
+addrobj.o: ../../../lib/c/include/libarch/types.h
+addrobj.o: ../../../lib/c/include/libarch/common.h
+addrobj.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+addrobj.o: ../../../lib/c/include/fibril_synch.h
+addrobj.o: ../../../lib/c/include/fibril.h
+addrobj.o: ../../../lib/c/include/libarch/fibril.h
+addrobj.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+addrobj.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+addrobj.o: ../../../lib/c/include/sys/time.h
+addrobj.o: ../../../lib/c/include/libarch/config.h
+addrobj.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+addrobj.o: ../../../lib/c/include/abi/syscall.h
+addrobj.o: ../../../lib/c/include/libarch/syscall.h
+addrobj.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+addrobj.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+addrobj.o: ../../../lib/c/include/inttypes.h
+addrobj.o: ../../../lib/c/include/libarch/inttypes.h
+addrobj.o: ../../../lib/c/include/io/verify.h
+addrobj.o: ../../../lib/c/include/ipc/loc.h
+addrobj.o: ../../../lib/c/include/ipc/common.h
+addrobj.o: ../../../lib/c/include/abi/ipc/ipc.h
+addrobj.o: ../../../lib/c/include/atomic.h
+addrobj.o: ../../../lib/c/include/libarch/atomic.h
+addrobj.o: ../../../lib/c/include/atomicdflt.h
+addrobj.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+addrobj.o: ../../../lib/c/include/abi/proc/task.h
+addrobj.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+addrobj.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/str.h
+addrobj.o: ../../../lib/c/include/mem.h addrobj.h inetsrv.h
+addrobj.o: ../../../lib/c/include/inet/iplink.h
+addrobj.o: ../../../lib/c/include/async.h inet_link.h inet_util.h
+icmp.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+icmp.o: ../../../lib/c/include/libarch/types.h
+icmp.o: ../../../lib/c/include/libarch/common.h
+icmp.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+icmp.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+icmp.o: ../../../lib/c/include/sys/types.h ../../../lib/c/include/inttypes.h
+icmp.o: ../../../lib/c/include/libarch/inttypes.h
+icmp.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/mem.h
+icmp.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/unistd.h
+icmp.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+icmp.o: ../../../lib/c/include/libarch/config.h
+icmp.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+icmp.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+icmp.o: icmp.h inetsrv.h ../../../lib/c/include/adt/list.h
+icmp.o: ../../../lib/c/include/assert.h ../../../lib/c/include/inet/iplink.h
+icmp.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+icmp.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+icmp.o: ../../../lib/c/include/libarch/atomic.h
+icmp.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+icmp.o: ../../../lib/c/include/abi/proc/task.h
+icmp.o: ../../../lib/c/include/fibril.h
+icmp.o: ../../../lib/c/include/libarch/fibril.h
+icmp.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+icmp.o: ../../../lib/c/include/abi/syscall.h
+icmp.o: ../../../lib/c/include/libarch/syscall.h
+icmp.o: ../../../lib/c/include/ipc/loc.h icmp_std.h inetping.h pdu.h
+inetsrv.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+inetsrv.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/sys/types.h
+inetsrv.o: ../../../lib/c/include/libarch/types.h
+inetsrv.o: ../../../lib/c/include/libarch/common.h
+inetsrv.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+inetsrv.o: ../../../lib/c/include/libarch/config.h
+inetsrv.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+inetsrv.o: ../../../lib/c/include/abi/ipc/ipc.h
+inetsrv.o: ../../../lib/c/include/atomic.h
+inetsrv.o: ../../../lib/c/include/libarch/atomic.h
+inetsrv.o: ../../../lib/c/include/atomicdflt.h
+inetsrv.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+inetsrv.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+inetsrv.o: ../../../lib/c/include/abi/proc/task.h
+inetsrv.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+inetsrv.o: ../../../lib/c/include/libarch/fibril.h
+inetsrv.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+inetsrv.o: ../../../lib/c/include/abi/syscall.h
+inetsrv.o: ../../../lib/c/include/libarch/syscall.h
+inetsrv.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+inetsrv.o: ../../../lib/c/include/fibril_synch.h
+inetsrv.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+inetsrv.o: ../../../lib/c/include/libarch/inttypes.h
+inetsrv.o: ../../../lib/c/include/io/verify.h
+inetsrv.o: ../../../lib/c/include/ipc/inet.h
+inetsrv.o: ../../../lib/c/include/ipc/services.h
+inetsrv.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/loc.h
+inetsrv.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdio.h
+inetsrv.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+inetsrv.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/stdlib.h
+inetsrv.o: ../../../lib/c/include/malloc.h
+inetsrv.o: ../../../lib/c/include/stacktrace.h addrobj.h inetsrv.h
+inetsrv.o: ../../../lib/c/include/inet/iplink.h icmp.h icmp_std.h inetcfg.h
+inetsrv.o: inetping.h inet_link.h reass.h sroute.h
+inet_link.o: ../../../lib/c/include/stdbool.h
+inet_link.o: ../../../lib/c/include/libarch/types.h
+inet_link.o: ../../../lib/c/include/libarch/common.h
+inet_link.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/errno.h
+inet_link.o: ../../../lib/c/include/abi/errno.h
+inet_link.o: ../../../lib/c/include/fibril_synch.h
+inet_link.o: ../../../lib/c/include/fibril.h
+inet_link.o: ../../../lib/c/include/libarch/fibril.h
+inet_link.o: ../../../lib/c/include/sys/types.h
+inet_link.o: ../../../lib/c/include/adt/list.h
+inet_link.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+inet_link.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+inet_link.o: ../../../lib/c/include/libarch/config.h
+inet_link.o: ../../../lib/c/include/libarch/tls.h
+inet_link.o: ../../../lib/c/include/libc.h
+inet_link.o: ../../../lib/c/include/abi/syscall.h
+inet_link.o: ../../../lib/c/include/libarch/syscall.h
+inet_link.o: ../../../lib/c/include/inet/iplink.h
+inet_link.o: ../../../lib/c/include/async.h
+inet_link.o: ../../../lib/c/include/ipc/common.h
+inet_link.o: ../../../lib/c/include/abi/ipc/ipc.h
+inet_link.o: ../../../lib/c/include/atomic.h
+inet_link.o: ../../../lib/c/include/libarch/atomic.h
+inet_link.o: ../../../lib/c/include/atomicdflt.h
+inet_link.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+inet_link.o: ../../../lib/c/include/abi/proc/task.h
+inet_link.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/io/log.h
+inet_link.o: ../../../lib/c/include/inttypes.h
+inet_link.o: ../../../lib/c/include/libarch/inttypes.h
+inet_link.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/loc.h
+inet_link.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdlib.h
+inet_link.o: ../../../lib/c/include/malloc.h
+inet_link.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/str.h
+inet_link.o: ../../../lib/c/include/mem.h addrobj.h inetsrv.h inet_link.h
+inet_link.o: pdu.h
+inet_util.o: ../../../lib/c/include/assert.h ../../../lib/c/include/bitops.h
+inet_util.o: ../../../lib/c/include/sys/types.h
+inet_util.o: ../../../lib/c/include/libarch/types.h
+inet_util.o: ../../../lib/c/include/libarch/common.h inet_util.h
+inetcfg.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+inetcfg.o: ../../../lib/c/include/sys/types.h
+inetcfg.o: ../../../lib/c/include/libarch/types.h
+inetcfg.o: ../../../lib/c/include/libarch/common.h
+inetcfg.o: ../../../lib/c/include/abi/ipc/ipc.h
+inetcfg.o: ../../../lib/c/include/atomic.h
+inetcfg.o: ../../../lib/c/include/libarch/atomic.h
+inetcfg.o: ../../../lib/c/include/atomicdflt.h
+inetcfg.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+inetcfg.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+inetcfg.o: ../../../lib/c/include/abi/proc/task.h
+inetcfg.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+inetcfg.o: ../../../lib/c/include/libarch/fibril.h
+inetcfg.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+inetcfg.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+inetcfg.o: ../../../lib/c/include/sys/time.h
+inetcfg.o: ../../../lib/c/include/libarch/config.h
+inetcfg.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+inetcfg.o: ../../../lib/c/include/abi/syscall.h
+inetcfg.o: ../../../lib/c/include/libarch/syscall.h
+inetcfg.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+inetcfg.o: ../../../lib/c/include/macros.h ../../../lib/c/include/io/log.h
+inetcfg.o: ../../../lib/c/include/inttypes.h
+inetcfg.o: ../../../lib/c/include/libarch/inttypes.h
+inetcfg.o: ../../../lib/c/include/io/verify.h
+inetcfg.o: ../../../lib/c/include/ipc/inet.h ../../../lib/c/include/loc.h
+inetcfg.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdlib.h
+inetcfg.o: ../../../lib/c/include/malloc.h
+inetcfg.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/str.h
+inetcfg.o: ../../../lib/c/include/mem.h addrobj.h inetsrv.h
+inetcfg.o: ../../../lib/c/include/inet/iplink.h inet_link.h inetcfg.h
+inetcfg.o: sroute.h
+inetping.o: ../../../lib/c/include/async.h
+inetping.o: ../../../lib/c/include/ipc/common.h
+inetping.o: ../../../lib/c/include/sys/types.h
+inetping.o: ../../../lib/c/include/libarch/types.h
+inetping.o: ../../../lib/c/include/libarch/common.h
+inetping.o: ../../../lib/c/include/abi/ipc/ipc.h
+inetping.o: ../../../lib/c/include/atomic.h
+inetping.o: ../../../lib/c/include/libarch/atomic.h
+inetping.o: ../../../lib/c/include/atomicdflt.h
+inetping.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+inetping.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+inetping.o: ../../../lib/c/include/abi/proc/task.h
+inetping.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+inetping.o: ../../../lib/c/include/libarch/fibril.h
+inetping.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+inetping.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+inetping.o: ../../../lib/c/include/sys/time.h
+inetping.o: ../../../lib/c/include/libarch/config.h
+inetping.o: ../../../lib/c/include/libarch/tls.h
+inetping.o: ../../../lib/c/include/libc.h
+inetping.o: ../../../lib/c/include/abi/syscall.h
+inetping.o: ../../../lib/c/include/libarch/syscall.h
+inetping.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+inetping.o: ../../../lib/c/include/fibril_synch.h
+inetping.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/inttypes.h
+inetping.o: ../../../lib/c/include/libarch/inttypes.h
+inetping.o: ../../../lib/c/include/io/verify.h
+inetping.o: ../../../lib/c/include/ipc/inet.h ../../../lib/c/include/loc.h
+inetping.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/stdlib.h
+inetping.o: ../../../lib/c/include/malloc.h
+inetping.o: ../../../lib/c/include/stacktrace.h icmp.h inetsrv.h
+inetping.o: ../../../lib/c/include/inet/iplink.h icmp_std.h inetping.h
+pdu.o: ../../../lib/c/include/align.h ../../../lib/c/include/bitops.h
+pdu.o: ../../../lib/c/include/sys/types.h
+pdu.o: ../../../lib/c/include/libarch/types.h
+pdu.o: ../../../lib/c/include/libarch/common.h
+pdu.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+pdu.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+pdu.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/fibril.h
+pdu.o: ../../../lib/c/include/libarch/fibril.h
+pdu.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+pdu.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+pdu.o: ../../../lib/c/include/sys/time.h
+pdu.o: ../../../lib/c/include/libarch/config.h
+pdu.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+pdu.o: ../../../lib/c/include/abi/syscall.h
+pdu.o: ../../../lib/c/include/libarch/syscall.h
+pdu.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+pdu.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+pdu.o: ../../../lib/c/include/inttypes.h
+pdu.o: ../../../lib/c/include/libarch/inttypes.h
+pdu.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/macros.h
+pdu.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdlib.h
+pdu.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+pdu.o: inetsrv.h ../../../lib/c/include/inet/iplink.h
+pdu.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+pdu.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+pdu.o: ../../../lib/c/include/libarch/atomic.h
+pdu.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/task.h
+pdu.o: ../../../lib/c/include/abi/proc/task.h
+pdu.o: ../../../lib/c/include/ipc/loc.h inet_std.h pdu.h
+reass.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+reass.o: ../../../lib/c/include/fibril_synch.h
+reass.o: ../../../lib/c/include/fibril.h
+reass.o: ../../../lib/c/include/libarch/fibril.h
+reass.o: ../../../lib/c/include/sys/types.h
+reass.o: ../../../lib/c/include/libarch/types.h
+reass.o: ../../../lib/c/include/libarch/common.h
+reass.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+reass.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+reass.o: ../../../lib/c/include/sys/time.h
+reass.o: ../../../lib/c/include/libarch/config.h
+reass.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+reass.o: ../../../lib/c/include/abi/syscall.h
+reass.o: ../../../lib/c/include/libarch/syscall.h
+reass.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+reass.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+reass.o: ../../../lib/c/include/inttypes.h
+reass.o: ../../../lib/c/include/libarch/inttypes.h
+reass.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/macros.h
+reass.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdlib.h
+reass.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/stacktrace.h
+reass.o: inetsrv.h ../../../lib/c/include/inet/iplink.h
+reass.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+reass.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+reass.o: ../../../lib/c/include/libarch/atomic.h
+reass.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+reass.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+reass.o: ../../../lib/c/include/ipc/loc.h inet_std.h reass.h
+sroute.o: ../../../lib/c/include/bitops.h ../../../lib/c/include/sys/types.h
+sroute.o: ../../../lib/c/include/libarch/types.h
+sroute.o: ../../../lib/c/include/libarch/common.h
+sroute.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+sroute.o: ../../../lib/c/include/fibril_synch.h
+sroute.o: ../../../lib/c/include/fibril.h
+sroute.o: ../../../lib/c/include/libarch/fibril.h
+sroute.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+sroute.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+sroute.o: ../../../lib/c/include/sys/time.h
+sroute.o: ../../../lib/c/include/libarch/config.h
+sroute.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+sroute.o: ../../../lib/c/include/abi/syscall.h
+sroute.o: ../../../lib/c/include/libarch/syscall.h
+sroute.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+sroute.o: ../../../lib/c/include/io/log.h ../../../lib/c/include/stdarg.h
+sroute.o: ../../../lib/c/include/inttypes.h
+sroute.o: ../../../lib/c/include/libarch/inttypes.h
+sroute.o: ../../../lib/c/include/io/verify.h ../../../lib/c/include/ipc/loc.h
+sroute.o: ../../../lib/c/include/ipc/common.h
+sroute.o: ../../../lib/c/include/abi/ipc/ipc.h
+sroute.o: ../../../lib/c/include/atomic.h
+sroute.o: ../../../lib/c/include/libarch/atomic.h
+sroute.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+sroute.o: ../../../lib/c/include/task.h
+sroute.o: ../../../lib/c/include/abi/proc/task.h
+sroute.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+sroute.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/str.h
+sroute.o: ../../../lib/c/include/mem.h sroute.h inetsrv.h
+sroute.o: ../../../lib/c/include/inet/iplink.h ../../../lib/c/include/async.h
+sroute.o: inet_link.h inet_util.h

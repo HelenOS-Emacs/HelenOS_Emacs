@@ -1,0 +1,255 @@
+# DO NOT DELETE
+
+src/helenos/block.o: ../../lib/c/include/assert.h ../../lib/block/block.h
+src/helenos/block.o: ../../lib/c/include/stdint.h
+src/helenos/block.o: ../../lib/c/include/libarch/types.h
+src/helenos/block.o: ../../lib/c/include/libarch/common.h
+src/helenos/block.o: ../../lib/c/include/async.h
+src/helenos/block.o: ../../lib/c/include/ipc/common.h
+src/helenos/block.o: ../../lib/c/include/sys/types.h
+src/helenos/block.o: ../../lib/c/include/abi/ipc/ipc.h
+src/helenos/block.o: ../../lib/c/include/atomic.h
+src/helenos/block.o: ../../lib/c/include/libarch/atomic.h
+src/helenos/block.o: ../../lib/c/include/atomicdflt.h
+src/helenos/block.o: ../../lib/c/include/stdbool.h
+src/helenos/block.o: ../../lib/c/include/abi/bool.h
+src/helenos/block.o: ../../lib/c/include/task.h
+src/helenos/block.o: ../../lib/c/include/abi/proc/task.h
+src/helenos/block.o: ../../lib/c/include/stdarg.h
+src/helenos/block.o: ../../lib/c/include/fibril.h
+src/helenos/block.o: ../../lib/c/include/libarch/fibril.h
+src/helenos/block.o: ../../lib/c/include/adt/list.h
+src/helenos/block.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+src/helenos/block.o: ../../lib/c/include/sys/time.h
+src/helenos/block.o: ../../lib/c/include/libarch/config.h
+src/helenos/block.o: ../../lib/c/include/libarch/tls.h
+src/helenos/block.o: ../../lib/c/include/libc.h
+src/helenos/block.o: ../../lib/c/include/abi/syscall.h
+src/helenos/block.o: ../../lib/c/include/libarch/syscall.h
+src/helenos/block.o: ../../srv/vfs/vfs.h ../../lib/c/include/adt/hash_table.h
+src/helenos/block.o: ../../lib/c/include/macros.h
+src/helenos/block.o: ../../lib/c/include/fibril_synch.h
+src/helenos/block.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+src/helenos/block.o: ../../lib/c/include/ipc/vfs.h
+src/helenos/block.o: ../../lib/c/include/errno.h
+src/helenos/block.o: ../../lib/c/include/abi/errno.h
+src/helenos/block.o: ../../lib/c/include/stdlib.h
+src/helenos/block.o: ../../lib/c/include/malloc.h
+src/helenos/block.o: ../../lib/c/include/stacktrace.h include/bithenge/blob.h
+src/helenos/block.o: include/bithenge/tree.h include/bithenge/os.h
+src/blob.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+src/blob.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/stdlib.h
+src/blob.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+src/blob.o: ../../lib/c/include/libarch/types.h
+src/blob.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+src/blob.o: ../../lib/c/include/sys/time.h
+src/blob.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+src/blob.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/stdbool.h
+src/blob.o: ../../lib/c/include/abi/bool.h src/common.h src/helenos/common.h
+src/blob.o: include/bithenge/os.h ../../lib/c/include/byteorder.h
+src/blob.o: ../../lib/c/include/stdint.h ../../lib/c/include/inttypes.h
+src/blob.o: ../../lib/c/include/libarch/inttypes.h
+src/blob.o: ../../lib/c/include/macros.h ../../lib/c/include/mem.h
+src/blob.o: ../../lib/c/include/str.h ../../lib/c/include/str_error.h
+src/blob.o: include/bithenge/blob.h include/bithenge/tree.h
+src/blob.o: include/bithenge/os.h include/bithenge/tree.h
+src/compound.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/compound.o: ../../lib/c/include/sys/types.h
+src/compound.o: ../../lib/c/include/libarch/types.h
+src/compound.o: ../../lib/c/include/libarch/common.h
+src/compound.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/compound.o: ../../lib/c/include/libarch/config.h
+src/compound.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+src/compound.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/compound.o: include/bithenge/compound.h include/bithenge/expression.h
+src/compound.o: include/bithenge/blob.h ../../lib/c/include/errno.h
+src/compound.o: ../../lib/c/include/abi/errno.h include/bithenge/tree.h
+src/compound.o: ../../lib/c/include/assert.h include/bithenge/os.h
+src/compound.o: include/bithenge/transform.h include/bithenge/expression.h
+src/compound.o: include/bithenge/transform.h include/bithenge/tree.h
+src/compound.o: src/common.h src/helenos/common.h include/bithenge/os.h
+src/compound.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+src/compound.o: ../../lib/c/include/inttypes.h
+src/compound.o: ../../lib/c/include/libarch/inttypes.h
+src/compound.o: ../../lib/c/include/macros.h ../../lib/c/include/mem.h
+src/compound.o: ../../lib/c/include/str.h ../../lib/c/include/str_error.h
+src/expression.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+src/expression.o: ../../lib/c/include/abi/errno.h
+src/expression.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/expression.o: ../../lib/c/include/sys/types.h
+src/expression.o: ../../lib/c/include/libarch/types.h
+src/expression.o: ../../lib/c/include/libarch/common.h
+src/expression.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/expression.o: ../../lib/c/include/libarch/config.h
+src/expression.o: ../../lib/c/include/malloc.h
+src/expression.o: ../../lib/c/include/stacktrace.h
+src/expression.o: ../../lib/c/include/stdbool.h
+src/expression.o: ../../lib/c/include/abi/bool.h src/common.h
+src/expression.o: src/helenos/common.h include/bithenge/os.h
+src/expression.o: ../../lib/c/include/byteorder.h
+src/expression.o: ../../lib/c/include/stdint.h ../../lib/c/include/inttypes.h
+src/expression.o: ../../lib/c/include/libarch/inttypes.h
+src/expression.o: ../../lib/c/include/macros.h ../../lib/c/include/mem.h
+src/expression.o: ../../lib/c/include/str.h ../../lib/c/include/str_error.h
+src/expression.o: include/bithenge/blob.h include/bithenge/tree.h
+src/expression.o: include/bithenge/os.h include/bithenge/expression.h
+src/expression.o: include/bithenge/transform.h include/bithenge/blob.h
+src/expression.o: include/bithenge/tree.h
+src/file.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+src/file.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/fcntl.h
+src/file.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+src/file.o: ../../lib/c/include/libarch/types.h
+src/file.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+src/file.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+src/file.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/file.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+src/file.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/file.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/file.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+src/file.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/sys/stat.h
+src/file.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/common.h
+src/file.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+src/file.o: ../../lib/c/include/libarch/atomic.h
+src/file.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+src/file.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+src/file.o: ../../lib/c/include/ipc/loc.h src/common.h src/helenos/common.h
+src/file.o: include/bithenge/os.h ../../lib/c/include/byteorder.h
+src/file.o: ../../lib/c/include/inttypes.h
+src/file.o: ../../lib/c/include/libarch/inttypes.h
+src/file.o: ../../lib/c/include/macros.h ../../lib/c/include/str_error.h
+src/file.o: include/bithenge/blob.h include/bithenge/tree.h
+src/file.o: include/bithenge/os.h include/bithenge/file.h
+src/file.o: include/bithenge/blob.h
+src/print.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+src/print.o: ../../lib/c/include/stdarg.h ../../lib/c/include/sys/types.h
+src/print.o: ../../lib/c/include/libarch/types.h
+src/print.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdio.h
+src/print.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+src/print.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/print.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+src/print.o: include/bithenge/blob.h include/bithenge/tree.h
+src/print.o: ../../lib/c/include/assert.h include/bithenge/os.h
+src/print.o: include/bithenge/print.h include/bithenge/tree.h src/common.h
+src/print.o: src/helenos/common.h include/bithenge/os.h
+src/print.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+src/print.o: ../../lib/c/include/inttypes.h
+src/print.o: ../../lib/c/include/libarch/inttypes.h
+src/print.o: ../../lib/c/include/macros.h ../../lib/c/include/stdlib.h
+src/print.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+src/print.o: ../../lib/c/include/sys/time.h
+src/print.o: ../../lib/c/include/libarch/config.h
+src/print.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+src/print.o: ../../lib/c/include/str_error.h
+src/script.o: ../../lib/c/include/ctype.h ../../lib/c/include/stdio.h
+src/script.o: ../../lib/c/include/sys/types.h
+src/script.o: ../../lib/c/include/libarch/types.h
+src/script.o: ../../lib/c/include/libarch/common.h
+src/script.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+src/script.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+src/script.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/verify.h
+src/script.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+src/script.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+src/script.o: ../../lib/c/include/sys/time.h
+src/script.o: ../../lib/c/include/libarch/config.h
+src/script.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+src/script.o: include/bithenge/compound.h include/bithenge/expression.h
+src/script.o: include/bithenge/blob.h ../../lib/c/include/errno.h
+src/script.o: ../../lib/c/include/abi/errno.h include/bithenge/tree.h
+src/script.o: ../../lib/c/include/assert.h include/bithenge/os.h
+src/script.o: include/bithenge/transform.h include/bithenge/expression.h
+src/script.o: include/bithenge/script.h include/bithenge/sequence.h
+src/script.o: include/bithenge/transform.h include/bithenge/tree.h
+src/script.o: src/common.h src/helenos/common.h include/bithenge/os.h
+src/script.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+src/script.o: ../../lib/c/include/inttypes.h
+src/script.o: ../../lib/c/include/libarch/inttypes.h
+src/script.o: ../../lib/c/include/macros.h ../../lib/c/include/str_error.h
+src/sequence.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/sequence.o: ../../lib/c/include/sys/types.h
+src/sequence.o: ../../lib/c/include/libarch/types.h
+src/sequence.o: ../../lib/c/include/libarch/common.h
+src/sequence.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/sequence.o: ../../lib/c/include/libarch/config.h
+src/sequence.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+src/sequence.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/sequence.o: include/bithenge/blob.h ../../lib/c/include/errno.h
+src/sequence.o: ../../lib/c/include/abi/errno.h include/bithenge/tree.h
+src/sequence.o: ../../lib/c/include/assert.h include/bithenge/os.h
+src/sequence.o: include/bithenge/expression.h include/bithenge/sequence.h
+src/sequence.o: include/bithenge/transform.h include/bithenge/blob.h
+src/sequence.o: include/bithenge/tree.h src/common.h src/helenos/common.h
+src/sequence.o: include/bithenge/os.h ../../lib/c/include/byteorder.h
+src/sequence.o: ../../lib/c/include/stdint.h ../../lib/c/include/inttypes.h
+src/sequence.o: ../../lib/c/include/libarch/inttypes.h
+src/sequence.o: ../../lib/c/include/macros.h ../../lib/c/include/mem.h
+src/sequence.o: ../../lib/c/include/str.h ../../lib/c/include/str_error.h
+src/source.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+src/source.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/source.o: ../../lib/c/include/sys/types.h
+src/source.o: ../../lib/c/include/libarch/types.h
+src/source.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+src/source.o: ../../lib/c/include/sys/time.h
+src/source.o: ../../lib/c/include/libarch/config.h
+src/source.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+src/source.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/source.o: include/bithenge/blob.h include/bithenge/tree.h
+src/source.o: ../../lib/c/include/assert.h include/bithenge/os.h
+src/source.o: include/bithenge/file.h ../../lib/c/include/stdio.h
+src/source.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+src/source.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+src/source.o: ../../lib/c/include/abi/klog.h include/bithenge/blob.h
+src/source.o: include/bithenge/source.h src/common.h src/helenos/common.h
+src/source.o: include/bithenge/os.h ../../lib/c/include/byteorder.h
+src/source.o: ../../lib/c/include/stdint.h ../../lib/c/include/inttypes.h
+src/source.o: ../../lib/c/include/libarch/inttypes.h
+src/source.o: ../../lib/c/include/macros.h ../../lib/c/include/str_error.h
+src/source.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+src/source.o: ../../lib/c/include/ipc/common.h
+src/source.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+src/source.o: ../../lib/c/include/libarch/atomic.h
+src/source.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+src/source.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/async.h
+src/source.o: ../../lib/c/include/fibril.h
+src/source.o: ../../lib/c/include/libarch/fibril.h
+src/source.o: ../../lib/c/include/adt/list.h
+src/source.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+src/source.o: ../../lib/c/include/abi/syscall.h
+src/source.o: ../../lib/c/include/libarch/syscall.h src/helenos/block.h
+src/source.o: include/bithenge/tree.h
+src/transform.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+src/transform.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/stdarg.h
+src/transform.o: ../../lib/c/include/sys/types.h
+src/transform.o: ../../lib/c/include/libarch/types.h
+src/transform.o: ../../lib/c/include/libarch/common.h
+src/transform.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/transform.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/transform.o: ../../lib/c/include/libarch/config.h
+src/transform.o: ../../lib/c/include/malloc.h
+src/transform.o: ../../lib/c/include/stacktrace.h
+src/transform.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/transform.o: include/bithenge/blob.h include/bithenge/tree.h
+src/transform.o: include/bithenge/os.h include/bithenge/print.h
+src/transform.o: include/bithenge/transform.h include/bithenge/blob.h
+src/transform.o: src/common.h src/helenos/common.h include/bithenge/os.h
+src/transform.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+src/transform.o: ../../lib/c/include/inttypes.h
+src/transform.o: ../../lib/c/include/libarch/inttypes.h
+src/transform.o: ../../lib/c/include/macros.h ../../lib/c/include/mem.h
+src/transform.o: ../../lib/c/include/str.h ../../lib/c/include/str_error.h
+src/tree.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+src/tree.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+src/tree.o: ../../lib/c/include/sys/types.h
+src/tree.o: ../../lib/c/include/libarch/types.h
+src/tree.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+src/tree.o: ../../lib/c/include/sys/time.h
+src/tree.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+src/tree.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/stdbool.h
+src/tree.o: ../../lib/c/include/abi/bool.h include/bithenge/blob.h
+src/tree.o: include/bithenge/tree.h ../../lib/c/include/assert.h
+src/tree.o: include/bithenge/os.h include/bithenge/tree.h src/common.h
+src/tree.o: src/helenos/common.h include/bithenge/os.h
+src/tree.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+src/tree.o: ../../lib/c/include/inttypes.h
+src/tree.o: ../../lib/c/include/libarch/inttypes.h
+src/tree.o: ../../lib/c/include/macros.h ../../lib/c/include/mem.h
+src/tree.o: ../../lib/c/include/str.h ../../lib/c/include/str_error.h

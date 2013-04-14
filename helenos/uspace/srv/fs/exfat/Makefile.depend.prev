@@ -1,0 +1,230 @@
+# DO NOT DELETE
+
+exfat.o: exfat.h exfat_fat.h ../../vfs/vfs.h ../../../lib/c/include/async.h
+exfat.o: ../../../lib/c/include/ipc/common.h
+exfat.o: ../../../lib/c/include/sys/types.h
+exfat.o: ../../../lib/c/include/libarch/types.h
+exfat.o: ../../../lib/c/include/libarch/common.h
+exfat.o: ../../../lib/c/include/abi/ipc/ipc.h ../../../lib/c/include/atomic.h
+exfat.o: ../../../lib/c/include/libarch/atomic.h
+exfat.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+exfat.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+exfat.o: ../../../lib/c/include/task.h ../../../lib/c/include/abi/proc/task.h
+exfat.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+exfat.o: ../../../lib/c/include/libarch/fibril.h
+exfat.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+exfat.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+exfat.o: ../../../lib/c/include/sys/time.h
+exfat.o: ../../../lib/c/include/libarch/config.h
+exfat.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+exfat.o: ../../../lib/c/include/abi/syscall.h
+exfat.o: ../../../lib/c/include/libarch/syscall.h
+exfat.o: ../../../lib/c/include/adt/hash_table.h
+exfat.o: ../../../lib/c/include/macros.h
+exfat.o: ../../../lib/c/include/fibril_synch.h ../../../lib/c/include/loc.h
+exfat.o: ../../../lib/c/include/ipc/loc.h ../../../lib/c/include/ipc/vfs.h
+exfat.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h
+exfat.o: ../../../lib/fs/libfs.h ../../../lib/c/include/ipc/services.h
+exfat.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/ns.h
+exfat.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+exfat.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+exfat.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+exfat.o: ../../../lib/c/include/abi/klog.h
+exfat_fat.o: exfat_fat.h ../../vfs/vfs.h ../../../lib/c/include/async.h
+exfat_fat.o: ../../../lib/c/include/ipc/common.h
+exfat_fat.o: ../../../lib/c/include/sys/types.h
+exfat_fat.o: ../../../lib/c/include/libarch/types.h
+exfat_fat.o: ../../../lib/c/include/libarch/common.h
+exfat_fat.o: ../../../lib/c/include/abi/ipc/ipc.h
+exfat_fat.o: ../../../lib/c/include/atomic.h
+exfat_fat.o: ../../../lib/c/include/libarch/atomic.h
+exfat_fat.o: ../../../lib/c/include/atomicdflt.h
+exfat_fat.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+exfat_fat.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+exfat_fat.o: ../../../lib/c/include/abi/proc/task.h
+exfat_fat.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+exfat_fat.o: ../../../lib/c/include/libarch/fibril.h
+exfat_fat.o: ../../../lib/c/include/adt/list.h
+exfat_fat.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+exfat_fat.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+exfat_fat.o: ../../../lib/c/include/libarch/config.h
+exfat_fat.o: ../../../lib/c/include/libarch/tls.h
+exfat_fat.o: ../../../lib/c/include/libc.h
+exfat_fat.o: ../../../lib/c/include/abi/syscall.h
+exfat_fat.o: ../../../lib/c/include/libarch/syscall.h
+exfat_fat.o: ../../../lib/c/include/adt/hash_table.h
+exfat_fat.o: ../../../lib/c/include/macros.h
+exfat_fat.o: ../../../lib/c/include/fibril_synch.h
+exfat_fat.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+exfat_fat.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/block/block.h
+exfat_fat.o: ../../../srv/vfs/vfs.h exfat_bitmap.h exfat.h
+exfat_fat.o: ../../../lib/fs/libfs.h ../../../lib/c/include/errno.h
+exfat_fat.o: ../../../lib/c/include/abi/errno.h
+exfat_fat.o: ../../../lib/c/include/byteorder.h
+exfat_fat.o: ../../../lib/c/include/align.h ../../../lib/c/include/malloc.h
+exfat_fat.o: ../../../lib/c/include/mem.h ../../../lib/c/include/str.h
+exfat_bitmap.o: exfat_bitmap.h ../../../lib/c/include/stdint.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/types.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/common.h exfat.h exfat_fat.h
+exfat_bitmap.o: ../../vfs/vfs.h ../../../lib/c/include/async.h
+exfat_bitmap.o: ../../../lib/c/include/ipc/common.h
+exfat_bitmap.o: ../../../lib/c/include/sys/types.h
+exfat_bitmap.o: ../../../lib/c/include/abi/ipc/ipc.h
+exfat_bitmap.o: ../../../lib/c/include/atomic.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/atomic.h
+exfat_bitmap.o: ../../../lib/c/include/atomicdflt.h
+exfat_bitmap.o: ../../../lib/c/include/stdbool.h
+exfat_bitmap.o: ../../../lib/c/include/abi/bool.h
+exfat_bitmap.o: ../../../lib/c/include/task.h
+exfat_bitmap.o: ../../../lib/c/include/abi/proc/task.h
+exfat_bitmap.o: ../../../lib/c/include/stdarg.h
+exfat_bitmap.o: ../../../lib/c/include/fibril.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/fibril.h
+exfat_bitmap.o: ../../../lib/c/include/adt/list.h
+exfat_bitmap.o: ../../../lib/c/include/assert.h
+exfat_bitmap.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+exfat_bitmap.o: ../../../lib/c/include/sys/time.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/config.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/tls.h
+exfat_bitmap.o: ../../../lib/c/include/libc.h
+exfat_bitmap.o: ../../../lib/c/include/abi/syscall.h
+exfat_bitmap.o: ../../../lib/c/include/libarch/syscall.h
+exfat_bitmap.o: ../../../lib/c/include/adt/hash_table.h
+exfat_bitmap.o: ../../../lib/c/include/macros.h
+exfat_bitmap.o: ../../../lib/c/include/fibril_synch.h
+exfat_bitmap.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+exfat_bitmap.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/block/block.h
+exfat_bitmap.o: ../../../srv/vfs/vfs.h ../../../lib/fs/libfs.h
+exfat_bitmap.o: ../../../lib/c/include/errno.h
+exfat_bitmap.o: ../../../lib/c/include/abi/errno.h
+exfat_bitmap.o: ../../../lib/c/include/byteorder.h
+exfat_bitmap.o: ../../../lib/c/include/align.h ../../../lib/c/include/mem.h
+exfat_ops.o: exfat.h exfat_fat.h ../../vfs/vfs.h
+exfat_ops.o: ../../../lib/c/include/async.h
+exfat_ops.o: ../../../lib/c/include/ipc/common.h
+exfat_ops.o: ../../../lib/c/include/sys/types.h
+exfat_ops.o: ../../../lib/c/include/libarch/types.h
+exfat_ops.o: ../../../lib/c/include/libarch/common.h
+exfat_ops.o: ../../../lib/c/include/abi/ipc/ipc.h
+exfat_ops.o: ../../../lib/c/include/atomic.h
+exfat_ops.o: ../../../lib/c/include/libarch/atomic.h
+exfat_ops.o: ../../../lib/c/include/atomicdflt.h
+exfat_ops.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+exfat_ops.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+exfat_ops.o: ../../../lib/c/include/abi/proc/task.h
+exfat_ops.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+exfat_ops.o: ../../../lib/c/include/libarch/fibril.h
+exfat_ops.o: ../../../lib/c/include/adt/list.h
+exfat_ops.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+exfat_ops.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+exfat_ops.o: ../../../lib/c/include/libarch/config.h
+exfat_ops.o: ../../../lib/c/include/libarch/tls.h
+exfat_ops.o: ../../../lib/c/include/libc.h
+exfat_ops.o: ../../../lib/c/include/abi/syscall.h
+exfat_ops.o: ../../../lib/c/include/libarch/syscall.h
+exfat_ops.o: ../../../lib/c/include/adt/hash_table.h
+exfat_ops.o: ../../../lib/c/include/macros.h
+exfat_ops.o: ../../../lib/c/include/fibril_synch.h
+exfat_ops.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+exfat_ops.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/block/block.h
+exfat_ops.o: ../../../srv/vfs/vfs.h ../../../lib/fs/libfs.h exfat_dentry.h
+exfat_ops.o: exfat_directory.h exfat_bitmap.h
+exfat_ops.o: ../../../lib/c/include/ipc/services.h
+exfat_ops.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/errno.h
+exfat_ops.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+exfat_ops.o: ../../../lib/c/include/mem.h ../../../lib/c/include/byteorder.h
+exfat_ops.o: ../../../lib/c/include/adt/hash.h
+exfat_ops.o: ../../../lib/c/include/sys/mman.h ../../../lib/c/include/as.h
+exfat_ops.o: ../../../lib/c/include/abi/mm/as.h
+exfat_ops.o: ../../../lib/c/include/align.h ../../../lib/c/include/malloc.h
+exfat_ops.o: ../../../lib/c/include/stdio.h
+exfat_ops.o: ../../../lib/c/include/io/verify.h
+exfat_ops.o: ../../../lib/c/include/abi/klog.h
+exfat_idx.o: exfat.h exfat_fat.h ../../vfs/vfs.h
+exfat_idx.o: ../../../lib/c/include/async.h
+exfat_idx.o: ../../../lib/c/include/ipc/common.h
+exfat_idx.o: ../../../lib/c/include/sys/types.h
+exfat_idx.o: ../../../lib/c/include/libarch/types.h
+exfat_idx.o: ../../../lib/c/include/libarch/common.h
+exfat_idx.o: ../../../lib/c/include/abi/ipc/ipc.h
+exfat_idx.o: ../../../lib/c/include/atomic.h
+exfat_idx.o: ../../../lib/c/include/libarch/atomic.h
+exfat_idx.o: ../../../lib/c/include/atomicdflt.h
+exfat_idx.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/stdbool.h
+exfat_idx.o: ../../../lib/c/include/abi/bool.h ../../../lib/c/include/task.h
+exfat_idx.o: ../../../lib/c/include/abi/proc/task.h
+exfat_idx.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/fibril.h
+exfat_idx.o: ../../../lib/c/include/libarch/fibril.h
+exfat_idx.o: ../../../lib/c/include/adt/list.h
+exfat_idx.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+exfat_idx.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+exfat_idx.o: ../../../lib/c/include/libarch/config.h
+exfat_idx.o: ../../../lib/c/include/libarch/tls.h
+exfat_idx.o: ../../../lib/c/include/libc.h
+exfat_idx.o: ../../../lib/c/include/abi/syscall.h
+exfat_idx.o: ../../../lib/c/include/libarch/syscall.h
+exfat_idx.o: ../../../lib/c/include/adt/hash_table.h
+exfat_idx.o: ../../../lib/c/include/macros.h
+exfat_idx.o: ../../../lib/c/include/fibril_synch.h
+exfat_idx.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+exfat_idx.o: ../../../lib/c/include/ipc/vfs.h ../../../lib/block/block.h
+exfat_idx.o: ../../../srv/vfs/vfs.h ../../../lib/fs/libfs.h
+exfat_idx.o: ../../../lib/c/include/errno.h
+exfat_idx.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+exfat_idx.o: ../../../lib/c/include/mem.h ../../../lib/c/include/adt/hash.h
+exfat_idx.o: ../../../lib/c/include/malloc.h
+exfat_dentry.o: exfat_dentry.h ../../../lib/c/include/stdint.h
+exfat_dentry.o: ../../../lib/c/include/libarch/types.h
+exfat_dentry.o: ../../../lib/c/include/libarch/common.h
+exfat_dentry.o: ../../../lib/c/include/stdbool.h
+exfat_dentry.o: ../../../lib/c/include/abi/bool.h
+exfat_dentry.o: ../../../lib/c/include/ctype.h ../../../lib/c/include/str.h
+exfat_dentry.o: ../../../lib/c/include/mem.h
+exfat_dentry.o: ../../../lib/c/include/sys/types.h
+exfat_dentry.o: ../../../lib/c/include/errno.h
+exfat_dentry.o: ../../../lib/c/include/abi/errno.h
+exfat_dentry.o: ../../../lib/c/include/byteorder.h
+exfat_dentry.o: ../../../lib/c/include/assert.h
+exfat_directory.o: exfat.h exfat_fat.h ../../vfs/vfs.h
+exfat_directory.o: ../../../lib/c/include/async.h
+exfat_directory.o: ../../../lib/c/include/ipc/common.h
+exfat_directory.o: ../../../lib/c/include/sys/types.h
+exfat_directory.o: ../../../lib/c/include/libarch/types.h
+exfat_directory.o: ../../../lib/c/include/libarch/common.h
+exfat_directory.o: ../../../lib/c/include/abi/ipc/ipc.h
+exfat_directory.o: ../../../lib/c/include/atomic.h
+exfat_directory.o: ../../../lib/c/include/libarch/atomic.h
+exfat_directory.o: ../../../lib/c/include/atomicdflt.h
+exfat_directory.o: ../../../lib/c/include/stdint.h
+exfat_directory.o: ../../../lib/c/include/stdbool.h
+exfat_directory.o: ../../../lib/c/include/abi/bool.h
+exfat_directory.o: ../../../lib/c/include/task.h
+exfat_directory.o: ../../../lib/c/include/abi/proc/task.h
+exfat_directory.o: ../../../lib/c/include/stdarg.h
+exfat_directory.o: ../../../lib/c/include/fibril.h
+exfat_directory.o: ../../../lib/c/include/libarch/fibril.h
+exfat_directory.o: ../../../lib/c/include/adt/list.h
+exfat_directory.o: ../../../lib/c/include/assert.h
+exfat_directory.o: ../../../lib/c/include/unistd.h
+exfat_directory.o: ../../../lib/c/include/time.h
+exfat_directory.o: ../../../lib/c/include/sys/time.h
+exfat_directory.o: ../../../lib/c/include/libarch/config.h
+exfat_directory.o: ../../../lib/c/include/libarch/tls.h
+exfat_directory.o: ../../../lib/c/include/libc.h
+exfat_directory.o: ../../../lib/c/include/abi/syscall.h
+exfat_directory.o: ../../../lib/c/include/libarch/syscall.h
+exfat_directory.o: ../../../lib/c/include/adt/hash_table.h
+exfat_directory.o: ../../../lib/c/include/macros.h
+exfat_directory.o: ../../../lib/c/include/fibril_synch.h
+exfat_directory.o: ../../../lib/c/include/loc.h
+exfat_directory.o: ../../../lib/c/include/ipc/loc.h
+exfat_directory.o: ../../../lib/c/include/ipc/vfs.h
+exfat_directory.o: ../../../lib/block/block.h ../../../srv/vfs/vfs.h
+exfat_directory.o: ../../../lib/fs/libfs.h exfat_directory.h exfat_dentry.h
+exfat_directory.o: ../../../lib/c/include/errno.h
+exfat_directory.o: ../../../lib/c/include/abi/errno.h
+exfat_directory.o: ../../../lib/c/include/byteorder.h
+exfat_directory.o: ../../../lib/c/include/mem.h
+exfat_directory.o: ../../../lib/c/include/malloc.h
+exfat_directory.o: ../../../lib/c/include/str.h
+exfat_directory.o: ../../../lib/c/include/align.h

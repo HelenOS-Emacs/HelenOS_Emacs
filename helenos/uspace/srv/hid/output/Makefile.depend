@@ -1,0 +1,199 @@
+# DO NOT DELETE
+
+ctl/serial.o: ../../../lib/c/include/sys/types.h
+ctl/serial.o: ../../../lib/c/include/libarch/types.h
+ctl/serial.o: ../../../lib/c/include/libarch/common.h
+ctl/serial.o: ../../../lib/c/include/errno.h
+ctl/serial.o: ../../../lib/c/include/abi/errno.h
+ctl/serial.o: ../../../lib/c/include/io/chargrid.h
+ctl/serial.o: ../../../lib/c/include/io/charfield.h
+ctl/serial.o: ../../../lib/c/include/stdbool.h
+ctl/serial.o: ../../../lib/c/include/abi/bool.h
+ctl/serial.o: ../../../lib/c/include/io/color.h
+ctl/serial.o: ../../../lib/c/include/io/style.h
+ctl/serial.o: ../../../lib/c/include/io/pixel.h output.h
+ctl/serial.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+ctl/serial.o: ../../../lib/c/include/ipc/common.h
+ctl/serial.o: ../../../lib/c/include/abi/ipc/ipc.h
+ctl/serial.o: ../../../lib/c/include/atomic.h
+ctl/serial.o: ../../../lib/c/include/libarch/atomic.h
+ctl/serial.o: ../../../lib/c/include/atomicdflt.h
+ctl/serial.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/task.h
+ctl/serial.o: ../../../lib/c/include/abi/proc/task.h
+ctl/serial.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/async.h
+ctl/serial.o: ../../../lib/c/include/fibril.h
+ctl/serial.o: ../../../lib/c/include/libarch/fibril.h
+ctl/serial.o: ../../../lib/c/include/adt/list.h
+ctl/serial.o: ../../../lib/c/include/assert.h ../../../lib/c/include/unistd.h
+ctl/serial.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+ctl/serial.o: ../../../lib/c/include/libarch/config.h
+ctl/serial.o: ../../../lib/c/include/libarch/tls.h
+ctl/serial.o: ../../../lib/c/include/libc.h
+ctl/serial.o: ../../../lib/c/include/abi/syscall.h
+ctl/serial.o: ../../../lib/c/include/libarch/syscall.h
+ctl/serial.o: ../../../lib/c/include/io/console.h
+ctl/serial.o: ../../../lib/c/include/io/concaps.h
+ctl/serial.o: ../../../lib/c/include/io/kbd_event.h
+ctl/serial.o: ../../../lib/c/include/io/keycode.h
+ctl/serial.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+ctl/serial.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+ctl/serial.o: ../../../lib/c/include/abi/klog.h proto/vt100.h ctl/serial.h
+port/ega.o: ../../../lib/c/include/sys/types.h
+port/ega.o: ../../../lib/c/include/libarch/types.h
+port/ega.o: ../../../lib/c/include/libarch/common.h
+port/ega.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+port/ega.o: ../../../lib/c/include/sysinfo.h ../../../lib/c/include/stdbool.h
+port/ega.o: ../../../lib/c/include/abi/bool.h
+port/ega.o: ../../../lib/c/include/abi/sysinfo.h
+port/ega.o: ../../../lib/c/include/abi/proc/task.h
+port/ega.o: ../../../lib/c/include/abi/proc/thread.h
+port/ega.o: ../../../lib/c/include/align.h ../../../lib/c/include/as.h
+port/ega.o: ../../../lib/c/include/abi/mm/as.h ../../../lib/c/include/task.h
+port/ega.o: ../../../lib/c/include/stdarg.h
+port/ega.o: ../../../lib/c/include/libarch/config.h
+port/ega.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/sys/time.h
+port/ega.o: ../../../lib/c/include/abi/ddi/irq.h
+port/ega.o: ../../../lib/c/include/io/chargrid.h
+port/ega.o: ../../../lib/c/include/io/charfield.h
+port/ega.o: ../../../lib/c/include/io/color.h
+port/ega.o: ../../../lib/c/include/io/style.h
+port/ega.o: ../../../lib/c/include/io/pixel.h output.h
+port/ega.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+port/ega.o: ../../../lib/c/include/ipc/common.h
+port/ega.o: ../../../lib/c/include/abi/ipc/ipc.h
+port/ega.o: ../../../lib/c/include/atomic.h
+port/ega.o: ../../../lib/c/include/libarch/atomic.h
+port/ega.o: ../../../lib/c/include/atomicdflt.h
+port/ega.o: ../../../lib/c/include/stdint.h ../../../lib/c/include/async.h
+port/ega.o: ../../../lib/c/include/fibril.h
+port/ega.o: ../../../lib/c/include/libarch/fibril.h
+port/ega.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+port/ega.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+port/ega.o: ../../../lib/c/include/libarch/tls.h
+port/ega.o: ../../../lib/c/include/libc.h
+port/ega.o: ../../../lib/c/include/abi/syscall.h
+port/ega.o: ../../../lib/c/include/libarch/syscall.h
+port/ega.o: ../../../lib/c/include/io/console.h
+port/ega.o: ../../../lib/c/include/io/concaps.h
+port/ega.o: ../../../lib/c/include/io/kbd_event.h
+port/ega.o: ../../../lib/c/include/io/keycode.h
+port/ega.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/str.h
+port/ega.o: ../../../lib/c/include/mem.h ../../../lib/c/include/io/verify.h
+port/ega.o: ../../../lib/c/include/abi/klog.h port/ega.h
+port/kchar.o: ../../../lib/c/include/sys/types.h
+port/kchar.o: ../../../lib/c/include/libarch/types.h
+port/kchar.o: ../../../lib/c/include/libarch/common.h
+port/kchar.o: ../../../lib/c/include/errno.h
+port/kchar.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/str.h
+port/kchar.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+port/kchar.o: ../../../lib/c/include/abi/bool.h
+port/kchar.o: ../../../lib/c/include/sysinfo.h
+port/kchar.o: ../../../lib/c/include/abi/sysinfo.h
+port/kchar.o: ../../../lib/c/include/abi/proc/task.h
+port/kchar.o: ../../../lib/c/include/abi/proc/thread.h
+port/kchar.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/sys/time.h
+port/kchar.o: ../../../lib/c/include/abi/ddi/irq.h
+port/kchar.o: ../../../lib/c/include/task.h ../../../lib/c/include/stdarg.h
+port/kchar.o: ../../../lib/c/include/align.h ../../../lib/c/include/as.h
+port/kchar.o: ../../../lib/c/include/abi/mm/as.h
+port/kchar.o: ../../../lib/c/include/libarch/config.h ctl/serial.h
+port/kchar.o: proto/vt100.h ../../../lib/c/include/io/charfield.h
+port/kchar.o: ../../../lib/c/include/io/color.h
+port/kchar.o: ../../../lib/c/include/io/style.h
+port/kchar.o: ../../../lib/c/include/io/pixel.h port/kchar.h
+port/niagara.o: ../../../lib/c/include/sys/types.h
+port/niagara.o: ../../../lib/c/include/libarch/types.h
+port/niagara.o: ../../../lib/c/include/libarch/common.h
+port/niagara.o: ../../../lib/c/include/errno.h
+port/niagara.o: ../../../lib/c/include/abi/errno.h
+port/niagara.o: ../../../lib/c/include/sysinfo.h
+port/niagara.o: ../../../lib/c/include/stdbool.h
+port/niagara.o: ../../../lib/c/include/abi/bool.h
+port/niagara.o: ../../../lib/c/include/abi/sysinfo.h
+port/niagara.o: ../../../lib/c/include/abi/proc/task.h
+port/niagara.o: ../../../lib/c/include/abi/proc/thread.h
+port/niagara.o: ../../../lib/c/include/ddi.h
+port/niagara.o: ../../../lib/c/include/sys/time.h
+port/niagara.o: ../../../lib/c/include/abi/ddi/irq.h
+port/niagara.o: ../../../lib/c/include/task.h ../../../lib/c/include/stdarg.h
+port/niagara.o: ../../../lib/c/include/as.h
+port/niagara.o: ../../../lib/c/include/abi/mm/as.h
+port/niagara.o: ../../../lib/c/include/libarch/config.h
+port/niagara.o: ../../../lib/c/include/align.h ../../../lib/c/include/str.h
+port/niagara.o: ../../../lib/c/include/mem.h ctl/serial.h proto/vt100.h
+port/niagara.o: ../../../lib/c/include/io/charfield.h
+port/niagara.o: ../../../lib/c/include/io/color.h
+port/niagara.o: ../../../lib/c/include/io/style.h
+port/niagara.o: ../../../lib/c/include/io/pixel.h port/niagara.h
+port/ski.o: ../../../lib/c/include/sys/types.h
+port/ski.o: ../../../lib/c/include/libarch/types.h
+port/ski.o: ../../../lib/c/include/libarch/common.h
+port/ski.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+port/ski.o: ../../../lib/c/include/sysinfo.h ../../../lib/c/include/stdbool.h
+port/ski.o: ../../../lib/c/include/abi/bool.h
+port/ski.o: ../../../lib/c/include/abi/sysinfo.h
+port/ski.o: ../../../lib/c/include/abi/proc/task.h
+port/ski.o: ../../../lib/c/include/abi/proc/thread.h ctl/serial.h
+port/ski.o: proto/vt100.h ../../../lib/c/include/io/charfield.h
+port/ski.o: ../../../lib/c/include/io/color.h
+port/ski.o: ../../../lib/c/include/io/style.h
+port/ski.o: ../../../lib/c/include/io/pixel.h port/ski.h
+proto/vt100.o: ../../../lib/c/include/sys/types.h
+proto/vt100.o: ../../../lib/c/include/libarch/types.h
+proto/vt100.o: ../../../lib/c/include/libarch/common.h
+proto/vt100.o: ../../../lib/c/include/inttypes.h
+proto/vt100.o: ../../../lib/c/include/libarch/inttypes.h
+proto/vt100.o: ../../../lib/c/include/errno.h
+proto/vt100.o: ../../../lib/c/include/abi/errno.h
+proto/vt100.o: ../../../lib/c/include/stdio.h ../../../lib/c/include/stdarg.h
+proto/vt100.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+proto/vt100.o: ../../../lib/c/include/stdbool.h
+proto/vt100.o: ../../../lib/c/include/abi/bool.h
+proto/vt100.o: ../../../lib/c/include/io/verify.h
+proto/vt100.o: ../../../lib/c/include/abi/klog.h
+proto/vt100.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+proto/vt100.o: ../../../lib/c/include/sys/time.h
+proto/vt100.o: ../../../lib/c/include/libarch/config.h
+proto/vt100.o: ../../../lib/c/include/malloc.h
+proto/vt100.o: ../../../lib/c/include/io/color.h proto/vt100.h
+proto/vt100.o: ../../../lib/c/include/io/charfield.h
+proto/vt100.o: ../../../lib/c/include/io/style.h
+proto/vt100.o: ../../../lib/c/include/io/pixel.h
+output.o: ../../../lib/c/include/sys/types.h
+output.o: ../../../lib/c/include/libarch/types.h
+output.o: ../../../lib/c/include/libarch/common.h
+output.o: ../../../lib/c/include/errno.h ../../../lib/c/include/abi/errno.h
+output.o: ../../../lib/c/include/malloc.h ../../../lib/c/include/macros.h
+output.o: ../../../lib/c/include/as.h ../../../lib/c/include/abi/mm/as.h
+output.o: ../../../lib/c/include/task.h
+output.o: ../../../lib/c/include/abi/proc/task.h
+output.o: ../../../lib/c/include/stdarg.h
+output.o: ../../../lib/c/include/libarch/config.h
+output.o: ../../../lib/c/include/ipc/output.h
+output.o: ../../../lib/c/include/ipc/common.h
+output.o: ../../../lib/c/include/abi/ipc/ipc.h
+output.o: ../../../lib/c/include/atomic.h
+output.o: ../../../lib/c/include/libarch/atomic.h
+output.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+output.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+output.o: port/ega.h port/kchar.h port/niagara.h port/ski.h output.h
+output.o: ../../../lib/c/include/loc.h ../../../lib/c/include/ipc/loc.h
+output.o: ../../../lib/c/include/async.h ../../../lib/c/include/fibril.h
+output.o: ../../../lib/c/include/libarch/fibril.h
+output.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/assert.h
+output.o: ../../../lib/c/include/unistd.h ../../../lib/c/include/time.h
+output.o: ../../../lib/c/include/sys/time.h
+output.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+output.o: ../../../lib/c/include/abi/syscall.h
+output.o: ../../../lib/c/include/libarch/syscall.h
+output.o: ../../../lib/c/include/io/console.h
+output.o: ../../../lib/c/include/io/concaps.h
+output.o: ../../../lib/c/include/io/kbd_event.h
+output.o: ../../../lib/c/include/io/keycode.h ../../../lib/c/include/stdio.h
+output.o: ../../../lib/c/include/str.h ../../../lib/c/include/mem.h
+output.o: ../../../lib/c/include/io/verify.h
+output.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/io/style.h
+output.o: ../../../lib/c/include/io/color.h
+output.o: ../../../lib/c/include/io/chargrid.h
+output.o: ../../../lib/c/include/io/charfield.h
+output.o: ../../../lib/c/include/io/pixel.h

@@ -1,0 +1,41 @@
+# DO NOT DELETE
+
+rootpc.o: ../../../lib/c/include/assert.h ../../../lib/c/include/stdio.h
+rootpc.o: ../../../lib/c/include/sys/types.h
+rootpc.o: ../../../lib/c/include/libarch/types.h
+rootpc.o: ../../../lib/c/include/libarch/common.h
+rootpc.o: ../../../lib/c/include/stdarg.h ../../../lib/c/include/str.h
+rootpc.o: ../../../lib/c/include/mem.h ../../../lib/c/include/stdbool.h
+rootpc.o: ../../../lib/c/include/abi/bool.h
+rootpc.o: ../../../lib/c/include/io/verify.h
+rootpc.o: ../../../lib/c/include/abi/klog.h ../../../lib/c/include/errno.h
+rootpc.o: ../../../lib/c/include/abi/errno.h
+rootpc.o: ../../../lib/c/include/fibril_synch.h
+rootpc.o: ../../../lib/c/include/fibril.h
+rootpc.o: ../../../lib/c/include/libarch/fibril.h
+rootpc.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/unistd.h
+rootpc.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+rootpc.o: ../../../lib/c/include/libarch/config.h
+rootpc.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+rootpc.o: ../../../lib/c/include/abi/syscall.h
+rootpc.o: ../../../lib/c/include/libarch/syscall.h
+rootpc.o: ../../../lib/c/include/stdlib.h ../../../lib/c/include/malloc.h
+rootpc.o: ../../../lib/c/include/stacktrace.h ../../../lib/c/include/ctype.h
+rootpc.o: ../../../lib/c/include/macros.h
+rootpc.o: ../../../lib/drv/include/ddf/driver.h
+rootpc.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/common.h
+rootpc.o: ../../../lib/c/include/abi/ipc/ipc.h
+rootpc.o: ../../../lib/c/include/atomic.h
+rootpc.o: ../../../lib/c/include/libarch/atomic.h
+rootpc.o: ../../../lib/c/include/atomicdflt.h ../../../lib/c/include/stdint.h
+rootpc.o: ../../../lib/c/include/task.h
+rootpc.o: ../../../lib/c/include/abi/proc/task.h
+rootpc.o: ../../../lib/c/include/ipc/devman.h
+rootpc.o: ../../../lib/c/include/ipc/dev_iface.h
+rootpc.o: ../../../lib/drv/include/dev_iface.h
+rootpc.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+rootpc.o: ../../../lib/c/include/inttypes.h
+rootpc.o: ../../../lib/c/include/libarch/inttypes.h
+rootpc.o: ../../../lib/drv/include/ops/hw_res.h
+rootpc.o: ../../../lib/c/include/device/hw_res.h
+rootpc.o: ../../../lib/drv/include/ddf/driver.h

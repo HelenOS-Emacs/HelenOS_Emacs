@@ -1,0 +1,31 @@
+# DO NOT DELETE
+
+softfloat.o: softfloat.h sftypes.h ../../lib/c/include/byteorder.h
+softfloat.o: ../../lib/c/include/stdint.h ../../lib/c/include/libarch/types.h
+softfloat.o: ../../lib/c/include/libarch/common.h add.h sub.h mul.h div.h
+softfloat.o: conversion.h comparison.h other.h
+common.o: sftypes.h ../../lib/c/include/byteorder.h
+common.o: ../../lib/c/include/stdint.h ../../lib/c/include/libarch/types.h
+common.o: ../../lib/c/include/libarch/common.h common.h
+add.o: sftypes.h ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+add.o: ../../lib/c/include/libarch/types.h
+add.o: ../../lib/c/include/libarch/common.h add.h comparison.h common.h
+sub.o: sftypes.h ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+sub.o: ../../lib/c/include/libarch/types.h
+sub.o: ../../lib/c/include/libarch/common.h sub.h comparison.h common.h
+div.o: sftypes.h ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+div.o: ../../lib/c/include/libarch/types.h
+div.o: ../../lib/c/include/libarch/common.h add.h div.h comparison.h mul.h
+div.o: common.h
+mul.o: sftypes.h ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+mul.o: ../../lib/c/include/libarch/types.h
+mul.o: ../../lib/c/include/libarch/common.h mul.h comparison.h common.h
+comparison.o: sftypes.h ../../lib/c/include/byteorder.h
+comparison.o: ../../lib/c/include/stdint.h
+comparison.o: ../../lib/c/include/libarch/types.h
+comparison.o: ../../lib/c/include/libarch/common.h comparison.h common.h
+conversion.o: sftypes.h ../../lib/c/include/byteorder.h
+conversion.o: ../../lib/c/include/stdint.h
+conversion.o: ../../lib/c/include/libarch/types.h
+conversion.o: ../../lib/c/include/libarch/common.h conversion.h comparison.h
+conversion.o: common.h

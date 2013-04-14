@@ -1,0 +1,104 @@
+# DO NOT DELETE
+
+main.o: ../../../../lib/drv/include/ddf/driver.h
+main.o: ../../../../lib/c/include/async.h
+main.o: ../../../../lib/c/include/ipc/common.h
+main.o: ../../../../lib/c/include/sys/types.h
+main.o: ../../../../lib/c/include/libarch/types.h
+main.o: ../../../../lib/c/include/libarch/common.h
+main.o: ../../../../lib/c/include/abi/ipc/ipc.h
+main.o: ../../../../lib/c/include/atomic.h
+main.o: ../../../../lib/c/include/libarch/atomic.h
+main.o: ../../../../lib/c/include/atomicdflt.h
+main.o: ../../../../lib/c/include/stdint.h
+main.o: ../../../../lib/c/include/stdbool.h
+main.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+main.o: ../../../../lib/c/include/abi/proc/task.h
+main.o: ../../../../lib/c/include/stdarg.h ../../../../lib/c/include/fibril.h
+main.o: ../../../../lib/c/include/libarch/fibril.h
+main.o: ../../../../lib/c/include/adt/list.h
+main.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+main.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+main.o: ../../../../lib/c/include/libarch/config.h
+main.o: ../../../../lib/c/include/libarch/tls.h
+main.o: ../../../../lib/c/include/libc.h
+main.o: ../../../../lib/c/include/abi/syscall.h
+main.o: ../../../../lib/c/include/libarch/syscall.h
+main.o: ../../../../lib/c/include/ipc/devman.h
+main.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+main.o: ../../../../lib/c/include/ipc/dev_iface.h
+main.o: ../../../../lib/drv/include/dev_iface.h
+main.o: ../../../../lib/drv/include/ddf/interrupt.h
+main.o: ../../../../lib/c/include/abi/ddi/irq.h
+main.o: ../../../../lib/c/include/ddi.h
+main.o: ../../../../lib/c/include/fibril_synch.h
+main.o: ../../../../lib/drv/include/ddf/driver.h
+main.o: ../../../../lib/c/include/device/hw_res.h
+main.o: ../../../../lib/c/include/errno.h
+main.o: ../../../../lib/c/include/abi/errno.h
+main.o: ../../../../lib/c/include/str_error.h
+main.o: ../../../../lib/drv/include/usb_iface.h
+main.o: ../../../../lib/usb/include/usb/usb.h
+main.o: ../../../../lib/c/include/byteorder.h
+main.o: ../../../../lib/usb/include/usb/ddfiface.h
+main.o: ../../../../lib/usb/include/usb/debug.h
+main.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+main.o: ../../../../lib/c/include/io/verify.h
+main.o: ../../../../lib/c/include/abi/klog.h
+main.o: ../../../../lib/c/include/inttypes.h
+main.o: ../../../../lib/c/include/libarch/inttypes.h
+main.o: ../../../../lib/c/include/io/log.h
+main.o: ../../../../lib/usbhost/include/usb/host/hcd.h
+main.o: ../../../../lib/drv/include/usbhc_iface.h
+main.o: ../../../../lib/usbhost/include/usb/host/usb_device_manager.h
+main.o: ../../../../lib/c/include/devman.h
+main.o: ../../../../lib/c/include/ipc/loc.h
+main.o: ../../../../lib/usbhost/include/usb/host/endpoint.h
+main.o: ../../../../lib/usbhost/include/usb/host/usb_endpoint_manager.h
+main.o: ../../../../lib/usbhost/include/usb/host/usb_transfer_batch.h res.h
+res.o: ../../../../lib/c/include/errno.h
+res.o: ../../../../lib/c/include/abi/errno.h
+res.o: ../../../../lib/c/include/str_error.h
+res.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/devman.h
+res.o: ../../../../lib/c/include/ipc/devman.h
+res.o: ../../../../lib/c/include/ipc/common.h
+res.o: ../../../../lib/c/include/sys/types.h
+res.o: ../../../../lib/c/include/libarch/types.h
+res.o: ../../../../lib/c/include/libarch/common.h
+res.o: ../../../../lib/c/include/abi/ipc/ipc.h
+res.o: ../../../../lib/c/include/atomic.h
+res.o: ../../../../lib/c/include/libarch/atomic.h
+res.o: ../../../../lib/c/include/atomicdflt.h
+res.o: ../../../../lib/c/include/stdint.h ../../../../lib/c/include/stdbool.h
+res.o: ../../../../lib/c/include/abi/bool.h ../../../../lib/c/include/task.h
+res.o: ../../../../lib/c/include/abi/proc/task.h
+res.o: ../../../../lib/c/include/stdarg.h
+res.o: ../../../../lib/c/include/adt/list.h
+res.o: ../../../../lib/c/include/unistd.h ../../../../lib/c/include/time.h
+res.o: ../../../../lib/c/include/sys/time.h
+res.o: ../../../../lib/c/include/libarch/config.h
+res.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+res.o: ../../../../lib/c/include/ipc/loc.h ../../../../lib/c/include/async.h
+res.o: ../../../../lib/c/include/fibril.h
+res.o: ../../../../lib/c/include/libarch/fibril.h
+res.o: ../../../../lib/c/include/libarch/tls.h
+res.o: ../../../../lib/c/include/libc.h
+res.o: ../../../../lib/c/include/abi/syscall.h
+res.o: ../../../../lib/c/include/libarch/syscall.h
+res.o: ../../../../lib/c/include/ddi.h
+res.o: ../../../../lib/c/include/abi/ddi/irq.h
+res.o: ../../../../lib/usb/include/usb/debug.h
+res.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+res.o: ../../../../lib/c/include/io/verify.h
+res.o: ../../../../lib/c/include/abi/klog.h
+res.o: ../../../../lib/c/include/inttypes.h
+res.o: ../../../../lib/c/include/libarch/inttypes.h
+res.o: ../../../../lib/usb/include/usb/usb.h
+res.o: ../../../../lib/c/include/byteorder.h
+res.o: ../../../../lib/c/include/io/log.h
+res.o: ../../../../lib/c/include/device/hw_res_parsed.h
+res.o: ../../../../lib/c/include/device/hw_res.h
+res.o: ../../../../lib/c/include/ipc/dev_iface.h
+res.o: ../../../../lib/c/include/device/pci.h res.h
+res.o: ../../../../lib/drv/include/ddf/driver.h
+res.o: ../../../../lib/drv/include/dev_iface.h

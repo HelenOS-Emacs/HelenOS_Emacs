@@ -1,0 +1,2135 @@
+# DO NOT DELETE
+
+generic/libc.o: ../../lib/c/include/libc.h ../../lib/c/include/sys/types.h
+generic/libc.o: ../../lib/c/include/libarch/types.h
+generic/libc.o: ../../lib/c/include/libarch/common.h
+generic/libc.o: ../../lib/c/include/abi/syscall.h
+generic/libc.o: ../../lib/c/include/libarch/syscall.h
+generic/libc.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+generic/libc.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/libc.o: ../../lib/c/include/libarch/config.h
+generic/libc.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+generic/libc.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/libc.o: ../../lib/c/include/tls.h ../../lib/c/include/libarch/tls.h
+generic/libc.o: ../../lib/c/include/fibril.h
+generic/libc.o: ../../lib/c/include/libarch/fibril.h
+generic/libc.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/libc.o: ../../lib/c/include/task.h
+generic/libc.o: ../../lib/c/include/abi/proc/task.h
+generic/libc.o: ../../lib/c/include/stdarg.h ../../lib/c/include/loader/pcb.h
+generic/libc.o: generic/private/libc.h generic/private/async.h
+generic/libc.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+generic/libc.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/libc.o: ../../lib/c/include/atomic.h
+generic/libc.o: ../../lib/c/include/libarch/atomic.h
+generic/libc.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/libc.o: ../../lib/c/include/fibril_synch.h generic/private/malloc.h
+generic/libc.o: generic/private/io.h
+generic/ddi.o: ../../lib/c/include/assert.h ../../lib/c/include/atomic.h
+generic/ddi.o: ../../lib/c/include/libarch/atomic.h
+generic/ddi.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/ddi.o: ../../lib/c/include/libarch/types.h
+generic/ddi.o: ../../lib/c/include/libarch/common.h
+generic/ddi.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/ddi.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+generic/ddi.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/ddi.o: ../../lib/c/include/libarch/config.h
+generic/ddi.o: ../../lib/c/include/stdio.h ../../lib/c/include/stdarg.h
+generic/ddi.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/ddi.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+generic/ddi.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/ddi.o: ../../lib/c/include/abi/ddi/arg.h ../../lib/c/include/ddi.h
+generic/ddi.o: ../../lib/c/include/abi/ddi/irq.h ../../lib/c/include/task.h
+generic/ddi.o: ../../lib/c/include/abi/proc/task.h
+generic/ddi.o: ../../lib/c/include/libarch/ddi.h ../../lib/c/include/libc.h
+generic/ddi.o: ../../lib/c/include/abi/syscall.h
+generic/ddi.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/as.h
+generic/ddi.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/align.h
+generic/ddi.o: generic/private/libc.h
+generic/as.o: ../../lib/c/include/as.h ../../lib/c/include/sys/types.h
+generic/as.o: ../../lib/c/include/libarch/types.h
+generic/as.o: ../../lib/c/include/libarch/common.h
+generic/as.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/task.h
+generic/as.o: ../../lib/c/include/abi/proc/task.h
+generic/as.o: ../../lib/c/include/stdarg.h
+generic/as.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/libc.h
+generic/as.o: ../../lib/c/include/abi/syscall.h
+generic/as.o: ../../lib/c/include/libarch/syscall.h
+generic/as.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/as.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/as.o: ../../lib/c/include/sys/time.h ../../lib/c/include/align.h
+generic/as.o: ../../lib/c/include/bitops.h ../../lib/c/include/malloc.h
+generic/as.o: generic/private/libc.h
+generic/bd.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+generic/bd.o: ../../lib/c/include/sys/types.h
+generic/bd.o: ../../lib/c/include/libarch/types.h
+generic/bd.o: ../../lib/c/include/libarch/common.h
+generic/bd.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+generic/bd.o: ../../lib/c/include/libarch/atomic.h
+generic/bd.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/bd.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/bd.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+generic/bd.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/bd.o: ../../lib/c/include/libarch/fibril.h
+generic/bd.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/bd.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/bd.o: ../../lib/c/include/sys/time.h
+generic/bd.o: ../../lib/c/include/libarch/config.h
+generic/bd.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/bd.o: ../../lib/c/include/abi/syscall.h
+generic/bd.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/bd.h
+generic/bd.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/bd.o: ../../lib/c/include/ipc/bd.h ../../lib/c/include/ipc/services.h
+generic/bd.o: ../../lib/c/include/fourcc.h ../../lib/c/include/loc.h
+generic/bd.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/macros.h
+generic/bd.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/bd.o: ../../lib/c/include/stacktrace.h
+generic/bd_srv.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/bd_srv.o: ../../lib/c/include/ipc/bd.h
+generic/bd_srv.o: ../../lib/c/include/ipc/common.h
+generic/bd_srv.o: ../../lib/c/include/sys/types.h
+generic/bd_srv.o: ../../lib/c/include/libarch/types.h
+generic/bd_srv.o: ../../lib/c/include/libarch/common.h
+generic/bd_srv.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/bd_srv.o: ../../lib/c/include/atomic.h
+generic/bd_srv.o: ../../lib/c/include/libarch/atomic.h
+generic/bd_srv.o: ../../lib/c/include/atomicdflt.h
+generic/bd_srv.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/bd_srv.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/bd_srv.o: ../../lib/c/include/abi/proc/task.h
+generic/bd_srv.o: ../../lib/c/include/stdarg.h ../../lib/c/include/macros.h
+generic/bd_srv.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+generic/bd_srv.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/bd_srv.o: ../../lib/c/include/libarch/config.h
+generic/bd_srv.o: ../../lib/c/include/malloc.h
+generic/bd_srv.o: ../../lib/c/include/stacktrace.h
+generic/bd_srv.o: ../../lib/c/include/bd_srv.h ../../lib/c/include/adt/list.h
+generic/bd_srv.o: ../../lib/c/include/assert.h ../../lib/c/include/async.h
+generic/bd_srv.o: ../../lib/c/include/fibril.h
+generic/bd_srv.o: ../../lib/c/include/libarch/fibril.h
+generic/bd_srv.o: ../../lib/c/include/libarch/tls.h
+generic/bd_srv.o: ../../lib/c/include/libc.h
+generic/bd_srv.o: ../../lib/c/include/abi/syscall.h
+generic/bd_srv.o: ../../lib/c/include/libarch/syscall.h
+generic/bd_srv.o: ../../lib/c/include/fibril_synch.h
+generic/cap.o: ../../lib/c/include/cap.h ../../lib/c/include/task.h
+generic/cap.o: ../../lib/c/include/sys/types.h
+generic/cap.o: ../../lib/c/include/libarch/types.h
+generic/cap.o: ../../lib/c/include/libarch/common.h
+generic/cap.o: ../../lib/c/include/abi/proc/task.h
+generic/cap.o: ../../lib/c/include/stdarg.h ../../lib/c/include/libc.h
+generic/cap.o: ../../lib/c/include/abi/syscall.h
+generic/cap.o: ../../lib/c/include/libarch/syscall.h
+generic/cfg.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+generic/cfg.o: ../../lib/c/include/libarch/types.h
+generic/cfg.o: ../../lib/c/include/libarch/common.h
+generic/cfg.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/cfg.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/cfg.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/io/verify.h
+generic/cfg.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+generic/cfg.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/cfg.o: ../../lib/c/include/sys/time.h
+generic/cfg.o: ../../lib/c/include/libarch/config.h
+generic/cfg.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+generic/cfg.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/cfg.o: ../../lib/c/include/assert.h ../../lib/c/include/dirent.h
+generic/cfg.o: ../../lib/c/include/fcntl.h ../../lib/c/include/sys/stat.h
+generic/cfg.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/common.h
+generic/cfg.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+generic/cfg.o: ../../lib/c/include/libarch/atomic.h
+generic/cfg.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/cfg.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+generic/cfg.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ctype.h
+generic/cfg.o: ../../lib/c/include/cfg.h ../../lib/c/include/adt/list.h
+generic/clipboard.o: ../../lib/c/include/clipboard.h ../../lib/c/include/ns.h
+generic/clipboard.o: ../../lib/c/include/sys/types.h
+generic/clipboard.o: ../../lib/c/include/libarch/types.h
+generic/clipboard.o: ../../lib/c/include/libarch/common.h
+generic/clipboard.o: ../../lib/c/include/ipc/services.h
+generic/clipboard.o: ../../lib/c/include/fourcc.h ../../lib/c/include/task.h
+generic/clipboard.o: ../../lib/c/include/abi/proc/task.h
+generic/clipboard.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+generic/clipboard.o: ../../lib/c/include/ipc/common.h
+generic/clipboard.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/clipboard.o: ../../lib/c/include/atomic.h
+generic/clipboard.o: ../../lib/c/include/libarch/atomic.h
+generic/clipboard.o: ../../lib/c/include/atomicdflt.h
+generic/clipboard.o: ../../lib/c/include/stdint.h
+generic/clipboard.o: ../../lib/c/include/stdbool.h
+generic/clipboard.o: ../../lib/c/include/abi/bool.h
+generic/clipboard.o: ../../lib/c/include/fibril.h
+generic/clipboard.o: ../../lib/c/include/libarch/fibril.h
+generic/clipboard.o: ../../lib/c/include/adt/list.h
+generic/clipboard.o: ../../lib/c/include/assert.h
+generic/clipboard.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/clipboard.o: ../../lib/c/include/sys/time.h
+generic/clipboard.o: ../../lib/c/include/libarch/config.h
+generic/clipboard.o: ../../lib/c/include/libarch/tls.h
+generic/clipboard.o: ../../lib/c/include/libc.h
+generic/clipboard.o: ../../lib/c/include/abi/syscall.h
+generic/clipboard.o: ../../lib/c/include/libarch/syscall.h
+generic/clipboard.o: ../../lib/c/include/ipc/clipboard.h
+generic/clipboard.o: ../../lib/c/include/fibril_synch.h
+generic/clipboard.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/clipboard.o: ../../lib/c/include/errno.h
+generic/clipboard.o: ../../lib/c/include/abi/errno.h
+generic/clipboard.o: ../../lib/c/include/malloc.h
+generic/devman.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/devman.o: ../../lib/c/include/unistd.h
+generic/devman.o: ../../lib/c/include/sys/types.h
+generic/devman.o: ../../lib/c/include/libarch/types.h
+generic/devman.o: ../../lib/c/include/libarch/common.h
+generic/devman.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/devman.o: ../../lib/c/include/libarch/config.h
+generic/devman.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/devman.o: ../../lib/c/include/stdbool.h
+generic/devman.o: ../../lib/c/include/abi/bool.h
+generic/devman.o: ../../lib/c/include/ipc/services.h
+generic/devman.o: ../../lib/c/include/fourcc.h ../../lib/c/include/ns.h
+generic/devman.o: ../../lib/c/include/task.h
+generic/devman.o: ../../lib/c/include/abi/proc/task.h
+generic/devman.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+generic/devman.o: ../../lib/c/include/ipc/common.h
+generic/devman.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/devman.o: ../../lib/c/include/atomic.h
+generic/devman.o: ../../lib/c/include/libarch/atomic.h
+generic/devman.o: ../../lib/c/include/atomicdflt.h
+generic/devman.o: ../../lib/c/include/stdint.h ../../lib/c/include/fibril.h
+generic/devman.o: ../../lib/c/include/libarch/fibril.h
+generic/devman.o: ../../lib/c/include/libarch/tls.h
+generic/devman.o: ../../lib/c/include/libc.h
+generic/devman.o: ../../lib/c/include/abi/syscall.h
+generic/devman.o: ../../lib/c/include/libarch/syscall.h
+generic/devman.o: ../../lib/c/include/ipc/devman.h
+generic/devman.o: ../../lib/c/include/malloc.h ../../lib/c/include/devman.h
+generic/devman.o: ../../lib/c/include/ipc/loc.h
+generic/devman.o: ../../lib/c/include/fibril_synch.h
+generic/devman.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/device/hw_res.o: ../../lib/c/include/device/hw_res.h
+generic/device/hw_res.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/hw_res.o: ../../lib/c/include/malloc.h
+generic/device/hw_res.o: ../../lib/c/include/sys/types.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/types.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/common.h
+generic/device/hw_res.o: ../../lib/c/include/unistd.h
+generic/device/hw_res.o: ../../lib/c/include/time.h
+generic/device/hw_res.o: ../../lib/c/include/sys/time.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/config.h
+generic/device/hw_res.o: ../../lib/c/include/async.h
+generic/device/hw_res.o: ../../lib/c/include/ipc/common.h
+generic/device/hw_res.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/hw_res.o: ../../lib/c/include/atomic.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/atomic.h
+generic/device/hw_res.o: ../../lib/c/include/atomicdflt.h
+generic/device/hw_res.o: ../../lib/c/include/stdint.h
+generic/device/hw_res.o: ../../lib/c/include/stdbool.h
+generic/device/hw_res.o: ../../lib/c/include/abi/bool.h
+generic/device/hw_res.o: ../../lib/c/include/task.h
+generic/device/hw_res.o: ../../lib/c/include/abi/proc/task.h
+generic/device/hw_res.o: ../../lib/c/include/stdarg.h
+generic/device/hw_res.o: ../../lib/c/include/fibril.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/fibril.h
+generic/device/hw_res.o: ../../lib/c/include/adt/list.h
+generic/device/hw_res.o: ../../lib/c/include/assert.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/tls.h
+generic/device/hw_res.o: ../../lib/c/include/libc.h
+generic/device/hw_res.o: ../../lib/c/include/abi/syscall.h
+generic/device/hw_res.o: ../../lib/c/include/libarch/syscall.h
+generic/device/hw_res.o: ../../lib/c/include/errno.h
+generic/device/hw_res.o: ../../lib/c/include/abi/errno.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/device/hw_res_parsed.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/device/hw_res.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/malloc.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/sys/types.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/types.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/common.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/unistd.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/time.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/sys/time.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/config.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/async.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/ipc/common.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/atomic.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/atomic.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/atomicdflt.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/stdint.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/stdbool.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/abi/bool.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/task.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/abi/proc/task.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/stdarg.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/fibril.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/fibril.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/adt/list.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/assert.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/tls.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libc.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/abi/syscall.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/libarch/syscall.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/str.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/mem.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/errno.h
+generic/device/hw_res_parsed.o: ../../lib/c/include/abi/errno.h
+generic/device/char_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/char_dev.o: ../../lib/c/include/malloc.h
+generic/device/char_dev.o: ../../lib/c/include/sys/types.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/types.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/common.h
+generic/device/char_dev.o: ../../lib/c/include/unistd.h
+generic/device/char_dev.o: ../../lib/c/include/time.h
+generic/device/char_dev.o: ../../lib/c/include/sys/time.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/config.h
+generic/device/char_dev.o: ../../lib/c/include/device/char_dev.h
+generic/device/char_dev.o: ../../lib/c/include/async.h
+generic/device/char_dev.o: ../../lib/c/include/ipc/common.h
+generic/device/char_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/char_dev.o: ../../lib/c/include/atomic.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/device/char_dev.o: ../../lib/c/include/atomicdflt.h
+generic/device/char_dev.o: ../../lib/c/include/stdint.h
+generic/device/char_dev.o: ../../lib/c/include/stdbool.h
+generic/device/char_dev.o: ../../lib/c/include/abi/bool.h
+generic/device/char_dev.o: ../../lib/c/include/task.h
+generic/device/char_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/device/char_dev.o: ../../lib/c/include/stdarg.h
+generic/device/char_dev.o: ../../lib/c/include/fibril.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/device/char_dev.o: ../../lib/c/include/adt/list.h
+generic/device/char_dev.o: ../../lib/c/include/assert.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/tls.h
+generic/device/char_dev.o: ../../lib/c/include/libc.h
+generic/device/char_dev.o: ../../lib/c/include/abi/syscall.h
+generic/device/char_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/device/char_dev.o: ../../lib/c/include/errno.h
+generic/device/char_dev.o: ../../lib/c/include/abi/errno.h
+generic/device/char_dev.o: ../../lib/c/include/stdio.h
+generic/device/char_dev.o: ../../lib/c/include/str.h
+generic/device/char_dev.o: ../../lib/c/include/mem.h
+generic/device/char_dev.o: ../../lib/c/include/io/verify.h
+generic/device/char_dev.o: ../../lib/c/include/abi/klog.h
+generic/device/clock_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/clock_dev.o: ../../lib/c/include/malloc.h
+generic/device/clock_dev.o: ../../lib/c/include/sys/types.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/types.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/common.h
+generic/device/clock_dev.o: ../../lib/c/include/unistd.h
+generic/device/clock_dev.o: ../../lib/c/include/time.h
+generic/device/clock_dev.o: ../../lib/c/include/sys/time.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/config.h
+generic/device/clock_dev.o: ../../lib/c/include/device/clock_dev.h
+generic/device/clock_dev.o: ../../lib/c/include/async.h
+generic/device/clock_dev.o: ../../lib/c/include/ipc/common.h
+generic/device/clock_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/clock_dev.o: ../../lib/c/include/atomic.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/device/clock_dev.o: ../../lib/c/include/atomicdflt.h
+generic/device/clock_dev.o: ../../lib/c/include/stdint.h
+generic/device/clock_dev.o: ../../lib/c/include/stdbool.h
+generic/device/clock_dev.o: ../../lib/c/include/abi/bool.h
+generic/device/clock_dev.o: ../../lib/c/include/task.h
+generic/device/clock_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/device/clock_dev.o: ../../lib/c/include/stdarg.h
+generic/device/clock_dev.o: ../../lib/c/include/fibril.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/device/clock_dev.o: ../../lib/c/include/adt/list.h
+generic/device/clock_dev.o: ../../lib/c/include/assert.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/tls.h
+generic/device/clock_dev.o: ../../lib/c/include/libc.h
+generic/device/clock_dev.o: ../../lib/c/include/abi/syscall.h
+generic/device/clock_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/device/clock_dev.o: ../../lib/c/include/errno.h
+generic/device/clock_dev.o: ../../lib/c/include/abi/errno.h
+generic/device/battery_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/battery_dev.o: ../../lib/c/include/malloc.h
+generic/device/battery_dev.o: ../../lib/c/include/sys/types.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/types.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/common.h
+generic/device/battery_dev.o: ../../lib/c/include/unistd.h
+generic/device/battery_dev.o: ../../lib/c/include/time.h
+generic/device/battery_dev.o: ../../lib/c/include/sys/time.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/config.h
+generic/device/battery_dev.o: ../../lib/c/include/device/battery_dev.h
+generic/device/battery_dev.o: ../../lib/c/include/async.h
+generic/device/battery_dev.o: ../../lib/c/include/ipc/common.h
+generic/device/battery_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/battery_dev.o: ../../lib/c/include/atomic.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/device/battery_dev.o: ../../lib/c/include/atomicdflt.h
+generic/device/battery_dev.o: ../../lib/c/include/stdint.h
+generic/device/battery_dev.o: ../../lib/c/include/stdbool.h
+generic/device/battery_dev.o: ../../lib/c/include/abi/bool.h
+generic/device/battery_dev.o: ../../lib/c/include/task.h
+generic/device/battery_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/device/battery_dev.o: ../../lib/c/include/stdarg.h
+generic/device/battery_dev.o: ../../lib/c/include/fibril.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/device/battery_dev.o: ../../lib/c/include/adt/list.h
+generic/device/battery_dev.o: ../../lib/c/include/assert.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/tls.h
+generic/device/battery_dev.o: ../../lib/c/include/libc.h
+generic/device/battery_dev.o: ../../lib/c/include/abi/syscall.h
+generic/device/battery_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/device/battery_dev.o: ../../lib/c/include/errno.h
+generic/device/battery_dev.o: ../../lib/c/include/abi/errno.h
+generic/device/graph_dev.o: ../../lib/c/include/errno.h
+generic/device/graph_dev.o: ../../lib/c/include/abi/errno.h
+generic/device/graph_dev.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/graph_dev.o: ../../lib/c/include/malloc.h
+generic/device/graph_dev.o: ../../lib/c/include/sys/types.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/types.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/common.h
+generic/device/graph_dev.o: ../../lib/c/include/unistd.h
+generic/device/graph_dev.o: ../../lib/c/include/time.h
+generic/device/graph_dev.o: ../../lib/c/include/sys/time.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/config.h
+generic/device/graph_dev.o: ../../lib/c/include/device/graph_dev.h
+generic/device/graph_dev.o: ../../lib/c/include/async.h
+generic/device/graph_dev.o: ../../lib/c/include/ipc/common.h
+generic/device/graph_dev.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/graph_dev.o: ../../lib/c/include/atomic.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/atomic.h
+generic/device/graph_dev.o: ../../lib/c/include/atomicdflt.h
+generic/device/graph_dev.o: ../../lib/c/include/stdint.h
+generic/device/graph_dev.o: ../../lib/c/include/stdbool.h
+generic/device/graph_dev.o: ../../lib/c/include/abi/bool.h
+generic/device/graph_dev.o: ../../lib/c/include/task.h
+generic/device/graph_dev.o: ../../lib/c/include/abi/proc/task.h
+generic/device/graph_dev.o: ../../lib/c/include/stdarg.h
+generic/device/graph_dev.o: ../../lib/c/include/fibril.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/fibril.h
+generic/device/graph_dev.o: ../../lib/c/include/adt/list.h
+generic/device/graph_dev.o: ../../lib/c/include/assert.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/tls.h
+generic/device/graph_dev.o: ../../lib/c/include/libc.h
+generic/device/graph_dev.o: ../../lib/c/include/abi/syscall.h
+generic/device/graph_dev.o: ../../lib/c/include/libarch/syscall.h
+generic/device/nic.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/nic.o: ../../lib/c/include/malloc.h
+generic/device/nic.o: ../../lib/c/include/sys/types.h
+generic/device/nic.o: ../../lib/c/include/libarch/types.h
+generic/device/nic.o: ../../lib/c/include/libarch/common.h
+generic/device/nic.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/device/nic.o: ../../lib/c/include/sys/time.h
+generic/device/nic.o: ../../lib/c/include/libarch/config.h
+generic/device/nic.o: ../../lib/c/include/assert.h
+generic/device/nic.o: ../../lib/c/include/device/nic.h
+generic/device/nic.o: ../../lib/c/include/async.h
+generic/device/nic.o: ../../lib/c/include/ipc/common.h
+generic/device/nic.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/nic.o: ../../lib/c/include/atomic.h
+generic/device/nic.o: ../../lib/c/include/libarch/atomic.h
+generic/device/nic.o: ../../lib/c/include/atomicdflt.h
+generic/device/nic.o: ../../lib/c/include/stdint.h
+generic/device/nic.o: ../../lib/c/include/stdbool.h
+generic/device/nic.o: ../../lib/c/include/abi/bool.h
+generic/device/nic.o: ../../lib/c/include/task.h
+generic/device/nic.o: ../../lib/c/include/abi/proc/task.h
+generic/device/nic.o: ../../lib/c/include/stdarg.h
+generic/device/nic.o: ../../lib/c/include/fibril.h
+generic/device/nic.o: ../../lib/c/include/libarch/fibril.h
+generic/device/nic.o: ../../lib/c/include/adt/list.h
+generic/device/nic.o: ../../lib/c/include/libarch/tls.h
+generic/device/nic.o: ../../lib/c/include/libc.h
+generic/device/nic.o: ../../lib/c/include/abi/syscall.h
+generic/device/nic.o: ../../lib/c/include/libarch/syscall.h
+generic/device/nic.o: ../../lib/c/include/nic/nic.h
+generic/device/nic.o: ../../lib/c/include/nic/eth_phys.h
+generic/device/nic.o: ../../lib/c/include/errno.h
+generic/device/nic.o: ../../lib/c/include/abi/errno.h
+generic/device/nic.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/device/nic.o: ../../lib/c/include/mem.h
+generic/device/nic.o: ../../lib/c/include/io/verify.h
+generic/device/nic.o: ../../lib/c/include/abi/klog.h
+generic/device/nic.o: ../../lib/c/include/ipc/services.h
+generic/device/nic.o: ../../lib/c/include/fourcc.h
+generic/device/pci.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/pci.o: ../../lib/c/include/malloc.h
+generic/device/pci.o: ../../lib/c/include/sys/types.h
+generic/device/pci.o: ../../lib/c/include/libarch/types.h
+generic/device/pci.o: ../../lib/c/include/libarch/common.h
+generic/device/pci.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/device/pci.o: ../../lib/c/include/sys/time.h
+generic/device/pci.o: ../../lib/c/include/libarch/config.h
+generic/device/pci.o: ../../lib/c/include/assert.h
+generic/device/pci.o: ../../lib/c/include/device/pci.h
+generic/device/pci.o: ../../lib/c/include/async.h
+generic/device/pci.o: ../../lib/c/include/ipc/common.h
+generic/device/pci.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/pci.o: ../../lib/c/include/atomic.h
+generic/device/pci.o: ../../lib/c/include/libarch/atomic.h
+generic/device/pci.o: ../../lib/c/include/atomicdflt.h
+generic/device/pci.o: ../../lib/c/include/stdint.h
+generic/device/pci.o: ../../lib/c/include/stdbool.h
+generic/device/pci.o: ../../lib/c/include/abi/bool.h
+generic/device/pci.o: ../../lib/c/include/task.h
+generic/device/pci.o: ../../lib/c/include/abi/proc/task.h
+generic/device/pci.o: ../../lib/c/include/stdarg.h
+generic/device/pci.o: ../../lib/c/include/fibril.h
+generic/device/pci.o: ../../lib/c/include/libarch/fibril.h
+generic/device/pci.o: ../../lib/c/include/adt/list.h
+generic/device/pci.o: ../../lib/c/include/libarch/tls.h
+generic/device/pci.o: ../../lib/c/include/libc.h
+generic/device/pci.o: ../../lib/c/include/abi/syscall.h
+generic/device/pci.o: ../../lib/c/include/libarch/syscall.h
+generic/device/pci.o: ../../lib/c/include/errno.h
+generic/device/pci.o: ../../lib/c/include/abi/errno.h
+generic/device/pci.o: ../../lib/c/include/ipc/services.h
+generic/device/pci.o: ../../lib/c/include/fourcc.h
+generic/device/ahci.o: ../../lib/c/include/ipc/dev_iface.h
+generic/device/ahci.o: ../../lib/c/include/malloc.h
+generic/device/ahci.o: ../../lib/c/include/sys/types.h
+generic/device/ahci.o: ../../lib/c/include/libarch/types.h
+generic/device/ahci.o: ../../lib/c/include/libarch/common.h
+generic/device/ahci.o: ../../lib/c/include/unistd.h
+generic/device/ahci.o: ../../lib/c/include/time.h
+generic/device/ahci.o: ../../lib/c/include/sys/time.h
+generic/device/ahci.o: ../../lib/c/include/libarch/config.h
+generic/device/ahci.o: ../../lib/c/include/assert.h
+generic/device/ahci.o: ../../lib/c/include/device/ahci.h
+generic/device/ahci.o: ../../lib/c/include/async.h
+generic/device/ahci.o: ../../lib/c/include/ipc/common.h
+generic/device/ahci.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/device/ahci.o: ../../lib/c/include/atomic.h
+generic/device/ahci.o: ../../lib/c/include/libarch/atomic.h
+generic/device/ahci.o: ../../lib/c/include/atomicdflt.h
+generic/device/ahci.o: ../../lib/c/include/stdint.h
+generic/device/ahci.o: ../../lib/c/include/stdbool.h
+generic/device/ahci.o: ../../lib/c/include/abi/bool.h
+generic/device/ahci.o: ../../lib/c/include/task.h
+generic/device/ahci.o: ../../lib/c/include/abi/proc/task.h
+generic/device/ahci.o: ../../lib/c/include/stdarg.h
+generic/device/ahci.o: ../../lib/c/include/fibril.h
+generic/device/ahci.o: ../../lib/c/include/libarch/fibril.h
+generic/device/ahci.o: ../../lib/c/include/adt/list.h
+generic/device/ahci.o: ../../lib/c/include/libarch/tls.h
+generic/device/ahci.o: ../../lib/c/include/libc.h
+generic/device/ahci.o: ../../lib/c/include/abi/syscall.h
+generic/device/ahci.o: ../../lib/c/include/libarch/syscall.h
+generic/device/ahci.o: ../../lib/c/include/devman.h
+generic/device/ahci.o: ../../lib/c/include/ipc/devman.h
+generic/device/ahci.o: ../../lib/c/include/mem.h
+generic/device/ahci.o: ../../lib/c/include/ipc/loc.h
+generic/device/ahci.o: ../../lib/c/include/errno.h
+generic/device/ahci.o: ../../lib/c/include/abi/errno.h
+generic/device/ahci.o: ../../lib/c/include/ipc/services.h
+generic/device/ahci.o: ../../lib/c/include/fourcc.h
+generic/device/ahci.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/device/ahci.o: ../../lib/c/include/io/verify.h
+generic/device/ahci.o: ../../lib/c/include/abi/klog.h
+generic/device/ahci.o: ../../lib/c/include/as.h
+generic/device/ahci.o: ../../lib/c/include/abi/mm/as.h
+generic/dlfcn.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+generic/dlfcn.o: ../../lib/c/include/libarch/types.h
+generic/dlfcn.o: ../../lib/c/include/libarch/common.h
+generic/dlfcn.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/dlfcn.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/dlfcn.o: ../../lib/c/include/abi/bool.h
+generic/dlfcn.o: ../../lib/c/include/io/verify.h
+generic/dlfcn.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/stdlib.h
+generic/dlfcn.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/dlfcn.o: ../../lib/c/include/sys/time.h
+generic/dlfcn.o: ../../lib/c/include/libarch/config.h
+generic/dlfcn.o: ../../lib/c/include/malloc.h
+generic/dlfcn.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/dlfcn.h
+generic/elf/elf_load.o: ../../lib/c/include/stdio.h
+generic/elf/elf_load.o: ../../lib/c/include/sys/types.h
+generic/elf/elf_load.o: ../../lib/c/include/libarch/types.h
+generic/elf/elf_load.o: ../../lib/c/include/libarch/common.h
+generic/elf/elf_load.o: ../../lib/c/include/stdarg.h
+generic/elf/elf_load.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/elf/elf_load.o: ../../lib/c/include/stdbool.h
+generic/elf/elf_load.o: ../../lib/c/include/abi/bool.h
+generic/elf/elf_load.o: ../../lib/c/include/io/verify.h
+generic/elf/elf_load.o: ../../lib/c/include/abi/klog.h
+generic/elf/elf_load.o: ../../lib/c/include/align.h
+generic/elf/elf_load.o: ../../lib/c/include/assert.h ../../lib/c/include/as.h
+generic/elf/elf_load.o: ../../lib/c/include/abi/mm/as.h
+generic/elf/elf_load.o: ../../lib/c/include/task.h
+generic/elf/elf_load.o: ../../lib/c/include/abi/proc/task.h
+generic/elf/elf_load.o: ../../lib/c/include/libarch/config.h
+generic/elf/elf_load.o: ../../lib/c/include/elf/elf.h
+generic/elf/elf_load.o: ../../lib/c/include/abi/elf.h
+generic/elf/elf_load.o: ../../lib/c/include/libarch/elf.h
+generic/elf/elf_load.o: ../../lib/c/include/unistd.h
+generic/elf/elf_load.o: ../../lib/c/include/time.h
+generic/elf/elf_load.o: ../../lib/c/include/sys/time.h
+generic/elf/elf_load.o: ../../lib/c/include/fcntl.h ../../lib/c/include/smc.h
+generic/elf/elf_load.o: ../../lib/c/include/loader/pcb.h
+generic/elf/elf_load.o: ../../lib/c/include/entry_point.h
+generic/elf/elf_load.o: ../../lib/c/include/elf/elf_load.h
+generic/event.o: ../../lib/c/include/libc.h ../../lib/c/include/sys/types.h
+generic/event.o: ../../lib/c/include/libarch/types.h
+generic/event.o: ../../lib/c/include/libarch/common.h
+generic/event.o: ../../lib/c/include/abi/syscall.h
+generic/event.o: ../../lib/c/include/libarch/syscall.h
+generic/event.o: ../../lib/c/include/event.h
+generic/event.o: ../../lib/c/include/abi/ipc/event.h
+generic/errno.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/errno.o: ../../lib/c/include/fibril.h
+generic/errno.o: ../../lib/c/include/libarch/fibril.h
+generic/errno.o: ../../lib/c/include/sys/types.h
+generic/errno.o: ../../lib/c/include/libarch/types.h
+generic/errno.o: ../../lib/c/include/libarch/common.h
+generic/errno.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/errno.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/errno.o: ../../lib/c/include/sys/time.h
+generic/errno.o: ../../lib/c/include/libarch/config.h
+generic/errno.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/errno.o: ../../lib/c/include/abi/syscall.h
+generic/errno.o: ../../lib/c/include/libarch/syscall.h
+generic/loc.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/loc.o: ../../lib/c/include/sys/types.h
+generic/loc.o: ../../lib/c/include/libarch/types.h
+generic/loc.o: ../../lib/c/include/libarch/common.h
+generic/loc.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/loc.o: ../../lib/c/include/ipc/services.h
+generic/loc.o: ../../lib/c/include/fourcc.h ../../lib/c/include/ns.h
+generic/loc.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+generic/loc.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+generic/loc.o: ../../lib/c/include/ipc/common.h
+generic/loc.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+generic/loc.o: ../../lib/c/include/libarch/atomic.h
+generic/loc.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/loc.o: ../../lib/c/include/fibril.h
+generic/loc.o: ../../lib/c/include/libarch/fibril.h
+generic/loc.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/loc.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/loc.o: ../../lib/c/include/sys/time.h
+generic/loc.o: ../../lib/c/include/libarch/config.h
+generic/loc.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/loc.o: ../../lib/c/include/abi/syscall.h
+generic/loc.o: ../../lib/c/include/libarch/syscall.h
+generic/loc.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/loc.h
+generic/loc.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/errno.h
+generic/loc.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/malloc.h
+generic/mem.o: ../../lib/c/include/mem.h ../../lib/c/include/sys/types.h
+generic/mem.o: ../../lib/c/include/libarch/types.h
+generic/mem.o: ../../lib/c/include/libarch/common.h
+generic/mem.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+generic/mem.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/mem.o: ../../lib/c/include/libarch/config.h
+generic/mem.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+generic/mem.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/str.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/str.o: ../../lib/c/include/sys/types.h
+generic/str.o: ../../lib/c/include/libarch/types.h
+generic/str.o: ../../lib/c/include/libarch/common.h
+generic/str.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/str.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+generic/str.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/str.o: ../../lib/c/include/libarch/config.h
+generic/str.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+generic/str.o: ../../lib/c/include/assert.h ../../lib/c/include/stdint.h
+generic/str.o: ../../lib/c/include/ctype.h ../../lib/c/include/errno.h
+generic/str.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/align.h
+generic/str_error.o: ../../lib/c/include/errno.h
+generic/str_error.o: ../../lib/c/include/abi/errno.h
+generic/str_error.o: ../../lib/c/include/str_error.h
+generic/str_error.o: ../../lib/c/include/stdio.h
+generic/str_error.o: ../../lib/c/include/sys/types.h
+generic/str_error.o: ../../lib/c/include/libarch/types.h
+generic/str_error.o: ../../lib/c/include/libarch/common.h
+generic/str_error.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/str_error.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/str_error.o: ../../lib/c/include/abi/bool.h
+generic/str_error.o: ../../lib/c/include/io/verify.h
+generic/str_error.o: ../../lib/c/include/abi/klog.h
+generic/str_error.o: ../../lib/c/include/fibril.h
+generic/str_error.o: ../../lib/c/include/libarch/fibril.h
+generic/str_error.o: ../../lib/c/include/adt/list.h
+generic/str_error.o: ../../lib/c/include/assert.h
+generic/str_error.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/str_error.o: ../../lib/c/include/sys/time.h
+generic/str_error.o: ../../lib/c/include/libarch/config.h
+generic/str_error.o: ../../lib/c/include/libarch/tls.h
+generic/str_error.o: ../../lib/c/include/libc.h
+generic/str_error.o: ../../lib/c/include/abi/syscall.h
+generic/str_error.o: ../../lib/c/include/libarch/syscall.h
+generic/l18n/langs.o: ../../lib/c/include/l18n/langs.h
+generic/l18n/langs.o: ../../lib/c/include/stdio.h
+generic/l18n/langs.o: ../../lib/c/include/sys/types.h
+generic/l18n/langs.o: ../../lib/c/include/libarch/types.h
+generic/l18n/langs.o: ../../lib/c/include/libarch/common.h
+generic/l18n/langs.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/l18n/langs.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/l18n/langs.o: ../../lib/c/include/abi/bool.h
+generic/l18n/langs.o: ../../lib/c/include/io/verify.h
+generic/l18n/langs.o: ../../lib/c/include/abi/klog.h
+generic/l18n/langs.o: ../../lib/c/include/fibril.h
+generic/l18n/langs.o: ../../lib/c/include/libarch/fibril.h
+generic/l18n/langs.o: ../../lib/c/include/adt/list.h
+generic/l18n/langs.o: ../../lib/c/include/assert.h
+generic/l18n/langs.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/l18n/langs.o: ../../lib/c/include/sys/time.h
+generic/l18n/langs.o: ../../lib/c/include/libarch/config.h
+generic/l18n/langs.o: ../../lib/c/include/libarch/tls.h
+generic/l18n/langs.o: ../../lib/c/include/libc.h
+generic/l18n/langs.o: ../../lib/c/include/abi/syscall.h
+generic/l18n/langs.o: ../../lib/c/include/libarch/syscall.h
+generic/fibril.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/fibril.o: ../../lib/c/include/unistd.h
+generic/fibril.o: ../../lib/c/include/sys/types.h
+generic/fibril.o: ../../lib/c/include/libarch/types.h
+generic/fibril.o: ../../lib/c/include/libarch/common.h
+generic/fibril.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/fibril.o: ../../lib/c/include/libarch/config.h
+generic/fibril.o: ../../lib/c/include/fibril.h
+generic/fibril.o: ../../lib/c/include/libarch/fibril.h
+generic/fibril.o: ../../lib/c/include/libarch/tls.h
+generic/fibril.o: ../../lib/c/include/libc.h
+generic/fibril.o: ../../lib/c/include/abi/syscall.h
+generic/fibril.o: ../../lib/c/include/libarch/syscall.h
+generic/fibril.o: ../../lib/c/include/thread.h
+generic/fibril.o: ../../lib/c/include/libarch/thread.h
+generic/fibril.o: ../../lib/c/include/abi/proc/thread.h
+generic/fibril.o: ../../lib/c/include/stack.h ../../lib/c/include/tls.h
+generic/fibril.o: ../../lib/c/include/malloc.h
+generic/fibril.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/as.h
+generic/fibril.o: ../../lib/c/include/task.h
+generic/fibril.o: ../../lib/c/include/abi/proc/task.h
+generic/fibril.o: ../../lib/c/include/stdarg.h ../../lib/c/include/stdio.h
+generic/fibril.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/fibril.o: ../../lib/c/include/stdbool.h
+generic/fibril.o: ../../lib/c/include/abi/bool.h
+generic/fibril.o: ../../lib/c/include/io/verify.h
+generic/fibril.o: ../../lib/c/include/abi/klog.h
+generic/fibril.o: ../../lib/c/include/libarch/barrier.h
+generic/fibril.o: ../../lib/c/include/trace.h
+generic/fibril.o: ../../lib/c/include/libarch/faddr.h
+generic/fibril.o: ../../lib/c/include/futex.h ../../lib/c/include/atomic.h
+generic/fibril.o: ../../lib/c/include/libarch/atomic.h
+generic/fibril.o: ../../lib/c/include/atomicdflt.h
+generic/fibril.o: ../../lib/c/include/stdint.h ../../lib/c/include/async.h
+generic/fibril.o: ../../lib/c/include/ipc/common.h
+generic/fibril.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/fibril_synch.o: ../../lib/c/include/fibril_synch.h
+generic/fibril_synch.o: ../../lib/c/include/fibril.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/fibril.h
+generic/fibril_synch.o: ../../lib/c/include/sys/types.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/types.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/common.h
+generic/fibril_synch.o: ../../lib/c/include/adt/list.h
+generic/fibril_synch.o: ../../lib/c/include/assert.h
+generic/fibril_synch.o: ../../lib/c/include/unistd.h
+generic/fibril_synch.o: ../../lib/c/include/time.h
+generic/fibril_synch.o: ../../lib/c/include/sys/time.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/config.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/tls.h
+generic/fibril_synch.o: ../../lib/c/include/libc.h
+generic/fibril_synch.o: ../../lib/c/include/abi/syscall.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/syscall.h
+generic/fibril_synch.o: ../../lib/c/include/stdbool.h
+generic/fibril_synch.o: ../../lib/c/include/abi/bool.h
+generic/fibril_synch.o: ../../lib/c/include/async.h
+generic/fibril_synch.o: ../../lib/c/include/ipc/common.h
+generic/fibril_synch.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/fibril_synch.o: ../../lib/c/include/atomic.h
+generic/fibril_synch.o: ../../lib/c/include/libarch/atomic.h
+generic/fibril_synch.o: ../../lib/c/include/atomicdflt.h
+generic/fibril_synch.o: ../../lib/c/include/stdint.h
+generic/fibril_synch.o: ../../lib/c/include/task.h
+generic/fibril_synch.o: ../../lib/c/include/abi/proc/task.h
+generic/fibril_synch.o: ../../lib/c/include/stdarg.h
+generic/fibril_synch.o: ../../lib/c/include/futex.h
+generic/fibril_synch.o: ../../lib/c/include/errno.h
+generic/fibril_synch.o: ../../lib/c/include/abi/errno.h
+generic/fibril_synch.o: ../../lib/c/include/stacktrace.h
+generic/fibril_synch.o: ../../lib/c/include/stdlib.h
+generic/fibril_synch.o: ../../lib/c/include/malloc.h
+generic/fibril_synch.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/fibril_synch.o: ../../lib/c/include/mem.h
+generic/fibril_synch.o: ../../lib/c/include/io/verify.h
+generic/fibril_synch.o: ../../lib/c/include/abi/klog.h
+generic/fibril_synch.o: generic/private/async.h
+generic/pcb.o: ../../lib/c/include/loader/pcb.h
+generic/pcb.o: ../../lib/c/include/sys/types.h
+generic/pcb.o: ../../lib/c/include/libarch/types.h
+generic/pcb.o: ../../lib/c/include/libarch/common.h
+generic/smc.o: ../../lib/c/include/libc.h ../../lib/c/include/sys/types.h
+generic/smc.o: ../../lib/c/include/libarch/types.h
+generic/smc.o: ../../lib/c/include/libarch/common.h
+generic/smc.o: ../../lib/c/include/abi/syscall.h
+generic/smc.o: ../../lib/c/include/libarch/syscall.h
+generic/smc.o: ../../lib/c/include/smc.h
+generic/thread.o: ../../lib/c/include/thread.h
+generic/thread.o: ../../lib/c/include/libarch/thread.h
+generic/thread.o: ../../lib/c/include/sys/types.h
+generic/thread.o: ../../lib/c/include/libarch/types.h
+generic/thread.o: ../../lib/c/include/libarch/common.h
+generic/thread.o: ../../lib/c/include/abi/proc/thread.h
+generic/thread.o: ../../lib/c/include/libc.h
+generic/thread.o: ../../lib/c/include/abi/syscall.h
+generic/thread.o: ../../lib/c/include/libarch/syscall.h
+generic/thread.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+generic/thread.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/thread.o: ../../lib/c/include/libarch/config.h
+generic/thread.o: ../../lib/c/include/malloc.h
+generic/thread.o: ../../lib/c/include/stacktrace.h
+generic/thread.o: ../../lib/c/include/stdbool.h
+generic/thread.o: ../../lib/c/include/abi/bool.h
+generic/thread.o: ../../lib/c/include/libarch/faddr.h
+generic/thread.o: ../../lib/c/include/abi/proc/uarg.h
+generic/thread.o: ../../lib/c/include/fibril.h
+generic/thread.o: ../../lib/c/include/libarch/fibril.h
+generic/thread.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/thread.o: ../../lib/c/include/libarch/tls.h
+generic/thread.o: ../../lib/c/include/stack.h ../../lib/c/include/str.h
+generic/thread.o: ../../lib/c/include/mem.h ../../lib/c/include/async.h
+generic/thread.o: ../../lib/c/include/ipc/common.h
+generic/thread.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/thread.o: ../../lib/c/include/atomic.h
+generic/thread.o: ../../lib/c/include/libarch/atomic.h
+generic/thread.o: ../../lib/c/include/atomicdflt.h
+generic/thread.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+generic/thread.o: ../../lib/c/include/abi/proc/task.h
+generic/thread.o: ../../lib/c/include/stdarg.h ../../lib/c/include/errno.h
+generic/thread.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/as.h
+generic/thread.o: ../../lib/c/include/abi/mm/as.h generic/private/thread.h
+generic/tls.o: ../../lib/c/include/tls.h ../../lib/c/include/libarch/tls.h
+generic/tls.o: ../../lib/c/include/libc.h ../../lib/c/include/sys/types.h
+generic/tls.o: ../../lib/c/include/libarch/types.h
+generic/tls.o: ../../lib/c/include/libarch/common.h
+generic/tls.o: ../../lib/c/include/abi/syscall.h
+generic/tls.o: ../../lib/c/include/libarch/syscall.h
+generic/tls.o: ../../lib/c/include/malloc.h ../../lib/c/include/str.h
+generic/tls.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/tls.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/align.h
+generic/tls.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/tls.o: ../../lib/c/include/sys/time.h
+generic/tls.o: ../../lib/c/include/libarch/config.h
+generic/task.o: ../../lib/c/include/task.h ../../lib/c/include/sys/types.h
+generic/task.o: ../../lib/c/include/libarch/types.h
+generic/task.o: ../../lib/c/include/libarch/common.h
+generic/task.o: ../../lib/c/include/abi/proc/task.h
+generic/task.o: ../../lib/c/include/stdarg.h
+generic/task.o: ../../lib/c/include/loader/loader.h ../../lib/c/include/str.h
+generic/task.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/task.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/ipc/ns.h
+generic/task.o: ../../lib/c/include/ipc/common.h
+generic/task.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/task.o: ../../lib/c/include/atomic.h
+generic/task.o: ../../lib/c/include/libarch/atomic.h
+generic/task.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/task.o: ../../lib/c/include/macros.h ../../lib/c/include/assert.h
+generic/task.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+generic/task.o: ../../lib/c/include/libarch/fibril.h
+generic/task.o: ../../lib/c/include/adt/list.h ../../lib/c/include/unistd.h
+generic/task.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/task.o: ../../lib/c/include/libarch/config.h
+generic/task.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/task.o: ../../lib/c/include/abi/syscall.h
+generic/task.o: ../../lib/c/include/libarch/syscall.h
+generic/task.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/task.o: ../../lib/c/include/malloc.h generic/private/ns.h
+generic/task.o: ../../lib/c/include/vfs/vfs.h ../../lib/c/include/ipc/vfs.h
+generic/task.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/stdio.h
+generic/task.o: ../../lib/c/include/io/verify.h
+generic/task.o: ../../lib/c/include/abi/klog.h
+generic/task.o: ../../lib/c/include/vfs/vfs_mtab.h
+generic/futex.o: ../../lib/c/include/futex.h ../../lib/c/include/atomic.h
+generic/futex.o: ../../lib/c/include/libarch/atomic.h
+generic/futex.o: ../../lib/c/include/atomicdflt.h
+generic/futex.o: ../../lib/c/include/stdint.h
+generic/futex.o: ../../lib/c/include/libarch/types.h
+generic/futex.o: ../../lib/c/include/libarch/common.h
+generic/futex.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/futex.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libc.h
+generic/futex.o: ../../lib/c/include/abi/syscall.h
+generic/futex.o: ../../lib/c/include/libarch/syscall.h
+generic/inet.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+generic/inet.o: ../../lib/c/include/sys/types.h
+generic/inet.o: ../../lib/c/include/libarch/types.h
+generic/inet.o: ../../lib/c/include/libarch/common.h
+generic/inet.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/inet.o: ../../lib/c/include/atomic.h
+generic/inet.o: ../../lib/c/include/libarch/atomic.h
+generic/inet.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/inet.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/inet.o: ../../lib/c/include/task.h
+generic/inet.o: ../../lib/c/include/abi/proc/task.h
+generic/inet.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/inet.o: ../../lib/c/include/libarch/fibril.h
+generic/inet.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/inet.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/inet.o: ../../lib/c/include/sys/time.h
+generic/inet.o: ../../lib/c/include/libarch/config.h
+generic/inet.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/inet.o: ../../lib/c/include/abi/syscall.h
+generic/inet.o: ../../lib/c/include/libarch/syscall.h
+generic/inet.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/inet.o: ../../lib/c/include/inet/inet.h
+generic/inet.o: ../../lib/c/include/ipc/inet.h
+generic/inet.o: ../../lib/c/include/ipc/services.h
+generic/inet.o: ../../lib/c/include/fourcc.h ../../lib/c/include/loc.h
+generic/inet.o: ../../lib/c/include/ipc/loc.h
+generic/inetcfg.o: ../../lib/c/include/async.h
+generic/inetcfg.o: ../../lib/c/include/ipc/common.h
+generic/inetcfg.o: ../../lib/c/include/sys/types.h
+generic/inetcfg.o: ../../lib/c/include/libarch/types.h
+generic/inetcfg.o: ../../lib/c/include/libarch/common.h
+generic/inetcfg.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/inetcfg.o: ../../lib/c/include/atomic.h
+generic/inetcfg.o: ../../lib/c/include/libarch/atomic.h
+generic/inetcfg.o: ../../lib/c/include/atomicdflt.h
+generic/inetcfg.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/inetcfg.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/inetcfg.o: ../../lib/c/include/abi/proc/task.h
+generic/inetcfg.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/inetcfg.o: ../../lib/c/include/libarch/fibril.h
+generic/inetcfg.o: ../../lib/c/include/adt/list.h
+generic/inetcfg.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/inetcfg.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/inetcfg.o: ../../lib/c/include/libarch/config.h
+generic/inetcfg.o: ../../lib/c/include/libarch/tls.h
+generic/inetcfg.o: ../../lib/c/include/libc.h
+generic/inetcfg.o: ../../lib/c/include/abi/syscall.h
+generic/inetcfg.o: ../../lib/c/include/libarch/syscall.h
+generic/inetcfg.o: ../../lib/c/include/errno.h
+generic/inetcfg.o: ../../lib/c/include/abi/errno.h
+generic/inetcfg.o: ../../lib/c/include/inet/inetcfg.h
+generic/inetcfg.o: ../../lib/c/include/inet/inet.h
+generic/inetcfg.o: ../../lib/c/include/ipc/inet.h
+generic/inetcfg.o: ../../lib/c/include/ipc/services.h
+generic/inetcfg.o: ../../lib/c/include/fourcc.h ../../lib/c/include/loc.h
+generic/inetcfg.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/stdlib.h
+generic/inetcfg.o: ../../lib/c/include/malloc.h
+generic/inetcfg.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/str.h
+generic/inetcfg.o: ../../lib/c/include/mem.h
+generic/inetping.o: ../../lib/c/include/async.h
+generic/inetping.o: ../../lib/c/include/ipc/common.h
+generic/inetping.o: ../../lib/c/include/sys/types.h
+generic/inetping.o: ../../lib/c/include/libarch/types.h
+generic/inetping.o: ../../lib/c/include/libarch/common.h
+generic/inetping.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/inetping.o: ../../lib/c/include/atomic.h
+generic/inetping.o: ../../lib/c/include/libarch/atomic.h
+generic/inetping.o: ../../lib/c/include/atomicdflt.h
+generic/inetping.o: ../../lib/c/include/stdint.h
+generic/inetping.o: ../../lib/c/include/stdbool.h
+generic/inetping.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/inetping.o: ../../lib/c/include/abi/proc/task.h
+generic/inetping.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/inetping.o: ../../lib/c/include/libarch/fibril.h
+generic/inetping.o: ../../lib/c/include/adt/list.h
+generic/inetping.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/inetping.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/inetping.o: ../../lib/c/include/libarch/config.h
+generic/inetping.o: ../../lib/c/include/libarch/tls.h
+generic/inetping.o: ../../lib/c/include/libc.h
+generic/inetping.o: ../../lib/c/include/abi/syscall.h
+generic/inetping.o: ../../lib/c/include/libarch/syscall.h
+generic/inetping.o: ../../lib/c/include/errno.h
+generic/inetping.o: ../../lib/c/include/abi/errno.h
+generic/inetping.o: ../../lib/c/include/inet/inetping.h
+generic/inetping.o: ../../lib/c/include/inet/inet.h
+generic/inetping.o: ../../lib/c/include/ipc/inet.h
+generic/inetping.o: ../../lib/c/include/ipc/services.h
+generic/inetping.o: ../../lib/c/include/fourcc.h ../../lib/c/include/loc.h
+generic/inetping.o: ../../lib/c/include/ipc/loc.h
+generic/inetping.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/inetping.o: ../../lib/c/include/stacktrace.h
+generic/inetping.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/io/asprintf.o: ../../lib/c/include/stdarg.h
+generic/io/asprintf.o: ../../lib/c/include/sys/types.h
+generic/io/asprintf.o: ../../lib/c/include/libarch/types.h
+generic/io/asprintf.o: ../../lib/c/include/libarch/common.h
+generic/io/asprintf.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/asprintf.o: ../../lib/c/include/mem.h
+generic/io/asprintf.o: ../../lib/c/include/stdbool.h
+generic/io/asprintf.o: ../../lib/c/include/abi/bool.h
+generic/io/asprintf.o: ../../lib/c/include/io/verify.h
+generic/io/asprintf.o: ../../lib/c/include/abi/klog.h
+generic/io/asprintf.o: ../../lib/c/include/stdlib.h
+generic/io/asprintf.o: ../../lib/c/include/unistd.h
+generic/io/asprintf.o: ../../lib/c/include/time.h
+generic/io/asprintf.o: ../../lib/c/include/sys/time.h
+generic/io/asprintf.o: ../../lib/c/include/libarch/config.h
+generic/io/asprintf.o: ../../lib/c/include/malloc.h
+generic/io/asprintf.o: ../../lib/c/include/stacktrace.h
+generic/io/asprintf.o: ../../lib/c/include/io/printf_core.h
+generic/io/input.o: ../../lib/c/include/async.h
+generic/io/input.o: ../../lib/c/include/ipc/common.h
+generic/io/input.o: ../../lib/c/include/sys/types.h
+generic/io/input.o: ../../lib/c/include/libarch/types.h
+generic/io/input.o: ../../lib/c/include/libarch/common.h
+generic/io/input.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/input.o: ../../lib/c/include/atomic.h
+generic/io/input.o: ../../lib/c/include/libarch/atomic.h
+generic/io/input.o: ../../lib/c/include/atomicdflt.h
+generic/io/input.o: ../../lib/c/include/stdint.h
+generic/io/input.o: ../../lib/c/include/stdbool.h
+generic/io/input.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/io/input.o: ../../lib/c/include/abi/proc/task.h
+generic/io/input.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/io/input.o: ../../lib/c/include/libarch/fibril.h
+generic/io/input.o: ../../lib/c/include/adt/list.h
+generic/io/input.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/io/input.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/io/input.o: ../../lib/c/include/libarch/config.h
+generic/io/input.o: ../../lib/c/include/libarch/tls.h
+generic/io/input.o: ../../lib/c/include/libc.h
+generic/io/input.o: ../../lib/c/include/abi/syscall.h
+generic/io/input.o: ../../lib/c/include/libarch/syscall.h
+generic/io/input.o: ../../lib/c/include/errno.h
+generic/io/input.o: ../../lib/c/include/abi/errno.h
+generic/io/input.o: ../../lib/c/include/io/kbd_event.h
+generic/io/input.o: ../../lib/c/include/io/keycode.h
+generic/io/input.o: ../../lib/c/include/io/input.h
+generic/io/input.o: ../../lib/c/include/ipc/input.h
+generic/io/input.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/io/input.o: ../../lib/c/include/stacktrace.h
+generic/io/io.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+generic/io/io.o: ../../lib/c/include/libarch/types.h
+generic/io/io.o: ../../lib/c/include/libarch/common.h
+generic/io/io.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/io/io.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/io/io.o: ../../lib/c/include/abi/bool.h
+generic/io/io.o: ../../lib/c/include/io/verify.h
+generic/io/io.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/unistd.h
+generic/io/io.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/io/io.o: ../../lib/c/include/libarch/config.h
+generic/io/io.o: ../../lib/c/include/fcntl.h ../../lib/c/include/assert.h
+generic/io/io.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/io/io.o: ../../lib/c/include/malloc.h ../../lib/c/include/async.h
+generic/io/io.o: ../../lib/c/include/ipc/common.h
+generic/io/io.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/io.o: ../../lib/c/include/atomic.h
+generic/io/io.o: ../../lib/c/include/libarch/atomic.h
+generic/io/io.o: ../../lib/c/include/atomicdflt.h
+generic/io/io.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+generic/io/io.o: ../../lib/c/include/abi/proc/task.h
+generic/io/io.o: ../../lib/c/include/fibril.h
+generic/io/io.o: ../../lib/c/include/libarch/fibril.h
+generic/io/io.o: ../../lib/c/include/adt/list.h
+generic/io/io.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/io/io.o: ../../lib/c/include/abi/syscall.h
+generic/io/io.o: ../../lib/c/include/libarch/syscall.h
+generic/io/io.o: ../../lib/c/include/io/klog.h ../../lib/c/include/vfs/vfs.h
+generic/io/io.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/loc.h
+generic/io/io.o: ../../lib/c/include/vfs/vfs_mtab.h
+generic/io/io.o: ../../lib/c/include/vfs/vfs_sess.h generic/private/io.h
+generic/io/io.o: generic/private/stdio.h
+generic/io/chargrid.o: ../../lib/c/include/io/style.h
+generic/io/chargrid.o: ../../lib/c/include/malloc.h
+generic/io/chargrid.o: ../../lib/c/include/sys/types.h
+generic/io/chargrid.o: ../../lib/c/include/libarch/types.h
+generic/io/chargrid.o: ../../lib/c/include/libarch/common.h
+generic/io/chargrid.o: ../../lib/c/include/unistd.h
+generic/io/chargrid.o: ../../lib/c/include/time.h
+generic/io/chargrid.o: ../../lib/c/include/sys/time.h
+generic/io/chargrid.o: ../../lib/c/include/libarch/config.h
+generic/io/chargrid.o: ../../lib/c/include/assert.h
+generic/io/chargrid.o: ../../lib/c/include/stdbool.h
+generic/io/chargrid.o: ../../lib/c/include/abi/bool.h
+generic/io/chargrid.o: ../../lib/c/include/as.h
+generic/io/chargrid.o: ../../lib/c/include/abi/mm/as.h
+generic/io/chargrid.o: ../../lib/c/include/task.h
+generic/io/chargrid.o: ../../lib/c/include/abi/proc/task.h
+generic/io/chargrid.o: ../../lib/c/include/stdarg.h
+generic/io/chargrid.o: ../../lib/c/include/io/chargrid.h
+generic/io/chargrid.o: ../../lib/c/include/io/charfield.h
+generic/io/chargrid.o: ../../lib/c/include/io/color.h
+generic/io/chargrid.o: ../../lib/c/include/io/pixel.h
+generic/io/output.o: ../../lib/c/include/async.h
+generic/io/output.o: ../../lib/c/include/ipc/common.h
+generic/io/output.o: ../../lib/c/include/sys/types.h
+generic/io/output.o: ../../lib/c/include/libarch/types.h
+generic/io/output.o: ../../lib/c/include/libarch/common.h
+generic/io/output.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/output.o: ../../lib/c/include/atomic.h
+generic/io/output.o: ../../lib/c/include/libarch/atomic.h
+generic/io/output.o: ../../lib/c/include/atomicdflt.h
+generic/io/output.o: ../../lib/c/include/stdint.h
+generic/io/output.o: ../../lib/c/include/stdbool.h
+generic/io/output.o: ../../lib/c/include/abi/bool.h
+generic/io/output.o: ../../lib/c/include/task.h
+generic/io/output.o: ../../lib/c/include/abi/proc/task.h
+generic/io/output.o: ../../lib/c/include/stdarg.h
+generic/io/output.o: ../../lib/c/include/fibril.h
+generic/io/output.o: ../../lib/c/include/libarch/fibril.h
+generic/io/output.o: ../../lib/c/include/adt/list.h
+generic/io/output.o: ../../lib/c/include/assert.h
+generic/io/output.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/io/output.o: ../../lib/c/include/sys/time.h
+generic/io/output.o: ../../lib/c/include/libarch/config.h
+generic/io/output.o: ../../lib/c/include/libarch/tls.h
+generic/io/output.o: ../../lib/c/include/libc.h
+generic/io/output.o: ../../lib/c/include/abi/syscall.h
+generic/io/output.o: ../../lib/c/include/libarch/syscall.h
+generic/io/output.o: ../../lib/c/include/errno.h
+generic/io/output.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/as.h
+generic/io/output.o: ../../lib/c/include/abi/mm/as.h
+generic/io/output.o: ../../lib/c/include/ipc/output.h
+generic/io/output.o: ../../lib/c/include/io/concaps.h
+generic/io/output.o: ../../lib/c/include/io/output.h
+generic/io/output.o: ../../lib/c/include/io/chargrid.h
+generic/io/output.o: ../../lib/c/include/io/charfield.h
+generic/io/output.o: ../../lib/c/include/io/color.h
+generic/io/output.o: ../../lib/c/include/io/style.h
+generic/io/output.o: ../../lib/c/include/io/pixel.h
+generic/io/output.o: ../../lib/c/include/io/console.h
+generic/io/output.o: ../../lib/c/include/io/kbd_event.h
+generic/io/output.o: ../../lib/c/include/io/keycode.h
+generic/io/output.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/output.o: ../../lib/c/include/mem.h
+generic/io/output.o: ../../lib/c/include/io/verify.h
+generic/io/output.o: ../../lib/c/include/abi/klog.h
+generic/io/printf.o: ../../lib/c/include/io/printf_core.h
+generic/io/printf.o: ../../lib/c/include/sys/types.h
+generic/io/printf.o: ../../lib/c/include/libarch/types.h
+generic/io/printf.o: ../../lib/c/include/libarch/common.h
+generic/io/printf.o: ../../lib/c/include/stdarg.h ../../lib/c/include/stdio.h
+generic/io/printf.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/io/printf.o: ../../lib/c/include/stdbool.h
+generic/io/printf.o: ../../lib/c/include/abi/bool.h
+generic/io/printf.o: ../../lib/c/include/io/verify.h
+generic/io/printf.o: ../../lib/c/include/abi/klog.h
+generic/io/log.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+generic/io/log.o: ../../lib/c/include/abi/errno.h
+generic/io/log.o: ../../lib/c/include/fibril_synch.h
+generic/io/log.o: ../../lib/c/include/fibril.h
+generic/io/log.o: ../../lib/c/include/libarch/fibril.h
+generic/io/log.o: ../../lib/c/include/sys/types.h
+generic/io/log.o: ../../lib/c/include/libarch/types.h
+generic/io/log.o: ../../lib/c/include/libarch/common.h
+generic/io/log.o: ../../lib/c/include/adt/list.h ../../lib/c/include/unistd.h
+generic/io/log.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/io/log.o: ../../lib/c/include/libarch/config.h
+generic/io/log.o: ../../lib/c/include/libarch/tls.h
+generic/io/log.o: ../../lib/c/include/libc.h
+generic/io/log.o: ../../lib/c/include/abi/syscall.h
+generic/io/log.o: ../../lib/c/include/libarch/syscall.h
+generic/io/log.o: ../../lib/c/include/stdbool.h
+generic/io/log.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/stdarg.h
+generic/io/log.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/io/log.o: ../../lib/c/include/stacktrace.h
+generic/io/log.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/log.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+generic/io/log.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/async.h
+generic/io/log.o: ../../lib/c/include/ipc/common.h
+generic/io/log.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/log.o: ../../lib/c/include/atomic.h
+generic/io/log.o: ../../lib/c/include/libarch/atomic.h
+generic/io/log.o: ../../lib/c/include/atomicdflt.h
+generic/io/log.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+generic/io/log.o: ../../lib/c/include/abi/proc/task.h
+generic/io/log.o: ../../lib/c/include/io/log.h ../../lib/c/include/inttypes.h
+generic/io/log.o: ../../lib/c/include/libarch/inttypes.h
+generic/io/log.o: ../../lib/c/include/ipc/logger.h ../../lib/c/include/ns.h
+generic/io/log.o: ../../lib/c/include/ipc/services.h
+generic/io/log.o: ../../lib/c/include/fourcc.h
+generic/io/logctl.o: ../../lib/c/include/assert.h
+generic/io/logctl.o: ../../lib/c/include/unistd.h
+generic/io/logctl.o: ../../lib/c/include/sys/types.h
+generic/io/logctl.o: ../../lib/c/include/libarch/types.h
+generic/io/logctl.o: ../../lib/c/include/libarch/common.h
+generic/io/logctl.o: ../../lib/c/include/time.h
+generic/io/logctl.o: ../../lib/c/include/sys/time.h
+generic/io/logctl.o: ../../lib/c/include/libarch/config.h
+generic/io/logctl.o: ../../lib/c/include/errno.h
+generic/io/logctl.o: ../../lib/c/include/abi/errno.h
+generic/io/logctl.o: ../../lib/c/include/io/logctl.h
+generic/io/logctl.o: ../../lib/c/include/io/log.h
+generic/io/logctl.o: ../../lib/c/include/stdarg.h
+generic/io/logctl.o: ../../lib/c/include/inttypes.h
+generic/io/logctl.o: ../../lib/c/include/libarch/inttypes.h
+generic/io/logctl.o: ../../lib/c/include/io/verify.h
+generic/io/logctl.o: ../../lib/c/include/ipc/logger.h
+generic/io/logctl.o: ../../lib/c/include/ipc/common.h
+generic/io/logctl.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/logctl.o: ../../lib/c/include/atomic.h
+generic/io/logctl.o: ../../lib/c/include/libarch/atomic.h
+generic/io/logctl.o: ../../lib/c/include/atomicdflt.h
+generic/io/logctl.o: ../../lib/c/include/stdint.h
+generic/io/logctl.o: ../../lib/c/include/stdbool.h
+generic/io/logctl.o: ../../lib/c/include/abi/bool.h
+generic/io/logctl.o: ../../lib/c/include/task.h
+generic/io/logctl.o: ../../lib/c/include/abi/proc/task.h
+generic/io/logctl.o: ../../lib/c/include/sysinfo.h
+generic/io/logctl.o: ../../lib/c/include/abi/sysinfo.h
+generic/io/logctl.o: ../../lib/c/include/abi/proc/thread.h
+generic/io/logctl.o: ../../lib/c/include/ns.h
+generic/io/logctl.o: ../../lib/c/include/ipc/services.h
+generic/io/logctl.o: ../../lib/c/include/fourcc.h ../../lib/c/include/async.h
+generic/io/logctl.o: ../../lib/c/include/fibril.h
+generic/io/logctl.o: ../../lib/c/include/libarch/fibril.h
+generic/io/logctl.o: ../../lib/c/include/adt/list.h
+generic/io/logctl.o: ../../lib/c/include/libarch/tls.h
+generic/io/logctl.o: ../../lib/c/include/libc.h
+generic/io/logctl.o: ../../lib/c/include/abi/syscall.h
+generic/io/logctl.o: ../../lib/c/include/libarch/syscall.h
+generic/io/logctl.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/io/klog.o: ../../lib/c/include/libc.h ../../lib/c/include/sys/types.h
+generic/io/klog.o: ../../lib/c/include/libarch/types.h
+generic/io/klog.o: ../../lib/c/include/libarch/common.h
+generic/io/klog.o: ../../lib/c/include/abi/syscall.h
+generic/io/klog.o: ../../lib/c/include/libarch/syscall.h
+generic/io/klog.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/io/klog.o: ../../lib/c/include/stdbool.h
+generic/io/klog.o: ../../lib/c/include/abi/bool.h
+generic/io/klog.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/io/klog.o: ../../lib/c/include/sys/time.h
+generic/io/klog.o: ../../lib/c/include/libarch/config.h
+generic/io/klog.o: ../../lib/c/include/errno.h
+generic/io/klog.o: ../../lib/c/include/abi/errno.h
+generic/io/klog.o: ../../lib/c/include/abi/klog.h
+generic/io/klog.o: ../../lib/c/include/io/klog.h ../../lib/c/include/stdarg.h
+generic/io/klog.o: ../../lib/c/include/io/verify.h
+generic/io/klog.o: ../../lib/c/include/io/printf_core.h
+generic/io/snprintf.o: ../../lib/c/include/stdarg.h
+generic/io/snprintf.o: ../../lib/c/include/sys/types.h
+generic/io/snprintf.o: ../../lib/c/include/libarch/types.h
+generic/io/snprintf.o: ../../lib/c/include/libarch/common.h
+generic/io/snprintf.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/snprintf.o: ../../lib/c/include/mem.h
+generic/io/snprintf.o: ../../lib/c/include/stdbool.h
+generic/io/snprintf.o: ../../lib/c/include/abi/bool.h
+generic/io/snprintf.o: ../../lib/c/include/io/verify.h
+generic/io/snprintf.o: ../../lib/c/include/abi/klog.h
+generic/io/snprintf.o: ../../lib/c/include/io/printf_core.h
+generic/io/vprintf.o: ../../lib/c/include/stdarg.h
+generic/io/vprintf.o: ../../lib/c/include/sys/types.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/types.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/common.h
+generic/io/vprintf.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/vprintf.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/io/vprintf.o: ../../lib/c/include/abi/bool.h
+generic/io/vprintf.o: ../../lib/c/include/io/verify.h
+generic/io/vprintf.o: ../../lib/c/include/abi/klog.h
+generic/io/vprintf.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/io/vprintf.o: ../../lib/c/include/sys/time.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/config.h
+generic/io/vprintf.o: ../../lib/c/include/io/printf_core.h
+generic/io/vprintf.o: ../../lib/c/include/fibril_synch.h
+generic/io/vprintf.o: ../../lib/c/include/fibril.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/fibril.h
+generic/io/vprintf.o: ../../lib/c/include/adt/list.h
+generic/io/vprintf.o: ../../lib/c/include/assert.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/tls.h
+generic/io/vprintf.o: ../../lib/c/include/libc.h
+generic/io/vprintf.o: ../../lib/c/include/abi/syscall.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/syscall.h
+generic/io/vprintf.o: ../../lib/c/include/async.h
+generic/io/vprintf.o: ../../lib/c/include/ipc/common.h
+generic/io/vprintf.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/vprintf.o: ../../lib/c/include/atomic.h
+generic/io/vprintf.o: ../../lib/c/include/libarch/atomic.h
+generic/io/vprintf.o: ../../lib/c/include/atomicdflt.h
+generic/io/vprintf.o: ../../lib/c/include/stdint.h ../../lib/c/include/task.h
+generic/io/vprintf.o: ../../lib/c/include/abi/proc/task.h
+generic/io/vsnprintf.o: ../../lib/c/include/stdarg.h
+generic/io/vsnprintf.o: ../../lib/c/include/sys/types.h
+generic/io/vsnprintf.o: ../../lib/c/include/libarch/types.h
+generic/io/vsnprintf.o: ../../lib/c/include/libarch/common.h
+generic/io/vsnprintf.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/vsnprintf.o: ../../lib/c/include/mem.h
+generic/io/vsnprintf.o: ../../lib/c/include/stdbool.h
+generic/io/vsnprintf.o: ../../lib/c/include/abi/bool.h
+generic/io/vsnprintf.o: ../../lib/c/include/io/verify.h
+generic/io/vsnprintf.o: ../../lib/c/include/abi/klog.h
+generic/io/vsnprintf.o: ../../lib/c/include/io/printf_core.h
+generic/io/vsnprintf.o: ../../lib/c/include/errno.h
+generic/io/vsnprintf.o: ../../lib/c/include/abi/errno.h
+generic/io/printf_core.o: ../../lib/c/include/unistd.h
+generic/io/printf_core.o: ../../lib/c/include/sys/types.h
+generic/io/printf_core.o: ../../lib/c/include/libarch/types.h
+generic/io/printf_core.o: ../../lib/c/include/libarch/common.h
+generic/io/printf_core.o: ../../lib/c/include/time.h
+generic/io/printf_core.o: ../../lib/c/include/sys/time.h
+generic/io/printf_core.o: ../../lib/c/include/libarch/config.h
+generic/io/printf_core.o: ../../lib/c/include/stdio.h
+generic/io/printf_core.o: ../../lib/c/include/stdarg.h
+generic/io/printf_core.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/io/printf_core.o: ../../lib/c/include/stdbool.h
+generic/io/printf_core.o: ../../lib/c/include/abi/bool.h
+generic/io/printf_core.o: ../../lib/c/include/io/verify.h
+generic/io/printf_core.o: ../../lib/c/include/abi/klog.h
+generic/io/printf_core.o: ../../lib/c/include/io/printf_core.h
+generic/io/printf_core.o: ../../lib/c/include/ctype.h
+generic/io/printf_core.o: ../../lib/c/include/double_to_str.h
+generic/io/printf_core.o: ../../lib/c/include/ieee_double.h
+generic/io/printf_core.o: ../../lib/c/include/stdint.h
+generic/io/printf_core.o: ../../lib/c/include/assert.h
+generic/io/printf_core.o: ../../lib/c/include/macros.h
+generic/io/con_srv.o: ../../lib/c/include/errno.h
+generic/io/con_srv.o: ../../lib/c/include/abi/errno.h
+generic/io/con_srv.o: ../../lib/c/include/ipc/console.h
+generic/io/con_srv.o: ../../lib/c/include/ipc/vfs.h
+generic/io/con_srv.o: ../../lib/c/include/ipc/common.h
+generic/io/con_srv.o: ../../lib/c/include/sys/types.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/types.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/common.h
+generic/io/con_srv.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/con_srv.o: ../../lib/c/include/atomic.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/atomic.h
+generic/io/con_srv.o: ../../lib/c/include/atomicdflt.h
+generic/io/con_srv.o: ../../lib/c/include/stdint.h
+generic/io/con_srv.o: ../../lib/c/include/stdbool.h
+generic/io/con_srv.o: ../../lib/c/include/abi/bool.h
+generic/io/con_srv.o: ../../lib/c/include/task.h
+generic/io/con_srv.o: ../../lib/c/include/abi/proc/task.h
+generic/io/con_srv.o: ../../lib/c/include/stdarg.h
+generic/io/con_srv.o: ../../lib/c/include/stdlib.h
+generic/io/con_srv.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/io/con_srv.o: ../../lib/c/include/sys/time.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/config.h
+generic/io/con_srv.o: ../../lib/c/include/malloc.h
+generic/io/con_srv.o: ../../lib/c/include/stacktrace.h
+generic/io/con_srv.o: ../../lib/c/include/io/con_srv.h
+generic/io/con_srv.o: ../../lib/c/include/adt/list.h
+generic/io/con_srv.o: ../../lib/c/include/assert.h
+generic/io/con_srv.o: ../../lib/c/include/async.h
+generic/io/con_srv.o: ../../lib/c/include/fibril.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/fibril.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/tls.h
+generic/io/con_srv.o: ../../lib/c/include/libc.h
+generic/io/con_srv.o: ../../lib/c/include/abi/syscall.h
+generic/io/con_srv.o: ../../lib/c/include/libarch/syscall.h
+generic/io/con_srv.o: ../../lib/c/include/fibril_synch.h
+generic/io/con_srv.o: ../../lib/c/include/io/color.h
+generic/io/con_srv.o: ../../lib/c/include/io/concaps.h
+generic/io/con_srv.o: ../../lib/c/include/io/kbd_event.h
+generic/io/con_srv.o: ../../lib/c/include/io/keycode.h
+generic/io/con_srv.o: ../../lib/c/include/io/pixel.h
+generic/io/con_srv.o: ../../lib/c/include/io/style.h
+generic/io/console.o: ../../lib/c/include/libc.h
+generic/io/console.o: ../../lib/c/include/sys/types.h
+generic/io/console.o: ../../lib/c/include/libarch/types.h
+generic/io/console.o: ../../lib/c/include/libarch/common.h
+generic/io/console.o: ../../lib/c/include/abi/syscall.h
+generic/io/console.o: ../../lib/c/include/libarch/syscall.h
+generic/io/console.o: ../../lib/c/include/async.h
+generic/io/console.o: ../../lib/c/include/ipc/common.h
+generic/io/console.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/console.o: ../../lib/c/include/atomic.h
+generic/io/console.o: ../../lib/c/include/libarch/atomic.h
+generic/io/console.o: ../../lib/c/include/atomicdflt.h
+generic/io/console.o: ../../lib/c/include/stdint.h
+generic/io/console.o: ../../lib/c/include/stdbool.h
+generic/io/console.o: ../../lib/c/include/abi/bool.h
+generic/io/console.o: ../../lib/c/include/task.h
+generic/io/console.o: ../../lib/c/include/abi/proc/task.h
+generic/io/console.o: ../../lib/c/include/stdarg.h
+generic/io/console.o: ../../lib/c/include/fibril.h
+generic/io/console.o: ../../lib/c/include/libarch/fibril.h
+generic/io/console.o: ../../lib/c/include/adt/list.h
+generic/io/console.o: ../../lib/c/include/assert.h
+generic/io/console.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/io/console.o: ../../lib/c/include/sys/time.h
+generic/io/console.o: ../../lib/c/include/libarch/config.h
+generic/io/console.o: ../../lib/c/include/libarch/tls.h
+generic/io/console.o: ../../lib/c/include/errno.h
+generic/io/console.o: ../../lib/c/include/abi/errno.h
+generic/io/console.o: ../../lib/c/include/malloc.h
+generic/io/console.o: ../../lib/c/include/vfs/vfs_sess.h
+generic/io/console.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/console.o: ../../lib/c/include/mem.h
+generic/io/console.o: ../../lib/c/include/io/verify.h
+generic/io/console.o: ../../lib/c/include/abi/klog.h
+generic/io/console.o: ../../lib/c/include/io/console.h
+generic/io/console.o: ../../lib/c/include/io/concaps.h
+generic/io/console.o: ../../lib/c/include/io/kbd_event.h
+generic/io/console.o: ../../lib/c/include/io/keycode.h
+generic/io/console.o: ../../lib/c/include/ipc/console.h
+generic/io/console.o: ../../lib/c/include/ipc/vfs.h
+generic/io/visualizer.o: ../../lib/c/include/errno.h
+generic/io/visualizer.o: ../../lib/c/include/abi/errno.h
+generic/io/visualizer.o: ../../lib/c/include/as.h
+generic/io/visualizer.o: ../../lib/c/include/sys/types.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/types.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/common.h
+generic/io/visualizer.o: ../../lib/c/include/abi/mm/as.h
+generic/io/visualizer.o: ../../lib/c/include/task.h
+generic/io/visualizer.o: ../../lib/c/include/abi/proc/task.h
+generic/io/visualizer.o: ../../lib/c/include/stdarg.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/config.h
+generic/io/visualizer.o: ../../lib/c/include/ipc/graph.h
+generic/io/visualizer.o: ../../lib/c/include/ipc/common.h
+generic/io/visualizer.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/visualizer.o: ../../lib/c/include/atomic.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/atomic.h
+generic/io/visualizer.o: ../../lib/c/include/atomicdflt.h
+generic/io/visualizer.o: ../../lib/c/include/stdint.h
+generic/io/visualizer.o: ../../lib/c/include/stdbool.h
+generic/io/visualizer.o: ../../lib/c/include/abi/bool.h
+generic/io/visualizer.o: ../../lib/c/include/io/visualizer.h
+generic/io/visualizer.o: ../../lib/c/include/async.h
+generic/io/visualizer.o: ../../lib/c/include/fibril.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/fibril.h
+generic/io/visualizer.o: ../../lib/c/include/adt/list.h
+generic/io/visualizer.o: ../../lib/c/include/assert.h
+generic/io/visualizer.o: ../../lib/c/include/unistd.h
+generic/io/visualizer.o: ../../lib/c/include/time.h
+generic/io/visualizer.o: ../../lib/c/include/sys/time.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/tls.h
+generic/io/visualizer.o: ../../lib/c/include/libc.h
+generic/io/visualizer.o: ../../lib/c/include/abi/syscall.h
+generic/io/visualizer.o: ../../lib/c/include/libarch/syscall.h
+generic/io/visualizer.o: ../../lib/c/include/io/mode.h
+generic/io/visualizer.o: ../../lib/c/include/abi/fb/visuals.h
+generic/io/visualizer.o: ../../lib/c/include/io/pixel.h
+generic/io/visualizer.o: ../../lib/c/include/io/charfield.h
+generic/io/visualizer.o: ../../lib/c/include/io/color.h
+generic/io/visualizer.o: ../../lib/c/include/io/style.h
+generic/io/window.o: ../../lib/c/include/errno.h
+generic/io/window.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/as.h
+generic/io/window.o: ../../lib/c/include/sys/types.h
+generic/io/window.o: ../../lib/c/include/libarch/types.h
+generic/io/window.o: ../../lib/c/include/libarch/common.h
+generic/io/window.o: ../../lib/c/include/abi/mm/as.h
+generic/io/window.o: ../../lib/c/include/task.h
+generic/io/window.o: ../../lib/c/include/abi/proc/task.h
+generic/io/window.o: ../../lib/c/include/stdarg.h
+generic/io/window.o: ../../lib/c/include/libarch/config.h
+generic/io/window.o: ../../lib/c/include/ipc/window.h
+generic/io/window.o: ../../lib/c/include/ipc/vfs.h
+generic/io/window.o: ../../lib/c/include/ipc/common.h
+generic/io/window.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/io/window.o: ../../lib/c/include/atomic.h
+generic/io/window.o: ../../lib/c/include/libarch/atomic.h
+generic/io/window.o: ../../lib/c/include/atomicdflt.h
+generic/io/window.o: ../../lib/c/include/stdint.h
+generic/io/window.o: ../../lib/c/include/stdbool.h
+generic/io/window.o: ../../lib/c/include/abi/bool.h
+generic/io/window.o: ../../lib/c/include/io/window.h
+generic/io/window.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+generic/io/window.o: ../../lib/c/include/libarch/fibril.h
+generic/io/window.o: ../../lib/c/include/adt/list.h
+generic/io/window.o: ../../lib/c/include/assert.h
+generic/io/window.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/io/window.o: ../../lib/c/include/sys/time.h
+generic/io/window.o: ../../lib/c/include/libarch/tls.h
+generic/io/window.o: ../../lib/c/include/libc.h
+generic/io/window.o: ../../lib/c/include/abi/syscall.h
+generic/io/window.o: ../../lib/c/include/libarch/syscall.h
+generic/io/window.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+generic/io/window.o: ../../lib/c/include/io/console.h
+generic/io/window.o: ../../lib/c/include/io/concaps.h
+generic/io/window.o: ../../lib/c/include/io/kbd_event.h
+generic/io/window.o: ../../lib/c/include/io/keycode.h
+generic/io/window.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/io/window.o: ../../lib/c/include/mem.h
+generic/io/window.o: ../../lib/c/include/io/verify.h
+generic/io/window.o: ../../lib/c/include/abi/klog.h
+generic/iplink.o: ../../lib/c/include/async.h
+generic/iplink.o: ../../lib/c/include/ipc/common.h
+generic/iplink.o: ../../lib/c/include/sys/types.h
+generic/iplink.o: ../../lib/c/include/libarch/types.h
+generic/iplink.o: ../../lib/c/include/libarch/common.h
+generic/iplink.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/iplink.o: ../../lib/c/include/atomic.h
+generic/iplink.o: ../../lib/c/include/libarch/atomic.h
+generic/iplink.o: ../../lib/c/include/atomicdflt.h
+generic/iplink.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/iplink.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/iplink.o: ../../lib/c/include/abi/proc/task.h
+generic/iplink.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/iplink.o: ../../lib/c/include/libarch/fibril.h
+generic/iplink.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/iplink.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/iplink.o: ../../lib/c/include/sys/time.h
+generic/iplink.o: ../../lib/c/include/libarch/config.h
+generic/iplink.o: ../../lib/c/include/libarch/tls.h
+generic/iplink.o: ../../lib/c/include/libc.h
+generic/iplink.o: ../../lib/c/include/abi/syscall.h
+generic/iplink.o: ../../lib/c/include/libarch/syscall.h
+generic/iplink.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/iplink.o: ../../lib/c/include/inet/iplink.h
+generic/iplink.o: ../../lib/c/include/ipc/iplink.h
+generic/iplink.o: ../../lib/c/include/ipc/services.h
+generic/iplink.o: ../../lib/c/include/fourcc.h ../../lib/c/include/loc.h
+generic/iplink.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/stdlib.h
+generic/iplink.o: ../../lib/c/include/malloc.h
+generic/iplink.o: ../../lib/c/include/stacktrace.h
+generic/iplink_srv.o: ../../lib/c/include/errno.h
+generic/iplink_srv.o: ../../lib/c/include/abi/errno.h
+generic/iplink_srv.o: ../../lib/c/include/ipc/iplink.h
+generic/iplink_srv.o: ../../lib/c/include/ipc/common.h
+generic/iplink_srv.o: ../../lib/c/include/sys/types.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/types.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/common.h
+generic/iplink_srv.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/iplink_srv.o: ../../lib/c/include/atomic.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/atomic.h
+generic/iplink_srv.o: ../../lib/c/include/atomicdflt.h
+generic/iplink_srv.o: ../../lib/c/include/stdint.h
+generic/iplink_srv.o: ../../lib/c/include/stdbool.h
+generic/iplink_srv.o: ../../lib/c/include/abi/bool.h
+generic/iplink_srv.o: ../../lib/c/include/task.h
+generic/iplink_srv.o: ../../lib/c/include/abi/proc/task.h
+generic/iplink_srv.o: ../../lib/c/include/stdarg.h
+generic/iplink_srv.o: ../../lib/c/include/stdlib.h
+generic/iplink_srv.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/iplink_srv.o: ../../lib/c/include/sys/time.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/config.h
+generic/iplink_srv.o: ../../lib/c/include/malloc.h
+generic/iplink_srv.o: ../../lib/c/include/stacktrace.h
+generic/iplink_srv.o: ../../lib/c/include/inet/iplink_srv.h
+generic/iplink_srv.o: ../../lib/c/include/async.h
+generic/iplink_srv.o: ../../lib/c/include/fibril.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/fibril.h
+generic/iplink_srv.o: ../../lib/c/include/adt/list.h
+generic/iplink_srv.o: ../../lib/c/include/assert.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/tls.h
+generic/iplink_srv.o: ../../lib/c/include/libc.h
+generic/iplink_srv.o: ../../lib/c/include/abi/syscall.h
+generic/iplink_srv.o: ../../lib/c/include/libarch/syscall.h
+generic/iplink_srv.o: ../../lib/c/include/fibril_synch.h
+generic/ieee_double.o: ../../lib/c/include/ieee_double.h
+generic/ieee_double.o: ../../lib/c/include/stdint.h
+generic/ieee_double.o: ../../lib/c/include/libarch/types.h
+generic/ieee_double.o: ../../lib/c/include/libarch/common.h
+generic/ieee_double.o: ../../lib/c/include/stdbool.h
+generic/ieee_double.o: ../../lib/c/include/abi/bool.h
+generic/ieee_double.o: ../../lib/c/include/assert.h
+generic/power_of_ten.o: generic/private/power_of_ten.h
+generic/power_of_ten.o: ../../lib/c/include/ieee_double.h
+generic/power_of_ten.o: ../../lib/c/include/stdint.h
+generic/power_of_ten.o: ../../lib/c/include/libarch/types.h
+generic/power_of_ten.o: ../../lib/c/include/libarch/common.h
+generic/power_of_ten.o: ../../lib/c/include/stdbool.h
+generic/power_of_ten.o: ../../lib/c/include/abi/bool.h
+generic/power_of_ten.o: ../../lib/c/include/assert.h
+generic/double_to_str.o: ../../lib/c/include/double_to_str.h
+generic/double_to_str.o: ../../lib/c/include/unistd.h
+generic/double_to_str.o: ../../lib/c/include/sys/types.h
+generic/double_to_str.o: ../../lib/c/include/libarch/types.h
+generic/double_to_str.o: ../../lib/c/include/libarch/common.h
+generic/double_to_str.o: ../../lib/c/include/time.h
+generic/double_to_str.o: ../../lib/c/include/sys/time.h
+generic/double_to_str.o: ../../lib/c/include/libarch/config.h
+generic/double_to_str.o: generic/private/power_of_ten.h
+generic/double_to_str.o: ../../lib/c/include/ieee_double.h
+generic/double_to_str.o: ../../lib/c/include/stdint.h
+generic/double_to_str.o: ../../lib/c/include/stdbool.h
+generic/double_to_str.o: ../../lib/c/include/abi/bool.h
+generic/double_to_str.o: ../../lib/c/include/assert.h
+generic/malloc.o: ../../lib/c/include/malloc.h
+generic/malloc.o: ../../lib/c/include/sys/types.h
+generic/malloc.o: ../../lib/c/include/libarch/types.h
+generic/malloc.o: ../../lib/c/include/libarch/common.h
+generic/malloc.o: ../../lib/c/include/stdbool.h
+generic/malloc.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/as.h
+generic/malloc.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/task.h
+generic/malloc.o: ../../lib/c/include/abi/proc/task.h
+generic/malloc.o: ../../lib/c/include/stdarg.h
+generic/malloc.o: ../../lib/c/include/libarch/config.h
+generic/malloc.o: ../../lib/c/include/align.h ../../lib/c/include/macros.h
+generic/malloc.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+generic/malloc.o: ../../lib/c/include/abi/errno.h
+generic/malloc.o: ../../lib/c/include/bitops.h ../../lib/c/include/mem.h
+generic/malloc.o: ../../lib/c/include/futex.h ../../lib/c/include/atomic.h
+generic/malloc.o: ../../lib/c/include/libarch/atomic.h
+generic/malloc.o: ../../lib/c/include/atomicdflt.h
+generic/malloc.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdlib.h
+generic/malloc.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/malloc.o: ../../lib/c/include/sys/time.h
+generic/malloc.o: ../../lib/c/include/stacktrace.h
+generic/malloc.o: ../../lib/c/include/adt/gcdlcm.h generic/private/malloc.h
+generic/sysinfo.o: ../../lib/c/include/libc.h ../../lib/c/include/sys/types.h
+generic/sysinfo.o: ../../lib/c/include/libarch/types.h
+generic/sysinfo.o: ../../lib/c/include/libarch/common.h
+generic/sysinfo.o: ../../lib/c/include/abi/syscall.h
+generic/sysinfo.o: ../../lib/c/include/libarch/syscall.h
+generic/sysinfo.o: ../../lib/c/include/sysinfo.h
+generic/sysinfo.o: ../../lib/c/include/stdbool.h
+generic/sysinfo.o: ../../lib/c/include/abi/bool.h
+generic/sysinfo.o: ../../lib/c/include/abi/sysinfo.h
+generic/sysinfo.o: ../../lib/c/include/abi/proc/task.h
+generic/sysinfo.o: ../../lib/c/include/abi/proc/thread.h
+generic/sysinfo.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/sysinfo.o: ../../lib/c/include/errno.h
+generic/sysinfo.o: ../../lib/c/include/abi/errno.h
+generic/sysinfo.o: ../../lib/c/include/malloc.h ../../lib/c/include/unistd.h
+generic/sysinfo.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/sysinfo.o: ../../lib/c/include/libarch/config.h
+generic/ipc.o: ../../lib/c/include/ipc/ipc.h ../../lib/c/include/sys/types.h
+generic/ipc.o: ../../lib/c/include/libarch/types.h
+generic/ipc.o: ../../lib/c/include/libarch/common.h
+generic/ipc.o: ../../lib/c/include/ipc/common.h
+generic/ipc.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+generic/ipc.o: ../../lib/c/include/libarch/atomic.h
+generic/ipc.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/ipc.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/ipc.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+generic/ipc.o: ../../lib/c/include/stdarg.h
+generic/ipc.o: ../../lib/c/include/abi/ipc/methods.h
+generic/ipc.o: ../../lib/c/include/abi/synch.h ../../lib/c/include/libc.h
+generic/ipc.o: ../../lib/c/include/abi/syscall.h
+generic/ipc.o: ../../lib/c/include/libarch/syscall.h
+generic/ipc.o: ../../lib/c/include/malloc.h ../../lib/c/include/errno.h
+generic/ipc.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/adt/list.h
+generic/ipc.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/ipc.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/ipc.o: ../../lib/c/include/libarch/config.h
+generic/ipc.o: ../../lib/c/include/futex.h ../../lib/c/include/fibril.h
+generic/ipc.o: ../../lib/c/include/libarch/fibril.h
+generic/ipc.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/macros.h
+generic/ns.o: ../../lib/c/include/ns.h ../../lib/c/include/sys/types.h
+generic/ns.o: ../../lib/c/include/libarch/types.h
+generic/ns.o: ../../lib/c/include/libarch/common.h
+generic/ns.o: ../../lib/c/include/ipc/services.h ../../lib/c/include/fourcc.h
+generic/ns.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+generic/ns.o: ../../lib/c/include/stdarg.h ../../lib/c/include/async.h
+generic/ns.o: ../../lib/c/include/ipc/common.h
+generic/ns.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+generic/ns.o: ../../lib/c/include/libarch/atomic.h
+generic/ns.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+generic/ns.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/ns.o: ../../lib/c/include/fibril.h
+generic/ns.o: ../../lib/c/include/libarch/fibril.h
+generic/ns.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/ns.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/ns.o: ../../lib/c/include/sys/time.h
+generic/ns.o: ../../lib/c/include/libarch/config.h
+generic/ns.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/ns.o: ../../lib/c/include/abi/syscall.h
+generic/ns.o: ../../lib/c/include/libarch/syscall.h
+generic/ns.o: ../../lib/c/include/ipc/ns.h ../../lib/c/include/macros.h
+generic/ns.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/ns.o: generic/private/ns.h
+generic/async.o: ../../lib/c/include/ipc/ipc.h
+generic/async.o: ../../lib/c/include/sys/types.h
+generic/async.o: ../../lib/c/include/libarch/types.h
+generic/async.o: ../../lib/c/include/libarch/common.h
+generic/async.o: ../../lib/c/include/ipc/common.h
+generic/async.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/async.o: ../../lib/c/include/atomic.h
+generic/async.o: ../../lib/c/include/libarch/atomic.h
+generic/async.o: ../../lib/c/include/atomicdflt.h
+generic/async.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/async.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/async.o: ../../lib/c/include/abi/proc/task.h
+generic/async.o: ../../lib/c/include/stdarg.h
+generic/async.o: ../../lib/c/include/abi/ipc/methods.h
+generic/async.o: ../../lib/c/include/abi/synch.h ../../lib/c/include/async.h
+generic/async.o: ../../lib/c/include/fibril.h
+generic/async.o: ../../lib/c/include/libarch/fibril.h
+generic/async.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/async.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/async.o: ../../lib/c/include/sys/time.h
+generic/async.o: ../../lib/c/include/libarch/config.h
+generic/async.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+generic/async.o: ../../lib/c/include/abi/syscall.h
+generic/async.o: ../../lib/c/include/libarch/syscall.h
+generic/async.o: generic/private/async.h ../../lib/c/include/fibril_synch.h
+generic/async.o: ../../lib/c/include/futex.h
+generic/async.o: ../../lib/c/include/adt/hash_table.h
+generic/async.o: ../../lib/c/include/macros.h ../../lib/c/include/errno.h
+generic/async.o: ../../lib/c/include/abi/errno.h
+generic/async.o: ../../lib/c/include/libarch/barrier.h
+generic/async.o: ../../lib/c/include/trace.h ../../lib/c/include/malloc.h
+generic/async.o: ../../lib/c/include/mem.h ../../lib/c/include/stdlib.h
+generic/async.o: ../../lib/c/include/stacktrace.h generic/private/libc.h
+generic/loader.o: ../../lib/c/include/ipc/loader.h
+generic/loader.o: ../../lib/c/include/ipc/common.h
+generic/loader.o: ../../lib/c/include/sys/types.h
+generic/loader.o: ../../lib/c/include/libarch/types.h
+generic/loader.o: ../../lib/c/include/libarch/common.h
+generic/loader.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/loader.o: ../../lib/c/include/atomic.h
+generic/loader.o: ../../lib/c/include/libarch/atomic.h
+generic/loader.o: ../../lib/c/include/atomicdflt.h
+generic/loader.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/loader.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/loader.o: ../../lib/c/include/abi/proc/task.h
+generic/loader.o: ../../lib/c/include/stdarg.h
+generic/loader.o: ../../lib/c/include/ipc/services.h
+generic/loader.o: ../../lib/c/include/fourcc.h ../../lib/c/include/ns.h
+generic/loader.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+generic/loader.o: ../../lib/c/include/libarch/fibril.h
+generic/loader.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/loader.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/loader.o: ../../lib/c/include/sys/time.h
+generic/loader.o: ../../lib/c/include/libarch/config.h
+generic/loader.o: ../../lib/c/include/libarch/tls.h
+generic/loader.o: ../../lib/c/include/libc.h
+generic/loader.o: ../../lib/c/include/abi/syscall.h
+generic/loader.o: ../../lib/c/include/libarch/syscall.h
+generic/loader.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/loader.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/loader.o: ../../lib/c/include/stacktrace.h
+generic/loader.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/loader.o: ../../lib/c/include/vfs/vfs.h ../../lib/c/include/ipc/vfs.h
+generic/loader.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/stdio.h
+generic/loader.o: ../../lib/c/include/io/verify.h
+generic/loader.o: ../../lib/c/include/abi/klog.h
+generic/loader.o: ../../lib/c/include/vfs/vfs_mtab.h
+generic/loader.o: ../../lib/c/include/loader/loader.h
+generic/loader.o: generic/private/loader.h
+generic/getopt.o: ../../lib/c/include/assert.h ../../lib/c/include/stdarg.h
+generic/getopt.o: ../../lib/c/include/sys/types.h
+generic/getopt.o: ../../lib/c/include/libarch/types.h
+generic/getopt.o: ../../lib/c/include/libarch/common.h
+generic/getopt.o: ../../lib/c/include/err.h ../../lib/c/include/stdio.h
+generic/getopt.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/getopt.o: ../../lib/c/include/stdbool.h
+generic/getopt.o: ../../lib/c/include/abi/bool.h
+generic/getopt.o: ../../lib/c/include/io/verify.h
+generic/getopt.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/errno.h
+generic/getopt.o: ../../lib/c/include/abi/errno.h
+generic/getopt.o: ../../lib/c/include/getopt.h ../../lib/c/include/unistd.h
+generic/getopt.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/getopt.o: ../../lib/c/include/libarch/config.h
+generic/getopt.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+generic/getopt.o: ../../lib/c/include/stacktrace.h
+generic/adt/list.o: ../../lib/c/include/adt/list.h
+generic/adt/list.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/adt/list.o: ../../lib/c/include/sys/types.h
+generic/adt/list.o: ../../lib/c/include/libarch/types.h
+generic/adt/list.o: ../../lib/c/include/libarch/common.h
+generic/adt/list.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/adt/list.o: ../../lib/c/include/libarch/config.h
+generic/adt/list.o: ../../lib/c/include/stdbool.h
+generic/adt/list.o: ../../lib/c/include/abi/bool.h
+generic/adt/hash_table.o: ../../lib/c/include/adt/hash_table.h
+generic/adt/hash_table.o: ../../lib/c/include/adt/list.h
+generic/adt/hash_table.o: ../../lib/c/include/assert.h
+generic/adt/hash_table.o: ../../lib/c/include/unistd.h
+generic/adt/hash_table.o: ../../lib/c/include/sys/types.h
+generic/adt/hash_table.o: ../../lib/c/include/libarch/types.h
+generic/adt/hash_table.o: ../../lib/c/include/libarch/common.h
+generic/adt/hash_table.o: ../../lib/c/include/time.h
+generic/adt/hash_table.o: ../../lib/c/include/sys/time.h
+generic/adt/hash_table.o: ../../lib/c/include/libarch/config.h
+generic/adt/hash_table.o: ../../lib/c/include/stdbool.h
+generic/adt/hash_table.o: ../../lib/c/include/abi/bool.h
+generic/adt/hash_table.o: ../../lib/c/include/macros.h
+generic/adt/hash_table.o: ../../lib/c/include/malloc.h
+generic/adt/hash_table.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/adt/dynamic_fifo.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/errno.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/abi/errno.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/malloc.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/sys/types.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/libarch/types.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/libarch/common.h
+generic/adt/dynamic_fifo.o: ../../lib/c/include/mem.h
+generic/adt/char_map.o: ../../lib/c/include/adt/char_map.h
+generic/adt/char_map.o: ../../lib/c/include/libarch/types.h
+generic/adt/char_map.o: ../../lib/c/include/libarch/common.h
+generic/adt/char_map.o: ../../lib/c/include/errno.h
+generic/adt/char_map.o: ../../lib/c/include/abi/errno.h
+generic/adt/char_map.o: ../../lib/c/include/malloc.h
+generic/adt/char_map.o: ../../lib/c/include/sys/types.h
+generic/adt/char_map.o: ../../lib/c/include/mem.h
+generic/adt/char_map.o: ../../lib/c/include/unistd.h
+generic/adt/char_map.o: ../../lib/c/include/time.h
+generic/adt/char_map.o: ../../lib/c/include/sys/time.h
+generic/adt/char_map.o: ../../lib/c/include/libarch/config.h
+generic/adt/prodcons.o: ../../lib/c/include/adt/prodcons.h
+generic/adt/prodcons.o: ../../lib/c/include/adt/list.h
+generic/adt/prodcons.o: ../../lib/c/include/assert.h
+generic/adt/prodcons.o: ../../lib/c/include/unistd.h
+generic/adt/prodcons.o: ../../lib/c/include/sys/types.h
+generic/adt/prodcons.o: ../../lib/c/include/libarch/types.h
+generic/adt/prodcons.o: ../../lib/c/include/libarch/common.h
+generic/adt/prodcons.o: ../../lib/c/include/time.h
+generic/adt/prodcons.o: ../../lib/c/include/sys/time.h
+generic/adt/prodcons.o: ../../lib/c/include/libarch/config.h
+generic/adt/prodcons.o: ../../lib/c/include/fibril_synch.h
+generic/adt/prodcons.o: ../../lib/c/include/fibril.h
+generic/adt/prodcons.o: ../../lib/c/include/libarch/fibril.h
+generic/adt/prodcons.o: ../../lib/c/include/libarch/tls.h
+generic/adt/prodcons.o: ../../lib/c/include/libc.h
+generic/adt/prodcons.o: ../../lib/c/include/abi/syscall.h
+generic/adt/prodcons.o: ../../lib/c/include/libarch/syscall.h
+generic/adt/prodcons.o: ../../lib/c/include/stdbool.h
+generic/adt/prodcons.o: ../../lib/c/include/abi/bool.h
+generic/time.o: ../../lib/c/include/sys/time.h
+generic/time.o: ../../lib/c/include/sys/types.h
+generic/time.o: ../../lib/c/include/libarch/types.h
+generic/time.o: ../../lib/c/include/libarch/common.h
+generic/time.o: ../../lib/c/include/time.h ../../lib/c/include/stdbool.h
+generic/time.o: ../../lib/c/include/abi/bool.h
+generic/time.o: ../../lib/c/include/libarch/barrier.h
+generic/time.o: ../../lib/c/include/trace.h ../../lib/c/include/macros.h
+generic/time.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+generic/time.o: ../../lib/c/include/sysinfo.h
+generic/time.o: ../../lib/c/include/abi/sysinfo.h
+generic/time.o: ../../lib/c/include/abi/proc/task.h
+generic/time.o: ../../lib/c/include/abi/proc/thread.h
+generic/time.o: ../../lib/c/include/as.h ../../lib/c/include/abi/mm/as.h
+generic/time.o: ../../lib/c/include/task.h ../../lib/c/include/stdarg.h
+generic/time.o: ../../lib/c/include/libarch/config.h
+generic/time.o: ../../lib/c/include/ddi.h ../../lib/c/include/abi/ddi/irq.h
+generic/time.o: ../../lib/c/include/libc.h ../../lib/c/include/abi/syscall.h
+generic/time.o: ../../lib/c/include/libarch/syscall.h
+generic/time.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdio.h
+generic/time.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/time.o: ../../lib/c/include/io/verify.h
+generic/time.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/ctype.h
+generic/time.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/time.o: ../../lib/c/include/loc.h ../../lib/c/include/ipc/loc.h
+generic/time.o: ../../lib/c/include/ipc/common.h
+generic/time.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/time.o: ../../lib/c/include/atomic.h
+generic/time.o: ../../lib/c/include/libarch/atomic.h
+generic/time.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/async.h
+generic/time.o: ../../lib/c/include/fibril.h
+generic/time.o: ../../lib/c/include/libarch/fibril.h
+generic/time.o: ../../lib/c/include/adt/list.h
+generic/time.o: ../../lib/c/include/libarch/tls.h
+generic/time.o: ../../lib/c/include/device/clock_dev.h
+generic/time.o: ../../lib/c/include/malloc.h
+generic/stdlib.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+generic/stdlib.o: ../../lib/c/include/sys/types.h
+generic/stdlib.o: ../../lib/c/include/libarch/types.h
+generic/stdlib.o: ../../lib/c/include/libarch/common.h
+generic/stdlib.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/stdlib.o: ../../lib/c/include/libarch/config.h
+generic/stdlib.o: ../../lib/c/include/malloc.h
+generic/stdlib.o: ../../lib/c/include/stacktrace.h
+generic/stdlib.o: ../../lib/c/include/stdbool.h
+generic/stdlib.o: ../../lib/c/include/abi/bool.h
+generic/mman.o: ../../lib/c/include/sys/mman.h ../../lib/c/include/as.h
+generic/mman.o: ../../lib/c/include/sys/types.h
+generic/mman.o: ../../lib/c/include/libarch/types.h
+generic/mman.o: ../../lib/c/include/libarch/common.h
+generic/mman.o: ../../lib/c/include/abi/mm/as.h ../../lib/c/include/task.h
+generic/mman.o: ../../lib/c/include/abi/proc/task.h
+generic/mman.o: ../../lib/c/include/stdarg.h
+generic/mman.o: ../../lib/c/include/libarch/config.h
+generic/mman.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/mman.o: ../../lib/c/include/sys/time.h
+generic/udebug.o: ../../lib/c/include/udebug.h
+generic/udebug.o: ../../lib/c/include/abi/udebug.h
+generic/udebug.o: ../../lib/c/include/sys/types.h
+generic/udebug.o: ../../lib/c/include/libarch/types.h
+generic/udebug.o: ../../lib/c/include/libarch/common.h
+generic/udebug.o: ../../lib/c/include/async.h
+generic/udebug.o: ../../lib/c/include/ipc/common.h
+generic/udebug.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/udebug.o: ../../lib/c/include/atomic.h
+generic/udebug.o: ../../lib/c/include/libarch/atomic.h
+generic/udebug.o: ../../lib/c/include/atomicdflt.h
+generic/udebug.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/udebug.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/udebug.o: ../../lib/c/include/abi/proc/task.h
+generic/udebug.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+generic/udebug.o: ../../lib/c/include/libarch/fibril.h
+generic/udebug.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+generic/udebug.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/udebug.o: ../../lib/c/include/sys/time.h
+generic/udebug.o: ../../lib/c/include/libarch/config.h
+generic/udebug.o: ../../lib/c/include/libarch/tls.h
+generic/udebug.o: ../../lib/c/include/libc.h
+generic/udebug.o: ../../lib/c/include/abi/syscall.h
+generic/udebug.o: ../../lib/c/include/libarch/syscall.h
+generic/udebug.o: ../../lib/c/include/abi/ipc/methods.h
+generic/vfs/vfs.o: ../../lib/c/include/vfs/canonify.h
+generic/vfs/vfs.o: ../../lib/c/include/sys/types.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/types.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/common.h
+generic/vfs/vfs.o: ../../lib/c/include/vfs/vfs.h
+generic/vfs/vfs.o: ../../lib/c/include/ipc/vfs.h
+generic/vfs/vfs.o: ../../lib/c/include/ipc/common.h
+generic/vfs/vfs.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/vfs/vfs.o: ../../lib/c/include/atomic.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/atomic.h
+generic/vfs/vfs.o: ../../lib/c/include/atomicdflt.h
+generic/vfs/vfs.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/vfs/vfs.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+generic/vfs/vfs.o: ../../lib/c/include/abi/proc/task.h
+generic/vfs/vfs.o: ../../lib/c/include/stdarg.h ../../lib/c/include/ipc/loc.h
+generic/vfs/vfs.o: ../../lib/c/include/adt/list.h
+generic/vfs/vfs.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+generic/vfs/vfs.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/config.h
+generic/vfs/vfs.o: ../../lib/c/include/stdio.h ../../lib/c/include/str.h
+generic/vfs/vfs.o: ../../lib/c/include/mem.h ../../lib/c/include/io/verify.h
+generic/vfs/vfs.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/async.h
+generic/vfs/vfs.o: ../../lib/c/include/fibril.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/fibril.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/tls.h
+generic/vfs/vfs.o: ../../lib/c/include/libc.h
+generic/vfs/vfs.o: ../../lib/c/include/abi/syscall.h
+generic/vfs/vfs.o: ../../lib/c/include/libarch/syscall.h
+generic/vfs/vfs.o: ../../lib/c/include/vfs/vfs_mtab.h
+generic/vfs/vfs.o: ../../lib/c/include/vfs/vfs_sess.h
+generic/vfs/vfs.o: ../../lib/c/include/macros.h ../../lib/c/include/stdlib.h
+generic/vfs/vfs.o: ../../lib/c/include/malloc.h
+generic/vfs/vfs.o: ../../lib/c/include/stacktrace.h
+generic/vfs/vfs.o: ../../lib/c/include/dirent.h ../../lib/c/include/fcntl.h
+generic/vfs/vfs.o: ../../lib/c/include/sys/stat.h
+generic/vfs/vfs.o: ../../lib/c/include/ipc/services.h
+generic/vfs/vfs.o: ../../lib/c/include/fourcc.h ../../lib/c/include/ns.h
+generic/vfs/vfs.o: ../../lib/c/include/fibril_synch.h
+generic/vfs/vfs.o: ../../lib/c/include/errno.h
+generic/vfs/vfs.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/loc.h
+generic/vfs/canonify.o: ../../lib/c/include/stdlib.h
+generic/vfs/canonify.o: ../../lib/c/include/unistd.h
+generic/vfs/canonify.o: ../../lib/c/include/sys/types.h
+generic/vfs/canonify.o: ../../lib/c/include/libarch/types.h
+generic/vfs/canonify.o: ../../lib/c/include/libarch/common.h
+generic/vfs/canonify.o: ../../lib/c/include/time.h
+generic/vfs/canonify.o: ../../lib/c/include/sys/time.h
+generic/vfs/canonify.o: ../../lib/c/include/libarch/config.h
+generic/vfs/canonify.o: ../../lib/c/include/malloc.h
+generic/vfs/canonify.o: ../../lib/c/include/stacktrace.h
+generic/vfs/canonify.o: ../../lib/c/include/stdbool.h
+generic/vfs/canonify.o: ../../lib/c/include/abi/bool.h
+generic/vfs/canonify.o: ../../lib/c/include/vfs/canonify.h
+generic/net/inet.o: ../../lib/c/include/net/socket_codes.h
+generic/net/inet.o: ../../lib/c/include/sys/types.h
+generic/net/inet.o: ../../lib/c/include/libarch/types.h
+generic/net/inet.o: ../../lib/c/include/libarch/common.h
+generic/net/inet.o: ../../lib/c/include/net/in.h
+generic/net/inet.o: ../../lib/c/include/net/inet.h
+generic/net/inet.o: ../../lib/c/include/byteorder.h
+generic/net/inet.o: ../../lib/c/include/stdint.h
+generic/net/inet.o: ../../lib/c/include/net/ip_protocols.h
+generic/net/inet.o: ../../lib/c/include/net/in6.h ../../lib/c/include/errno.h
+generic/net/inet.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/mem.h
+generic/net/inet.o: ../../lib/c/include/stdio.h ../../lib/c/include/stdarg.h
+generic/net/inet.o: ../../lib/c/include/str.h ../../lib/c/include/stdbool.h
+generic/net/inet.o: ../../lib/c/include/abi/bool.h
+generic/net/inet.o: ../../lib/c/include/io/verify.h
+generic/net/inet.o: ../../lib/c/include/abi/klog.h
+generic/net/socket_client.o: ../../lib/c/include/assert.h
+generic/net/socket_client.o: ../../lib/c/include/async.h
+generic/net/socket_client.o: ../../lib/c/include/ipc/common.h
+generic/net/socket_client.o: ../../lib/c/include/sys/types.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/types.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/common.h
+generic/net/socket_client.o: ../../lib/c/include/abi/ipc/ipc.h
+generic/net/socket_client.o: ../../lib/c/include/atomic.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/atomic.h
+generic/net/socket_client.o: ../../lib/c/include/atomicdflt.h
+generic/net/socket_client.o: ../../lib/c/include/stdint.h
+generic/net/socket_client.o: ../../lib/c/include/stdbool.h
+generic/net/socket_client.o: ../../lib/c/include/abi/bool.h
+generic/net/socket_client.o: ../../lib/c/include/task.h
+generic/net/socket_client.o: ../../lib/c/include/abi/proc/task.h
+generic/net/socket_client.o: ../../lib/c/include/stdarg.h
+generic/net/socket_client.o: ../../lib/c/include/fibril.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/fibril.h
+generic/net/socket_client.o: ../../lib/c/include/adt/list.h
+generic/net/socket_client.o: ../../lib/c/include/unistd.h
+generic/net/socket_client.o: ../../lib/c/include/time.h
+generic/net/socket_client.o: ../../lib/c/include/sys/time.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/config.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/tls.h
+generic/net/socket_client.o: ../../lib/c/include/libc.h
+generic/net/socket_client.o: ../../lib/c/include/abi/syscall.h
+generic/net/socket_client.o: ../../lib/c/include/libarch/syscall.h
+generic/net/socket_client.o: ../../lib/c/include/fibril_synch.h
+generic/net/socket_client.o: ../../lib/c/include/stdlib.h
+generic/net/socket_client.o: ../../lib/c/include/malloc.h
+generic/net/socket_client.o: ../../lib/c/include/stacktrace.h
+generic/net/socket_client.o: ../../lib/c/include/errno.h
+generic/net/socket_client.o: ../../lib/c/include/abi/errno.h
+generic/net/socket_client.o: ../../lib/c/include/ns.h
+generic/net/socket_client.o: ../../lib/c/include/ipc/services.h
+generic/net/socket_client.o: ../../lib/c/include/fourcc.h
+generic/net/socket_client.o: ../../lib/c/include/ipc/socket.h
+generic/net/socket_client.o: ../../lib/c/include/net/in.h
+generic/net/socket_client.o: ../../lib/c/include/net/inet.h
+generic/net/socket_client.o: ../../lib/c/include/byteorder.h
+generic/net/socket_client.o: ../../lib/c/include/net/ip_protocols.h
+generic/net/socket_client.o: ../../lib/c/include/net/socket.h
+generic/net/socket_client.o: ../../lib/c/include/net/socket_codes.h
+generic/net/socket_client.o: ../../lib/c/include/net/in6.h
+generic/net/socket_client.o: ../../lib/c/include/adt/dynamic_fifo.h
+generic/net/socket_client.o: ../../lib/c/include/adt/int_map.h
+generic/net/socket_client.o: ../../lib/c/include/mem.h
+generic/net/socket_parse.o: ../../lib/c/include/net/socket_parse.h
+generic/net/socket_parse.o: ../../lib/c/include/net/socket.h
+generic/net/socket_parse.o: ../../lib/c/include/net/socket_codes.h
+generic/net/socket_parse.o: ../../lib/c/include/sys/types.h
+generic/net/socket_parse.o: ../../lib/c/include/libarch/types.h
+generic/net/socket_parse.o: ../../lib/c/include/libarch/common.h
+generic/net/socket_parse.o: ../../lib/c/include/net/in.h
+generic/net/socket_parse.o: ../../lib/c/include/net/inet.h
+generic/net/socket_parse.o: ../../lib/c/include/byteorder.h
+generic/net/socket_parse.o: ../../lib/c/include/stdint.h
+generic/net/socket_parse.o: ../../lib/c/include/net/ip_protocols.h
+generic/net/socket_parse.o: ../../lib/c/include/net/in6.h
+generic/net/socket_parse.o: ../../lib/c/include/errno.h
+generic/net/socket_parse.o: ../../lib/c/include/abi/errno.h
+generic/net/socket_parse.o: ../../lib/c/include/arg_parse.h
+generic/net/socket_parse.o: ../../lib/c/include/str.h
+generic/net/socket_parse.o: ../../lib/c/include/mem.h
+generic/net/socket_parse.o: ../../lib/c/include/stdbool.h
+generic/net/socket_parse.o: ../../lib/c/include/abi/bool.h
+generic/stack.o: ../../lib/c/include/stack.h
+generic/stack.o: ../../lib/c/include/libarch/types.h
+generic/stack.o: ../../lib/c/include/libarch/common.h
+generic/stack.o: ../../lib/c/include/sysinfo.h
+generic/stack.o: ../../lib/c/include/sys/types.h
+generic/stack.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/stack.o: ../../lib/c/include/abi/sysinfo.h
+generic/stack.o: ../../lib/c/include/abi/proc/task.h
+generic/stack.o: ../../lib/c/include/abi/proc/thread.h
+generic/stacktrace.o: ../../lib/c/include/stacktrace.h
+generic/stacktrace.o: ../../lib/c/include/sys/types.h
+generic/stacktrace.o: ../../lib/c/include/libarch/types.h
+generic/stacktrace.o: ../../lib/c/include/libarch/common.h
+generic/stacktrace.o: ../../lib/c/include/stdbool.h
+generic/stacktrace.o: ../../lib/c/include/abi/bool.h
+generic/stacktrace.o: ../../lib/c/include/stdio.h
+generic/stacktrace.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/stacktrace.o: ../../lib/c/include/mem.h
+generic/stacktrace.o: ../../lib/c/include/io/verify.h
+generic/stacktrace.o: ../../lib/c/include/abi/klog.h
+generic/stacktrace.o: ../../lib/c/include/errno.h
+generic/stacktrace.o: ../../lib/c/include/abi/errno.h
+generic/stacktrace.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/stacktrace.o: ../../lib/c/include/sys/time.h
+generic/stacktrace.o: ../../lib/c/include/libarch/config.h
+generic/arg_parse.o: ../../lib/c/include/arg_parse.h
+generic/arg_parse.o: ../../lib/c/include/errno.h
+generic/arg_parse.o: ../../lib/c/include/abi/errno.h
+generic/arg_parse.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/arg_parse.o: ../../lib/c/include/sys/types.h
+generic/arg_parse.o: ../../lib/c/include/libarch/types.h
+generic/arg_parse.o: ../../lib/c/include/libarch/common.h
+generic/arg_parse.o: ../../lib/c/include/stdbool.h
+generic/arg_parse.o: ../../lib/c/include/abi/bool.h
+generic/sort.o: ../../lib/c/include/sort.h ../../lib/c/include/sys/types.h
+generic/sort.o: ../../lib/c/include/libarch/types.h
+generic/sort.o: ../../lib/c/include/libarch/common.h
+generic/sort.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+generic/sort.o: ../../lib/c/include/mem.h ../../lib/c/include/malloc.h
+generic/stats.o: ../../lib/c/include/stats.h ../../lib/c/include/task.h
+generic/stats.o: ../../lib/c/include/sys/types.h
+generic/stats.o: ../../lib/c/include/libarch/types.h
+generic/stats.o: ../../lib/c/include/libarch/common.h
+generic/stats.o: ../../lib/c/include/abi/proc/task.h
+generic/stats.o: ../../lib/c/include/stdarg.h ../../lib/c/include/thread.h
+generic/stats.o: ../../lib/c/include/libarch/thread.h
+generic/stats.o: ../../lib/c/include/abi/proc/thread.h
+generic/stats.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+generic/stats.o: ../../lib/c/include/abi/bool.h
+generic/stats.o: ../../lib/c/include/abi/sysinfo.h
+generic/stats.o: ../../lib/c/include/sysinfo.h ../../lib/c/include/errno.h
+generic/stats.o: ../../lib/c/include/abi/errno.h ../../lib/c/include/stdio.h
+generic/stats.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+generic/stats.o: ../../lib/c/include/io/verify.h
+generic/stats.o: ../../lib/c/include/abi/klog.h
+generic/stats.o: ../../lib/c/include/inttypes.h
+generic/stats.o: ../../lib/c/include/libarch/inttypes.h
+generic/stats.o: ../../lib/c/include/malloc.h ../../lib/c/include/unistd.h
+generic/stats.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+generic/stats.o: ../../lib/c/include/libarch/config.h
+generic/assert.o: ../../lib/c/include/assert.h ../../lib/c/include/stdio.h
+generic/assert.o: ../../lib/c/include/sys/types.h
+generic/assert.o: ../../lib/c/include/libarch/types.h
+generic/assert.o: ../../lib/c/include/libarch/common.h
+generic/assert.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/assert.o: ../../lib/c/include/mem.h ../../lib/c/include/stdbool.h
+generic/assert.o: ../../lib/c/include/abi/bool.h
+generic/assert.o: ../../lib/c/include/io/verify.h
+generic/assert.o: ../../lib/c/include/abi/klog.h
+generic/assert.o: ../../lib/c/include/io/klog.h ../../lib/c/include/stdlib.h
+generic/assert.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/assert.o: ../../lib/c/include/sys/time.h
+generic/assert.o: ../../lib/c/include/libarch/config.h
+generic/assert.o: ../../lib/c/include/malloc.h
+generic/assert.o: ../../lib/c/include/stacktrace.h
+generic/assert.o: ../../lib/c/include/atomic.h
+generic/assert.o: ../../lib/c/include/libarch/atomic.h
+generic/assert.o: ../../lib/c/include/atomicdflt.h
+generic/assert.o: ../../lib/c/include/stdint.h
+generic/pio_trace.o: ../../lib/c/include/assert.h ../../lib/c/include/errno.h
+generic/pio_trace.o: ../../lib/c/include/abi/errno.h
+generic/pio_trace.o: ../../lib/c/include/malloc.h
+generic/pio_trace.o: ../../lib/c/include/sys/types.h
+generic/pio_trace.o: ../../lib/c/include/libarch/types.h
+generic/pio_trace.o: ../../lib/c/include/libarch/common.h
+generic/pio_trace.o: ../../lib/c/include/adt/list.h
+generic/pio_trace.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+generic/pio_trace.o: ../../lib/c/include/sys/time.h
+generic/pio_trace.o: ../../lib/c/include/libarch/config.h
+generic/pio_trace.o: ../../lib/c/include/fibril_synch.h
+generic/pio_trace.o: ../../lib/c/include/fibril.h
+generic/pio_trace.o: ../../lib/c/include/libarch/fibril.h
+generic/pio_trace.o: ../../lib/c/include/libarch/tls.h
+generic/pio_trace.o: ../../lib/c/include/libc.h
+generic/pio_trace.o: ../../lib/c/include/abi/syscall.h
+generic/pio_trace.o: ../../lib/c/include/libarch/syscall.h
+generic/pio_trace.o: ../../lib/c/include/stdbool.h
+generic/pio_trace.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/ddi.h
+generic/pio_trace.o: ../../lib/c/include/abi/ddi/irq.h
+generic/pio_trace.o: ../../lib/c/include/task.h
+generic/pio_trace.o: ../../lib/c/include/abi/proc/task.h
+generic/pio_trace.o: ../../lib/c/include/stdarg.h ../../lib/c/include/str.h
+generic/pio_trace.o: ../../lib/c/include/mem.h
+arch/ia32/src/fibril.o: ../../lib/c/include/libarch/context_offset.h
+arch/ia32/src/tls.o: ../../lib/c/include/tls.h
+arch/ia32/src/tls.o: ../../lib/c/include/libarch/tls.h
+arch/ia32/src/tls.o: ../../lib/c/include/libc.h
+arch/ia32/src/tls.o: ../../lib/c/include/sys/types.h
+arch/ia32/src/tls.o: ../../lib/c/include/libarch/types.h
+arch/ia32/src/tls.o: ../../lib/c/include/libarch/common.h
+arch/ia32/src/tls.o: ../../lib/c/include/abi/syscall.h
+arch/ia32/src/tls.o: ../../lib/c/include/libarch/syscall.h
+arch/ia32/src/tls.o: ../../lib/c/include/align.h
+arch/ia32/src/setjmp.o: ../../lib/c/include/libarch/context_offset.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/libarch/config.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/sys/types.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/libarch/types.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/libarch/common.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/stdbool.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/abi/bool.h
+arch/ia32/src/stacktrace.o: ../../lib/c/include/stacktrace.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/stdio.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/sys/types.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/libarch/types.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/libarch/common.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/stdarg.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/str.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/mem.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/stdbool.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/abi/bool.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/io/verify.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/abi/klog.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/stdlib.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/unistd.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/time.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/sys/time.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/libarch/config.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/malloc.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/stacktrace.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/rtld/elf_dyn.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/elf/elf.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/abi/elf.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/libarch/elf.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/libarch/rtld/elf_dyn.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/rtld/dynamic.h
+arch/ia32/src/rtld/dynamic.o: ../../lib/c/include/libarch/rtld/dynamic.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/stdio.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/sys/types.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/libarch/types.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/libarch/common.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/stdarg.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/str.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/mem.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/stdbool.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/abi/bool.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/io/verify.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/abi/klog.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/stdlib.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/unistd.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/time.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/sys/time.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/libarch/config.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/malloc.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/stacktrace.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/libarch/rtld/elf_dyn.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/symbol.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/elf/elf.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/abi/elf.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/libarch/elf.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/rtld.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/adt/list.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/assert.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/dynamic.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/elf_dyn.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/libarch/rtld/dynamic.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/module.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/rtld_debug.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/rtld/rtld_arch.h
+arch/ia32/src/rtld/reloc.o: ../../lib/c/include/loader/pcb.h

@@ -1,0 +1,24 @@
+# DO NOT DELETE
+
+inet.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+inet.o: ../../lib/c/include/inet/inetcfg.h ../../lib/c/include/inet/inet.h
+inet.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+inet.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/loc.h
+inet.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/common.h
+inet.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+inet.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+inet.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+inet.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/task.h
+inet.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+inet.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+inet.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+inet.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+inet.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+inet.o: ../../lib/c/include/libarch/config.h
+inet.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+inet.o: ../../lib/c/include/abi/syscall.h
+inet.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/stdio.h
+inet.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+inet.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+inet.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+inet.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/str_error.h

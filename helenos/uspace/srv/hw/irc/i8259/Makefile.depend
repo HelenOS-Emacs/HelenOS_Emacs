@@ -1,0 +1,43 @@
+# DO NOT DELETE
+
+i8259.o: ../../../../lib/c/include/ipc/services.h
+i8259.o: ../../../../lib/c/include/fourcc.h
+i8259.o: ../../../../lib/c/include/libarch/common.h
+i8259.o: ../../../../lib/c/include/ipc/irc.h
+i8259.o: ../../../../lib/c/include/ipc/common.h
+i8259.o: ../../../../lib/c/include/sys/types.h
+i8259.o: ../../../../lib/c/include/libarch/types.h
+i8259.o: ../../../../lib/c/include/abi/ipc/ipc.h
+i8259.o: ../../../../lib/c/include/atomic.h
+i8259.o: ../../../../lib/c/include/libarch/atomic.h
+i8259.o: ../../../../lib/c/include/atomicdflt.h
+i8259.o: ../../../../lib/c/include/stdint.h
+i8259.o: ../../../../lib/c/include/stdbool.h
+i8259.o: ../../../../lib/c/include/abi/bool.h
+i8259.o: ../../../../lib/c/include/task.h
+i8259.o: ../../../../lib/c/include/abi/proc/task.h
+i8259.o: ../../../../lib/c/include/stdarg.h ../../../../lib/c/include/ns.h
+i8259.o: ../../../../lib/c/include/async.h ../../../../lib/c/include/fibril.h
+i8259.o: ../../../../lib/c/include/libarch/fibril.h
+i8259.o: ../../../../lib/c/include/adt/list.h
+i8259.o: ../../../../lib/c/include/assert.h
+i8259.o: ../../../../lib/c/include/unistd.h ../../../../lib/c/include/time.h
+i8259.o: ../../../../lib/c/include/sys/time.h
+i8259.o: ../../../../lib/c/include/libarch/config.h
+i8259.o: ../../../../lib/c/include/libarch/tls.h
+i8259.o: ../../../../lib/c/include/libc.h
+i8259.o: ../../../../lib/c/include/abi/syscall.h
+i8259.o: ../../../../lib/c/include/libarch/syscall.h
+i8259.o: ../../../../lib/c/include/sysinfo.h
+i8259.o: ../../../../lib/c/include/abi/sysinfo.h
+i8259.o: ../../../../lib/c/include/abi/proc/thread.h
+i8259.o: ../../../../lib/c/include/as.h ../../../../lib/c/include/abi/mm/as.h
+i8259.o: ../../../../lib/c/include/ddi.h
+i8259.o: ../../../../lib/c/include/abi/ddi/irq.h
+i8259.o: ../../../../lib/c/include/align.h ../../../../lib/c/include/errno.h
+i8259.o: ../../../../lib/c/include/abi/errno.h
+i8259.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+i8259.o: ../../../../lib/c/include/mem.h
+i8259.o: ../../../../lib/c/include/io/verify.h
+i8259.o: ../../../../lib/c/include/abi/klog.h
+i8259.o: ../../../../lib/c/include/ipc/loc.h

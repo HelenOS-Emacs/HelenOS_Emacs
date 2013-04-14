@@ -1,0 +1,71 @@
+# DO NOT DELETE
+
+driver.o: ../../../lib/c/include/assert.h ../../../lib/c/include/errno.h
+driver.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/align.h
+driver.o: ../../../lib/c/include/byteorder.h ../../../lib/c/include/stdint.h
+driver.o: ../../../lib/c/include/libarch/types.h
+driver.o: ../../../lib/c/include/libarch/common.h
+driver.o: ../../../lib/c/include/libarch/barrier.h
+driver.o: ../../../lib/c/include/trace.h ../../../lib/c/include/as.h
+driver.o: ../../../lib/c/include/sys/types.h
+driver.o: ../../../lib/c/include/abi/mm/as.h ../../../lib/c/include/task.h
+driver.o: ../../../lib/c/include/abi/proc/task.h
+driver.o: ../../../lib/c/include/stdarg.h
+driver.o: ../../../lib/c/include/libarch/config.h
+driver.o: ../../../lib/drv/include/ddf/log.h ../../../lib/c/include/io/log.h
+driver.o: ../../../lib/c/include/inttypes.h
+driver.o: ../../../lib/c/include/libarch/inttypes.h
+driver.o: ../../../lib/c/include/io/verify.h
+driver.o: ../../../lib/drv/include/ddf/interrupt.h
+driver.o: ../../../lib/c/include/abi/ddi/irq.h
+driver.o: ../../../lib/c/include/adt/list.h ../../../lib/c/include/unistd.h
+driver.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+driver.o: ../../../lib/c/include/ddi.h ../../../lib/c/include/stdbool.h
+driver.o: ../../../lib/c/include/abi/bool.h
+driver.o: ../../../lib/c/include/fibril_synch.h
+driver.o: ../../../lib/c/include/fibril.h
+driver.o: ../../../lib/c/include/libarch/fibril.h
+driver.o: ../../../lib/c/include/libarch/tls.h ../../../lib/c/include/libc.h
+driver.o: ../../../lib/c/include/abi/syscall.h
+driver.o: ../../../lib/c/include/libarch/syscall.h driver.h defs.h general.h
+driver.o: ../../../lib/drv/include/dev_iface.h
+driver.o: ../../../lib/c/include/ipc/common.h
+driver.o: ../../../lib/c/include/abi/ipc/ipc.h
+driver.o: ../../../lib/c/include/atomic.h
+driver.o: ../../../lib/c/include/libarch/atomic.h
+driver.o: ../../../lib/c/include/atomicdflt.h
+driver.o: ../../../lib/c/include/ipc/dev_iface.h
+driver.o: ../../../lib/c/include/malloc.h ../../../lib/nic/include/nic.h
+driver.o: ../../../lib/c/include/adt/hash_table.h
+driver.o: ../../../lib/c/include/macros.h
+driver.o: ../../../lib/drv/include/ddf/driver.h
+driver.o: ../../../lib/c/include/async.h ../../../lib/c/include/ipc/devman.h
+driver.o: ../../../lib/c/include/mem.h
+driver.o: ../../../lib/c/include/device/hw_res_parsed.h
+driver.o: ../../../lib/c/include/device/hw_res.h ../../../lib/c/include/str.h
+driver.o: ../../../lib/drv/include/ops/nic.h
+driver.o: ../../../lib/c/include/ipc/services.h
+driver.o: ../../../lib/c/include/fourcc.h ../../../lib/c/include/nic/nic.h
+driver.o: ../../../lib/c/include/nic/eth_phys.h
+driver.o: ../../../lib/drv/include/ddf/driver.h
+driver.o: ../../../lib/c/include/device/pci.h
+driver.o: ../../../lib/c/include/ipc/irc.h ../../../lib/c/include/sysinfo.h
+driver.o: ../../../lib/c/include/abi/sysinfo.h
+driver.o: ../../../lib/c/include/abi/proc/thread.h
+driver.o: ../../../lib/c/include/ipc/ns.h
+general.o: general.h ../../../lib/c/include/unistd.h
+general.o: ../../../lib/c/include/sys/types.h
+general.o: ../../../lib/c/include/libarch/types.h
+general.o: ../../../lib/c/include/libarch/common.h
+general.o: ../../../lib/c/include/time.h ../../../lib/c/include/sys/time.h
+general.o: ../../../lib/c/include/libarch/config.h
+general.o: ../../../lib/c/include/mem.h ../../../lib/c/include/errno.h
+general.o: ../../../lib/c/include/abi/errno.h ../../../lib/c/include/stdint.h
+defs.o: defs.h ../../../lib/c/include/sys/types.h
+defs.o: ../../../lib/c/include/libarch/types.h
+defs.o: ../../../lib/c/include/libarch/common.h ../../../lib/c/include/ddi.h
+defs.o: ../../../lib/c/include/stdbool.h ../../../lib/c/include/abi/bool.h
+defs.o: ../../../lib/c/include/sys/time.h
+defs.o: ../../../lib/c/include/abi/ddi/irq.h ../../../lib/c/include/task.h
+defs.o: ../../../lib/c/include/abi/proc/task.h
+defs.o: ../../../lib/c/include/stdarg.h

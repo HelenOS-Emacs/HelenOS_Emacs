@@ -1,0 +1,180 @@
+# DO NOT DELETE
+
+bo_trans.o: ../../../../lib/c/include/stdbool.h
+bo_trans.o: ../../../../lib/c/include/libarch/types.h
+bo_trans.o: ../../../../lib/c/include/libarch/common.h
+bo_trans.o: ../../../../lib/c/include/abi/bool.h
+bo_trans.o: ../../../../lib/c/include/errno.h
+bo_trans.o: ../../../../lib/c/include/abi/errno.h
+bo_trans.o: ../../../../lib/c/include/str_error.h
+bo_trans.o: ../../../../lib/usb/include/usb/debug.h
+bo_trans.o: ../../../../lib/c/include/stdio.h
+bo_trans.o: ../../../../lib/c/include/sys/types.h
+bo_trans.o: ../../../../lib/c/include/stdarg.h
+bo_trans.o: ../../../../lib/c/include/str.h ../../../../lib/c/include/mem.h
+bo_trans.o: ../../../../lib/c/include/io/verify.h
+bo_trans.o: ../../../../lib/c/include/abi/klog.h
+bo_trans.o: ../../../../lib/c/include/inttypes.h
+bo_trans.o: ../../../../lib/c/include/libarch/inttypes.h
+bo_trans.o: ../../../../lib/usb/include/usb/usb.h
+bo_trans.o: ../../../../lib/c/include/byteorder.h
+bo_trans.o: ../../../../lib/c/include/stdint.h
+bo_trans.o: ../../../../lib/c/include/io/log.h
+bo_trans.o: ../../../../lib/c/include/assert.h
+bo_trans.o: ../../../../lib/usbdev/include/usb/dev/request.h
+bo_trans.o: ../../../../lib/c/include/l18n/langs.h
+bo_trans.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+bo_trans.o: ../../../../lib/c/include/ipc/devman.h
+bo_trans.o: ../../../../lib/c/include/ipc/common.h
+bo_trans.o: ../../../../lib/c/include/abi/ipc/ipc.h
+bo_trans.o: ../../../../lib/c/include/atomic.h
+bo_trans.o: ../../../../lib/c/include/libarch/atomic.h
+bo_trans.o: ../../../../lib/c/include/atomicdflt.h
+bo_trans.o: ../../../../lib/c/include/task.h
+bo_trans.o: ../../../../lib/c/include/abi/proc/task.h
+bo_trans.o: ../../../../lib/c/include/adt/list.h
+bo_trans.o: ../../../../lib/c/include/unistd.h
+bo_trans.o: ../../../../lib/c/include/time.h
+bo_trans.o: ../../../../lib/c/include/sys/time.h
+bo_trans.o: ../../../../lib/c/include/libarch/config.h
+bo_trans.o: ../../../../lib/c/include/malloc.h
+bo_trans.o: ../../../../lib/drv/include/ddf/driver.h
+bo_trans.o: ../../../../lib/c/include/async.h
+bo_trans.o: ../../../../lib/c/include/fibril.h
+bo_trans.o: ../../../../lib/c/include/libarch/fibril.h
+bo_trans.o: ../../../../lib/c/include/libarch/tls.h
+bo_trans.o: ../../../../lib/c/include/libc.h
+bo_trans.o: ../../../../lib/c/include/abi/syscall.h
+bo_trans.o: ../../../../lib/c/include/libarch/syscall.h
+bo_trans.o: ../../../../lib/c/include/ipc/dev_iface.h
+bo_trans.o: ../../../../lib/drv/include/dev_iface.h
+bo_trans.o: ../../../../lib/c/include/fibril_synch.h
+bo_trans.o: ../../../../lib/usb/include/usb/descriptor.h
+bo_trans.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+bo_trans.o: ../../../../lib/c/include/devman.h
+bo_trans.o: ../../../../lib/c/include/ipc/loc.h
+bo_trans.o: ../../../../lib/usb/include/usb/hc.h bo_trans.h
+bo_trans.o: ../../../../lib/scsi/include/scsi/spc.h
+bo_trans.o: ../../../../lib/usbdev/include/usb/dev/driver.h usbmast.h
+bo_trans.o: ../../../../lib/c/include/bd_srv.h cmdw.h
+cmdw.o: ../../../../lib/c/include/byteorder.h
+cmdw.o: ../../../../lib/c/include/stdint.h
+cmdw.o: ../../../../lib/c/include/libarch/types.h
+cmdw.o: ../../../../lib/c/include/libarch/common.h
+cmdw.o: ../../../../lib/c/include/mem.h ../../../../lib/c/include/sys/types.h
+cmdw.o: ../../../../lib/usb/include/usb/usb.h
+cmdw.o: ../../../../lib/c/include/stdbool.h
+cmdw.o: ../../../../lib/c/include/abi/bool.h cmdw.h
+main.o: ../../../../lib/c/include/as.h ../../../../lib/c/include/sys/types.h
+main.o: ../../../../lib/c/include/libarch/types.h
+main.o: ../../../../lib/c/include/libarch/common.h
+main.o: ../../../../lib/c/include/abi/mm/as.h
+main.o: ../../../../lib/c/include/task.h
+main.o: ../../../../lib/c/include/abi/proc/task.h
+main.o: ../../../../lib/c/include/stdarg.h
+main.o: ../../../../lib/c/include/libarch/config.h
+main.o: ../../../../lib/c/include/async.h
+main.o: ../../../../lib/c/include/ipc/common.h
+main.o: ../../../../lib/c/include/abi/ipc/ipc.h
+main.o: ../../../../lib/c/include/atomic.h
+main.o: ../../../../lib/c/include/libarch/atomic.h
+main.o: ../../../../lib/c/include/atomicdflt.h
+main.o: ../../../../lib/c/include/stdint.h
+main.o: ../../../../lib/c/include/stdbool.h
+main.o: ../../../../lib/c/include/abi/bool.h
+main.o: ../../../../lib/c/include/fibril.h
+main.o: ../../../../lib/c/include/libarch/fibril.h
+main.o: ../../../../lib/c/include/adt/list.h
+main.o: ../../../../lib/c/include/assert.h ../../../../lib/c/include/unistd.h
+main.o: ../../../../lib/c/include/time.h ../../../../lib/c/include/sys/time.h
+main.o: ../../../../lib/c/include/libarch/tls.h
+main.o: ../../../../lib/c/include/libc.h
+main.o: ../../../../lib/c/include/abi/syscall.h
+main.o: ../../../../lib/c/include/libarch/syscall.h
+main.o: ../../../../lib/c/include/bd_srv.h
+main.o: ../../../../lib/c/include/fibril_synch.h
+main.o: ../../../../lib/c/include/macros.h
+main.o: ../../../../lib/usbdev/include/usb/dev/driver.h
+main.o: ../../../../lib/usb/include/usb/hc.h
+main.o: ../../../../lib/c/include/devman.h
+main.o: ../../../../lib/c/include/ipc/devman.h
+main.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+main.o: ../../../../lib/c/include/ipc/loc.h
+main.o: ../../../../lib/drv/include/ddf/driver.h
+main.o: ../../../../lib/c/include/ipc/dev_iface.h
+main.o: ../../../../lib/drv/include/dev_iface.h
+main.o: ../../../../lib/usb/include/usb/usb.h
+main.o: ../../../../lib/c/include/byteorder.h
+main.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+main.o: ../../../../lib/c/include/errno.h
+main.o: ../../../../lib/c/include/abi/errno.h
+main.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+main.o: ../../../../lib/usb/include/usb/descriptor.h
+main.o: ../../../../lib/usb/include/usb/debug.h
+main.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+main.o: ../../../../lib/c/include/io/verify.h
+main.o: ../../../../lib/c/include/abi/klog.h
+main.o: ../../../../lib/c/include/inttypes.h
+main.o: ../../../../lib/c/include/libarch/inttypes.h
+main.o: ../../../../lib/c/include/io/log.h
+main.o: ../../../../lib/usb/include/usb/classes/classes.h
+main.o: ../../../../lib/usb/include/usb/classes/massstor.h
+main.o: ../../../../lib/c/include/str_error.h cmdw.h bo_trans.h
+main.o: ../../../../lib/scsi/include/scsi/spc.h usbmast.h scsi_ms.h
+scsi_ms.o: ../../../../lib/c/include/bitops.h
+scsi_ms.o: ../../../../lib/c/include/sys/types.h
+scsi_ms.o: ../../../../lib/c/include/libarch/types.h
+scsi_ms.o: ../../../../lib/c/include/libarch/common.h
+scsi_ms.o: ../../../../lib/c/include/byteorder.h
+scsi_ms.o: ../../../../lib/c/include/stdint.h
+scsi_ms.o: ../../../../lib/c/include/inttypes.h
+scsi_ms.o: ../../../../lib/c/include/libarch/inttypes.h
+scsi_ms.o: ../../../../lib/c/include/macros.h
+scsi_ms.o: ../../../../lib/usbdev/include/usb/dev/driver.h
+scsi_ms.o: ../../../../lib/usb/include/usb/hc.h
+scsi_ms.o: ../../../../lib/c/include/async.h
+scsi_ms.o: ../../../../lib/c/include/ipc/common.h
+scsi_ms.o: ../../../../lib/c/include/abi/ipc/ipc.h
+scsi_ms.o: ../../../../lib/c/include/atomic.h
+scsi_ms.o: ../../../../lib/c/include/libarch/atomic.h
+scsi_ms.o: ../../../../lib/c/include/atomicdflt.h
+scsi_ms.o: ../../../../lib/c/include/stdbool.h
+scsi_ms.o: ../../../../lib/c/include/abi/bool.h
+scsi_ms.o: ../../../../lib/c/include/task.h
+scsi_ms.o: ../../../../lib/c/include/abi/proc/task.h
+scsi_ms.o: ../../../../lib/c/include/stdarg.h
+scsi_ms.o: ../../../../lib/c/include/fibril.h
+scsi_ms.o: ../../../../lib/c/include/libarch/fibril.h
+scsi_ms.o: ../../../../lib/c/include/adt/list.h
+scsi_ms.o: ../../../../lib/c/include/assert.h
+scsi_ms.o: ../../../../lib/c/include/unistd.h
+scsi_ms.o: ../../../../lib/c/include/time.h
+scsi_ms.o: ../../../../lib/c/include/sys/time.h
+scsi_ms.o: ../../../../lib/c/include/libarch/config.h
+scsi_ms.o: ../../../../lib/c/include/libarch/tls.h
+scsi_ms.o: ../../../../lib/c/include/libc.h
+scsi_ms.o: ../../../../lib/c/include/abi/syscall.h
+scsi_ms.o: ../../../../lib/c/include/libarch/syscall.h
+scsi_ms.o: ../../../../lib/c/include/devman.h
+scsi_ms.o: ../../../../lib/c/include/ipc/devman.h
+scsi_ms.o: ../../../../lib/c/include/malloc.h ../../../../lib/c/include/mem.h
+scsi_ms.o: ../../../../lib/c/include/ipc/loc.h
+scsi_ms.o: ../../../../lib/drv/include/ddf/driver.h
+scsi_ms.o: ../../../../lib/c/include/ipc/dev_iface.h
+scsi_ms.o: ../../../../lib/drv/include/dev_iface.h
+scsi_ms.o: ../../../../lib/c/include/fibril_synch.h
+scsi_ms.o: ../../../../lib/usb/include/usb/usb.h
+scsi_ms.o: ../../../../lib/usbdev/include/usb/dev/usb_device_connection.h
+scsi_ms.o: ../../../../lib/c/include/errno.h
+scsi_ms.o: ../../../../lib/c/include/abi/errno.h
+scsi_ms.o: ../../../../lib/usbdev/include/usb/dev/pipes.h
+scsi_ms.o: ../../../../lib/usb/include/usb/descriptor.h
+scsi_ms.o: ../../../../lib/usb/include/usb/debug.h
+scsi_ms.o: ../../../../lib/c/include/stdio.h ../../../../lib/c/include/str.h
+scsi_ms.o: ../../../../lib/c/include/io/verify.h
+scsi_ms.o: ../../../../lib/c/include/abi/klog.h
+scsi_ms.o: ../../../../lib/c/include/io/log.h
+scsi_ms.o: ../../../../lib/c/include/str_error.h
+scsi_ms.o: ../../../../lib/scsi/include/scsi/sbc.h
+scsi_ms.o: ../../../../lib/scsi/include/scsi/spc.h cmdw.h bo_trans.h
+scsi_ms.o: usbmast.h ../../../../lib/c/include/bd_srv.h scsi_ms.h

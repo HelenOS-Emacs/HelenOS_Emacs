@@ -1,0 +1,15 @@
+# DO NOT DELETE
+
+sysinfo.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+sysinfo.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+sysinfo.o: ../../lib/c/include/libarch/types.h
+sysinfo.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+sysinfo.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+sysinfo.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+sysinfo.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+sysinfo.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+sysinfo.o: ../../lib/c/include/sys/time.h
+sysinfo.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/sysinfo.h
+sysinfo.o: ../../lib/c/include/abi/sysinfo.h
+sysinfo.o: ../../lib/c/include/abi/proc/task.h
+sysinfo.o: ../../lib/c/include/abi/proc/thread.h ../../lib/c/include/malloc.h

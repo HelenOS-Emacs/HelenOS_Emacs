@@ -1,0 +1,26 @@
+# DO NOT DELETE
+
+compose.o: compose.h ../../lib/c/include/io/pixel.h
+compose.o: ../../lib/c/include/sys/types.h
+compose.o: ../../lib/c/include/libarch/types.h
+compose.o: ../../lib/c/include/libarch/common.h
+filter.o: filter.h ../../lib/c/include/stdbool.h
+filter.o: ../../lib/c/include/libarch/types.h
+filter.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/abi/bool.h
+filter.o: ../../lib/c/include/io/pixelmap.h ../../lib/c/include/sys/types.h
+filter.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+filter.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+filter.o: ../../lib/c/include/io/pixel.h
+pixconv.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+pixconv.o: ../../lib/c/include/libarch/types.h
+pixconv.o: ../../lib/c/include/libarch/common.h pixconv.h
+pixconv.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+pixconv.o: ../../lib/c/include/io/pixel.h ../../lib/c/include/sys/types.h
+rectangle.o: rectangle.h ../../lib/c/include/sys/types.h
+rectangle.o: ../../lib/c/include/libarch/types.h
+rectangle.o: ../../lib/c/include/libarch/common.h
+rectangle.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+transform.o: transform.h ../../lib/c/include/stdbool.h
+transform.o: ../../lib/c/include/libarch/types.h
+transform.o: ../../lib/c/include/libarch/common.h
+transform.o: ../../lib/c/include/abi/bool.h

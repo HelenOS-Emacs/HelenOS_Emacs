@@ -1,0 +1,189 @@
+# DO NOT DELETE
+
+src/endpoint.o: ../../lib/c/include/assert.h ../../lib/c/include/stdlib.h
+src/endpoint.o: ../../lib/c/include/unistd.h ../../lib/c/include/sys/types.h
+src/endpoint.o: ../../lib/c/include/libarch/types.h
+src/endpoint.o: ../../lib/c/include/libarch/common.h
+src/endpoint.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+src/endpoint.o: ../../lib/c/include/libarch/config.h
+src/endpoint.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+src/endpoint.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/endpoint.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+src/endpoint.o: include/usb/host/endpoint.h ../../lib/c/include/adt/list.h
+src/endpoint.o: ../../lib/c/include/fibril_synch.h
+src/endpoint.o: ../../lib/c/include/fibril.h
+src/endpoint.o: ../../lib/c/include/libarch/fibril.h
+src/endpoint.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+src/endpoint.o: ../../lib/c/include/abi/syscall.h
+src/endpoint.o: ../../lib/c/include/libarch/syscall.h
+src/endpoint.o: ../../lib/usb/include/usb/usb.h
+src/endpoint.o: ../../lib/c/include/byteorder.h ../../lib/c/include/stdint.h
+src/iface.o: ../../lib/drv/include/ddf/driver.h ../../lib/c/include/async.h
+src/iface.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/sys/types.h
+src/iface.o: ../../lib/c/include/libarch/types.h
+src/iface.o: ../../lib/c/include/libarch/common.h
+src/iface.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+src/iface.o: ../../lib/c/include/libarch/atomic.h
+src/iface.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+src/iface.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+src/iface.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+src/iface.o: ../../lib/c/include/stdarg.h ../../lib/c/include/fibril.h
+src/iface.o: ../../lib/c/include/libarch/fibril.h
+src/iface.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+src/iface.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+src/iface.o: ../../lib/c/include/sys/time.h
+src/iface.o: ../../lib/c/include/libarch/config.h
+src/iface.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+src/iface.o: ../../lib/c/include/abi/syscall.h
+src/iface.o: ../../lib/c/include/libarch/syscall.h
+src/iface.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/malloc.h
+src/iface.o: ../../lib/c/include/mem.h ../../lib/c/include/ipc/dev_iface.h
+src/iface.o: ../../lib/drv/include/dev_iface.h ../../lib/c/include/errno.h
+src/iface.o: ../../lib/c/include/abi/errno.h
+src/iface.o: ../../lib/usb/include/usb/debug.h ../../lib/c/include/stdio.h
+src/iface.o: ../../lib/c/include/str.h ../../lib/c/include/io/verify.h
+src/iface.o: ../../lib/c/include/abi/klog.h ../../lib/c/include/inttypes.h
+src/iface.o: ../../lib/c/include/libarch/inttypes.h
+src/iface.o: ../../lib/usb/include/usb/usb.h ../../lib/c/include/byteorder.h
+src/iface.o: ../../lib/c/include/io/log.h include/usb/host/endpoint.h
+src/iface.o: ../../lib/c/include/fibril_synch.h include/usb/host/hcd.h
+src/iface.o: ../../lib/drv/include/usbhc_iface.h
+src/iface.o: include/usb/host/usb_device_manager.h
+src/iface.o: ../../lib/c/include/devman.h ../../lib/c/include/ipc/loc.h
+src/iface.o: include/usb/host/usb_endpoint_manager.h
+src/iface.o: include/usb/host/usb_transfer_batch.h
+src/usb_device_manager.o: ../../lib/c/include/assert.h
+src/usb_device_manager.o: ../../lib/c/include/errno.h
+src/usb_device_manager.o: ../../lib/c/include/abi/errno.h
+src/usb_device_manager.o: ../../lib/usb/include/usb/debug.h
+src/usb_device_manager.o: ../../lib/c/include/stdio.h
+src/usb_device_manager.o: ../../lib/c/include/sys/types.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/types.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/common.h
+src/usb_device_manager.o: ../../lib/c/include/stdarg.h
+src/usb_device_manager.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+src/usb_device_manager.o: ../../lib/c/include/stdbool.h
+src/usb_device_manager.o: ../../lib/c/include/abi/bool.h
+src/usb_device_manager.o: ../../lib/c/include/io/verify.h
+src/usb_device_manager.o: ../../lib/c/include/abi/klog.h
+src/usb_device_manager.o: ../../lib/c/include/inttypes.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/inttypes.h
+src/usb_device_manager.o: ../../lib/usb/include/usb/usb.h
+src/usb_device_manager.o: ../../lib/c/include/byteorder.h
+src/usb_device_manager.o: ../../lib/c/include/stdint.h
+src/usb_device_manager.o: ../../lib/c/include/io/log.h
+src/usb_device_manager.o: include/usb/host/usb_device_manager.h
+src/usb_device_manager.o: ../../lib/c/include/adt/list.h
+src/usb_device_manager.o: ../../lib/c/include/unistd.h
+src/usb_device_manager.o: ../../lib/c/include/time.h
+src/usb_device_manager.o: ../../lib/c/include/sys/time.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/config.h
+src/usb_device_manager.o: ../../lib/c/include/devman.h
+src/usb_device_manager.o: ../../lib/c/include/ipc/devman.h
+src/usb_device_manager.o: ../../lib/c/include/ipc/common.h
+src/usb_device_manager.o: ../../lib/c/include/abi/ipc/ipc.h
+src/usb_device_manager.o: ../../lib/c/include/atomic.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/atomic.h
+src/usb_device_manager.o: ../../lib/c/include/atomicdflt.h
+src/usb_device_manager.o: ../../lib/c/include/task.h
+src/usb_device_manager.o: ../../lib/c/include/abi/proc/task.h
+src/usb_device_manager.o: ../../lib/c/include/malloc.h
+src/usb_device_manager.o: ../../lib/c/include/ipc/loc.h
+src/usb_device_manager.o: ../../lib/c/include/async.h
+src/usb_device_manager.o: ../../lib/c/include/fibril.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/fibril.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/tls.h
+src/usb_device_manager.o: ../../lib/c/include/libc.h
+src/usb_device_manager.o: ../../lib/c/include/abi/syscall.h
+src/usb_device_manager.o: ../../lib/c/include/libarch/syscall.h
+src/usb_device_manager.o: ../../lib/c/include/fibril_synch.h
+src/usb_device_manager.o: include/usb/host/endpoint.h
+src/usb_endpoint_manager.o: ../../lib/c/include/stdbool.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/types.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/common.h
+src/usb_endpoint_manager.o: ../../lib/c/include/abi/bool.h
+src/usb_endpoint_manager.o: ../../lib/c/include/assert.h
+src/usb_endpoint_manager.o: ../../lib/c/include/errno.h
+src/usb_endpoint_manager.o: ../../lib/c/include/abi/errno.h
+src/usb_endpoint_manager.o: ../../lib/usb/include/usb/debug.h
+src/usb_endpoint_manager.o: ../../lib/c/include/stdio.h
+src/usb_endpoint_manager.o: ../../lib/c/include/sys/types.h
+src/usb_endpoint_manager.o: ../../lib/c/include/stdarg.h
+src/usb_endpoint_manager.o: ../../lib/c/include/str.h
+src/usb_endpoint_manager.o: ../../lib/c/include/mem.h
+src/usb_endpoint_manager.o: ../../lib/c/include/io/verify.h
+src/usb_endpoint_manager.o: ../../lib/c/include/abi/klog.h
+src/usb_endpoint_manager.o: ../../lib/c/include/inttypes.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/inttypes.h
+src/usb_endpoint_manager.o: ../../lib/usb/include/usb/usb.h
+src/usb_endpoint_manager.o: ../../lib/c/include/byteorder.h
+src/usb_endpoint_manager.o: ../../lib/c/include/stdint.h
+src/usb_endpoint_manager.o: ../../lib/c/include/io/log.h
+src/usb_endpoint_manager.o: include/usb/host/usb_endpoint_manager.h
+src/usb_endpoint_manager.o: ../../lib/c/include/adt/list.h
+src/usb_endpoint_manager.o: ../../lib/c/include/unistd.h
+src/usb_endpoint_manager.o: ../../lib/c/include/time.h
+src/usb_endpoint_manager.o: ../../lib/c/include/sys/time.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/config.h
+src/usb_endpoint_manager.o: ../../lib/c/include/fibril_synch.h
+src/usb_endpoint_manager.o: ../../lib/c/include/fibril.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/fibril.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/tls.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libc.h
+src/usb_endpoint_manager.o: ../../lib/c/include/abi/syscall.h
+src/usb_endpoint_manager.o: ../../lib/c/include/libarch/syscall.h
+src/usb_endpoint_manager.o: include/usb/host/endpoint.h
+src/usb_transfer_batch.o: ../../lib/c/include/errno.h
+src/usb_transfer_batch.o: ../../lib/c/include/abi/errno.h
+src/usb_transfer_batch.o: ../../lib/c/include/macros.h
+src/usb_transfer_batch.o: ../../lib/usb/include/usb/usb.h
+src/usb_transfer_batch.o: ../../lib/c/include/stdbool.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/types.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/common.h
+src/usb_transfer_batch.o: ../../lib/c/include/abi/bool.h
+src/usb_transfer_batch.o: ../../lib/c/include/sys/types.h
+src/usb_transfer_batch.o: ../../lib/c/include/byteorder.h
+src/usb_transfer_batch.o: ../../lib/c/include/stdint.h
+src/usb_transfer_batch.o: ../../lib/usb/include/usb/debug.h
+src/usb_transfer_batch.o: ../../lib/c/include/stdio.h
+src/usb_transfer_batch.o: ../../lib/c/include/stdarg.h
+src/usb_transfer_batch.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+src/usb_transfer_batch.o: ../../lib/c/include/io/verify.h
+src/usb_transfer_batch.o: ../../lib/c/include/abi/klog.h
+src/usb_transfer_batch.o: ../../lib/c/include/inttypes.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/inttypes.h
+src/usb_transfer_batch.o: ../../lib/c/include/io/log.h
+src/usb_transfer_batch.o: ../../lib/c/include/assert.h
+src/usb_transfer_batch.o: include/usb/host/usb_transfer_batch.h
+src/usb_transfer_batch.o: ../../lib/c/include/adt/list.h
+src/usb_transfer_batch.o: ../../lib/c/include/unistd.h
+src/usb_transfer_batch.o: ../../lib/c/include/time.h
+src/usb_transfer_batch.o: ../../lib/c/include/sys/time.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/config.h
+src/usb_transfer_batch.o: ../../lib/drv/include/usbhc_iface.h
+src/usb_transfer_batch.o: ../../lib/drv/include/ddf/driver.h
+src/usb_transfer_batch.o: ../../lib/c/include/async.h
+src/usb_transfer_batch.o: ../../lib/c/include/ipc/common.h
+src/usb_transfer_batch.o: ../../lib/c/include/abi/ipc/ipc.h
+src/usb_transfer_batch.o: ../../lib/c/include/atomic.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/atomic.h
+src/usb_transfer_batch.o: ../../lib/c/include/atomicdflt.h
+src/usb_transfer_batch.o: ../../lib/c/include/task.h
+src/usb_transfer_batch.o: ../../lib/c/include/abi/proc/task.h
+src/usb_transfer_batch.o: ../../lib/c/include/fibril.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/fibril.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/tls.h
+src/usb_transfer_batch.o: ../../lib/c/include/libc.h
+src/usb_transfer_batch.o: ../../lib/c/include/abi/syscall.h
+src/usb_transfer_batch.o: ../../lib/c/include/libarch/syscall.h
+src/usb_transfer_batch.o: ../../lib/c/include/ipc/devman.h
+src/usb_transfer_batch.o: ../../lib/c/include/malloc.h
+src/usb_transfer_batch.o: ../../lib/c/include/ipc/dev_iface.h
+src/usb_transfer_batch.o: ../../lib/drv/include/dev_iface.h
+src/usb_transfer_batch.o: include/usb/host/endpoint.h
+src/usb_transfer_batch.o: ../../lib/c/include/fibril_synch.h
+src/usb_transfer_batch.o: include/usb/host/hcd.h
+src/usb_transfer_batch.o: include/usb/host/usb_device_manager.h
+src/usb_transfer_batch.o: ../../lib/c/include/devman.h
+src/usb_transfer_batch.o: ../../lib/c/include/ipc/loc.h
+src/usb_transfer_batch.o: include/usb/host/usb_endpoint_manager.h

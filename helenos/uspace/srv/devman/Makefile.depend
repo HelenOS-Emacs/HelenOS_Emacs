@@ -1,0 +1,89 @@
+# DO NOT DELETE
+
+main.o: ../../lib/c/include/inttypes.h ../../lib/c/include/libarch/inttypes.h
+main.o: ../../lib/c/include/assert.h ../../lib/c/include/ipc/services.h
+main.o: ../../lib/c/include/fourcc.h ../../lib/c/include/libarch/common.h
+main.o: ../../lib/c/include/ns.h ../../lib/c/include/sys/types.h
+main.o: ../../lib/c/include/libarch/types.h ../../lib/c/include/task.h
+main.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/stdarg.h
+main.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+main.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+main.o: ../../lib/c/include/libarch/atomic.h ../../lib/c/include/atomicdflt.h
+main.o: ../../lib/c/include/stdint.h ../../lib/c/include/stdbool.h
+main.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/fibril.h
+main.o: ../../lib/c/include/libarch/fibril.h ../../lib/c/include/adt/list.h
+main.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+main.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+main.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+main.o: ../../lib/c/include/abi/syscall.h
+main.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/stdio.h
+main.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+main.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+main.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+main.o: ../../lib/c/include/str_error.h ../../lib/c/include/fibril_synch.h
+main.o: ../../lib/c/include/stdlib.h ../../lib/c/include/malloc.h
+main.o: ../../lib/c/include/stacktrace.h ../../lib/c/include/dirent.h
+main.o: ../../lib/c/include/fcntl.h ../../lib/c/include/sys/stat.h
+main.o: ../../lib/c/include/ipc/vfs.h ../../lib/c/include/ipc/loc.h
+main.o: ../../lib/c/include/ctype.h ../../lib/c/include/io/log.h
+main.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/ipc/driver.h
+main.o: ../../lib/c/include/thread.h ../../lib/c/include/libarch/thread.h
+main.o: ../../lib/c/include/abi/proc/thread.h ../../lib/c/include/loc.h
+main.o: devman.h ../../lib/c/include/adt/hash_table.h
+main.o: ../../lib/c/include/macros.h util.h
+devman.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+devman.o: ../../lib/c/include/fcntl.h ../../lib/c/include/sys/stat.h
+devman.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+devman.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+devman.o: ../../lib/c/include/abi/bool.h ../../lib/c/include/ipc/vfs.h
+devman.o: ../../lib/c/include/ipc/common.h ../../lib/c/include/abi/ipc/ipc.h
+devman.o: ../../lib/c/include/atomic.h ../../lib/c/include/libarch/atomic.h
+devman.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+devman.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+devman.o: ../../lib/c/include/stdarg.h ../../lib/c/include/ipc/loc.h
+devman.o: ../../lib/c/include/io/log.h ../../lib/c/include/inttypes.h
+devman.o: ../../lib/c/include/libarch/inttypes.h
+devman.o: ../../lib/c/include/io/verify.h ../../lib/c/include/ipc/driver.h
+devman.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/adt/list.h
+devman.o: ../../lib/c/include/assert.h ../../lib/c/include/unistd.h
+devman.o: ../../lib/c/include/time.h ../../lib/c/include/sys/time.h
+devman.o: ../../lib/c/include/libarch/config.h ../../lib/c/include/malloc.h
+devman.o: ../../lib/c/include/mem.h ../../lib/c/include/loc.h
+devman.o: ../../lib/c/include/async.h ../../lib/c/include/fibril.h
+devman.o: ../../lib/c/include/libarch/fibril.h
+devman.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+devman.o: ../../lib/c/include/abi/syscall.h
+devman.o: ../../lib/c/include/libarch/syscall.h
+devman.o: ../../lib/c/include/str_error.h ../../lib/c/include/stdio.h
+devman.o: ../../lib/c/include/str.h ../../lib/c/include/abi/klog.h devman.h
+devman.o: ../../lib/c/include/dirent.h ../../lib/c/include/adt/hash_table.h
+devman.o: ../../lib/c/include/macros.h ../../lib/c/include/fibril_synch.h
+devman.o: util.h ../../lib/c/include/ctype.h
+match.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+match.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+match.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdbool.h
+match.o: ../../lib/c/include/abi/bool.h devman.h ../../lib/c/include/assert.h
+match.o: ../../lib/c/include/dirent.h ../../lib/c/include/adt/list.h
+match.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+match.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+match.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+match.o: ../../lib/c/include/ipc/devman.h ../../lib/c/include/ipc/common.h
+match.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+match.o: ../../lib/c/include/libarch/atomic.h
+match.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/stdint.h
+match.o: ../../lib/c/include/task.h ../../lib/c/include/abi/proc/task.h
+match.o: ../../lib/c/include/stdarg.h ../../lib/c/include/malloc.h
+match.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/fibril_synch.h
+match.o: ../../lib/c/include/fibril.h ../../lib/c/include/libarch/fibril.h
+match.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+match.o: ../../lib/c/include/abi/syscall.h
+match.o: ../../lib/c/include/libarch/syscall.h ../../lib/c/include/async.h
+match.o: util.h ../../lib/c/include/ctype.h
+util.o: ../../lib/c/include/stdlib.h ../../lib/c/include/unistd.h
+util.o: ../../lib/c/include/sys/types.h ../../lib/c/include/libarch/types.h
+util.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/time.h
+util.o: ../../lib/c/include/sys/time.h ../../lib/c/include/libarch/config.h
+util.o: ../../lib/c/include/malloc.h ../../lib/c/include/stacktrace.h
+util.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+util.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h util.h
+util.o: ../../lib/c/include/ctype.h

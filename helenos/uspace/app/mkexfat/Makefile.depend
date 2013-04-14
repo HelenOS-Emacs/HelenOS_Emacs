@@ -1,0 +1,31 @@
+# DO NOT DELETE
+
+mkexfat.o: ../../lib/c/include/stdio.h ../../lib/c/include/sys/types.h
+mkexfat.o: ../../lib/c/include/libarch/types.h
+mkexfat.o: ../../lib/c/include/libarch/common.h ../../lib/c/include/stdarg.h
+mkexfat.o: ../../lib/c/include/str.h ../../lib/c/include/mem.h
+mkexfat.o: ../../lib/c/include/stdbool.h ../../lib/c/include/abi/bool.h
+mkexfat.o: ../../lib/c/include/io/verify.h ../../lib/c/include/abi/klog.h
+mkexfat.o: ../../lib/block/block.h ../../lib/c/include/stdint.h
+mkexfat.o: ../../lib/c/include/async.h ../../lib/c/include/ipc/common.h
+mkexfat.o: ../../lib/c/include/abi/ipc/ipc.h ../../lib/c/include/atomic.h
+mkexfat.o: ../../lib/c/include/libarch/atomic.h
+mkexfat.o: ../../lib/c/include/atomicdflt.h ../../lib/c/include/task.h
+mkexfat.o: ../../lib/c/include/abi/proc/task.h ../../lib/c/include/fibril.h
+mkexfat.o: ../../lib/c/include/libarch/fibril.h
+mkexfat.o: ../../lib/c/include/adt/list.h ../../lib/c/include/assert.h
+mkexfat.o: ../../lib/c/include/unistd.h ../../lib/c/include/time.h
+mkexfat.o: ../../lib/c/include/sys/time.h
+mkexfat.o: ../../lib/c/include/libarch/config.h
+mkexfat.o: ../../lib/c/include/libarch/tls.h ../../lib/c/include/libc.h
+mkexfat.o: ../../lib/c/include/abi/syscall.h
+mkexfat.o: ../../lib/c/include/libarch/syscall.h ../../srv/vfs/vfs.h
+mkexfat.o: ../../lib/c/include/adt/hash_table.h ../../lib/c/include/macros.h
+mkexfat.o: ../../lib/c/include/fibril_synch.h ../../lib/c/include/loc.h
+mkexfat.o: ../../lib/c/include/ipc/loc.h ../../lib/c/include/ipc/vfs.h
+mkexfat.o: ../../lib/c/include/errno.h ../../lib/c/include/abi/errno.h
+mkexfat.o: ../../lib/c/include/malloc.h ../../lib/c/include/byteorder.h
+mkexfat.o: ../../lib/c/include/align.h ../../lib/c/include/sys/typefmt.h
+mkexfat.o: ../../lib/c/include/inttypes.h
+mkexfat.o: ../../lib/c/include/libarch/inttypes.h
+mkexfat.o: ../../lib/c/include/getopt.h exfat.h upcase.h
