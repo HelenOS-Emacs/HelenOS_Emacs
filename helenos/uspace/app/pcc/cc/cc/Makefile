@@ -1,70 +1,50 @@
-#	$Id: Makefile.in,v 1.22 2009/11/14 16:27:23 ragge Exp $
 #
-# Makefile.in for the cc part of pcc.
+# Copyright (c) 2011 Jiri Zarevucky
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# - Redistributions of source code must retain the above copyright
+#   notice, this list of conditions and the following disclaimer.
+# - Redistributions in binary form must reproduce the above copyright
+#   notice, this list of conditions and the following disclaimer in the
+#   documentation and/or other materials provided with the distribution.
+# - The name of the author may not be used to endorse or promote products
+#   derived from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+# IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+# NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+# THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-srcdir=.
-top_srcdir=../..
-top_builddir=../..
-prefix = /usr/local
-exec_prefix = ${prefix}
-bindir = ${exec_prefix}/bin
-libdir = ${exec_prefix}/lib
-libexecdir = ${exec_prefix}/libexec
-includedir = ${prefix}/include
-datarootdir = ${prefix}/share
-mandir = ${datarootdir}/man
-strip = yes
-CC = gcc
-EXEEXT = 
-TARGOS = linux
-TARGMACH = i386
-TARGET = i686-pc-linux-gnu
-VERSION = 1.0.0.RELEASE
-PCCLIBDIR = $(libdir)/pcc/$(TARGET)/$(VERSION)/lib
-PCCINCDIR = $(libdir)/pcc/$(TARGET)/$(VERSION)/include
-CFLAGS = -g -O2  -Wall -Wmissing-prototypes -Wstrict-prototypes -Wshadow -Wsign-compare
-CPPFLAGS =  -DLIBEXECDIR=\"${libexecdir}/\" \
-	 -DGCC_COMPAT -DINCLUDEDIR=\"${includedir}/\" \
-	-DPCCINCDIR=\"${PCCINCDIR}/\" -DPCCLIBDIR=\"${PCCLIBDIR}/\" \
-	-Dos_${TARGOS} -DTARGMACH=${TARGMACH} -Dmach_${TARGMACH} \
-	-I${top_builddir} -I${top_srcdir}/os/${TARGOS} -I${MIPDIR} -I${MDIR}
-LIBS = 
-LDFLAGS = 
-INSTALL = /usr/bin/install -c
-INSTALL_PROGRAM = ${INSTALL}
+USPACE_PREFIX = ../../../..
+MIPDIR = ../../mip
+ARCHDIR = ../../arch/$(PLATFORM)
+OSDIR = ../../os/helenos
+EXTRA_CFLAGS = -I$(MIPDIR) -I$(ARCHDIR) -I$(OSDIR) -w
+DEFS = -Dmach_$(PLATFORM) -D__helenos__
+BINARY = cc
 
-OBJS=cc.o compat.o
-DEST=pcc$(EXEEXT)
+PRE_DEPEND = compat.c
+EXTRA_CLEAN = compat.c
 
-MIPDIR=${top_srcdir}/mip
-MDIR=${top_srcdir}/arch/$(TARGMACH)
+POSIX_COMPAT = y
 
-all: ${DEST}
+SOURCES = \
+	cc.c \
+	compat.c
 
-${DEST}: $(OBJS)
-	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) -o $@
+include $(USPACE_PREFIX)/Makefile.common
 
-.c.o:
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c $<
+compat.c: $(MIPDIR)/compat.c
+	ln -s -f $^ $@
 
-compat.o: $(MIPDIR)/compat.c
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/compat.c
-
-install:
-	test -z "${DESTDIR}$(bindir)" || mkdir -p "${DESTDIR}$(bindir)"
-	${INSTALL_PROGRAM} ${DEST} ${DESTDIR}${bindir}
-	@if [ ${strip} = yes ]; then		\
-		strip ${DESTDIR}${bindir}/${DEST} ;	\
-		echo strip ${DESTDIR}${bindir}/${DEST} ;	\
-	fi
-	test -z "${DESTDIR}$(mandir)/man1" || mkdir -p "${DESTDIR}$(mandir)/man1"
-	${INSTALL} $(srcdir)/cc.1 ${DESTDIR}${mandir}/man1/${DEST}.1
-	test -z "${DESTDIR}$(PCCINCDIR)" || mkdir -p "${DESTDIR}$(PCCINCDIR)"
-	test -z "${DESTDIR}$(PCCLIBDIR)" || mkdir -p "${DESTDIR}$(PCCLIBDIR)"
-
-clean:
-	/bin/rm -f  $(OBJS) ${DEST}
-
-distclean: clean
-	/bin/rm -f  Makefile

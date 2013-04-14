@@ -1,32 +1,31 @@
-/* config.h.  Generated from config.h.in by configure.  */
-/* config.h.in.  Generated from configure.ac by autoheader.  */
+/* Hard-coded, because wiring up configure script would just not be worth the effort. */
 
 /* Using a.out ABI */
-/* #undef AOUTABI */
+//#undef AOUTABI
 
 /* Define path to alternate assembler */
-/* #undef ASSEMBLER */
+#define ASSEMBLER "/app/as"
 
 /* Using Classic 68k ABI */
-/* #undef CLASSIC68K */
+//#undef CLASSIC68K
 
 /* Using COFF ABI */
-/* #undef COFFABI */
+//#undef COFFABI
 
 /* Define path to alternate compiler */
-/* #undef COMPILER */
+//#undef COMPILER
 
 /* Using ECOFF ABI */
-/* #undef ECOFFABI */
+//#undef ECOFFABI
 
 /* Using ELF ABI */
-#define ELFABI 
+#define ELFABI 1
 
 /* Define to 1 if you have the `basename' function. */
-#define HAVE_BASENAME 1
+//#define HAVE_BASENAME 1
 
 /* Define to 1 if printf supports C99 size specifiers */
-#define HAVE_C99_FORMAT 1
+//#define HAVE_C99_FORMAT 1
 
 /* Define to 1 if your compiler supports C99 variadic macros */
 #define HAVE_CPP_VARARG_MACRO_GCC 1
@@ -41,7 +40,7 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the <libgen.h> header file. */
-#define HAVE_LIBGEN_H 1
+//#define HAVE_LIBGEN_H 1
 
 /* Define to 1 if you have the <malloc.h> header file. */
 #define HAVE_MALLOC_H 1
@@ -50,7 +49,7 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the `mkstemp' function. */
-#define HAVE_MKSTEMP 1
+//#define HAVE_MKSTEMP 1
 
 /* Define to 1 if you have the `snprintf' function. */
 #define HAVE_SNPRINTF 1
@@ -68,10 +67,10 @@
 #define HAVE_STRING_H 1
 
 /* Define to 1 if you have the `strlcat' function. */
-/* #undef HAVE_STRLCAT */
+//#define HAVE_STRLCAT 1
 
 /* Define to 1 if you have the `strlcpy' function. */
-/* #undef HAVE_STRLCPY */
+//#define HAVE_STRLCPY 1
 
 /* Define to 1 if you have the `strtold' function. */
 #define HAVE_STRTOLD 1
@@ -83,37 +82,45 @@
 #define HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if you have <sys/wait.h> that is POSIX.1 compatible. */
-#define HAVE_SYS_WAIT_H 1
+//#define HAVE_SYS_WAIT_H 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
 
 /* Define to 1 if you have the `vfork' function. */
-#define HAVE_VFORK 1
+//#define HAVE_VFORK 1
 
 /* Define to 1 if you have the `vsnprintf' function. */
 #define HAVE_VSNPRINTF 1
 
-/* Define if host is BIG endian */
-/* #undef HOST_BIG_ENDIAN */
+#ifdef __BE__
+	/* Define if host is BIG endian */
+	#define HOST_BIG_ENDIAN
+	/* Define if target defaults to BIG endian */
+	#undef TARGET_BIG_ENDIAN
+#endif
 
-/* Define if host is LITTLE endian */
-#define HOST_LITTLE_ENDIAN 
+#ifdef __LE__
+	/* Define if host is LITTLE endian */
+	#define HOST_LITTLE_ENDIAN
+	/* Define if target defaults to LITTLE endian */
+	#define TARGET_LITTLE_ENDIAN
+#endif
 
 /* lex is flex */
 #define ISFLEX 1
 
 /* Define alternate standard lib directory */
-/* #undef LIBDIR */
+#define LIBDIR "/lib/"
 
 /* Define path to alternate linker */
-/* #undef LINKER */
+#define LINKER "/app/ld"
 
 /* Using Mach-O ABI */
-/* #undef MACHOABI */
+//#undef MACHOABI
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "<pcc-list@ludd.ltu.se>"
+#define PACKAGE_BUGREPORT "<zarevucky.jiri@gmail.com>"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "pcc"
@@ -137,34 +144,29 @@
 #define PCC_MINORMINOR 0
 
 /* Using PE/COFF ABI */
-/* #undef PECOFFABI */
+//#undef PECOFFABI
 
 /* Define path to alternate preprocessor */
-/* #undef PREPROCESSOR */
+#undef PREPROCESSOR
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Define alternate standard include directory */
-/* #undef STDINC */
+#define STDINC "/inc/c"
 
-/* Define if target defaults to BIG endian */
-/* #undef TARGET_BIG_ENDIAN */
-
-/* Define if target defaults to LITTLE endian */
-#define TARGET_LITTLE_ENDIAN 1
 
 /* Target OS */
-#define TARGOS linux
+#define TARGOS helenos
 
 /* Target OS version */
 #define TARGOSVER 0
 
 /* Enable thread-local storage (TLS). */
-/* #undef TLS */
+#define TLS 1
 
 /* Version string */
-#define VERSSTR "pcc 1.0.0.RELEASE 20110221 for i686-pc-linux-gnu, pratik@PprrATeekK"
+#define VERSSTR "pcc 1.0.0.RELEASE 20110221 for HelenOS"
 
 /* Size of wide character type */
 #define WCHAR_SIZE 4
@@ -174,4 +176,7 @@
 
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
    `char[]'. */
-#define YYTEXT_POINTER 1
+//#define YYTEXT_POINTER 1
+
+#undef COMPILER
+

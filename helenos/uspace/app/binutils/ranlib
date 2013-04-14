@@ -1,3 +1,0 @@
-#! /bin/bash
-echo ar -s "$@"
-ar -s $@

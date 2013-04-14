@@ -76,8 +76,7 @@ DIRS = \
 	app/vdemo \
 	app/vlaunch \
 	app/vterm \
-	app/hello \
-	app/emacs \
+	app/Nano \
 	srv/clipboard \
 	srv/locsrv \
 	srv/logger \

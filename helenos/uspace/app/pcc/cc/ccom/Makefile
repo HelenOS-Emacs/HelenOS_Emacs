@@ -1,113 +1,76 @@
-#	$Id: Makefile.in,v 1.32 2010/04/11 15:01:04 ragge Exp $
 #
-# Makefile.in for ccom
+# Copyright (c) 2011 Jiri Zarevucky
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# - Redistributions of source code must retain the above copyright
+#   notice, this list of conditions and the following disclaimer.
+# - Redistributions in binary form must reproduce the above copyright
+#   notice, this list of conditions and the following disclaimer in the
+#   documentation and/or other materials provided with the distribution.
+# - The name of the author may not be used to endorse or promote products
+#   derived from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+# OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+# IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+# NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+# THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-srcdir=.
-top_srcdir=../..
-builddir=.
-top_builddir=../..
-XFL=-DPCC_DEBUG
-CC = gcc
-EXEEXT = 
-CC_FOR_BUILD = gcc
-_CFLAGS = -g -O2
-CFLAGS = $(_CFLAGS)  -Wall -Wmissing-prototypes -Wstrict-prototypes -Wshadow -Wsign-compare
-CPPFLAGS =  -DGCC_COMPAT ${XFL} -Dos_${TARGOS} -Dmach_${TARGMACH} \
-	-D_ISOC99_SOURCE \
-	-I${srcdir} -I${builddir} -I${top_builddir} -I${MIPDIR} -I${MDIR} \
-	-I${top_srcdir}/os/${TARGOS} 
-LIBS = 
-LDFLAGS = 
-LEX = flex
-YACC = bison -y
-TARGOS = linux
-TARGMACH = i386
-prefix = /usr/local
-exec_prefix = ${prefix}
-libexecdir = ${exec_prefix}/libexec
-datarootdir = ${prefix}/share
-mandir = ${datarootdir}/man
-strip = yes
-INSTALL = /usr/bin/install -c
-INSTALL_PROGRAM = ${INSTALL}
+USPACE_PREFIX = ../../../..
+MIPDIR = ../../mip
+MDIR = ../../arch/$(PLATFORM)
+OSDIR = ../../os/helenos
+EXTRA_CFLAGS = -I$(MIPDIR) -I$(MDIR) -I$(OSDIR) -I. -w
+DEFS = -Dmach_$(PLATFORM) -D__helenos__ -DPCC_DEBUG -DGCC_COMPAT -Dfree=free
+LIBS = $(LIBSOFTFLOAT_PREFIX)/libsoftfloat.a
+BINARY = ccom
 
-MDIR=$(top_srcdir)/arch/$(TARGMACH)
-MIPDIR=$(top_srcdir)/mip
+PRE_DEPEND = cgram.c scan.c external.c external.h common.c compat.c
+EXTRA_CLEAN = cgram.c cgram.h scan.c external.c external.h common.c compat.c \
+	$(MIPDIR)/*.o $(MDIR)/*.o
 
-OBJS1=optim.o pftn.o scan.o trees.o cgram.o inline.o symtabs.o \
-	gcc_compat.o init.o local.o code.o stabs.o builtins.o
+POSIX_COMPAT = y
 
-OBJS2=match.o reader.o optim2.o regs.o local2.o order.o table.o
+# FIXME: external.{c,h} must be generated for each target system
 
-OBJS=$(OBJS1) $(OBJS2) compat.o common.o main.o external.o
+SOURCES = \
+	external.c \
+	$(MDIR)/local.c \
+	$(MDIR)/local2.c \
+	$(MDIR)/code.c \
+	$(MDIR)/order.c \
+	$(MDIR)/table.c \
+	$(MIPDIR)/match.c \
+	$(MIPDIR)/reader.c \
+	$(MIPDIR)/optim2.c \
+	$(MIPDIR)/regs.c \
+	common.c \
+	compat.c \
+	cgram.c \
+	scan.c \
+	builtins.c \
+	gcc_compat.c \
+	init.c \
+	inline.c \
+	main.c \
+	optim.c \
+	pftn.c \
+	softfloat.c \
+	stabs.c \
+	symtabs.c \
+	trees.c
 
-DEST=ccom$(EXEEXT)
-
-all: ${DEST}
-
-${DEST}: $(OBJS)
-	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) -o $@
-
-.c.o:
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $<
-
-local.o: $(MDIR)/local.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/local.c
-
-local2.o: $(MDIR)/local2.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/local2.c
-
-code.o: $(MDIR)/code.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/code.c
-
-order.o: $(MDIR)/order.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/order.c
-
-table.o: $(MDIR)/table.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MDIR)/table.c
-
-match.o: $(MIPDIR)/match.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/match.c
-
-reader.o: $(MIPDIR)/reader.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/reader.c
-
-optim2.o: $(MIPDIR)/optim2.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/optim2.c
-
-regs.o: $(MIPDIR)/regs.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/regs.c
-
-cgram.o: cgram.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(_CFLAGS) -c -o $@ cgram.c
-
-scan.o: scan.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(_CFLAGS) -c -o $@ scan.c
-
-common.o: $(MIPDIR)/common.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/common.c
-
-compat.o: $(MIPDIR)/compat.c external.h
-	$(CC) $(DEFS) $(CPPFLAGS) $(CFLAGS) -c -o $@ $(MIPDIR)/compat.c
-
-external.h external.c: ${MIPDIR}/mkext.c $(MDIR)/table.c
-	$(CC_FOR_BUILD) $(DEFS) $(CPPFLAGS) $(CFLAGS) -DMKEXT -o mkext \
-	${MIPDIR}/mkext.c $(MDIR)/table.c ${MIPDIR}/common.c
-	./mkext
-
-trees.c: ../../mip/pass2.h external.h
-
-inline.c: external.h
-init.c: external.h
-pftn.c: external.h
-gcc_compat.c: external.h
-symtabs.c: external.h
-stabs.c: external.h
-main.c: external.h
-
-pass1.h: external.h
-pass2.h: external.h
+include $(USPACE_PREFIX)/Makefile.common
 
 cgram.c: cgram.y
 	$(YACC) $(YFLAGS) -d $<
@@ -118,22 +81,15 @@ scan.c: scan.l cgram.c
 	$(LEX) $(LFLAGS) $<
 	mv lex.yy.c scan.c
 
-optim2.o reader.o optim.o : external.h
+compat.c: $(MIPDIR)/compat.c
+	ln -s -f $^ $@
 
-pftn.o: cgram.c # creates cgram.h also
+common.c: $(MIPDIR)/common.c
+	ln -s -f $^ $@
 
-install:
-	test -z "${DESTDIR}$(libexecdir)" || mkdir -p "${DESTDIR}$(libexecdir)"
-	${INSTALL_PROGRAM} ${DEST} ${DESTDIR}${libexecdir}
-	@if [ ${strip} = yes ]; then			\
-		strip ${DESTDIR}${libexecdir}/${DEST} ;		\
-		echo strip ${DESTDIR}${libexecdir}/${DEST} ;	\
-	fi
-	test -z "${DESTDIR}$(mandir)/man1" || mkdir -p "${DESTDIR}$(mandir)/man1"       
-	${INSTALL} $(srcdir)/ccom.1 ${DESTDIR}${mandir}/man1/$(DEST).1
+external.c: arch/$(PLATFORM)/external.c
+	ln -s -f $^ $@
 
-clean:
-	/bin/rm -f $(OBJS) $(DEST) scan.c cgram.[ch] mkext external.[ch]
+external.h: arch/$(PLATFORM)/external.h
+	ln -s -f $^ $@
 
-distclean: clean
-	/bin/rm -f Makefile

@@ -407,6 +407,13 @@ static void key_handle_ctrl(kbd_event_t const *ev)
 	case KC_A:
 		selection_sel_all();
 		break;
+	case KC_Y:
+		console_set_rgb_color(con, 0xF7F7F7,0x00FF00);
+		break;
+	case KC_U:
+		console_flush(con);
+		console_set_style(con, STYLE_NORMAL);
+		break;
 	case KC_RIGHT:
 		caret_move_word_right(false);
 		break;

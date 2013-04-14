@@ -211,11 +211,11 @@ download_fetch() {
 	FILE="$2"
 	CHECKSUM="$3"
 	
-#	if [ ! -f "${FILE}" ]; then
-#		change_title "Downloading ${FILE}"
-#		wget -c "${SOURCE}${FILE}"
-#		check_error $? "Error downloading ${FILE}."
-#	fi
+	if [ ! -f "${FILE}" ]; then
+		change_title "Downloading ${FILE}"
+		wget -c "${SOURCE}${FILE}"
+		check_error $? "Error downloading ${FILE}."
+	fi
 	
 	check_md5 "${FILE}" "${CHECKSUM}"
 }
@@ -269,9 +269,9 @@ prepare() {
 	check_dependecies
 	show_countdown 10
 	
-	BINUTILS_SOURCE="http://ftp.gnu.org/gnu/binutils/"
-	GCC_SOURCE="http://ftp.gnu.org/gnu/gcc/gcc-${GCC_VERSION}/"
-	GDB_SOURCE="http://ftp.gnu.org/gnu/gdb/"
+	BINUTILS_SOURCE="ftp://ftp.gnu.org/gnu/binutils/"
+	GCC_SOURCE="ftp://ftp.gnu.org/gnu/gcc/gcc-${GCC_VERSION}/"
+	GDB_SOURCE="ftp://ftp.gnu.org/gnu/gdb/"
 	
 	download_fetch "${BINUTILS_SOURCE}" "${BINUTILS}" "33adb18c3048d057ac58d07a3f1adb38"
 	download_fetch "${GCC_SOURCE}" "${GCC}" "cc308a0891e778cfda7a151ab8a6e762"

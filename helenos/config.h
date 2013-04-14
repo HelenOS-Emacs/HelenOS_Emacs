@@ -8,8 +8,8 @@
 #define PLATFORM_ia32
 
 /* CPU type */
-#define PROCESSOR core
-#define PROCESSOR_core
+#define PROCESSOR pentium4
+#define PROCESSOR_pentium4
 
 /* RAM disk format */
 #define RDFMT fat
@@ -94,21 +94,12 @@
 #define CONFIG_FB
 
 /* Default framebuffer mode */
-#define CONFIG_BFB_MODE 1280x720
-#define CONFIG_BFB_MODE_1280x720
+#define CONFIG_BFB_MODE 1024x768
+#define CONFIG_BFB_MODE_1024x768
 
 /* Default framebuffer depth */
-#define CONFIG_BFB_BPP 24
-#define CONFIG_BFB_BPP_24
-
-/* Dynamic linking support */
-#define CONFIG_RTLD
-
-/* Include development files (headers, libraries) */
-#define CONFIG_DEVEL_FILES
-
-/* Build pcc binaries */
-#define CONFIG_PCC
+#define CONFIG_BFB_BPP 16
+#define CONFIG_BFB_BPP_16
 
 /* OHCI root hub port power switching */
 #define OHCI_POWER_SWITCH ganged
@@ -119,12 +110,12 @@
 #define GRUB_ARCH_pc
 
 /* Default framebuffer width */
-#define CONFIG_BFB_WIDTH 1280
-#define CONFIG_BFB_WIDTH_1280
+#define CONFIG_BFB_WIDTH 1024
+#define CONFIG_BFB_WIDTH_1024
 
 /* Default framebuffer height */
-#define CONFIG_BFB_HEIGHT 720
-#define CONFIG_BFB_HEIGHT_720
+#define CONFIG_BFB_HEIGHT 768
+#define CONFIG_BFB_HEIGHT_768
 
 #define REVISION 1742M (jano.vesely@gmail.com-20130124220706-stoyo7joo4pomlex)
-#define TIMESTAMP 2013-02-01 22:01:31
+#define TIMESTAMP 2013-03-20 22:49:37
