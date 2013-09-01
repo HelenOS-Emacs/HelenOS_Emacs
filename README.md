@@ -1,4 +1,4 @@
-HelenOS_Emacs
+HelenOS_Nano
 =============
 
-Porting Emacs Text Editor to HelenOS
+Porting Nano text editor to HelenOS
